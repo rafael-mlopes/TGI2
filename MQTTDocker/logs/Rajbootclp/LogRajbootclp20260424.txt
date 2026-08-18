@@ -1,0 +1,1613 @@
+[09:29:59.914] Outro leitor/Envio vivo detectado (rodando há 2.2 min). EXIT BYBYBY.
+[09:30:20.238] Semáforo travado com sucesso!
+[09:30:20.240] ============================================================
+[09:30:20.242] === INICIANDO RajBootCLP - DATA: 24/04/2026 - VERSÃO 2026 1a ===
+[09:30:20.243] ============================================================
+[09:30:20.250] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[09:30:20.293] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[09:30:20.294] 
+ 
+ iniciando Leitor
+[09:30:20.295] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[09:35:20.028] 
+ Iniciando o Delete
+[09:36:23.502] Delete concluído com sucesso.
+[09:40:20.171] 
+ Iniciando o Delete
+[09:40:26.732] Delete concluído com sucesso.
+[09:41:01.933] 
+[!] Comando Ctrl+C detectado. Iniciando desligamento seguro...
+[09:41:02.294] Semáforo liberado com sucesso.
+[09:41:02.300] Serviço finalizado com sucesso.
+[09:41:02.301] ============================================================
+[09:41:02.301] === TÉRMINO RajBootCLP - DATA: 24/04/2026 ===
+[09:41:02.302] ============================================================
+[09:41:07.837] Semáforo travado com sucesso!
+[09:41:07.838] ============================================================
+[09:41:07.839] === INICIANDO RajBootCLP - DATA: 24/04/2026 - VERSÃO 2026 1a ===
+[09:41:07.839] ============================================================
+[09:41:07.844] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[09:41:07.864] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[09:41:07.865] 
+ 
+ iniciando Leitor
+[09:41:07.868] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[09:45:40.763] 
+[!] Comando Ctrl+C detectado. Iniciando desligamento seguro...
+[09:45:41.430] Semáforo liberado com sucesso.
+[09:45:41.434] Serviço finalizado com sucesso.
+[09:45:41.435] ============================================================
+[09:45:41.435] === TÉRMINO RajBootCLP - DATA: 24/04/2026 ===
+[09:45:41.436] ============================================================
+[10:51:13.166] Semáforo travado com sucesso!
+[10:51:13.168] ============================================================
+[10:51:13.169] === INICIANDO RajBootCLP - DATA: 24/04/2026 - VERSÃO 2026 1a ===
+[10:51:13.170] ============================================================
+[10:51:13.186] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[10:51:13.208] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[10:51:13.208] 
+ 
+ iniciando Leitor
+[10:51:13.209] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[10:51:13.210] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[10:51:18.219] Ciclo 001 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[10:51:23.235] Ciclo 002 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[10:51:23.746] 
+[!] Comando Ctrl+C detectado. Iniciando desligamento seguro...
+[10:51:24.458] Semáforo liberado com sucesso.
+[10:51:24.464] Serviço finalizado com sucesso.
+[10:51:24.465] ============================================================
+[10:51:24.466] === TÉRMINO RajBootCLP - DATA: 24/04/2026 ===
+[10:51:24.467] ============================================================
+[11:00:07.730] Semáforo travado com sucesso!
+[11:00:07.731] ============================================================
+[11:00:07.732] === INICIANDO RajBootCLP - DATA: 24/04/2026 - VERSÃO 2026 1a ===
+[11:00:07.733] ============================================================
+[11:00:07.741] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[11:00:07.761] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[11:00:07.762] 
+ 
+ iniciando Leitor
+[11:00:07.764] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[11:00:07.763] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[11:00:07.764] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[11:00:07.767] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[11:00:08.850] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[11:00:08.851] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[11:00:08.855] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[11:00:09.884] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[11:00:09.885] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[11:00:09.888] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[11:00:10.931] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[11:00:10.932] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[11:00:10.933] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[11:00:11.985] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[11:00:11.986] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[11:00:11.989] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[11:00:12.765] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[11:00:13.177] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[11:00:13.178] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[11:00:13.182] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[11:00:14.213] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[11:00:14.214] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[11:00:14.216] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[11:00:15.261] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[11:00:15.263] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[11:00:15.265] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[11:00:16.312] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[11:00:16.314] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[11:00:16.318] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[11:00:17.358] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[11:00:17.359] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[11:00:17.361] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[11:00:17.767] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[11:00:17.769] ** ERRO CRÍTICO: Falha de rede MQTT persistente. Abortando serviço!
+[11:00:18.447] Semáforo liberado com sucesso.
+[11:00:18.451] Serviço finalizado com sucesso.
+[11:00:18.451] ============================================================
+[11:00:18.452] === TÉRMINO RajBootCLP - DATA: 24/04/2026 ===
+[11:00:18.452] ============================================================
+[11:09:51.012] Semáforo travado com sucesso!
+[11:09:51.013] ============================================================
+[11:09:51.013] === INICIANDO RajBootCLP - DATA: 24/04/2026 - VERSÃO 2026 1a ===
+[11:09:51.014] ============================================================
+[11:09:51.020] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[11:09:51.037] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[11:09:51.037] 
+ 
+ iniciando Leitor
+[11:09:51.039] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[11:09:51.039] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[11:09:51.040] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[11:09:51.043] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[11:09:52.123] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[11:09:52.124] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[11:09:52.126] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[11:09:53.161] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[11:09:53.163] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[11:09:53.166] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[11:09:54.213] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[11:09:54.214] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[11:09:54.218] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[11:09:55.262] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[11:09:55.263] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[11:09:55.267] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[11:09:56.040] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[11:09:56.309] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[11:09:56.311] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[11:09:56.315] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[11:09:57.361] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[11:09:57.362] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[11:09:57.365] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[11:09:58.408] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[11:09:58.410] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[11:09:58.412] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[11:09:59.457] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[11:09:59.458] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[11:09:59.460] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[11:10:00.507] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[11:10:00.508] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[11:10:00.510] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[11:10:01.042] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[11:10:01.043] ** ERRO CRÍTICO: Falha de rede MQTT persistente. Abortando serviço!
+[11:10:01.623] Semáforo liberado com sucesso.
+[11:10:01.628] Serviço finalizado com sucesso.
+[11:10:01.628] ============================================================
+[11:10:01.629] === TÉRMINO RajBootCLP - DATA: 24/04/2026 ===
+[11:10:01.629] ============================================================
+[11:14:43.873] Semáforo travado com sucesso!
+[11:14:43.875] ============================================================
+[11:14:43.875] === INICIANDO RajBootCLP - DATA: 24/04/2026 - VERSÃO 2026 1a ===
+[11:14:43.876] ============================================================
+[11:14:43.887] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[11:14:43.922] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[11:14:43.922] 
+ 
+ iniciando Leitor
+[11:14:43.924] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[11:14:43.924] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[11:14:43.924] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[11:14:43.927] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[11:14:45.028] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[11:14:45.029] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[11:14:45.031] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[11:14:46.077] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[11:14:46.078] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[11:14:46.080] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[11:14:47.105] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[11:14:47.107] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[11:14:47.110] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[11:14:48.159] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[11:14:48.160] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[11:14:48.163] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[11:14:48.925] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[11:14:49.201] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[11:14:49.202] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[11:14:49.205] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[11:14:50.275] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[11:14:50.277] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[11:14:50.281] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[11:14:51.318] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[11:14:51.320] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[11:14:51.322] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[11:14:52.356] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[11:14:52.358] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[11:14:52.360] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[11:14:53.404] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[11:14:53.405] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[11:14:53.409] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[11:14:53.927] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[11:14:53.928] ** ERRO CRÍTICO: Falha de rede MQTT persistente. Abortando serviço!
+[11:14:54.517] Semáforo liberado com sucesso.
+[11:14:54.524] Serviço finalizado com sucesso.
+[11:14:54.525] ============================================================
+[11:14:54.526] === TÉRMINO RajBootCLP - DATA: 24/04/2026 ===
+[11:14:54.527] ============================================================
+[12:21:43.897] Semáforo travado com sucesso!
+[12:21:43.898] ============================================================
+[12:21:43.899] === INICIANDO RajBootCLP - DATA: 24/04/2026 - VERSÃO 2026 1a ===
+[12:21:43.900] ============================================================
+[12:21:43.911] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[12:21:43.964] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[12:21:43.964] 
+ 
+ iniciando Leitor
+[12:21:43.966] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+r...
+[12:21:43.967] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:21:43.969] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:21:45.080] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:21:45.081] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:21:45.085] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:21:46.151] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:21:46.153] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:21:46.156] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:21:47.200] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:21:47.201] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:21:47.204] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:21:48.264] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:21:48.265] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:21:48.266] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:21:48.967] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[12:21:49.286] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:21:49.287] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:21:49.290] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:21:50.318] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:21:50.320] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:21:50.323] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:21:51.375] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:21:51.376] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:21:51.378] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:21:52.428] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:21:52.429] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:21:52.431] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:21:53.476] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:21:53.477] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:21:53.480] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:21:53.968] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[12:21:53.970] ** ERRO CRÍTICO: Falha de rede MQTT persistente. Abortando serviço!
+[12:21:54.581] Semáforo liberado com sucesso.
+[12:21:54.585] Serviço finalizado com sucesso.
+[12:21:54.586] ============================================================
+[12:21:54.586] === TÉRMINO RajBootCLP - DATA: 24/04/2026 ===
+[12:21:54.587] ============================================================
+[12:25:17.922] Semáforo travado com sucesso!
+[12:25:17.924] ============================================================
+[12:25:17.925] === INICIANDO RajBootCLP - DATA: 24/04/2026 - VERSÃO 2026 1a ===
+[12:25:17.926] ============================================================
+[12:25:17.935] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[12:25:17.961] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[12:25:17.962] 
+ 
+ iniciando Leitor
+[12:25:17.966] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[12:25:17.966] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:25:17.968] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:25:17.972] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:25:19.049] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:25:19.050] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:25:19.053] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:25:20.099] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:25:20.100] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:25:20.104] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:25:21.145] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:25:21.146] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:25:21.148] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:25:22.213] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:25:22.214] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:25:22.217] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:25:22.968] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[12:25:23.261] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:25:23.263] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:25:23.267] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:25:24.310] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:25:24.310] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:25:24.313] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:25:25.360] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:25:25.362] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:25:25.365] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:25:26.408] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:25:26.409] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:25:26.411] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:25:27.475] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:25:27.477] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:25:27.481] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:25:27.970] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[12:25:27.972] ** ERRO CRÍTICO: Falha de rede MQTT persistente. Abortando serviço!
+[12:25:28.603] Semáforo liberado com sucesso.
+[12:25:28.609] Serviço finalizado com sucesso.
+[12:25:28.610] ============================================================
+[12:25:28.612] === TÉRMINO RajBootCLP - DATA: 24/04/2026 ===
+[12:25:28.613] ============================================================
+[12:27:33.816] Semáforo travado com sucesso!
+[12:27:33.818] ============================================================
+[12:27:33.819] === INICIANDO RajBootCLP - DATA: 24/04/2026 - VERSÃO 2026 1a ===
+[12:27:33.820] ============================================================
+[12:27:33.829] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[12:27:33.848] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[12:27:33.848] 
+ 
+ iniciando Leitor
+[12:27:33.850] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[12:27:33.850] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:27:33.851] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:27:38.864] Ciclo 001 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:27:43.901] Ciclo 002 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:27:48.914] Ciclo 003 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:27:53.932] Ciclo 004 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:27:58.962] Ciclo 005 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:28:03.978] Ciclo 006 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:28:09.009] Ciclo 007 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:28:14.049] Ciclo 008 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:28:19.058] Ciclo 009 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:28:24.067] Ciclo 010 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:28:29.082] Ciclo 011 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:28:34.095] Ciclo 012 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:28:39.107] Ciclo 013 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:28:44.132] Ciclo 014 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:28:49.149] Ciclo 015 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:28:54.158] Ciclo 016 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:28:59.169] Ciclo 017 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:29:04.179] Ciclo 018 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:29:09.188] Ciclo 019 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:29:14.195] Ciclo 020 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:29:19.203] Ciclo 021 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:29:19.998] 
+[!] Comando Ctrl+C detectado. Iniciando desligamento seguro...
+[12:29:20.799] Semáforo liberado com sucesso.
+[12:29:20.803] Serviço finalizado com sucesso.
+[12:29:20.803] ============================================================
+[12:29:20.804] === TÉRMINO RajBootCLP - DATA: 24/04/2026 ===
+[12:29:20.804] ============================================================
+[12:29:24.198] Semáforo travado com sucesso!
+[12:29:24.200] ============================================================
+[12:29:24.201] === INICIANDO RajBootCLP - DATA: 24/04/2026 - VERSÃO 2026 1a ===
+[12:29:24.202] ============================================================
+[12:29:24.210] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[12:29:24.236] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[12:29:24.237] 
+ 
+ iniciando Leitor
+[12:29:24.238] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:29:24.239] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:29:24.245] Ciclo 001 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:29:29.251] Ciclo 002 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:29:34.261] Ciclo 003 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:29:39.270] Ciclo 004 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:29:44.279] Ciclo 005 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:29:49.289] Ciclo 006 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:29:54.307] Ciclo 007 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:29:59.330] Ciclo 008 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:30:04.342] Ciclo 009 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:30:04.591] 
+[!] Comando Ctrl+C detectado. Iniciando desligamento seguro...
+[12:30:05.582] Semáforo liberado com sucesso.
+[12:30:05.585] Serviço finalizado com sucesso.
+[12:30:05.586] ============================================================
+[12:30:05.587] === TÉRMINO RajBootCLP - DATA: 24/04/2026 ===
+[12:30:05.587] ============================================================
+[12:30:49.934] Semáforo travado com sucesso!
+[12:30:49.936] ============================================================
+[12:30:49.937] === INICIANDO RajBootCLP - DATA: 24/04/2026 - VERSÃO 2026 1a ===
+[12:30:49.938] ============================================================
+[12:30:49.944] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[12:30:49.962] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[12:30:49.963] 
+ 
+ iniciando Leitor
+[12:30:49.964] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[12:30:49.964] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:30:49.964] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:30:54.974] Ciclo 001 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:30:59.985] Ciclo 002 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:31:02.671] 
+[!] Comando Ctrl+C detectado. Iniciando desligamento seguro...
+[12:31:03.345] Semáforo liberado com sucesso.
+[12:31:03.351] Serviço finalizado com sucesso.
+[12:31:03.352] ============================================================
+[12:31:03.353] === TÉRMINO RajBootCLP - DATA: 24/04/2026 ===
+[12:31:03.353] ============================================================
+[12:31:20.750] Semáforo travado com sucesso!
+[12:31:20.751] ============================================================
+[12:31:20.752] === INICIANDO RajBootCLP - DATA: 24/04/2026 - VERSÃO 2026 1a ===
+[12:31:20.753] ============================================================
+[12:31:20.765] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[12:31:20.792] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[12:31:20.793] 
+ 
+ iniciando Leitor
+[12:31:20.794] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[12:31:20.794] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:31:20.795] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:31:20.796] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:31:21.897] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:31:21.898] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:31:21.900] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:31:22.935] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:31:22.938] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:31:22.941] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:31:24.064] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:31:24.065] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:31:24.068] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:31:25.112] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:31:25.114] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:31:25.117] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:31:25.795] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[12:31:26.178] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:31:26.179] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:31:26.181] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:31:27.244] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:31:27.246] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:31:27.249] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:31:28.306] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:31:28.306] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:31:28.308] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:31:29.359] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:31:29.360] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:31:29.363] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:31:30.425] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:31:30.427] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:31:30.430] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:31:30.797] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[12:31:30.798] ** ERRO CRÍTICO: Falha de rede MQTT persistente. Abortando serviço!
+[12:31:31.542] Semáforo liberado com sucesso.
+[12:31:31.549] Serviço finalizado com sucesso.
+[12:31:31.550] ============================================================
+[12:31:31.551] === TÉRMINO RajBootCLP - DATA: 24/04/2026 ===
+[12:31:31.552] ============================================================
+[12:41:45.096] Semáforo travado com sucesso!
+[12:41:45.098] ============================================================
+[12:41:45.099] === INICIANDO RajBootCLP - DATA: 24/04/2026 - VERSÃO 2026 1a ===
+[12:41:45.100] ============================================================
+[12:41:45.107] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[12:41:45.128] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[12:41:45.129] 
+ 
+ iniciando Leitor
+[12:41:45.130] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[12:41:45.130] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:41:45.131] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:41:45.133] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:41:46.201] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:41:46.202] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:41:46.205] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:41:47.235] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:41:47.236] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:41:47.239] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:41:48.269] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:41:48.270] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:41:48.271] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:41:49.319] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:41:49.321] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:41:49.325] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:41:50.131] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[12:41:50.368] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:41:50.369] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:41:50.372] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:41:51.415] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:41:51.416] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:41:51.420] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:41:52.466] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:41:52.468] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:41:52.471] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:41:53.548] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:41:53.550] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:41:53.553] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:41:54.614] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:41:54.615] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:41:54.617] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:41:55.133] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[12:41:55.134] ** ERRO CRÍTICO: Falha de rede MQTT persistente. Abortando serviço!
+[12:41:55.716] Semáforo liberado com sucesso.
+[12:41:55.723] Serviço finalizado com sucesso.
+[12:41:55.724] ============================================================
+[12:41:55.725] === TÉRMINO RajBootCLP - DATA: 24/04/2026 ===
+[12:41:55.725] ============================================================
+[12:42:34.759] Semáforo travado com sucesso!
+[12:42:34.761] ============================================================
+[12:42:34.762] === INICIANDO RajBootCLP - DATA: 24/04/2026 - VERSÃO 2026 1a ===
+[12:42:34.763] ============================================================
+[12:42:34.773] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[12:42:34.802] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[12:42:34.803] 
+ 
+ iniciando Leitor
+[12:42:34.804] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[12:42:34.804] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:42:34.804] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:42:39.823] Ciclo 001 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:42:44.835] Ciclo 002 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:42:49.850] Ciclo 003 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:42:54.862] Ciclo 004 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:42:59.892] Ciclo 005 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:43:04.904] Ciclo 006 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:43:09.917] Ciclo 007 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:43:14.931] Ciclo 008 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:43:19.943] Ciclo 009 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:43:24.953] Ciclo 010 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:43:29.971] Ciclo 011 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:43:34.984] Ciclo 012 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:43:39.995] Ciclo 013 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:43:45.004] Ciclo 014 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:43:50.014] Ciclo 015 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:43:55.070] Ciclo 016 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:44:00.078] Ciclo 017 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[12:44:04.231] 
+[!] Comando Ctrl+C detectado. Iniciando desligamento seguro...
+[12:44:04.528] Semáforo liberado com sucesso.
+[12:44:04.535] Serviço finalizado com sucesso.
+[12:44:04.536] ============================================================
+[12:44:04.537] === TÉRMINO RajBootCLP - DATA: 24/04/2026 ===
+[12:44:04.538] ============================================================
+[12:51:16.089] Semáforo travado com sucesso!
+[12:51:16.091] ============================================================
+[12:51:16.092] === INICIANDO RajBootCLP - DATA: 24/04/2026 - VERSÃO 2026 1a ===
+[12:51:16.093] ============================================================
+[12:51:16.104] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[12:51:16.133] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[12:51:16.133] 
+ 
+ iniciando Leitor
+[12:51:16.134] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[12:51:16.134] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:51:16.135] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:51:16.138] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:51:17.224] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:51:17.226] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:51:17.228] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:51:18.271] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:51:18.273] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:51:18.275] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:51:19.322] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:51:19.323] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:51:19.326] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:51:20.389] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:51:20.390] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:51:20.393] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:51:21.135] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[12:51:21.438] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:51:21.440] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:51:21.443] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:51:22.503] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:51:22.504] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:51:22.507] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:51:23.570] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:51:23.571] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:51:23.574] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:51:24.622] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:51:24.623] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:51:24.626] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:51:25.718] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:51:25.719] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[12:51:25.722] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[12:51:26.137] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[12:51:26.138] ** ERRO CRÍTICO: Falha de rede MQTT persistente. Abortando serviço!
+[12:51:26.846] Semáforo liberado com sucesso.
+[12:51:26.854] Serviço finalizado com sucesso.
+[12:51:26.856] ============================================================
+[12:51:26.857] === TÉRMINO RajBootCLP - DATA: 24/04/2026 ===
+[12:51:26.858] ============================================================
+[13:54:29.222] Semáforo travado com sucesso!
+[13:54:29.223] ============================================================
+[13:54:29.224] === INICIANDO RajBootCLP - DATA: 24/04/2026 - VERSÃO 2026 1a ===
+[13:54:29.224] ============================================================
+[13:54:29.234] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[13:54:29.258] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[13:54:29.259] 
+ 
+ iniciando Leitor
+[13:54:29.260] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[13:54:29.261] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[13:54:29.261] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[13:54:29.264] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[13:54:30.364] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[13:54:30.365] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[13:54:30.368] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[13:54:31.429] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[13:54:31.431] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[13:54:31.434] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[13:54:32.494] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[13:54:32.495] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[13:54:32.498] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[13:54:33.560] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[13:54:33.562] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[13:54:33.564] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[13:54:34.262] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[13:54:34.649] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[13:54:34.650] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[13:54:34.653] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[13:54:35.698] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[13:54:35.700] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[13:54:35.702] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[13:54:36.773] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[13:54:36.774] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[13:54:36.777] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[13:54:37.821] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[13:54:37.823] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[13:54:37.826] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[13:54:38.872] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[13:54:38.874] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[13:54:38.876] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[13:54:39.264] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[13:54:39.265] ** ERRO CRÍTICO: Falha de rede MQTT persistente. Abortando serviço!
+[13:54:39.984] Semáforo liberado com sucesso.
+[13:54:39.987] Serviço finalizado com sucesso.
+[13:54:39.988] ============================================================
+[13:54:39.989] === TÉRMINO RajBootCLP - DATA: 24/04/2026 ===
+[13:54:39.989] ============================================================
+[14:05:38.045] Semáforo travado com sucesso!
+[14:05:38.046] ============================================================
+[14:05:38.046] === INICIANDO RajBootCLP - DATA: 24/04/2026 - VERSÃO 2026 1a ===
+[14:05:38.047] ============================================================
+[14:05:38.055] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[14:05:38.077] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[14:05:38.078] 
+ 
+ iniciando Leitor
+[14:05:38.079] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[14:05:38.081] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:05:38.081] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:05:39.114] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:05:39.116] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:05:40.139] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:05:40.140] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:05:41.160] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:05:41.162] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:05:42.191] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:05:42.192] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:05:43.081] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[14:05:43.226] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:05:43.228] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:05:44.259] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:05:44.261] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:05:45.292] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:05:45.294] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:05:46.320] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:05:46.321] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:05:47.351] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:05:47.352] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:05:48.083] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[14:05:48.084] ** ERRO CRÍTICO: Falha de rede MQTT persistente. Abortando serviço!
+[14:05:48.453] Semáforo liberado com sucesso.
+[14:05:48.458] Serviço finalizado com sucesso.
+[14:05:48.459] ============================================================
+[14:05:48.460] === TÉRMINO RajBootCLP - DATA: 24/04/2026 ===
+[14:05:48.461] ============================================================
+[14:11:36.513] Semáforo travado com sucesso!
+[14:11:36.515] ============================================================
+[14:11:36.516] === INICIANDO RajBootCLP - DATA: 24/04/2026 - VERSÃO 2026 1a ===
+[14:11:36.517] ============================================================
+[14:11:36.528] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[14:11:36.565] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[14:11:36.566] 
+ 
+ iniciando Leitor
+[14:11:36.568] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:11:36.568] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:11:36.571] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:11:36.583] Ciclo 001 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[14:11:37.667] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:11:37.669] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:11:37.671] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:11:38.731] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:11:38.732] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:11:38.735] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:11:39.917] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:11:39.918] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:11:39.921] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:11:40.960] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:11:40.961] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:11:40.963] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:11:41.583] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[14:11:42.012] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:11:42.013] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:11:42.016] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:11:43.061] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:11:43.063] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:11:43.065] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:11:44.110] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:11:44.111] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:11:44.114] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:11:45.173] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:11:45.175] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:11:45.178] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:11:46.244] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:11:46.246] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:11:46.249] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:11:46.585] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[14:11:47.309] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:11:47.310] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:11:47.313] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:11:48.372] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:11:48.373] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:11:48.376] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:11:49.441] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:11:49.443] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:11:49.446] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:11:50.506] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:11:50.508] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:11:50.511] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:11:51.570] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:11:51.570] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:11:51.572] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:11:51.598] Ciclo 002 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[14:11:52.638] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:11:52.640] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:11:52.643] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:11:53.677] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:11:53.678] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:11:53.680] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:11:54.734] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:11:54.735] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:11:54.738] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:11:55.800] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:11:55.801] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:11:55.804] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:11:56.599] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[14:11:56.851] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:11:56.852] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:11:56.856] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:11:57.916] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:11:57.917] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:11:57.920] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:11:58.964] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:11:58.965] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:11:58.967] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:11:59.999] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:12:00.001] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:12:00.004] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:12:01.163] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:12:01.164] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:12:01.166] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:12:01.601] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[14:12:02.209] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:12:02.210] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:12:02.212] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:12:03.258] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:12:03.259] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:12:03.261] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:12:04.307] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:12:04.308] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:12:04.310] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:12:05.373] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:12:05.374] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:12:05.376] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:12:06.427] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:12:06.429] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:12:06.432] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:12:06.602] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[14:12:06.603] ** ERRO CRÍTICO: Falha de rede MQTT persistente. Abortando serviço!
+[14:12:07.621] Semáforo liberado com sucesso.
+[14:12:07.628] Serviço finalizado com sucesso.
+[14:12:07.630] ============================================================
+[14:12:07.631] === TÉRMINO RajBootCLP - DATA: 24/04/2026 ===
+[14:12:07.631] ============================================================
+[14:14:43.387] Semáforo travado com sucesso!
+[14:14:43.388] ============================================================
+[14:14:43.389] === INICIANDO RajBootCLP - DATA: 24/04/2026 - VERSÃO 2026 1a ===
+[14:14:43.389] ============================================================
+[14:14:43.395] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[14:14:43.416] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[14:14:43.417] 
+ 
+ iniciando Leitor
+[14:14:43.418] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[14:14:43.419] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:14:43.419] Inscrito com sucesso no tópico PURO: [Raj/#]
+[14:14:43.422] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:14:44.501] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:14:44.501] Inscrito com sucesso no tópico PURO: [Raj/#]
+[14:14:44.503] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:14:45.552] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:14:45.553] Inscrito com sucesso no tópico PURO: [Raj/#]
+[14:14:45.555] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:14:46.600] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:14:46.601] Inscrito com sucesso no tópico PURO: [Raj/#]
+[14:14:46.603] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:14:47.651] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:14:47.653] Inscrito com sucesso no tópico PURO: [Raj/#]
+[14:14:47.655] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:14:48.420] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[14:14:48.698] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:14:48.699] Inscrito com sucesso no tópico PURO: [Raj/#]
+[14:14:48.702] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:14:49.726] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:14:49.727] Inscrito com sucesso no tópico PURO: [Raj/#]
+[14:14:49.730] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:14:50.780] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:14:50.782] Inscrito com sucesso no tópico PURO: [Raj/#]
+[14:14:50.784] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:14:51.832] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:14:51.833] Inscrito com sucesso no tópico PURO: [Raj/#]
+[14:14:51.836] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:14:52.879] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:14:52.881] Inscrito com sucesso no tópico PURO: [Raj/#]
+[14:14:52.884] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:14:53.421] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[14:14:53.423] ** ERRO CRÍTICO: Falha de rede MQTT persistente. Abortando serviço!
+[14:14:54.078] Semáforo liberado com sucesso.
+[14:14:54.086] Serviço finalizado com sucesso.
+[14:14:54.087] ============================================================
+[14:14:54.088] === TÉRMINO RajBootCLP - DATA: 24/04/2026 ===
+[14:14:54.089] ============================================================
+[14:21:07.938] Semáforo travado com sucesso!
+[14:21:07.940] ============================================================
+[14:21:07.941] === INICIANDO RajBootCLP - DATA: 24/04/2026 - VERSÃO 2026 1a ===
+[14:21:07.942] ============================================================
+[14:21:07.957] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[14:21:07.996] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[14:21:07.997] 
+ 
+ iniciando Leitor
+[14:21:07.998] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[14:21:07.999] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:21:07.999] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:21:08.001] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:21:09.100] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:21:09.102] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:21:09.105] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:21:10.165] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:21:10.166] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:21:10.168] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:21:11.218] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:21:11.219] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:21:11.222] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:21:12.266] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:21:12.267] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:21:12.270] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:21:12.999] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[14:21:13.331] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:21:13.332] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:21:13.336] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:21:14.357] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:21:14.358] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:21:14.361] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:21:15.414] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:21:15.416] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:21:15.419] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:21:16.475] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:21:16.476] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:21:16.478] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:21:17.512] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:21:17.514] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:21:17.517] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:21:18.001] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[14:21:18.002] ** ERRO CRÍTICO: Falha de rede MQTT persistente. Abortando serviço!
+[14:21:18.633] Semáforo liberado com sucesso.
+[14:21:18.637] Serviço finalizado com sucesso.
+[14:21:18.638] ============================================================
+[14:21:18.640] === TÉRMINO RajBootCLP - DATA: 24/04/2026 ===
+[14:21:18.641] ============================================================
+[14:34:28.664] Semáforo travado com sucesso!
+[14:34:28.665] ============================================================
+[14:34:28.667] === INICIANDO RajBootCLP - DATA: 24/04/2026 - VERSÃO 2026 1a ===
+[14:34:28.667] ============================================================
+[14:34:28.677] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[14:34:28.698] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[14:34:28.698] 
+ 
+ iniciando Leitor
+[14:34:28.700] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:34:28.700] Ciclo 001 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[14:34:28.701] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:34:28.704] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:34:29.804] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:34:29.806] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:34:29.810] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:34:30.854] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:34:30.856] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:34:30.860] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:34:31.917] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:34:31.918] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:34:31.919] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:34:32.954] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:34:32.955] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:34:32.958] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:34:33.701] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[14:34:34.015] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:34:34.016] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:34:34.018] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:34:35.048] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:34:35.049] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:34:35.052] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:34:36.096] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:34:36.097] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:34:36.099] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:34:37.148] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:34:37.149] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:34:37.152] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:34:38.195] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:34:38.197] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:34:38.200] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:34:38.703] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[14:34:39.247] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:34:39.249] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:34:39.252] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:34:40.281] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:34:40.282] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:34:40.285] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:34:41.358] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:34:41.359] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:34:41.361] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:34:42.410] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:34:42.411] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:34:42.413] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:34:43.493] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:34:43.495] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[14:34:43.498] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:34:43.705] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[14:34:43.707] ** ERRO CRÍTICO: Falha de rede MQTT persistente. Abortando serviço!
+[14:34:44.726] Semáforo liberado com sucesso.
+[14:34:44.888] Serviço finalizado com sucesso.
+[14:34:44.889] ============================================================
+[14:34:44.890] === TÉRMINO RajBootCLP - DATA: 24/04/2026 ===
+[14:34:44.891] ============================================================
+[14:43:59.710] Semáforo travado com sucesso!
+[14:43:59.712] ============================================================
+[14:43:59.713] === INICIANDO RajBootCLP - DATA: 24/04/2026 - VERSÃO 2026 1a ===
+[14:43:59.714] ============================================================
+[14:43:59.724] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[14:43:59.761] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[14:43:59.762] 
+ 
+ iniciando Leitor
+[14:43:59.763] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[14:43:59.763] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:44:04.764] Ciclo 001 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[14:44:09.766] Ciclo 002 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[14:44:14.785] Ciclo 003 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[14:44:19.787] Ciclo 004 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[14:44:24.788] Ciclo 005 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[14:44:29.790] Ciclo 006 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[14:44:34.791] Ciclo 007 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[14:44:36.762] 
+[!] Comando Ctrl+C detectado. Iniciando desligamento seguro...
+[14:44:36.892] Semáforo liberado com sucesso.
+[14:44:36.901] Serviço finalizado com sucesso.
+[14:44:36.903] ============================================================
+[14:44:36.904] === TÉRMINO RajBootCLP - DATA: 24/04/2026 ===
+[14:44:36.905] ============================================================
+[14:44:39.388] Semáforo travado com sucesso!
+[14:44:39.390] ============================================================
+[14:44:39.391] === INICIANDO RajBootCLP - DATA: 24/04/2026 - VERSÃO 2026 1a ===
+[14:44:39.391] ============================================================
+[14:44:39.404] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[14:44:39.433] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[14:44:39.433] 
+ 
+ iniciando Leitor
+[14:44:39.435] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:44:39.435] Ciclo 001 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[14:44:39.436] Inscrito com sucesso no tópico: SalaLimpa/Teste/#
+[14:44:39.439] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:44:40.556] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:44:40.558] Inscrito com sucesso no tópico: SalaLimpa/Teste/#
+[14:44:40.562] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:44:41.622] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:44:41.624] Inscrito com sucesso no tópico: SalaLimpa/Teste/#
+[14:44:41.627] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:44:42.688] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:44:42.689] Inscrito com sucesso no tópico: SalaLimpa/Teste/#
+[14:44:42.692] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:44:43.998] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:44:44.000] Inscrito com sucesso no tópico: SalaLimpa/Teste/#
+[14:44:44.003] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:44:44.437] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[14:44:45.068] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:44:45.070] Inscrito com sucesso no tópico: SalaLimpa/Teste/#
+[14:44:45.073] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:44:46.133] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:44:46.135] Inscrito com sucesso no tópico: SalaLimpa/Teste/#
+[14:44:46.138] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:44:47.199] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:44:47.201] Inscrito com sucesso no tópico: SalaLimpa/Teste/#
+[14:44:47.205] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:44:48.264] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:44:48.266] Inscrito com sucesso no tópico: SalaLimpa/Teste/#
+[14:44:48.269] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:44:49.331] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:44:49.332] Inscrito com sucesso no tópico: SalaLimpa/Teste/#
+[14:44:49.335] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:44:49.439] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[14:44:50.396] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:44:50.397] Inscrito com sucesso no tópico: SalaLimpa/Teste/#
+[14:44:50.401] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:44:51.447] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:44:51.448] Inscrito com sucesso no tópico: SalaLimpa/Teste/#
+[14:44:51.451] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:44:52.506] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:44:52.507] Inscrito com sucesso no tópico: SalaLimpa/Teste/#
+[14:44:52.509] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:44:53.573] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:44:53.574] Inscrito com sucesso no tópico: SalaLimpa/Teste/#
+[14:44:53.577] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:44:54.441] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[14:44:54.442] ** ERRO CRÍTICO: Falha de rede MQTT persistente. Abortando serviço!
+[14:44:54.694] Semáforo liberado com sucesso.
+[14:44:54.700] Serviço finalizado com sucesso.
+[14:44:54.701] ============================================================
+[14:44:54.701] === TÉRMINO RajBootCLP - DATA: 24/04/2026 ===
+[14:44:54.702] ============================================================
+[14:55:16.858] Semáforo travado com sucesso!
+[14:55:16.859] ============================================================
+[14:55:16.860] === INICIANDO RajBootCLP - DATA: 24/04/2026 - VERSÃO 2026 1a ===
+[14:55:16.861] ============================================================
+[14:55:16.876] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[14:55:16.913] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[14:55:16.914] 
+ 
+ iniciando Leitor
+[14:55:16.915] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[14:55:16.915] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:55:16.916] Inscrito com sucesso no tópico: Raj/Teste/Direto
+[14:55:16.919] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:55:18.028] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:55:18.030] Inscrito com sucesso no tópico: Raj/Teste/Direto
+[14:55:18.032] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:55:19.080] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:55:19.081] Inscrito com sucesso no tópico: Raj/Teste/Direto
+[14:55:19.083] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:55:20.132] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:55:20.134] Inscrito com sucesso no tópico: Raj/Teste/Direto
+[14:55:20.137] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:55:21.180] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:55:21.182] Inscrito com sucesso no tópico: Raj/Teste/Direto
+[14:55:21.185] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:55:21.916] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[14:55:22.239] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:55:22.240] Inscrito com sucesso no tópico: Raj/Teste/Direto
+[14:55:22.243] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:55:23.388] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:55:23.389] Inscrito com sucesso no tópico: Raj/Teste/Direto
+[14:55:23.391] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:55:24.445] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:55:24.446] Inscrito com sucesso no tópico: Raj/Teste/Direto
+[14:55:24.448] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:55:25.493] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:55:25.494] Inscrito com sucesso no tópico: Raj/Teste/Direto
+[14:55:25.496] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:55:26.542] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[14:55:26.543] Inscrito com sucesso no tópico: Raj/Teste/Direto
+[14:55:26.546] 
+ Conexão perdida com o Broker MQTT. Código: Unspecified error. O Paho tentará reconectar sozinho...
+[14:55:26.917] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[14:55:26.918] ** ERRO CRÍTICO: Falha de rede MQTT persistente. Abortando serviço!
+[14:55:27.680] Semáforo liberado com sucesso.
+[14:55:27.688] Serviço finalizado com sucesso.
+[14:55:27.689] ============================================================
+[14:55:27.690] === TÉRMINO RajBootCLP - DATA: 24/04/2026 ===
+[14:55:27.691] ============================================================
+[15:01:58.793] Semáforo travado com sucesso!
+[15:01:58.794] ============================================================
+[15:01:58.795] === INICIANDO RajBootCLP - DATA: 24/04/2026 - VERSÃO 2026 1a ===
+[15:01:58.795] ============================================================
+[15:01:58.803] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[15:01:58.821] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[15:01:58.822] 
+ 
+ iniciando Leitor
+[15:01:58.823] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[15:01:58.823] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[15:01:58.824] Inscrito com sucesso no tópico: Raj/Teste/Direto
+[15:02:03.824] Ciclo 001 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[15:02:08.825] Ciclo 002 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[15:02:13.827] Ciclo 003 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[15:02:18.829] Ciclo 004 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[15:02:23.831] Ciclo 005 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[15:02:28.832] Ciclo 006 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[15:02:33.834] Ciclo 007 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[15:02:38.836] Ciclo 008 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[15:02:43.838] Ciclo 009 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[15:02:48.840] Ciclo 010 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[15:02:53.841] Ciclo 011 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[15:02:58.843] Ciclo 012 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[15:03:03.844] Ciclo 013 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[15:03:08.856] Ciclo 014 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[15:03:13.858] Ciclo 015 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[15:03:18.860] Ciclo 016 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[15:03:23.649] 
+[!] Comando Ctrl+C detectado. Iniciando desligamento seguro...
+[15:03:23.754] Semáforo liberado com sucesso.
+[15:03:23.759] Serviço finalizado com sucesso.
+[15:03:23.759] ============================================================
+[15:03:23.760] === TÉRMINO RajBootCLP - DATA: 24/04/2026 ===
+[15:03:23.760] ============================================================
+[15:03:26.192] Semáforo travado com sucesso!
+[15:03:26.194] ============================================================
+[15:03:26.195] === INICIANDO RajBootCLP - DATA: 24/04/2026 - VERSÃO 2026 1a ===
+[15:03:26.196] ============================================================
+[15:03:26.212] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[15:03:26.234] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[15:03:26.234] 
+ 
+ iniciando Leitor
+[15:03:26.235] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[15:03:26.236] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[15:03:26.237] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[15:03:31.236] Ciclo 001 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[15:03:36.238] Ciclo 002 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[15:03:41.240] Ciclo 003 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[15:03:46.242] Ciclo 004 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[15:03:51.244] Ciclo 005 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[15:03:56.246] Ciclo 006 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[15:04:01.248] Ciclo 007 | IN: [Aguardando 1° msg da máquina...] | OUT: [Fila vazia]
+[15:04:04.360] 
+[!] Comando Ctrl+C detectado. Iniciando desligamento seguro...
+[15:04:04.445] Semáforo liberado com sucesso.
+[15:04:04.451] Serviço finalizado com sucesso.
+[15:04:04.452] ============================================================
+[15:04:04.453] === TÉRMINO RajBootCLP - DATA: 24/04/2026 ===
+[15:04:04.453] ============================================================
+[15:10:55.348] Semáforo travado com sucesso!
+[15:10:55.350] ============================================================
+[15:10:55.350] === INICIANDO RajBootCLP - DATA: 24/04/2026 - VERSÃO 2026 1a ===
+[15:10:55.351] ============================================================
+[15:10:55.359] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[15:10:55.379] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[15:10:55.380] 
+ 
+ iniciando Leitor
+[15:10:55.381] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[15:10:55.381] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[15:10:55.382] Inscrito com sucesso no tópico: Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData
+[15:10:57.510] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[15:11:00.382] Ciclo 001 | IN: [Última: 15:10:57 (Ociosa há 2s)] | OUT: [Fila vazia]
+[15:11:00.494] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[15:11:03.473] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[15:11:05.384] Ciclo 002 | IN: [Última: 15:11:03 (Ociosa há 1s)] | OUT: [Fila vazia]
+[15:11:06.508] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[15:11:09.514] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[15:11:10.386] Ciclo 003 | IN: [Última: 15:11:09 (Ociosa há 0s)] | OUT: [Fila vazia]
+[15:11:12.501] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[15:11:15.387] Ciclo 004 | IN: [Última: 15:11:12 (Ociosa há 2s)] | OUT: [Fila vazia]
+[15:11:15.524] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[15:11:18.485] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[15:11:20.389] Ciclo 005 | IN: [Última: 15:11:18 (Ociosa há 1s)] | OUT: [Fila vazia]
+[15:11:21.480] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[15:11:24.499] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[15:11:25.391] Ciclo 006 | IN: [Última: 15:11:24 (Ociosa há 0s)] | OUT: [Fila vazia]
+[15:11:27.499] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[15:11:30.393] Ciclo 007 | IN: [Última: 15:11:27 (Ociosa há 2s)] | OUT: [Fila vazia]
+[15:11:30.521] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[15:11:32.466] 
+[!] Comando Ctrl+C detectado. Iniciando desligamento seguro...
+[15:11:32.621] Semáforo liberado com sucesso.
+[15:11:32.627] Serviço finalizado com sucesso.
+[15:11:32.628] ============================================================
+[15:11:32.629] === TÉRMINO RajBootCLP - DATA: 24/04/2026 ===
+[15:11:32.630] ============================================================
+[15:27:03.036] Semáforo travado com sucesso!
+[15:27:03.037] ============================================================
+[15:27:03.038] === INICIANDO RajBootCLP - DATA: 24/04/2026 - VERSÃO 2026 1a ===
+[15:27:03.039] ============================================================
+[15:27:03.049] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[15:27:03.091] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[15:27:03.092] 
+ 
+ iniciando Leitor
+[15:27:03.094] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[15:27:03.094] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[15:27:03.095] Inscrito com sucesso no tópico: [Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData]
+[15:27:04.116] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[15:27:07.079] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[15:27:08.120] Ciclo 001 | IN: [Última: 15:27:06 (Ociosa há 1s)] | OUT: [Fila vazia]
+[15:27:10.059] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[15:27:13.047] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[15:27:13.131] Ciclo 002 | IN: [Última: 15:27:12 (Ociosa há 0s)] | OUT: [Fila vazia]
+[15:27:16.062] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[15:27:18.149] Ciclo 003 | IN: [Última: 15:27:15 (Ociosa há 2s)] | OUT: [Fila vazia]
+[15:27:19.031] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[15:27:22.039] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[15:27:23.163] Ciclo 004 | IN: [Última: 15:27:21 (Ociosa há 1s)] | OUT: [Fila vazia]
+[15:27:25.060] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[15:27:28.016] 
+[!] Comando Ctrl+C detectado. Iniciando desligamento seguro...
+[15:27:28.040] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[15:33:23.958] Outro leitor/Envio vivo detectado (rodando há 6.4 min). EXIT BYBYBY.
+[15:41:30.728] Outro leitor/Envio vivo detectado (rodando há 14.5 min). EXIT BYBYBY.
+[15:51:33.543] Outro leitor/Envio vivo detectado (rodando há 24.5 min). EXIT BYBYBY.
+[15:56:57.783] Outro leitor/Envio vivo detectado (rodando há 29.9 min). EXIT BYBYBY.
+[16:00:47.161] Zumbi detectado (33.7 min). Enterrando processo antigo...
+[16:00:47.191] Zumbi detectado e removido. Estava travado há 33.7 min.
+[16:00:47.353] Semáforo travado com sucesso!
+[16:00:47.355] ============================================================
+[16:00:47.356] === INICIANDO RajBootCLP - DATA: 24/04/2026 - VERSÃO 2026 1a ===
+[16:00:47.357] ============================================================
+[16:00:47.368] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[16:00:47.406] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[16:00:47.407] 
+ 
+ iniciando Leitor
+[16:00:47.408] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[16:00:47.408] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[16:00:47.409] Inscrito com sucesso no tópico: [Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData]
+[16:00:49.989] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:00:52.421] Ciclo 001 | IN: [Última: 16:00:49 (Ociosa há 2s)] | OUT: [Fila vazia]
+[16:00:52.925] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:00:55.950] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:00:57.428] Ciclo 002 | IN: [Última: 16:00:55 (Ociosa há 1s)] | OUT: [Fila vazia]
+[16:00:58.927] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:01:01.957] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:01:02.539] Ciclo 003 | IN: [Última: 16:01:01 (Ociosa há 0s)] | OUT: [Fila vazia]
+[16:01:04.946] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:01:07.546] Ciclo 004 | IN: [Última: 16:01:04 (Ociosa há 2s)] | OUT: [Fila vazia]
+[16:01:07.932] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:01:10.936] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:01:12.557] Ciclo 005 | IN: [Última: 16:01:10 (Ociosa há 1s)] | OUT: [Fila vazia]
+[16:01:13.953] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:01:16.961] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:01:17.569] Ciclo 006 | IN: [Última: 16:01:16 (Ociosa há 0s)] | OUT: [Fila vazia]
+[16:01:19.974] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:01:22.581] Ciclo 007 | IN: [Última: 16:01:19 (Ociosa há 2s)] | OUT: [Fila vazia]
+[16:01:22.959] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:01:25.970] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:01:27.598] Ciclo 008 | IN: [Última: 16:01:25 (Ociosa há 1s)] | OUT: [Fila vazia]
+[16:01:28.954] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:01:31.980] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:01:32.640] Ciclo 009 | IN: [Última: 16:01:31 (Ociosa há 0s)] | OUT: [Fila vazia]
+[16:01:34.957] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:01:37.651] Ciclo 010 | IN: [Última: 16:01:34 (Ociosa há 2s)] | OUT: [Fila vazia]
+[16:01:37.961] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:01:40.967] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:01:42.661] Ciclo 011 | IN: [Última: 16:01:40 (Ociosa há 1s)] | OUT: [Fila vazia]
+[16:01:43.968] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:01:46.956] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:01:47.683] Ciclo 012 | IN: [Última: 16:01:46 (Ociosa há 0s)] | OUT: [Fila vazia]
+[16:01:49.952] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:01:52.696] Ciclo 013 | IN: [Última: 16:01:49 (Ociosa há 2s)] | OUT: [Fila vazia]
+[16:01:52.960] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:01:55.971] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:01:57.708] Ciclo 014 | IN: [Última: 16:01:55 (Ociosa há 1s)] | OUT: [Fila vazia]
+[16:01:58.970] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:02:01.978] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:02:02.745] Ciclo 015 | IN: [Última: 16:02:01 (Ociosa há 0s)] | OUT: [Fila vazia]
+[16:02:04.960] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:02:07.755] Ciclo 016 | IN: [Última: 16:02:04 (Ociosa há 2s)] | OUT: [Fila vazia]
+[16:02:07.970] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:02:10.972] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:02:12.768] Ciclo 017 | IN: [Última: 16:02:10 (Ociosa há 1s)] | OUT: [Fila vazia]
+[16:02:13.969] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:02:16.956] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:02:17.781] Ciclo 018 | IN: [Última: 16:02:16 (Ociosa há 0s)] | OUT: [Fila vazia]
+[16:02:19.968] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:02:22.796] Ciclo 019 | IN: [Última: 16:02:19 (Ociosa há 2s)] | OUT: [Fila vazia]
+[16:02:22.983] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:02:25.992] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:02:27.829] Ciclo 020 | IN: [Última: 16:02:25 (Ociosa há 1s)] | OUT: [Fila vazia]
+[16:02:28.986] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:02:31.983] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:02:32.848] Ciclo 021 | IN: [Última: 16:02:31 (Ociosa há 0s)] | OUT: [Fila vazia]
+[16:02:34.971] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:02:37.862] Ciclo 022 | IN: [Última: 16:02:34 (Ociosa há 2s)] | OUT: [Fila vazia]
+[16:02:37.992] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:02:40.984] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:02:42.873] Ciclo 023 | IN: [Última: 16:02:40 (Ociosa há 1s)] | OUT: [Fila vazia]
+[16:02:43.977] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:02:46.993] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:02:47.888] Ciclo 024 | IN: [Última: 16:02:46 (Ociosa há 0s)] | OUT: [Fila vazia]
+[16:02:49.990] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:02:52.899] Ciclo 025 | IN: [Última: 16:02:49 (Ociosa há 2s)] | OUT: [Fila vazia]
+[16:02:52.995] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:02:55.993] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:02:57.910] Ciclo 026 | IN: [Última: 16:02:55 (Ociosa há 1s)] | OUT: [Fila vazia]
+[16:02:58.986] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:03:02.004] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:03:02.920] Ciclo 027 | IN: [Última: 16:03:01 (Ociosa há 0s)] | OUT: [Fila vazia]
+[16:03:04.991] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:03:07.944] Ciclo 028 | IN: [Última: 16:03:04 (Ociosa há 2s)] | OUT: [Fila vazia]
+[16:03:08.051] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:03:11.005] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:03:12.963] Ciclo 029 | IN: [Última: 16:03:10 (Ociosa há 1s)] | OUT: [Fila vazia]
+[16:03:14.004] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:03:17.033] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:03:17.971] Ciclo 030 | IN: [Última: 16:03:16 (Ociosa há 1s)] | OUT: [Fila vazia]
+[16:03:19.998] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:03:22.981] Ciclo 031 | IN: [Última: 16:03:22 (Ociosa há 0s)] | OUT: [Fila vazia]
+[16:03:23.000] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:03:26.030] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:03:27.994] Ciclo 032 | IN: [Última: 16:03:25 (Ociosa há 2s)] | OUT: [Fila vazia]
+[16:03:29.001] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:03:32.025] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:03:33.010] Ciclo 033 | IN: [Última: 16:03:31 (Ociosa há 1s)] | OUT: [Fila vazia]
+[16:03:35.018] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:03:37.998] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:03:38.023] Ciclo 034 | IN: [Última: 16:03:37 (Ociosa há 0s)] | OUT: [Fila vazia]
+[16:03:41.004] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:03:43.031] Ciclo 035 | IN: [Última: 16:03:40 (Ociosa há 2s)] | OUT: [Fila vazia]
+[16:03:43.995] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:03:47.036] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:03:48.041] Ciclo 036 | IN: [Última: 16:03:46 (Ociosa há 1s)] | OUT: [Fila vazia]
+[16:03:50.019] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:03:53.045] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:03:53.054] Ciclo 037 | IN: [Última: 16:03:52 (Ociosa há 0s)] | OUT: [Fila vazia]
+[16:03:55.998] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:03:58.064] Ciclo 038 | IN: [Última: 16:03:55 (Ociosa há 2s)] | OUT: [Fila vazia]
+[16:03:59.004] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:04:02.015] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:04:03.076] Ciclo 039 | IN: [Última: 16:04:01 (Ociosa há 1s)] | OUT: [Fila vazia]
+[16:04:05.050] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:04:08.022] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:04:08.086] Ciclo 040 | IN: [Última: 16:04:07 (Ociosa há 0s)] | OUT: [Fila vazia]
+[16:04:11.032] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:04:13.105] Ciclo 041 | IN: [Última: 16:04:10 (Ociosa há 2s)] | OUT: [Fila vazia]
+[16:04:14.017] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:04:17.043] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:04:18.121] Ciclo 042 | IN: [Última: 16:04:16 (Ociosa há 1s)] | OUT: [Fila vazia]
+[16:04:20.028] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:04:23.033] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:04:23.131] Ciclo 043 | IN: [Última: 16:04:22 (Ociosa há 0s)] | OUT: [Fila vazia]
+[16:04:26.045] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:04:28.141] Ciclo 044 | IN: [Última: 16:04:25 (Ociosa há 2s)] | OUT: [Fila vazia]
+[16:04:29.014] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:04:32.028] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:04:33.151] Ciclo 045 | IN: [Última: 16:04:31 (Ociosa há 1s)] | OUT: [Fila vazia]
+[16:04:35.037] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:04:38.026] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:04:38.164] Ciclo 046 | IN: [Última: 16:04:37 (Ociosa há 0s)] | OUT: [Fila vazia]
+[16:04:41.028] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:04:43.182] Ciclo 047 | IN: [Última: 16:04:40 (Ociosa há 2s)] | OUT: [Fila vazia]
+[16:04:44.036] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:04:47.028] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:04:48.195] Ciclo 048 | IN: [Última: 16:04:46 (Ociosa há 1s)] | OUT: [Fila vazia]
+[16:04:50.035] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:04:53.037] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:04:53.233] Ciclo 049 | IN: [Última: 16:04:52 (Ociosa há 0s)] | OUT: [Fila vazia]
+[16:04:56.047] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:04:58.241] Ciclo 050 | IN: [Última: 16:04:56 (Ociosa há 2s)] | OUT: [Fila vazia]
+[16:04:59.027] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:05:02.045] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:05:03.256] Ciclo 051 | IN: [Última: 16:05:02 (Ociosa há 1s)] | OUT: [Fila vazia]
+[16:05:05.043] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:05:08.062] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:05:08.279] Ciclo 052 | IN: [Última: 16:05:08 (Ociosa há 0s)] | OUT: [Fila vazia]
+[16:05:11.115] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:05:13.294] Ciclo 053 | IN: [Última: 16:05:11 (Ociosa há 2s)] | OUT: [Fila vazia]
+[16:05:14.037] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:05:17.048] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:05:18.304] Ciclo 054 | IN: [Última: 16:05:17 (Ociosa há 1s)] | OUT: [Fila vazia]
+[16:05:20.040] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:05:23.313] Ciclo 055 | IN: [Última: 16:05:23 (Ociosa há 0s)] | OUT: [Fila vazia]
+[16:05:23.495] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:05:26.053] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:05:28.326] Ciclo 056 | IN: [Última: 16:05:26 (Ociosa há 2s)] | OUT: [Fila vazia]
+[16:05:29.076] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:05:32.091] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:05:33.340] Ciclo 057 | IN: [Última: 16:05:32 (Ociosa há 1s)] | OUT: [Fila vazia]
+[16:05:35.167] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:05:38.045] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:05:38.352] Ciclo 058 | IN: [Última: 16:05:38 (Ociosa há 0s)] | OUT: [Fila vazia]
+[16:05:41.065] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:05:43.362] Ciclo 059 | IN: [Última: 16:05:41 (Ociosa há 2s)] | OUT: [Fila vazia]
+[16:05:44.045] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:05:47.070] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:05:48.376] Ciclo 060 | IN: [Última: 16:05:47 (Ociosa há 1s)] | OUT: [Fila vazia]
+[16:05:50.023] 
+ Iniciando o Delete
+[16:05:50.059] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:05:53.387] Ciclo 061 | IN: [Última: 16:05:50 (Ociosa há 3s)] | OUT: [Fila vazia]
+[16:05:57.292] Delete concluído com sucesso.
+[16:05:57.337] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:05:57.389] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:05:58.397] Ciclo 062 | IN: [Última: 16:05:57 (Ociosa há 1s)] | OUT: [Fila vazia]
+[16:05:59.053] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:06:02.078] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:06:03.407] Ciclo 063 | IN: [Última: 16:06:02 (Ociosa há 1s)] | OUT: [Fila vazia]
+[16:06:05.065] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:06:08.064] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:06:08.418] Ciclo 064 | IN: [Última: 16:06:08 (Ociosa há 0s)] | OUT: [Fila vazia]
+[16:06:11.089] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:06:13.436] Ciclo 065 | IN: [Última: 16:06:11 (Ociosa há 2s)] | OUT: [Fila vazia]
+[16:06:14.073] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:06:17.096] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:06:18.449] Ciclo 066 | IN: [Última: 16:06:17 (Ociosa há 1s)] | OUT: [Fila vazia]
+[16:06:20.085] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:06:23.088] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:06:23.459] Ciclo 067 | IN: [Última: 16:06:23 (Ociosa há 0s)] | OUT: [Fila vazia]
+[16:06:26.076] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:06:28.470] Ciclo 068 | IN: [Última: 16:06:26 (Ociosa há 2s)] | OUT: [Fila vazia]
+[16:06:29.067] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:06:32.088] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:06:33.484] Ciclo 069 | IN: [Última: 16:06:32 (Ociosa há 1s)] | OUT: [Fila vazia]
+[16:06:35.080] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:06:38.082] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:06:38.500] Ciclo 070 | IN: [Última: 16:06:38 (Ociosa há 0s)] | OUT: [Fila vazia]
+[16:06:41.089] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:06:43.513] Ciclo 071 | IN: [Última: 16:06:41 (Ociosa há 2s)] | OUT: [Fila vazia]
+[16:06:44.071] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:06:47.089] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:06:48.528] Ciclo 072 | IN: [Última: 16:06:47 (Ociosa há 1s)] | OUT: [Fila vazia]
+[16:06:50.074] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:06:53.077] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:06:53.550] Ciclo 073 | IN: [Última: 16:06:53 (Ociosa há 0s)] | OUT: [Fila vazia]
+[16:06:56.074] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:06:58.559] Ciclo 074 | IN: [Última: 16:06:56 (Ociosa há 2s)] | OUT: [Fila vazia]
+[16:06:59.074] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:07:02.199] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:07:03.567] Ciclo 075 | IN: [Última: 16:07:02 (Ociosa há 1s)] | OUT: [Fila vazia]
+[16:07:05.098] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:07:08.098] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:07:08.584] Ciclo 076 | IN: [Última: 16:07:08 (Ociosa há 0s)] | OUT: [Fila vazia]
+[16:07:11.085] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:07:13.598] Ciclo 077 | IN: [Última: 16:07:11 (Ociosa há 2s)] | OUT: [Fila vazia]
+[16:07:14.099] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:07:17.095] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:07:18.613] Ciclo 078 | IN: [Última: 16:07:17 (Ociosa há 1s)] | OUT: [Fila vazia]
+[16:07:20.098] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:07:23.107] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:07:23.631] Ciclo 079 | IN: [Última: 16:07:23 (Ociosa há 0s)] | OUT: [Fila vazia]
+[16:07:26.111] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:07:28.641] Ciclo 080 | IN: [Última: 16:07:26 (Ociosa há 2s)] | OUT: [Fila vazia]
+[16:07:29.104] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:07:32.104] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:07:33.649] Ciclo 081 | IN: [Última: 16:07:32 (Ociosa há 1s)] | OUT: [Fila vazia]
+[16:07:35.092] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:07:38.099] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:07:38.657] Ciclo 082 | IN: [Última: 16:07:38 (Ociosa há 0s)] | OUT: [Fila vazia]
+[16:07:41.105] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:07:43.668] Ciclo 083 | IN: [Última: 16:07:41 (Ociosa há 2s)] | OUT: [Fila vazia]
+[16:07:44.117] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[16:07:45.386] 
+[!] Comando Ctrl+C detectado. Iniciando desligamento seguro...
+[16:07:46.217] Semáforo liberado com sucesso.
+[16:07:46.225] Serviço finalizado com sucesso.
+[16:07:46.226] ============================================================
+[16:07:46.226] === TÉRMINO RajBootCLP - DATA: 24/04/2026 ===
+[16:07:46.227] ============================================================

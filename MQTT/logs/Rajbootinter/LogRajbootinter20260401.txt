@@ -1,0 +1,180 @@
+[16:30:12.619] Semáforo travado com sucesso!
+[16:30:12.621] Semáforo garantido! Iniciando Interpretador pot 30 minutos...
+[16:30:12.702] 
+ Encontrada 3 mensagens pendentes. Lendo JSONS...
+[16:30:12.780] ** Erro ao processar Lote 20260401163008007: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 0)', -803, 335544665)
+[16:30:12.811] ** Erro ao processar Lote 20260401163011009: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 0)', -803, 335544665)
+[16:30:12.818] Ciclo concluído: 1 lote(s) processado(s) com sucesso | 2 erro(s).
+[16:30:17.848] 
+ Encontrada 4 mensagens pendentes. Lendo JSONS...
+[16:30:17.874] ** Erro ao processar Lote 20260401163008007: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 0)', -803, 335544665)
+[16:30:17.905] ** Erro ao processar Lote 20260401163011009: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 0)', -803, 335544665)
+[16:30:17.942] ** Erro ao processar Lote 20260401163014010: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 0)', -803, 335544665)
+[16:30:17.972] ** Erro ao processar Lote 20260401163017012: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 0)', -803, 335544665)
+[16:30:17.977] Ciclo concluído: 0 lote(s) processado(s) com sucesso | 4 erro(s).
+[16:30:23.012] 
+ Encontrada 5 mensagens pendentes. Lendo JSONS...
+[16:30:23.080] ** Erro ao processar Lote 20260401163008007: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 0)', -803, 335544665)
+[16:30:23.145] ** Erro ao processar Lote 20260401163011009: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 0)', -803, 335544665)
+[16:30:23.208] ** Erro ao processar Lote 20260401163014010: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 0)', -803, 335544665)
+[16:30:23.271] ** Erro ao processar Lote 20260401163017012: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 0)', -803, 335544665)
+[16:30:23.340] ** Erro ao processar Lote 20260401163020013: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 0)', -803, 335544665)
+[16:30:23.349] Ciclo concluído: 0 lote(s) processado(s) com sucesso | 5 erro(s).
+[16:30:28.402] 
+ Encontrada 7 mensagens pendentes. Lendo JSONS...
+[16:30:28.461] ** Erro ao processar Lote 20260401163008007: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 0)', -803, 335544665)
+[16:30:28.638] ** Erro ao processar Lote 20260401163011009: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 0)', -803, 335544665)
+[16:30:28.835] ** Erro ao processar Lote 20260401163014010: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 0)', -803, 335544665)
+[16:30:28.898] ** Erro ao processar Lote 20260401163017012: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 0)', -803, 335544665)
+[16:30:28.958] ** Erro ao processar Lote 20260401163020013: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 0)', -803, 335544665)
+[16:30:29.022] ** Erro ao processar Lote 20260401163023014: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 0)', -803, 335544665)
+[16:30:29.085] ** Erro ao processar Lote 20260401163026014: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 0)', -803, 335544665)
+[16:30:29.094] Ciclo concluído: 0 lote(s) processado(s) com sucesso | 7 erro(s).
+[16:30:30.049] 
+Serviço finalizado pelo usuário
+[16:30:30.051] Liberando semáforo e fechando conexões...
+[16:30:30.130] Semáforo liberado com sucesso.
+[16:32:12.739] Semáforo travado com sucesso!
+[16:32:12.740] Semáforo garantido! Iniciando Interpretador pot 30 minutos...
+[16:32:12.839] 
+ Encontrada 21 mensagens pendentes. Lendo JSONS...
+[16:32:13.383] ** Erro ao processar Lote 20260401163047024: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:32:13.656] ** Erro ao processar Lote 20260401163211481: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:32:13.667] Ciclo concluído: 19 lote(s) processado(s) com sucesso | 2 erro(s).
+[16:32:18.723] 
+ Encontrada 4 mensagens pendentes. Lendo JSONS...
+[16:32:18.754] ** Erro ao processar Lote 20260401163047024: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:32:18.790] ** Erro ao processar Lote 20260401163211481: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:32:18.838] ** Erro ao processar Lote 20260401163214483: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:32:18.869] ** Erro ao processar Lote 20260401163217484: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:32:18.874] Ciclo concluído: 0 lote(s) processado(s) com sucesso | 4 erro(s).
+[16:32:23.944] 
+ Encontrada 6 mensagens pendentes. Lendo JSONS...
+[16:32:24.009] ** Erro ao processar Lote 20260401163047024: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:32:24.071] ** Erro ao processar Lote 20260401163211481: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:32:24.163] ** Erro ao processar Lote 20260401163214483: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:32:24.232] ** Erro ao processar Lote 20260401163217484: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:32:24.307] ** Erro ao processar Lote 20260401163220485: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:32:24.397] ** Erro ao processar Lote 20260401163223487: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:32:24.413] Ciclo concluído: 0 lote(s) processado(s) com sucesso | 6 erro(s).
+[16:32:29.483] 
+ Encontrada 7 mensagens pendentes. Lendo JSONS...
+[16:32:29.528] ** Erro ao processar Lote 20260401163047024: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:32:29.585] ** Erro ao processar Lote 20260401163211481: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:32:29.639] ** Erro ao processar Lote 20260401163214483: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:32:29.713] ** Erro ao processar Lote 20260401163217484: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:32:29.767] ** Erro ao processar Lote 20260401163220485: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:32:29.834] ** Erro ao processar Lote 20260401163223487: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:32:29.917] ** Erro ao processar Lote 20260401163226488: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:32:29.927] Ciclo concluído: 0 lote(s) processado(s) com sucesso | 7 erro(s).
+[16:32:31.109] 
+Serviço finalizado pelo usuário
+[16:32:31.111] Liberando semáforo e fechando conexões...
+[16:32:31.165] Semáforo liberado com sucesso.
+[16:48:48.394] Semáforo travado com sucesso!
+[16:48:48.396] Semáforo garantido! Iniciando Interpretador pot 30 minutos...
+[16:48:48.509] 
+ Encontrada 9 mensagens pendentes. Lendo JSONS...
+[16:48:48.533] ** Erro ao processar Lote 20260401163047024: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:48:48.568] ** Erro ao processar Lote 20260401163211481: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:48:48.617] ** Erro ao processar Lote 20260401163214483: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:48:48.648] ** Erro ao processar Lote 20260401163217484: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:48:48.685] ** Erro ao processar Lote 20260401163220485: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:48:48.723] ** Erro ao processar Lote 20260401163223487: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:48:48.755] ** Erro ao processar Lote 20260401163226488: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:48:48.785] ** Erro ao processar Lote 20260401163229486: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:48:48.817] ** Erro ao processar Lote 20260401163232490: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:48:48.822] Ciclo concluído: 0 lote(s) processado(s) com sucesso | 9 erro(s).
+[16:48:53.887] 
+ Encontrada 9 mensagens pendentes. Lendo JSONS...
+[16:48:53.914] ** Erro ao processar Lote 20260401163047024: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:48:53.950] ** Erro ao processar Lote 20260401163211481: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:48:53.991] ** Erro ao processar Lote 20260401163214483: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:48:54.032] ** Erro ao processar Lote 20260401163217484: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:48:54.094] ** Erro ao processar Lote 20260401163220485: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:48:54.132] ** Erro ao processar Lote 20260401163223487: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:48:54.171] ** Erro ao processar Lote 20260401163226488: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:48:54.222] ** Erro ao processar Lote 20260401163229486: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:48:54.257] ** Erro ao processar Lote 20260401163232490: ('Error while executing SQL statement:\n- SQLCODE: -803\n- violation of PRIMARY or UNIQUE KEY constraint "PK_CLP_MACOMP" on table "CLP_MACOMP"\n- Problematic key value is ("SEQ_TAREFA" = 1)', -803, 335544665)
+[16:48:54.263] Ciclo concluído: 0 lote(s) processado(s) com sucesso | 9 erro(s).
+[16:48:56.420] 
+Serviço finalizado pelo usuário
+[16:48:56.422] Liberando semáforo e fechando conexões...
+[16:48:56.503] Semáforo liberado com sucesso.
+[16:49:16.406] Semáforo travado com sucesso!
+[16:49:16.407] Semáforo garantido! Iniciando Interpretador pot 30 minutos...
+[16:49:16.525] 
+ Encontrada 9 mensagens pendentes. Lendo JSONS...
+[16:49:17.052] Ciclo concluído: 9 lote(s) processado(s) com sucesso | 0 erro(s).
+[16:49:22.118] Nenhuma mensagem nova na fila de telemetria.
+[16:49:27.248] Nenhuma mensagem nova na fila de telemetria.
+[16:49:32.317] Nenhuma mensagem nova na fila de telemetria.
+[16:49:37.381] Nenhuma mensagem nova na fila de telemetria.
+[16:49:42.443] Nenhuma mensagem nova na fila de telemetria.
+[16:49:47.507] 
+ Encontrada 2 mensagens pendentes. Lendo JSONS...
+[16:49:47.595] Ciclo concluído: 2 lote(s) processado(s) com sucesso | 0 erro(s).
+[16:49:52.670] 
+ Encontrada 1 mensagens pendentes. Lendo JSONS...
+[16:49:52.742] Ciclo concluído: 1 lote(s) processado(s) com sucesso | 0 erro(s).
+[16:49:57.813] 
+ Encontrada 2 mensagens pendentes. Lendo JSONS...
+[16:49:57.941] Ciclo concluído: 2 lote(s) processado(s) com sucesso | 0 erro(s).
+[16:50:03.020] 
+ Encontrada 2 mensagens pendentes. Lendo JSONS...
+[16:50:03.175] Ciclo concluído: 2 lote(s) processado(s) com sucesso | 0 erro(s).
+[16:50:08.255] 
+ Encontrada 2 mensagens pendentes. Lendo JSONS...
+[16:50:08.334] Ciclo concluído: 2 lote(s) processado(s) com sucesso | 0 erro(s).
+[16:50:13.416] 
+ Encontrada 1 mensagens pendentes. Lendo JSONS...
+[16:50:13.472] Ciclo concluído: 1 lote(s) processado(s) com sucesso | 0 erro(s).
+[16:50:18.555] 
+ Encontrada 2 mensagens pendentes. Lendo JSONS...
+[16:50:18.644] Ciclo concluído: 2 lote(s) processado(s) com sucesso | 0 erro(s).
+[16:50:23.730] 
+ Encontrada 2 mensagens pendentes. Lendo JSONS...
+[16:50:23.820] Ciclo concluído: 2 lote(s) processado(s) com sucesso | 0 erro(s).
+[16:50:28.910] 
+ Encontrada 1 mensagens pendentes. Lendo JSONS...
+[16:50:28.993] Ciclo concluído: 1 lote(s) processado(s) com sucesso | 0 erro(s).
+[16:50:34.087] 
+ Encontrada 2 mensagens pendentes. Lendo JSONS...
+[16:50:34.183] Ciclo concluído: 2 lote(s) processado(s) com sucesso | 0 erro(s).
+[16:50:39.337] 
+ Encontrada 2 mensagens pendentes. Lendo JSONS...
+[16:50:39.542] Ciclo concluído: 2 lote(s) processado(s) com sucesso | 0 erro(s).
+[16:50:44.638] 
+ Encontrada 2 mensagens pendentes. Lendo JSONS...
+[16:50:44.734] Ciclo concluído: 2 lote(s) processado(s) com sucesso | 0 erro(s).
+[16:50:49.840] 
+ Encontrada 1 mensagens pendentes. Lendo JSONS...
+[16:50:49.891] Ciclo concluído: 1 lote(s) processado(s) com sucesso | 0 erro(s).
+[16:50:54.998] 
+ Encontrada 2 mensagens pendentes. Lendo JSONS...
+[16:50:55.144] Ciclo concluído: 2 lote(s) processado(s) com sucesso | 0 erro(s).
+[16:51:00.255] 
+ Encontrada 2 mensagens pendentes. Lendo JSONS...
+[16:51:00.344] Ciclo concluído: 2 lote(s) processado(s) com sucesso | 0 erro(s).
+[16:51:05.454] 
+ Encontrada 2 mensagens pendentes. Lendo JSONS...
+[16:51:05.546] Ciclo concluído: 2 lote(s) processado(s) com sucesso | 0 erro(s).
+[16:51:10.656] 
+ Encontrada 1 mensagens pendentes. Lendo JSONS...
+[16:51:10.705] Ciclo concluído: 1 lote(s) processado(s) com sucesso | 0 erro(s).
+[16:51:15.817] 
+ Encontrada 2 mensagens pendentes. Lendo JSONS...
+[16:51:15.898] Ciclo concluído: 2 lote(s) processado(s) com sucesso | 0 erro(s).
+[16:51:21.015] 
+ Encontrada 2 mensagens pendentes. Lendo JSONS...
+[16:51:21.084] Ciclo concluído: 2 lote(s) processado(s) com sucesso | 0 erro(s).
+[16:51:26.200] 
+ Encontrada 2 mensagens pendentes. Lendo JSONS...
+[16:51:26.315] Ciclo concluído: 2 lote(s) processado(s) com sucesso | 0 erro(s).
+[16:51:31.436] 
+ Encontrada 1 mensagens pendentes. Lendo JSONS...
+[16:51:31.476] Ciclo concluído: 1 lote(s) processado(s) com sucesso | 0 erro(s).
+[16:51:33.908] 
+Serviço finalizado pelo usuário
+[16:51:33.909] Liberando semáforo e fechando conexões...
+[16:51:33.983] Semáforo liberado com sucesso.

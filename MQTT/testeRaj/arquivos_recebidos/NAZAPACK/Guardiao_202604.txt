@@ -1,0 +1,282 @@
+05/04/2026 20:53:32 Iniciando Guardião
+
+05/04/2026 20:53:41 Falha no teste de ECHO...
+
+05/04/2026 20:53:42 Reiniciando Plug: Echo não responde
+
+05/04/2026 20:53:54 Falha no teste de ECHO Scp...
+
+05/04/2026 20:53:54 Reiniciando Plug: Echo não responde
+
+05/04/2026 20:54:05 Falha no teste de ECHO PlugExp...
+
+05/04/2026 20:54:06 Reiniciando Plug: Echo não responde
+
+05/04/2026 20:54:11 Testando Conectividade
+
+05/04/2026 20:54:12 20:54 / Conectividade OK
+
+05/04/2026 20:54:42 20:54 / RajExecutorTarefas Iniciado !
+
+05/04/2026 20:55:12 20:55 / RAT Iniciado !
+
+05/04/2026 20:55:43 20:55 / PLUGAPP Iniciado !
+
+05/04/2026 20:56:13 20:56 / RAJMDe Iniciado !
+
+05/04/2026 20:56:43 20:56 / RAJMDe Iniciado !
+
+08/04/2026 10:07:05 10:07 / PLUGAPP Iniciado !
+
+10/04/2026 11:55:30 Iniciando Guardião
+
+10/04/2026 11:55:39 Finalizando Guardião...
+
+10/04/2026 11:56:58 11:56 / RAJMDe Iniciado !
+
+10/04/2026 11:57:28 11:57 / RAJMDe Iniciado !
+
+28/04/2026 10:27:02 10:27 / RAJMDe Iniciado !
+
+28/04/2026 10:27:32 10:27 / RAJMDe Iniciado !
+
+28/04/2026 10:35:06 10:35 / RAJMDe Iniciado !
+
+28/04/2026 10:35:37 10:35 / RAJMDe Iniciado !
+
+28/04/2026 16:23:27 Falha no teste de ECHO...
+
+28/04/2026 16:23:27 Reiniciando Plug: Echo não responde
+
+28/04/2026 16:23:38 Falha no teste de ECHO Scp...
+
+28/04/2026 16:23:38 Reiniciando Plug: Echo não responde
+
+28/04/2026 16:23:44 Testando Conectividade
+
+28/04/2026 16:23:45 16:23 / Conectividade OK
+
+30/04/2026 13:58:04 13:58 / RajExecutorTarefas Iniciado !
+
+30/04/2026 15:46:28 15:46 / RajExecutorTarefas Iniciado !
+
+05/04/2026 20:53:32 Iniciando Guardião
+
+05/04/2026 20:53:41 Falha no teste de ECHO...
+
+05/04/2026 20:53:42 Reiniciando Plug: Echo não responde
+
+05/04/2026 20:53:54 Falha no teste de ECHO Scp...
+
+05/04/2026 20:53:54 Reiniciando Plug: Echo não responde
+
+05/04/2026 20:54:05 Falha no teste de ECHO PlugExp...
+
+05/04/2026 20:54:06 Reiniciando Plug: Echo não responde
+
+05/04/2026 20:54:11 Testando Conectividade
+
+05/04/2026 20:54:12 20:54 / Conectividade OK
+
+05/04/2026 20:54:42 20:54 / RajExecutorTarefas Iniciado !
+
+05/04/2026 20:55:12 20:55 / RAT Iniciado !
+
+05/04/2026 20:55:43 20:55 / PLUGAPP Iniciado !
+
+05/04/2026 20:56:13 20:56 / RAJMDe Iniciado !
+
+05/04/2026 20:56:43 20:56 / RAJMDe Iniciado !
+
+08/04/2026 10:07:05 10:07 / PLUGAPP Iniciado !
+
+10/04/2026 11:55:30 Iniciando Guardião
+
+10/04/2026 11:55:39 Finalizando Guardião...
+
+10/04/2026 11:56:58 11:56 / RAJMDe Iniciado !
+
+10/04/2026 11:57:28 11:57 / RAJMDe Iniciado !
+
+28/04/2026 10:27:02 10:27 / RAJMDe Iniciado !
+
+28/04/2026 10:27:32 10:27 / RAJMDe Iniciado !
+
+28/04/2026 10:35:06 10:35 / RAJMDe Iniciado !
+
+28/04/2026 10:35:37 10:35 / RAJMDe Iniciado !
+
+28/04/2026 16:23:27 Falha no teste de ECHO...
+
+28/04/2026 16:23:27 Reiniciando Plug: Echo não responde
+
+28/04/2026 16:23:38 Falha no teste de ECHO Scp...
+
+28/04/2026 16:23:38 Reiniciando Plug: Echo não responde
+
+28/04/2026 16:23:44 Testando Conectividade
+
+28/04/2026 16:23:45 16:23 / Conectividade OK
+
+30/04/2026 13:58:04 13:58 / RajExecutorTarefas Iniciado !
+
+30/04/2026 15:46:28 15:46 / RajExecutorTarefas Iniciado !
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:58 Iniciando Guardião
+
+30/04/2026 16:46:24 16:46 / RajExecutorTarefas Iniciado !
+
+30/04/2026 16:46:54 16:46 / RAT Iniciado !
+
+30/04/2026 16:47:24 16:47 / PLUGAPP Iniciado !
+
+30/04/2026 16:47:55 16:47 / RAJMDe Iniciado !
+
+30/04/2026 16:48:25 16:48 / RAJMDe Iniciado !
+
+05/04/2026 20:53:32 Iniciando Guardião
+
+05/04/2026 20:53:41 Falha no teste de ECHO...
+
+05/04/2026 20:53:42 Reiniciando Plug: Echo não responde
+
+05/04/2026 20:53:54 Falha no teste de ECHO Scp...
+
+05/04/2026 20:53:54 Reiniciando Plug: Echo não responde
+
+05/04/2026 20:54:05 Falha no teste de ECHO PlugExp...
+
+05/04/2026 20:54:06 Reiniciando Plug: Echo não responde
+
+05/04/2026 20:54:11 Testando Conectividade
+
+05/04/2026 20:54:12 20:54 / Conectividade OK
+
+05/04/2026 20:54:42 20:54 / RajExecutorTarefas Iniciado !
+
+05/04/2026 20:55:12 20:55 / RAT Iniciado !
+
+05/04/2026 20:55:43 20:55 / PLUGAPP Iniciado !
+
+05/04/2026 20:56:13 20:56 / RAJMDe Iniciado !
+
+05/04/2026 20:56:43 20:56 / RAJMDe Iniciado !
+
+08/04/2026 10:07:05 10:07 / PLUGAPP Iniciado !
+
+10/04/2026 11:55:30 Iniciando Guardião
+
+10/04/2026 11:55:39 Finalizando Guardião...
+
+10/04/2026 11:56:58 11:56 / RAJMDe Iniciado !
+
+10/04/2026 11:57:28 11:57 / RAJMDe Iniciado !
+
+28/04/2026 10:27:02 10:27 / RAJMDe Iniciado !
+
+28/04/2026 10:27:32 10:27 / RAJMDe Iniciado !
+
+28/04/2026 10:35:06 10:35 / RAJMDe Iniciado !
+
+28/04/2026 10:35:37 10:35 / RAJMDe Iniciado !
+
+28/04/2026 16:23:27 Falha no teste de ECHO...
+
+28/04/2026 16:23:27 Reiniciando Plug: Echo não responde
+
+28/04/2026 16:23:38 Falha no teste de ECHO Scp...
+
+28/04/2026 16:23:38 Reiniciando Plug: Echo não responde
+
+28/04/2026 16:23:44 Testando Conectividade
+
+28/04/2026 16:23:45 16:23 / Conectividade OK
+
+30/04/2026 13:58:04 13:58 / RajExecutorTarefas Iniciado !
+
+30/04/2026 15:46:28 15:46 / RajExecutorTarefas Iniciado !
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:43 Finalizando Guardião...
+
+30/04/2026 16:45:58 Iniciando Guardião
+
+30/04/2026 16:46:24 16:46 / RajExecutorTarefas Iniciado !
+
+30/04/2026 16:46:54 16:46 / RAT Iniciado !
+
+30/04/2026 16:47:24 16:47 / PLUGAPP Iniciado !
+
+30/04/2026 16:47:55 16:47 / RAJMDe Iniciado !
+
+30/04/2026 16:48:25 16:48 / RAJMDe Iniciado !
+

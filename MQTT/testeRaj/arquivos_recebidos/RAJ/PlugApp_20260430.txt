@@ -1,0 +1,1882 @@
+30/04 07:02:58:514 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.122.8.114   Request.RemoteIP 187.122.8.114
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 07:02:58:717 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 07:03:02:734 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.122.8.114   Request.RemoteIP 187.122.8.114
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"158155152137136139135151141182133133135121129132142123121131136188134121122184131114"}}
+
+30/04 07:03:02:875 - webConfig
+Requisição: {"conexao":{"testeA":"158155152137136139135151141182133133135121129132142123121131136188134121122184131114"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMyMDEzMjAxMzQwMTIwMDEyODAxMzEwMTQxMDEyMjAxMjAwMTMwMDEzNTAxMTgwMTM1MDE4NTAxMzAwMTI5MDExODAxMTIwMTgwMDExNTAxMjMwMTA3MDIwOTAyMTEwMTUxMDE0MjAxMzgwMTU2MDEzNjAxMzYwMTM4MDEyNDAxMzIwMTM1MDE0NTAxMjYwMTI0MDEzNDAxMzkwMTkyMDE5NDAxMjMwMTIzMDExOTAxMTYwMTM0MDEzNzAxNDgwMTQ1MDE0NjAxNDYwMTQ1MDE3OTAxODEwMTE0MDExNjAxMTEwMTIwMDA5ODAxMjQwMTMxMDEzNTAxNjkwMTcxMDA5NDAxMTQwMTAyMDEwNDAxMDgwMTE0MDEyMzAxMjQwMTI1MDEyMjAxMjAwMTIyMDExODAxMTkwMTE2MDExMTAxNTEwMTUz
+"}
+
+30/04 07:18:44:567 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.122.9.162   Request.RemoteIP 187.122.9.162
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 07:18:44:754 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 07:18:45:379 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.122.9.162   Request.RemoteIP 187.122.9.162
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"158155152137136139135151141182133133135121129132142123121131136188134121122184131114"}}
+
+30/04 07:18:45:520 - webConfig
+Requisição: {"conexao":{"testeA":"158155152137136139135151141182133133135121129132142123121131136188134121122184131114"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMyMDEzMjAxMzQwMTIwMDEyODAxMzEwMTQxMDEyMjAxMjAwMTMwMDEzNTAxMTgwMTM1MDE4NTAxMzAwMTI5MDExODAxMTIwMTgwMDExNTAxMjMwMTA3MDIwOTAyMTEwMTUxMDE0MjAxMzgwMTU2MDEzNjAxMzYwMTM4MDEyNDAxMzIwMTM1MDE0NTAxMjYwMTI0MDEzNDAxMzkwMTkyMDE5NDAxMjMwMTIzMDExOTAxMTYwMTM0MDEzNzAxNDgwMTQ1MDE0NjAxNDYwMTQ1MDE3OTAxODEwMTE0MDExNjAxMTEwMTIwMDA5ODAxMjQwMTMxMDEzNTAxNjkwMTcxMDA5NDAxMTQwMTAyMDEwNDAxMDgwMTE0MDEyMzAxMjQwMTI1MDEyMjAxMjAwMTIyMDExODAxMTkwMTE2MDExMTAxNTEwMTUz
+"}
+
+30/04 07:45:40:480 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 189.29.214.38   Request.RemoteIP 189.29.214.38
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 07:45:40:621 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 07:45:52:123 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 189.29.214.38   Request.RemoteIP 189.29.214.38
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"141157147188152139137136136138148198144131132194141124"}}
+
+30/04 07:45:52:295 - webConfig
+Requisição: {"conexao":{"testeA":"141157147188152139137136136138148198144131132194141124"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMwMDE0NjAxMzYwMTMxMDEyMzAxMjEwMTM3MDEyODAxOTAwMTM1MDEzNDAxMjMwMTE3MDE4NTAxMjAwMTI4MDExMjAyMTQwMjE2MDE1NjAxNDcwMTQzMDE2MTAxNTQwMTQxMDEzOTAxMzgwMTM4MDE0MDAxNTAwMjAxMDIwMzAxMzIwMTMyMDEyODAxMjUwMTQzMDE0NjAxNTcwMTU0MDE1MzAxNTUwMTU0MDE4ODAxOTAwMTIzMDEyNTAxMjAwMTI5MDEwNzAxMzMwMTQwMDE0NDAxNzgwMTgwMDEwMzAxMjMwMTExMDExMzAxMTcwMTIzMDEzMjAxMzMwMTM0MDEzMTAxMjkwMTMxMDEyNzAxMjgwMTI1MDEyMDAxNjAwMTYy
+"}
+
+30/04 07:46:50:112 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 189.29.214.38   Request.RemoteIP 189.29.214.38
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 07:46:50:237 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 07:46:57:339 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 189.29.214.38   Request.RemoteIP 189.29.214.38
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"146157136138146151144137183147134132131131133143193139126127189136119"}}
+
+30/04 07:46:57:479 - webConfig
+Requisição: {"conexao":{"testeA":"146157136138146151144137183147134132131131133143193139126127189136119"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMwMDE0NjAxMzYwMTMxMDEyMzAxMjEwMTM3MDEyODAxOTAwMTM1MDEzNDAxMjMwMTE3MDE4NTAxMjAwMTI4MDExMjAyMTQwMjE2MDE1NjAxNDcwMTQzMDE2MTAxNTQwMTQxMDEzOTAxMzgwMTM4MDE0MDAxNTAwMjAxMDIwMzAxMzIwMTMyMDEyODAxMjUwMTQzMDE0NjAxNTcwMTU0MDE1MzAxNTUwMTU0MDE4ODAxOTAwMTIzMDEyNTAxMjAwMTI5MDEwNzAxMzMwMTQwMDE0NDAxNzgwMTgwMDEwMzAxMjMwMTExMDExMzAxMTcwMTIzMDEzMjAxMzMwMTM0MDEzMTAxMjkwMTMxMDEyNzAxMjgwMTI1MDEyMDAxNjAwMTYy
+"}
+
+30/04 07:47:51:484 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 189.29.214.38   Request.RemoteIP 189.29.214.38
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 07:47:51:624 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 07:48:43:334 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.103.173.204   Request.RemoteIP 187.103.173.204
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 07:48:43:474 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 07:48:44:490 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.103.173.204   Request.RemoteIP 187.103.173.204
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"158155152137136139135151141182148139144128144137193139126127189136119"}}
+
+30/04 07:48:44:615 - webConfig
+Requisição: {"conexao":{"testeA":"158155152137136139135151141182148139144128144137193139126127189136119"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMwMDE0NjAxMzYwMTMxMDEyMzAxMjEwMTM3MDEyODAxOTAwMTM1MDEzNDAxMjMwMTE3MDE4NTAxMjAwMTI4MDExMjAyMTQwMjE2MDE1NjAxNDcwMTQzMDE2MTAxNTYwMTQ3MDE1MjAxMzYwMTUyMDE0NTAyMDIwMjA0MDEzMzAxMzMwMTI5MDEyNjAxNDQwMTQ3MDE1ODAxNTYwMTUwMDE1NjAxNTUwMTg5MDE5MTAxMjQwMTI2MDEyMTAxMzAwMTA4MDEzNDAxNDEwMTQ1MDE3OTAxODEwMTA0MDEyNDAxMTIwMTE0MDExODAxMjQwMTMzMDEzNDAxMzUwMTMyMDEzMDAxMzIwMTI4MDEyOTAxMjYwMTIxMDE2MTAxNjM=
+"}
+
+30/04 07:48:45:021 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.103.173.204   Request.RemoteIP 187.103.173.204
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 07:48:45:131 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 07:48:58:789 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.103.173.204   Request.RemoteIP 187.103.173.204
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"158155152137136139135151141182148139144128144137193139126127189136119"}}
+
+30/04 07:48:58:961 - webConfig
+Requisição: {"conexao":{"testeA":"158155152137136139135151141182148139144128144137193139126127189136119"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMwMDE0NjAxMzYwMTMxMDEyMzAxMjEwMTM3MDEyODAxOTAwMTM1MDEzNDAxMjMwMTE3MDE4NTAxMjAwMTI4MDExMjAyMTQwMjE2MDE1NjAxNDcwMTQzMDE2MTAxNTYwMTQ3MDE1MjAxMzYwMTUyMDE0NTAyMDIwMjA0MDEzMzAxMzMwMTI5MDEyNjAxNDQwMTQ3MDE1ODAxNTYwMTUwMDE1NjAxNTUwMTg5MDE5MTAxMjQwMTI2MDEyMTAxMzAwMTA4MDEzNDAxNDEwMTQ1MDE3OTAxODEwMTA0MDEyNDAxMTIwMTE0MDExODAxMjQwMTMzMDEzNDAxMzUwMTMyMDEzMDAxMzIwMTI4MDEyOTAxMjYwMTIxMDE2MTAxNjM=
+"}
+
+30/04 07:49:56:487 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.103.173.204   Request.RemoteIP 187.103.173.204
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 07:49:56:846 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 07:50:00:005 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.103.173.204   Request.RemoteIP 187.103.173.204
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"158155152137136139135151141182148139144128144137193139126127189136119"}}
+
+30/04 07:50:00:130 - webConfig
+Requisição: {"conexao":{"testeA":"158155152137136139135151141182148139144128144137193139126127189136119"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMwMDE0NjAxMzYwMTMxMDEyMzAxMjEwMTM3MDEyODAxOTAwMTM1MDEzNDAxMjMwMTE3MDE4NTAxMjAwMTI4MDExMjAyMTQwMjE2MDE1NjAxNDcwMTQzMDE2MTAxNTYwMTQ3MDE1MjAxMzYwMTUyMDE0NTAyMDIwMjA0MDEzMzAxMzMwMTI5MDEyNjAxNDQwMTQ3MDE1ODAxNTYwMTUwMDE1NjAxNTUwMTg5MDE5MTAxMjQwMTI2MDEyMTAxMzAwMTA4MDEzNDAxNDEwMTQ1MDE3OTAxODEwMTA0MDEyNDAxMTIwMTE0MDExODAxMjQwMTMzMDEzNDAxMzUwMTMyMDEzMDAxMzIwMTI4MDEyOTAxMjYwMTIxMDE2MTAxNjM=
+"}
+
+30/04 07:57:57:795 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.103.173.204   Request.RemoteIP 187.103.173.204
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 07:57:57:935 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 07:57:59:357 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.103.173.204   Request.RemoteIP 187.103.173.204
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"158155152137136139135151141182148139144128144137193139126127189136119"}}
+
+30/04 07:57:59:482 - webConfig
+Requisição: {"conexao":{"testeA":"158155152137136139135151141182148139144128144137193139126127189136119"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMwMDE0NjAxMzYwMTMxMDEyMzAxMjEwMTM3MDEyODAxOTAwMTM1MDEzNDAxMjMwMTE3MDE4NTAxMjAwMTI4MDExMjAyMTQwMjE2MDE1NjAxNDcwMTQzMDE2MTAxNTYwMTQ3MDE1MjAxMzYwMTUyMDE0NTAyMDIwMjA0MDEzMzAxMzMwMTI5MDEyNjAxNDQwMTQ3MDE1ODAxNTYwMTUwMDE1NjAxNTUwMTg5MDE5MTAxMjQwMTI2MDEyMTAxMzAwMTA4MDEzNDAxNDEwMTQ1MDE3OTAxODEwMTA0MDEyNDAxMTIwMTE0MDExODAxMjQwMTMzMDEzNDAxMzUwMTMyMDEzMDAxMzIwMTI4MDEyOTAxMjYwMTIxMDE2MTAxNjM=
+"}
+
+30/04 07:58:37:835 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 193.176.127.94   Request.RemoteIP 193.176.127.94
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 07:58:37:976 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 07:58:39:034 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 193.176.127.94   Request.RemoteIP 193.176.127.94
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"158144137141141145138184132135146143128130195129125135191138121"}}
+
+30/04 07:58:39:175 - webConfig
+Requisição: {"conexao":{"testeA":"158144137141141145138184132135146143128130195129125135191138121"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTI5MDEzMjAxNDMwMTQwMDEyNTAxMjcwMTkyMDEzNzAxMTUwMTI1MDEzNDAxMjMwMTE3MDE4NTAxMjUwMTE5MDEyNjAxMTYwMjEzMDIxNTAxNTUwMTQ2MDE0MjAxNjAwMTM3MDE0MDAxNTEwMTQ4MDEzMzAxMzUwMjAxMDIwMzAxMzIwMTMyMDEyODAxMjUwMTQzMDE0NjAxNTcwMTU2MDE1MTAxNTAwMTQ1MDE4ODAxOTAwMTIzMDEyNTAxMjAwMTI5MDEwNzAxMzMwMTQ0MDEzOTAxNzgwMTgwMDEwMzAxMjMwMTExMDExMzAxMTcwMTIzMDEzMjAxMzMwMTM0MDEzMTAxMjkwMTMxMDEyNzAxMjgwMTI1MDExOTAxNjAwMTYy
+"}
+
+30/04 08:11:28:623 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.103.173.204   Request.RemoteIP 187.103.173.204
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 08:11:28:811 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 08:11:31:587 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.103.173.204   Request.RemoteIP 187.103.173.204
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"158155152137136139135151141182148139144128144137193139126127189136119"}}
+
+30/04 08:11:31:712 - webConfig
+Requisição: {"conexao":{"testeA":"158155152137136139135151141182148139144128144137193139126127189136119"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMwMDE0NjAxMzYwMTMxMDEyMzAxMjEwMTM3MDEyODAxOTAwMTM1MDEzNDAxMjMwMTE3MDE4NTAxMjAwMTI4MDExMjAyMTQwMjE2MDE1NjAxNDcwMTQzMDE2MTAxNTYwMTQ3MDE1MjAxMzYwMTUyMDE0NTAyMDIwMjA0MDEzMzAxMzMwMTI5MDEyNjAxNDQwMTQ3MDE1ODAxNTYwMTUwMDE1NjAxNTUwMTg5MDE5MTAxMjQwMTI2MDEyMTAxMzAwMTA4MDEzNDAxNDEwMTQ1MDE3OTAxODEwMTA0MDEyNDAxMTIwMTE0MDExODAxMjQwMTMzMDEzNDAxMzUwMTMyMDEzMDAxMzIwMTI4MDEyOTAxMjYwMTIxMDE2MTAxNjM=
+"}
+
+30/04 08:21:15:268 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 45.183.190.241   Request.RemoteIP 45.183.190.241
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 08:21:15:440 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 08:21:17:039 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 45.183.190.241   Request.RemoteIP 45.183.190.241
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"158155152137136139154134150140181130146142144130134192138125126188135118"}}
+
+30/04 08:21:17:164 - webConfig
+Requisição: {"conexao":{"testeA":"158155152137136139154134150140181130146142144130134192138125126188135118"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMwMDE0NjAxMzYwMTMxMDEyMzAxMjEwMTM3MDEyODAxOTAwMTM1MDEzNDAxMjMwMTE3MDE4NTAxMjAwMTI4MDExMjAyMTQwMjE2MDE1NjAxNDcwMTQzMDE2MTAxMzkwMTU1MDE1MTAxNTMwMTM5MDE0MzAyMDIwMjA0MDEzMzAxMzMwMTI5MDEyNjAxNDQwMTQ3MDE1ODAxNTYwMTQ4MDE1NjAxNTUwMTg5MDE5MTAxMjQwMTI2MDEyMTAxMzAwMTA4MDEzNDAxMzgwMTQ1MDE3OTAxODEwMTA0MDEyNDAxMTIwMTE0MDExODAxMjQwMTMzMDEzNDAxMzUwMTMyMDEzMDAxMzIwMTI4MDEyOTAxMjYwMTIwMDE2MTAxNjM=
+"}
+
+30/04 08:21:33:072 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 189.19.148.105   Request.RemoteIP 189.19.148.105
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 08:21:33:166 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 08:21:33:260 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 189.19.148.105   Request.RemoteIP 189.19.148.105
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"137157143151136135152202148149130147133131123143175135127135118119118186132119120"}}
+
+30/04 08:21:33:369 - webConfig
+Requisição: {"conexao":{"testeA":"137157143151136135152202148149130147133131123143175135127135118119118186132119120"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMwMDE0NjAxMzYwMTMxMDEyMzAxMjEwMTM3MDEyODAxOTAwMTM1MDEzNDAxMjMwMTE3MDE4NTAxMjAwMTI4MDExMjAyMTQwMjE2MDE1NjAxNDcwMTQzMDE2MTAxNTAwMTQyMDE1MDAxMzMwMTM0MDEzMzAyMDIwMjA0MDEzMzAxMzMwMTI5MDEyNjAxNDQwMTQ3MDE1ODAxNTYwMTQ5MDE1NjAxNTUwMTg5MDE5MTAxMjQwMTI2MDEyMTAxMzAwMTA4MDEzNDAxNDEwMTQ1MDE3OTAxODEwMTA0MDEyNDAxMTIwMTE0MDExODAxMjQwMTMzMDEzNDAxMzUwMTMyMDEzMDAxMzIwMTI4MDEyOTAxMjYwMTIxMDE2MTAxNjM=
+"}
+
+30/04 08:24:00:136 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.103.173.204   Request.RemoteIP 187.103.173.204
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 08:24:00:292 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 08:24:00:980 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.103.173.204   Request.RemoteIP 187.103.173.204
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"158155152137136139135151141182148139144128144137193139126127189136119"}}
+
+30/04 08:24:01:121 - webConfig
+Requisição: {"conexao":{"testeA":"158155152137136139135151141182148139144128144137193139126127189136119"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMwMDE0NjAxMzYwMTMxMDEyMzAxMjEwMTM3MDEyODAxOTAwMTM1MDEzNDAxMjMwMTE3MDE4NTAxMjAwMTI4MDExMjAyMTQwMjE2MDE1NjAxNDcwMTQzMDE2MTAxNTYwMTQ3MDE1MjAxMzYwMTUyMDE0NTAyMDIwMjA0MDEzMzAxMzMwMTI5MDEyNjAxNDQwMTQ3MDE1ODAxNTYwMTUwMDE1NjAxNTUwMTg5MDE5MTAxMjQwMTI2MDEyMTAxMzAwMTA4MDEzNDAxNDEwMTQ1MDE3OTAxODEwMTA0MDEyNDAxMTIwMTE0MDExODAxMjQwMTMzMDEzNDAxMzUwMTMyMDEzMDAxMzIwMTI4MDEyOTAxMjYwMTIxMDE2MTAxNjM=
+"}
+
+30/04 08:37:18:739 - Request.PathInfo /datasnap/rest/app/listarWebClientes
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 189.29.214.38   Request.RemoteIP 189.29.214.38
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 08:37:18:833 - listarWebClientes
+Requisição: {}
+Resposta: {"lista":[{"alias":"190181186170186179","em":"190181186170186179","cfg":"205197207203196196203196194189198196195194192195189188"},{"alias":"190174171183168181171164182","em":"189216183220184171171165162170161165161169176","cfg":"205205207199195201203199194194198196195194192195182186"},{"alias":"188175173172172174184","em":"188175173172172174184","cfg":"202201207204195197203192194192198196195194192195191183"},{"alias":"187185170183173164171183157181","em":"177189163187171185182173","cfg":"205199207203194199203193190197198196195194192195184190"},{"alias":"186187174182175181161","em":"186187174182175181161216174168177159160158159","cfg":"202203207203194196203192195189198196195194192195187181"},{"alias":"186171186187175185194","em":"186171186187175185217193","cfg":"203198207199196197203198193198198196195194192195190189"},{"alias":"184176184167168167","em":"184176184167168167217166178166163212176163164","cfg":"207199207199203196203198199198198196195194192195185190"},{"alias":"18417218816618
+
+30/04 08:37:19:411 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 189.29.214.38   Request.RemoteIP 189.29.214.38
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 08:37:19:458 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 08:37:22:327 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 189.29.214.38   Request.RemoteIP 189.29.214.38
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeB":"202201207204195197203192194192198196195194192195191183"}}
+
+30/04 08:37:22:390 - webConfig
+Requisição: {"conexao":{"testeB":"202201207204195197203192194192198196195194192195191183"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMwMDE0NjAxMzYwMTMxMDEyMzAxMjEwMTM3MDEyODAxOTAwMTM1MDEzNDAxMjMwMTE3MDE4NTAxMjAwMTI4MDExMjAyMTQwMjE2MDE1NjAxNDcwMTQzMDE2MTAxNTQwMTQxMDEzOTAxMzgwMTM4MDE0MDAxNTAwMjAxMDIwMzAxMzIwMTMyMDEyODAxMjUwMTQzMDE0NjAxNTcwMTU0MDE1MzAxNTUwMTU0MDE4ODAxOTAwMTIzMDEyNTAxMjAwMTI5MDEwNzAxMzMwMTQwMDE0NDAxNzgwMTgwMDEwMzAxMjMwMTExMDExMzAxMTcwMTIzMDEzMjAxMzMwMTM0MDEzMTAxMjkwMTMxMDEyNzAxMjgwMTI1MDEyMDAxNjAwMTYy
+"}
+
+30/04 08:50:22:770 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 189.124.32.166   Request.RemoteIP 189.124.32.166
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 08:50:22:911 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 08:56:04:426 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.122.8.114   Request.RemoteIP 187.122.8.114
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 08:56:04:567 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 08:56:48:969 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.122.8.114   Request.RemoteIP 187.122.8.114
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"158155152137136139135151141182133133135121129132142123121131136188134121122184131114"}}
+
+30/04 08:56:49:125 - webConfig
+Requisição: {"conexao":{"testeA":"158155152137136139135151141182133133135121129132142123121131136188134121122184131114"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMyMDEzMjAxMzQwMTIwMDEyODAxMzEwMTQxMDEyMjAxMjAwMTMwMDEzNTAxMTgwMTM1MDE4NTAxMzAwMTI5MDExODAxMTIwMTgwMDExNTAxMjMwMTA3MDIwOTAyMTEwMTUxMDE0MjAxMzgwMTU2MDEzNjAxMzYwMTM4MDEyNDAxMzIwMTM1MDE0NTAxMjYwMTI0MDEzNDAxMzkwMTkyMDE5NDAxMjMwMTIzMDExOTAxMTYwMTM0MDEzNzAxNDgwMTQ1MDE0NjAxNDYwMTQ1MDE3OTAxODEwMTE0MDExNjAxMTEwMTIwMDA5ODAxMjQwMTMxMDEzNTAxNjkwMTcxMDA5NDAxMTQwMTAyMDEwNDAxMDgwMTE0MDEyMzAxMjQwMTI1MDEyMjAxMjAwMTIyMDExODAxMTkwMTE2MDExMTAxNTEwMTUz
+"}
+
+30/04 09:29:37:245 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.122.9.162   Request.RemoteIP 187.122.9.162
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 09:29:37:385 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 09:29:41:366 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.122.9.162   Request.RemoteIP 187.122.9.162
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"158155152137136139135151141182133133135121129132142123121131136188134121122184131114"}}
+
+30/04 09:29:41:491 - webConfig
+Requisição: {"conexao":{"testeA":"158155152137136139135151141182133133135121129132142123121131136188134121122184131114"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMyMDEzMjAxMzQwMTIwMDEyODAxMzEwMTQxMDEyMjAxMjAwMTMwMDEzNTAxMTgwMTM1MDE4NTAxMzAwMTI5MDExODAxMTIwMTgwMDExNTAxMjMwMTA3MDIwOTAyMTEwMTUxMDE0MjAxMzgwMTU2MDEzNjAxMzYwMTM4MDEyNDAxMzIwMTM1MDE0NTAxMjYwMTI0MDEzNDAxMzkwMTkyMDE5NDAxMjMwMTIzMDExOTAxMTYwMTM0MDEzNzAxNDgwMTQ1MDE0NjAxNDYwMTQ1MDE3OTAxODEwMTE0MDExNjAxMTEwMTIwMDA5ODAxMjQwMTMxMDEzNTAxNjkwMTcxMDA5NDAxMTQwMTAyMDEwNDAxMDgwMTE0MDEyMzAxMjQwMTI1MDEyMjAxMjAwMTIyMDExODAxMTkwMTE2MDExMTAxNTEwMTUz
+"}
+
+30/04 09:53:14:377 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 200.153.242.138   Request.RemoteIP 200.153.242.138
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 09:53:14:534 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 09:53:39:573 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 200.153.242.138   Request.RemoteIP 200.153.242.138
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"158155152137136139154134150140181130146142144130134192138125126188135118"}}
+
+30/04 09:53:39:730 - webConfig
+Requisição: {"conexao":{"testeA":"158155152137136139154134150140181130146142144130134192138125126188135118"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMwMDE0NjAxMzYwMTMxMDEyMzAxMjEwMTM3MDEyODAxOTAwMTM1MDEzNDAxMjMwMTE3MDE4NTAxMjAwMTI4MDExMjAyMTQwMjE2MDE1NjAxNDcwMTQzMDE2MTAxMzkwMTU1MDE1MTAxNTMwMTM5MDE0MzAyMDIwMjA0MDEzMzAxMzMwMTI5MDEyNjAxNDQwMTQ3MDE1ODAxNTYwMTQ4MDE1NjAxNTUwMTg5MDE5MTAxMjQwMTI2MDEyMTAxMzAwMTA4MDEzNDAxMzgwMTQ1MDE3OTAxODEwMTA0MDEyNDAxMTIwMTE0MDExODAxMjQwMTMzMDEzNDAxMzUwMTMyMDEzMDAxMzIwMTI4MDEyOTAxMjYwMTIwMDE2MTAxNjM=
+"}
+
+30/04 09:56:14:652 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 200.153.242.138   Request.RemoteIP 200.153.242.138
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 09:56:14:809 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 09:56:15:449 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 200.153.242.138   Request.RemoteIP 200.153.242.138
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"158155152137136139154134150140181130146142144130134192138125126188135118"}}
+
+30/04 09:56:15:590 - webConfig
+Requisição: {"conexao":{"testeA":"158155152137136139154134150140181130146142144130134192138125126188135118"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMwMDE0NjAxMzYwMTMxMDEyMzAxMjEwMTM3MDEyODAxOTAwMTM1MDEzNDAxMjMwMTE3MDE4NTAxMjAwMTI4MDExMjAyMTQwMjE2MDE1NjAxNDcwMTQzMDE2MTAxMzkwMTU1MDE1MTAxNTMwMTM5MDE0MzAyMDIwMjA0MDEzMzAxMzMwMTI5MDEyNjAxNDQwMTQ3MDE1ODAxNTYwMTQ4MDE1NjAxNTUwMTg5MDE5MTAxMjQwMTI2MDEyMTAxMzAwMTA4MDEzNDAxMzgwMTQ1MDE3OTAxODEwMTA0MDEyNDAxMTIwMTE0MDExODAxMjQwMTMzMDEzNDAxMzUwMTMyMDEzMDAxMzIwMTI4MDEyOTAxMjYwMTIwMDE2MTAxNjM=
+"}
+
+30/04 10:47:08:543 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.103.173.204   Request.RemoteIP 187.103.173.204
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 10:47:08:731 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 10:47:13:460 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.103.173.204   Request.RemoteIP 187.103.173.204
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"158155152137136139135151141182148139144128144137193139126127189136119"}}
+
+30/04 10:47:13:601 - webConfig
+Requisição: {"conexao":{"testeA":"158155152137136139135151141182148139144128144137193139126127189136119"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMwMDE0NjAxMzYwMTMxMDEyMzAxMjEwMTM3MDEyODAxOTAwMTM1MDEzNDAxMjMwMTE3MDE4NTAxMjAwMTI4MDExMjAyMTQwMjE2MDE1NjAxNDcwMTQzMDE2MTAxNTYwMTQ3MDE1MjAxMzYwMTUyMDE0NTAyMDIwMjA0MDEzMzAxMzMwMTI5MDEyNjAxNDQwMTQ3MDE1ODAxNTYwMTUwMDE1NjAxNTUwMTg5MDE5MTAxMjQwMTI2MDEyMTAxMzAwMTA4MDEzNDAxNDEwMTQ1MDE3OTAxODEwMTA0MDEyNDAxMTIwMTE0MDExODAxMjQwMTMzMDEzNDAxMzUwMTMyMDEzMDAxMzIwMTI4MDEyOTAxMjYwMTIxMDE2MTAxNjM=
+"}
+
+30/04 10:50:09:756 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 170.84.165.95   Request.RemoteIP 170.84.165.95
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 10:50:09:756 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 170.84.165.95   Request.RemoteIP 170.84.165.95
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 10:50:09:991 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 10:50:10:022 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 10:50:51:117 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.103.173.204   Request.RemoteIP 187.103.173.204
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 10:50:51:226 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 10:50:51:508 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.103.173.204   Request.RemoteIP 187.103.173.204
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"158155152137136139135151141182148139144128144137193139126127189136119"}}
+
+30/04 10:50:51:633 - webConfig
+Requisição: {"conexao":{"testeA":"158155152137136139135151141182148139144128144137193139126127189136119"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMwMDE0NjAxMzYwMTMxMDEyMzAxMjEwMTM3MDEyODAxOTAwMTM1MDEzNDAxMjMwMTE3MDE4NTAxMjAwMTI4MDExMjAyMTQwMjE2MDE1NjAxNDcwMTQzMDE2MTAxNTYwMTQ3MDE1MjAxMzYwMTUyMDE0NTAyMDIwMjA0MDEzMzAxMzMwMTI5MDEyNjAxNDQwMTQ3MDE1ODAxNTYwMTUwMDE1NjAxNTUwMTg5MDE5MTAxMjQwMTI2MDEyMTAxMzAwMTA4MDEzNDAxNDEwMTQ1MDE3OTAxODEwMTA0MDEyNDAxMTIwMTE0MDExODAxMjQwMTMzMDEzNDAxMzUwMTMyMDEzMDAxMzIwMTI4MDEyOTAxMjYwMTIxMDE2MTAxNjM=
+"}
+
+30/04 10:52:10:728 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 170.84.165.95   Request.RemoteIP 170.84.165.95
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"146157139153146153151134150143148180133141130128142139130190136123124186133116"}}
+
+30/04 10:52:10:932 - webConfig
+Requisição: {"conexao":{"testeA":"146157139153146153151134150143148180133141130128142139130190136123124186133116"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTI5MDE0MjAxMjgwMTIzMDEzOTAxMjUwMTI4MDEzNjAxMjUwMTIzMDEzNzAxMzQwMTI1MDE4NTAxMzAwMTI5MDExODAxMTIwMTgwMDExNTAxMjMwMTA3MDIwOTAyMTEwMTUxMDE0MjAxMzgwMTU2MDEzODAxNDYwMTM1MDExODAxMzIwMTQ2MDE0MzAxMzQwMTk1MDE5NzAxMjYwMTI2MDEyMjAxMTkwMTM3MDE0MDAxNTEwMTUwMDE0NTAxNDQwMTQxMDE4MjAxODQwMTE2MDEyNzAxMTgwMTA3MDEwOTAxMjcwMTM4MDEzNzAxMzIwMTMxMDEyNjAxNjkwMTcxMDEwNDAxMDYwMTAxMDExMDAwODgwMTE0MDEyNTAxMjUwMTU5MDE2MTAwODQwMTA0MDA5MjAwOTQwMDk4MDEwNDAxMTMwMTE0MDExNTAxMTIwMTEwMDExMjAxMDgwMTA5MDEwNjAxMDAwMTQxMDE0Mw==
+"}
+
+30/04 10:54:17:890 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.103.173.204   Request.RemoteIP 187.103.173.204
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 10:54:18:078 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 10:54:18:593 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.103.173.204   Request.RemoteIP 187.103.173.204
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"158155152137136139135151141182148139144128144137193139126127189136119"}}
+
+30/04 10:54:18:750 - webConfig
+Requisição: {"conexao":{"testeA":"158155152137136139135151141182148139144128144137193139126127189136119"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMwMDE0NjAxMzYwMTMxMDEyMzAxMjEwMTM3MDEyODAxOTAwMTM1MDEzNDAxMjMwMTE3MDE4NTAxMjAwMTI4MDExMjAyMTQwMjE2MDE1NjAxNDcwMTQzMDE2MTAxNTYwMTQ3MDE1MjAxMzYwMTUyMDE0NTAyMDIwMjA0MDEzMzAxMzMwMTI5MDEyNjAxNDQwMTQ3MDE1ODAxNTYwMTUwMDE1NjAxNTUwMTg5MDE5MTAxMjQwMTI2MDEyMTAxMzAwMTA4MDEzNDAxNDEwMTQ1MDE3OTAxODEwMTA0MDEyNDAxMTIwMTE0MDExODAxMjQwMTMzMDEzNDAxMzUwMTMyMDEzMDAxMzIwMTI4MDEyOTAxMjYwMTIxMDE2MTAxNjM=
+"}
+
+30/04 10:56:56:664 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.103.173.204   Request.RemoteIP 187.103.173.204
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 10:56:56:836 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 10:56:59:174 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.103.173.204   Request.RemoteIP 187.103.173.204
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"158155152137136139135151141182148139144128144137193139126127189136119"}}
+
+30/04 10:56:59:299 - webConfig
+Requisição: {"conexao":{"testeA":"158155152137136139135151141182148139144128144137193139126127189136119"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMwMDE0NjAxMzYwMTMxMDEyMzAxMjEwMTM3MDEyODAxOTAwMTM1MDEzNDAxMjMwMTE3MDE4NTAxMjAwMTI4MDExMjAyMTQwMjE2MDE1NjAxNDcwMTQzMDE2MTAxNTYwMTQ3MDE1MjAxMzYwMTUyMDE0NTAyMDIwMjA0MDEzMzAxMzMwMTI5MDEyNjAxNDQwMTQ3MDE1ODAxNTYwMTUwMDE1NjAxNTUwMTg5MDE5MTAxMjQwMTI2MDEyMTAxMzAwMTA4MDEzNDAxNDEwMTQ1MDE3OTAxODEwMTA0MDEyNDAxMTIwMTE0MDExODAxMjQwMTMzMDEzNDAxMzUwMTMyMDEzMDAxMzIwMTI4MDEyOTAxMjYwMTIxMDE2MTAxNjM=
+"}
+
+30/04 11:03:23:781 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.103.173.204   Request.RemoteIP 187.103.173.204
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 11:03:23:922 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 11:03:27:294 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.103.173.204   Request.RemoteIP 187.103.173.204
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"158155152137136139135151141182148139144128144137193139126127189136119"}}
+
+30/04 11:03:27:419 - webConfig
+Requisição: {"conexao":{"testeA":"158155152137136139135151141182148139144128144137193139126127189136119"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMwMDE0NjAxMzYwMTMxMDEyMzAxMjEwMTM3MDEyODAxOTAwMTM1MDEzNDAxMjMwMTE3MDE4NTAxMjAwMTI4MDExMjAyMTQwMjE2MDE1NjAxNDcwMTQzMDE2MTAxNTYwMTQ3MDE1MjAxMzYwMTUyMDE0NTAyMDIwMjA0MDEzMzAxMzMwMTI5MDEyNjAxNDQwMTQ3MDE1ODAxNTYwMTUwMDE1NjAxNTUwMTg5MDE5MTAxMjQwMTI2MDEyMTAxMzAwMTA4MDEzNDAxNDEwMTQ1MDE3OTAxODEwMTA0MDEyNDAxMTIwMTE0MDExODAxMjQwMTMzMDEzNDAxMzUwMTMyMDEzMDAxMzIwMTI4MDEyOTAxMjYwMTIxMDE2MTAxNjM=
+"}
+
+30/04 11:09:43:694 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 200.153.242.138   Request.RemoteIP 200.153.242.138
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 11:09:43:834 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 11:09:48:380 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 200.153.242.138   Request.RemoteIP 200.153.242.138
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"158155152137136139154134150140181130146142144130134192138125126188135118"}}
+
+30/04 11:09:48:520 - webConfig
+Requisição: {"conexao":{"testeA":"158155152137136139154134150140181130146142144130134192138125126188135118"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMwMDE0NjAxMzYwMTMxMDEyMzAxMjEwMTM3MDEyODAxOTAwMTM1MDEzNDAxMjMwMTE3MDE4NTAxMjAwMTI4MDExMjAyMTQwMjE2MDE1NjAxNDcwMTQzMDE2MTAxMzkwMTU1MDE1MTAxNTMwMTM5MDE0MzAyMDIwMjA0MDEzMzAxMzMwMTI5MDEyNjAxNDQwMTQ3MDE1ODAxNTYwMTQ4MDE1NjAxNTUwMTg5MDE5MTAxMjQwMTI2MDEyMTAxMzAwMTA4MDEzNDAxMzgwMTQ1MDE3OTAxODEwMTA0MDEyNDAxMTIwMTE0MDExODAxMjQwMTMzMDEzNDAxMzUwMTMyMDEzMDAxMzIwMTI4MDEyOTAxMjYwMTIwMDE2MTAxNjM=
+"}
+
+30/04 11:17:25:147 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.103.173.204   Request.RemoteIP 187.103.173.204
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 11:17:25:334 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 11:17:26:563 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.103.173.204   Request.RemoteIP 187.103.173.204
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"158155152137136139135151141182148139144128144137193139126127189136119"}}
+
+30/04 11:17:26:798 - webConfig
+Requisição: {"conexao":{"testeA":"158155152137136139135151141182148139144128144137193139126127189136119"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMwMDE0NjAxMzYwMTMxMDEyMzAxMjEwMTM3MDEyODAxOTAwMTM1MDEzNDAxMjMwMTE3MDE4NTAxMjAwMTI4MDExMjAyMTQwMjE2MDE1NjAxNDcwMTQzMDE2MTAxNTYwMTQ3MDE1MjAxMzYwMTUyMDE0NTAyMDIwMjA0MDEzMzAxMzMwMTI5MDEyNjAxNDQwMTQ3MDE1ODAxNTYwMTUwMDE1NjAxNTUwMTg5MDE5MTAxMjQwMTI2MDEyMTAxMzAwMTA4MDEzNDAxNDEwMTQ1MDE3OTAxODEwMTA0MDEyNDAxMTIwMTE0MDExODAxMjQwMTMzMDEzNDAxMzUwMTMyMDEzMDAxMzIwMTI4MDEyOTAxMjYwMTIxMDE2MTAxNjM=
+"}
+
+30/04 11:17:28:937 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.103.173.204   Request.RemoteIP 187.103.173.204
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 11:17:29:047 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 11:17:36:476 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.103.173.204   Request.RemoteIP 187.103.173.204
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"158155152137136139135151141182148139144128144137193139126127189136119"}}
+
+30/04 11:17:36:596 - webConfig
+Requisição: {"conexao":{"testeA":"158155152137136139135151141182148139144128144137193139126127189136119"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMwMDE0NjAxMzYwMTMxMDEyMzAxMjEwMTM3MDEyODAxOTAwMTM1MDEzNDAxMjMwMTE3MDE4NTAxMjAwMTI4MDExMjAyMTQwMjE2MDE1NjAxNDcwMTQzMDE2MTAxNTYwMTQ3MDE1MjAxMzYwMTUyMDE0NTAyMDIwMjA0MDEzMzAxMzMwMTI5MDEyNjAxNDQwMTQ3MDE1ODAxNTYwMTUwMDE1NjAxNTUwMTg5MDE5MTAxMjQwMTI2MDEyMTAxMzAwMTA4MDEzNDAxNDEwMTQ1MDE3OTAxODEwMTA0MDEyNDAxMTIwMTE0MDExODAxMjQwMTMzMDEzNDAxMzUwMTMyMDEzMDAxMzIwMTI4MDEyOTAxMjYwMTIxMDE2MTAxNjM=
+"}
+
+30/04 11:20:08:243 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.122.8.114   Request.RemoteIP 187.122.8.114
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 11:20:08:430 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 11:20:14:255 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.122.8.114   Request.RemoteIP 187.122.8.114
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"158155152137136139135151141182133133135121129132142123121131136188134121122184131114"}}
+
+30/04 11:20:14:380 - webConfig
+Requisição: {"conexao":{"testeA":"158155152137136139135151141182133133135121129132142123121131136188134121122184131114"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMyMDEzMjAxMzQwMTIwMDEyODAxMzEwMTQxMDEyMjAxMjAwMTMwMDEzNTAxMTgwMTM1MDE4NTAxMzAwMTI5MDExODAxMTIwMTgwMDExNTAxMjMwMTA3MDIwOTAyMTEwMTUxMDE0MjAxMzgwMTU2MDEzNjAxMzYwMTM4MDEyNDAxMzIwMTM1MDE0NTAxMjYwMTI0MDEzNDAxMzkwMTkyMDE5NDAxMjMwMTIzMDExOTAxMTYwMTM0MDEzNzAxNDgwMTQ1MDE0NjAxNDYwMTQ1MDE3OTAxODEwMTE0MDExNjAxMTEwMTIwMDA5ODAxMjQwMTMxMDEzNTAxNjkwMTcxMDA5NDAxMTQwMTAyMDEwNDAxMDgwMTE0MDEyMzAxMjQwMTI1MDEyMjAxMjAwMTIyMDExODAxMTkwMTE2MDExMTAxNTEwMTUz
+"}
+
+30/04 11:23:27:697 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.103.173.204   Request.RemoteIP 187.103.173.204
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 11:23:27:822 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 11:23:28:150 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.103.173.204   Request.RemoteIP 187.103.173.204
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"158155152137136139135151141182148139144128144137193139126127189136119"}}
+
+30/04 11:23:28:275 - webConfig
+Requisição: {"conexao":{"testeA":"158155152137136139135151141182148139144128144137193139126127189136119"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMwMDE0NjAxMzYwMTMxMDEyMzAxMjEwMTM3MDEyODAxOTAwMTM1MDEzNDAxMjMwMTE3MDE4NTAxMjAwMTI4MDExMjAyMTQwMjE2MDE1NjAxNDcwMTQzMDE2MTAxNTYwMTQ3MDE1MjAxMzYwMTUyMDE0NTAyMDIwMjA0MDEzMzAxMzMwMTI5MDEyNjAxNDQwMTQ3MDE1ODAxNTYwMTUwMDE1NjAxNTUwMTg5MDE5MTAxMjQwMTI2MDEyMTAxMzAwMTA4MDEzNDAxNDEwMTQ1MDE3OTAxODEwMTA0MDEyNDAxMTIwMTE0MDExODAxMjQwMTMzMDEzNDAxMzUwMTMyMDEzMDAxMzIwMTI4MDEyOTAxMjYwMTIxMDE2MTAxNjM=
+"}
+
+30/04 11:24:02:683 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.103.173.204   Request.RemoteIP 187.103.173.204
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 11:24:02:824 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 11:24:03:777 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.103.173.204   Request.RemoteIP 187.103.173.204
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"158155152137136139135151141182148139144128144137193139126127189136119"}}
+
+30/04 11:24:03:902 - webConfig
+Requisição: {"conexao":{"testeA":"158155152137136139135151141182148139144128144137193139126127189136119"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMwMDE0NjAxMzYwMTMxMDEyMzAxMjEwMTM3MDEyODAxOTAwMTM1MDEzNDAxMjMwMTE3MDE4NTAxMjAwMTI4MDExMjAyMTQwMjE2MDE1NjAxNDcwMTQzMDE2MTAxNTYwMTQ3MDE1MjAxMzYwMTUyMDE0NTAyMDIwMjA0MDEzMzAxMzMwMTI5MDEyNjAxNDQwMTQ3MDE1ODAxNTYwMTUwMDE1NjAxNTUwMTg5MDE5MTAxMjQwMTI2MDEyMTAxMzAwMTA4MDEzNDAxNDEwMTQ1MDE3OTAxODEwMTA0MDEyNDAxMTIwMTE0MDExODAxMjQwMTMzMDEzNDAxMzUwMTMyMDEzMDAxMzIwMTI4MDEyOTAxMjYwMTIxMDE2MTAxNjM=
+"}
+
+30/04 11:28:52:281 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.103.173.204   Request.RemoteIP 187.103.173.204
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 11:28:52:469 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 11:37:56:209 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.103.173.204   Request.RemoteIP 187.103.173.204
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"158155152137136139135151141182148139144128144137193139126127189136119"}}
+
+30/04 11:37:56:428 - webConfig
+Requisição: {"conexao":{"testeA":"158155152137136139135151141182148139144128144137193139126127189136119"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMwMDE0NjAxMzYwMTMxMDEyMzAxMjEwMTM3MDEyODAxOTAwMTM1MDEzNDAxMjMwMTE3MDE4NTAxMjAwMTI4MDExMjAyMTQwMjE2MDE1NjAxNDcwMTQzMDE2MTAxNTYwMTQ3MDE1MjAxMzYwMTUyMDE0NTAyMDIwMjA0MDEzMzAxMzMwMTI5MDEyNjAxNDQwMTQ3MDE1ODAxNTYwMTUwMDE1NjAxNTUwMTg5MDE5MTAxMjQwMTI2MDEyMTAxMzAwMTA4MDEzNDAxNDEwMTQ1MDE3OTAxODEwMTA0MDEyNDAxMTIwMTE0MDExODAxMjQwMTMzMDEzNDAxMzUwMTMyMDEzMDAxMzIwMTI4MDEyOTAxMjYwMTIxMDE2MTAxNjM=
+"}
+
+30/04 11:42:31:579 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.103.173.204   Request.RemoteIP 187.103.173.204
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 11:42:31:766 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.103.173.204   Request.RemoteIP 187.103.173.204
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"158155152137136139135151141182148139144128144137193139126127189136119"}}
+
+30/04 11:42:31:813 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 11:42:31:922 - webConfig
+Requisição: {"conexao":{"testeA":"158155152137136139135151141182148139144128144137193139126127189136119"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMwMDE0NjAxMzYwMTMxMDEyMzAxMjEwMTM3MDEyODAxOTAwMTM1MDEzNDAxMjMwMTE3MDE4NTAxMjAwMTI4MDExMjAyMTQwMjE2MDE1NjAxNDcwMTQzMDE2MTAxNTYwMTQ3MDE1MjAxMzYwMTUyMDE0NTAyMDIwMjA0MDEzMzAxMzMwMTI5MDEyNjAxNDQwMTQ3MDE1ODAxNTYwMTUwMDE1NjAxNTUwMTg5MDE5MTAxMjQwMTI2MDEyMTAxMzAwMTA4MDEzNDAxNDEwMTQ1MDE3OTAxODEwMTA0MDEyNDAxMTIwMTE0MDExODAxMjQwMTMzMDEzNDAxMzUwMTMyMDEzMDAxMzIwMTI4MDEyOTAxMjYwMTIxMDE2MTAxNjM=
+"}
+
+30/04 11:45:31:694 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 200.153.242.138   Request.RemoteIP 200.153.242.138
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 11:45:31:882 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 11:45:32:350 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 200.153.242.138   Request.RemoteIP 200.153.242.138
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"158155152137136139154134150140181130146142144130134192138125126188135118"}}
+
+30/04 11:45:32:475 - webConfig
+Requisição: {"conexao":{"testeA":"158155152137136139154134150140181130146142144130134192138125126188135118"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMwMDE0NjAxMzYwMTMxMDEyMzAxMjEwMTM3MDEyODAxOTAwMTM1MDEzNDAxMjMwMTE3MDE4NTAxMjAwMTI4MDExMjAyMTQwMjE2MDE1NjAxNDcwMTQzMDE2MTAxMzkwMTU1MDE1MTAxNTMwMTM5MDE0MzAyMDIwMjA0MDEzMzAxMzMwMTI5MDEyNjAxNDQwMTQ3MDE1ODAxNTYwMTQ4MDE1NjAxNTUwMTg5MDE5MTAxMjQwMTI2MDEyMTAxMzAwMTA4MDEzNDAxMzgwMTQ1MDE3OTAxODEwMTA0MDEyNDAxMTIwMTE0MDExODAxMjQwMTMzMDEzNDAxMzUwMTMyMDEzMDAxMzIwMTI4MDEyOTAxMjYwMTIwMDE2MTAxNjM=
+"}
+
+30/04 12:23:48:350 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 131.255.51.121   Request.RemoteIP 131.255.51.121
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 12:23:48:475 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 12:36:43:364 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 200.153.242.138   Request.RemoteIP 200.153.242.138
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 12:36:43:567 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 12:36:46:485 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 200.153.242.138   Request.RemoteIP 200.153.242.138
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"158155152137136139154134150140181130146142144130134192138125126188135118"}}
+
+30/04 12:36:46:626 - webConfig
+Requisição: {"conexao":{"testeA":"158155152137136139154134150140181130146142144130134192138125126188135118"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMwMDE0NjAxMzYwMTMxMDEyMzAxMjEwMTM3MDEyODAxOTAwMTM1MDEzNDAxMjMwMTE3MDE4NTAxMjAwMTI4MDExMjAyMTQwMjE2MDE1NjAxNDcwMTQzMDE2MTAxMzkwMTU1MDE1MTAxNTMwMTM5MDE0MzAyMDIwMjA0MDEzMzAxMzMwMTI5MDEyNjAxNDQwMTQ3MDE1ODAxNTYwMTQ4MDE1NjAxNTUwMTg5MDE5MTAxMjQwMTI2MDEyMTAxMzAwMTA4MDEzNDAxMzgwMTQ1MDE3OTAxODEwMTA0MDEyNDAxMTIwMTE0MDExODAxMjQwMTMzMDEzNDAxMzUwMTMyMDEzMDAxMzIwMTI4MDEyOTAxMjYwMTIwMDE2MTAxNjM=
+"}
+
+30/04 13:12:01:580 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 200.153.242.138   Request.RemoteIP 200.153.242.138
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 13:12:01:736 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 13:12:02:330 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 200.153.242.138   Request.RemoteIP 200.153.242.138
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"158155152137136139154134150140181130146142144130134192138125126188135118"}}
+
+30/04 13:12:02:455 - webConfig
+Requisição: {"conexao":{"testeA":"158155152137136139154134150140181130146142144130134192138125126188135118"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMwMDE0NjAxMzYwMTMxMDEyMzAxMjEwMTM3MDEyODAxOTAwMTM1MDEzNDAxMjMwMTE3MDE4NTAxMjAwMTI4MDExMjAyMTQwMjE2MDE1NjAxNDcwMTQzMDE2MTAxMzkwMTU1MDE1MTAxNTMwMTM5MDE0MzAyMDIwMjA0MDEzMzAxMzMwMTI5MDEyNjAxNDQwMTQ3MDE1ODAxNTYwMTQ4MDE1NjAxNTUwMTg5MDE5MTAxMjQwMTI2MDEyMTAxMzAwMTA4MDEzNDAxMzgwMTQ1MDE3OTAxODEwMTA0MDEyNDAxMTIwMTE0MDExODAxMjQwMTMzMDEzNDAxMzUwMTMyMDEzMDAxMzIwMTI4MDEyOTAxMjYwMTIwMDE2MTAxNjM=
+"}
+
+30/04 13:12:24:004 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 193.19.205.131   Request.RemoteIP 193.19.205.131
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 13:12:24:160 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 13:12:24:426 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 193.19.205.131   Request.RemoteIP 193.19.205.131
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"158144137141141145138184132135146143128130195129125135191138121"}}
+
+30/04 13:12:24:566 - webConfig
+Requisição: {"conexao":{"testeA":"158144137141141145138184132135146143128130195129125135191138121"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTI5MDEzMjAxNDMwMTQwMDEyNTAxMjcwMTkyMDEzNzAxMTUwMTI1MDEzNDAxMjMwMTE3MDE4NTAxMjUwMTE5MDEyNjAxMTYwMjEzMDIxNTAxNTUwMTQ2MDE0MjAxNjAwMTM3MDE0MDAxNTEwMTQ4MDEzMzAxMzUwMjAxMDIwMzAxMzIwMTMyMDEyODAxMjUwMTQzMDE0NjAxNTcwMTU2MDE1MTAxNTAwMTQ1MDE4ODAxOTAwMTIzMDEyNTAxMjAwMTI5MDEwNzAxMzMwMTQ0MDEzOTAxNzgwMTgwMDEwMzAxMjMwMTExMDExMzAxMTcwMTIzMDEzMjAxMzMwMTM0MDEzMTAxMjkwMTMxMDEyNzAxMjgwMTI1MDExOTAxNjAwMTYy
+"}
+
+30/04 13:29:30:364 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 200.153.242.138   Request.RemoteIP 200.153.242.138
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 13:29:30:551 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 13:29:32:005 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 200.153.242.138   Request.RemoteIP 200.153.242.138
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"158155152137136139154134150140181130146142144130134192138125126188135118"}}
+
+30/04 13:29:32:145 - webConfig
+Requisição: {"conexao":{"testeA":"158155152137136139154134150140181130146142144130134192138125126188135118"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMwMDE0NjAxMzYwMTMxMDEyMzAxMjEwMTM3MDEyODAxOTAwMTM1MDEzNDAxMjMwMTE3MDE4NTAxMjAwMTI4MDExMjAyMTQwMjE2MDE1NjAxNDcwMTQzMDE2MTAxMzkwMTU1MDE1MTAxNTMwMTM5MDE0MzAyMDIwMjA0MDEzMzAxMzMwMTI5MDEyNjAxNDQwMTQ3MDE1ODAxNTYwMTQ4MDE1NjAxNTUwMTg5MDE5MTAxMjQwMTI2MDEyMTAxMzAwMTA4MDEzNDAxMzgwMTQ1MDE3OTAxODEwMTA0MDEyNDAxMTIwMTE0MDExODAxMjQwMTMzMDEzNDAxMzUwMTMyMDEzMDAxMzIwMTI4MDEyOTAxMjYwMTIwMDE2MTAxNjM=
+"}
+
+30/04 13:44:48:864 - PlugApp 2026.1a Iniciado / Alias RAJ D:\SYSTEM_RAJ\EXE\
+
+30/04 13:44:48:864 - PlugApp Serviço Iniciado - Porta: 11899 - HTTP Porta: 11900
+
+30/04 13:57:26:434 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.122.9.162   Request.RemoteIP 187.122.9.162
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 13:57:26:668 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 13:57:28:824 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 187.122.9.162   Request.RemoteIP 187.122.9.162
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"158155152137136139135151141182133133135121129132142123121131136188134121122184131114"}}
+
+30/04 13:57:28:967 - webConfig
+Requisição: {"conexao":{"testeA":"158155152137136139135151141182133133135121129132142123121131136188134121122184131114"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMyMDEzMjAxMzQwMTIwMDEyODAxMzEwMTQxMDEyMjAxMjAwMTMwMDEzNTAxMTgwMTM1MDE4NTAxMzAwMTI5MDExODAxMTIwMTgwMDExNTAxMjMwMTA3MDIwOTAyMTEwMTUxMDE0MjAxMzgwMTU2MDEzNjAxMzYwMTM4MDEyNDAxMzIwMTM1MDE0NTAxMjYwMTI0MDEzNDAxMzkwMTkyMDE5NDAxMjMwMTIzMDExOTAxMTYwMTM0MDEzNzAxNDgwMTQ1MDE0NjAxNDYwMTQ1MDE3OTAxODEwMTE0MDExNjAxMTEwMTIwMDA5ODAxMjQwMTMxMDEzNTAxNjkwMTcxMDA5NDAxMTQwMTAyMDEwNDAxMDgwMTE0MDEyMzAxMjQwMTI1MDEyMjAxMjAwMTIyMDExODAxMTkwMTE2MDExMTAxNTEwMTUz
+"}
+
+30/04 13:59:43:626 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_29042026_091019_910_exec1_rdm292686_RAJ", "idChat": "5873814699", "dtCriacao": "29/04/2026 09:10:19", "dtEnvio": "30/04/2026 13:44:55", "dtRetorno": "30/04/2026 13:45:19", "logEnvio": "403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'", "status": 9}
+
+30/04 13:59:43:766 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_29042026_091019_910_exec1_rdm292686_RAJ","idChat":"5873814699","dtCriacao":"29/04/2026 09:10:19","dtEnvio":"30/04/2026 13:44:55","dtRetorno":"30/04/2026 13:45:19","logEnvio":"403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'","status":9}
+Resposta: {}
+
+30/04 13:59:44:266 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_29042026_091019_910_exec1_rdm292686_RAJ", "idChat": "6055057755", "dtCriacao": "29/04/2026 09:10:19", "dtEnvio": "30/04/2026 13:44:55", "dtRetorno": "30/04/2026 13:45:43", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 13:59:44:329 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_29042026_091019_910_exec1_rdm292686_RAJ","idChat":"6055057755","dtCriacao":"29/04/2026 09:10:19","dtEnvio":"30/04/2026 13:44:55","dtRetorno":"30/04/2026 13:45:43","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 13:59:44:829 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_29042026_101048_514_exec1_rdm667148_RAJ", "idChat": "5873814699", "dtCriacao": "29/04/2026 10:10:48", "dtEnvio": "30/04/2026 13:45:43", "dtRetorno": "30/04/2026 13:46:05", "logEnvio": "403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'", "status": 9}
+
+30/04 13:59:44:902 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_29042026_101048_514_exec1_rdm667148_RAJ","idChat":"5873814699","dtCriacao":"29/04/2026 10:10:48","dtEnvio":"30/04/2026 13:45:43","dtRetorno":"30/04/2026 13:46:05","logEnvio":"403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'","status":9}
+Resposta: {}
+
+30/04 13:59:45:402 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_29042026_101048_514_exec1_rdm667148_RAJ", "idChat": "6055057755", "dtCriacao": "29/04/2026 10:10:48", "dtEnvio": "30/04/2026 13:45:43", "dtRetorno": "30/04/2026 13:46:28", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 13:59:45:464 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_29042026_101048_514_exec1_rdm667148_RAJ","idChat":"6055057755","dtCriacao":"29/04/2026 10:10:48","dtEnvio":"30/04/2026 13:45:43","dtRetorno":"30/04/2026 13:46:28","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 13:59:46:080 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_29042026_101048_514_exec1_rdm667148_RAJ", "idChat": "1794624500", "dtCriacao": "29/04/2026 10:10:48", "dtEnvio": "30/04/2026 13:45:43", "dtRetorno": "30/04/2026 13:46:31", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 13:59:46:142 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_29042026_101048_514_exec1_rdm667148_RAJ","idChat":"1794624500","dtCriacao":"29/04/2026 10:10:48","dtEnvio":"30/04/2026 13:45:43","dtRetorno":"30/04/2026 13:46:31","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 13:59:46:642 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_29042026_101048_514_exec1_rdm667148_RAJ", "idChat": "5133160556", "dtCriacao": "29/04/2026 10:10:48", "dtEnvio": "30/04/2026 13:45:43", "dtRetorno": "30/04/2026 13:46:53", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 13:59:46:721 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_29042026_101048_514_exec1_rdm667148_RAJ","idChat":"5133160556","dtCriacao":"29/04/2026 10:10:48","dtEnvio":"30/04/2026 13:45:43","dtRetorno":"30/04/2026 13:46:53","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 13:59:47:221 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_29042026_101048_514_exec1_rdm667148_RAJ", "idChat": "5936690517", "dtCriacao": "29/04/2026 10:10:48", "dtEnvio": "30/04/2026 13:45:43", "dtRetorno": "30/04/2026 13:46:55", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 13:59:47:283 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_29042026_101048_514_exec1_rdm667148_RAJ","idChat":"5936690517","dtCriacao":"29/04/2026 10:10:48","dtEnvio":"30/04/2026 13:45:43","dtRetorno":"30/04/2026 13:46:55","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 13:59:47:783 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_29042026_101048_514_exec1_rdm667148_RAJ", "idChat": "5130402135", "dtCriacao": "29/04/2026 10:10:48", "dtEnvio": "30/04/2026 13:45:43", "dtRetorno": "30/04/2026 13:47:17", "logEnvio": "403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'", "status": 9}
+
+30/04 13:59:47:846 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_29042026_101048_514_exec1_rdm667148_RAJ","idChat":"5130402135","dtCriacao":"29/04/2026 10:10:48","dtEnvio":"30/04/2026 13:45:43","dtRetorno":"30/04/2026 13:47:17","logEnvio":"403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'","status":9}
+Resposta: {}
+
+30/04 13:59:48:346 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_29042026_113130_945_exec1_rdm233097_RAJ", "idChat": "5873814699", "dtCriacao": "29/04/2026 11:31:30", "dtEnvio": "30/04/2026 13:47:17", "dtRetorno": "30/04/2026 13:47:39", "logEnvio": "403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'", "status": 9}
+
+30/04 13:59:48:408 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_29042026_113130_945_exec1_rdm233097_RAJ","idChat":"5873814699","dtCriacao":"29/04/2026 11:31:30","dtEnvio":"30/04/2026 13:47:17","dtRetorno":"30/04/2026 13:47:39","logEnvio":"403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'","status":9}
+Resposta: {}
+
+30/04 13:59:48:924 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_29042026_113130_945_exec1_rdm233097_RAJ", "idChat": "6055057755", "dtCriacao": "29/04/2026 11:31:30", "dtEnvio": "30/04/2026 13:47:17", "dtRetorno": "30/04/2026 13:48:03", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 13:59:48:986 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_29042026_113130_945_exec1_rdm233097_RAJ","idChat":"6055057755","dtCriacao":"29/04/2026 11:31:30","dtEnvio":"30/04/2026 13:47:17","dtRetorno":"30/04/2026 13:48:03","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 13:59:49:486 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_29042026_113130_945_exec1_rdm233097_RAJ", "idChat": "1794624500", "dtCriacao": "29/04/2026 11:31:30", "dtEnvio": "30/04/2026 13:47:17", "dtRetorno": "30/04/2026 13:48:05", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 13:59:49:549 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_29042026_113130_945_exec1_rdm233097_RAJ","idChat":"1794624500","dtCriacao":"29/04/2026 11:31:30","dtEnvio":"30/04/2026 13:47:17","dtRetorno":"30/04/2026 13:48:05","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 13:59:50:065 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_29042026_113130_945_exec1_rdm233097_RAJ", "idChat": "5133160556", "dtCriacao": "29/04/2026 11:31:30", "dtEnvio": "30/04/2026 13:47:17", "dtRetorno": "30/04/2026 13:48:27", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 13:59:50:129 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_29042026_113130_945_exec1_rdm233097_RAJ","idChat":"5133160556","dtCriacao":"29/04/2026 11:31:30","dtEnvio":"30/04/2026 13:47:17","dtRetorno":"30/04/2026 13:48:27","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 13:59:50:631 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_29042026_113130_945_exec1_rdm233097_RAJ", "idChat": "5936690517", "dtCriacao": "29/04/2026 11:31:30", "dtEnvio": "30/04/2026 13:47:17", "dtRetorno": "30/04/2026 13:48:50", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 13:59:50:694 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_29042026_113130_945_exec1_rdm233097_RAJ","idChat":"5936690517","dtCriacao":"29/04/2026 11:31:30","dtEnvio":"30/04/2026 13:47:17","dtRetorno":"30/04/2026 13:48:50","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 13:59:51:209 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_29042026_113130_945_exec1_rdm233097_RAJ", "idChat": "5130402135", "dtCriacao": "29/04/2026 11:31:30", "dtEnvio": "30/04/2026 13:47:17", "dtRetorno": "30/04/2026 13:49:12", "logEnvio": "403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'", "status": 9}
+
+30/04 13:59:51:272 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_29042026_113130_945_exec1_rdm233097_RAJ","idChat":"5130402135","dtCriacao":"29/04/2026 11:31:30","dtEnvio":"30/04/2026 13:47:17","dtRetorno":"30/04/2026 13:49:12","logEnvio":"403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'","status":9}
+Resposta: {}
+
+30/04 13:59:51:772 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_29042026_120144_851_exec1_rdm705501_RAJ", "idChat": "5873814699", "dtCriacao": "29/04/2026 12:01:44", "dtEnvio": "30/04/2026 13:49:12", "dtRetorno": "30/04/2026 13:49:35", "logEnvio": "403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'", "status": 9}
+
+30/04 13:59:51:834 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_29042026_120144_851_exec1_rdm705501_RAJ","idChat":"5873814699","dtCriacao":"29/04/2026 12:01:44","dtEnvio":"30/04/2026 13:49:12","dtRetorno":"30/04/2026 13:49:35","logEnvio":"403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'","status":9}
+Resposta: {}
+
+30/04 13:59:52:350 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_29042026_120144_851_exec1_rdm705501_RAJ", "idChat": "6055057755", "dtCriacao": "29/04/2026 12:01:44", "dtEnvio": "30/04/2026 13:49:12", "dtRetorno": "30/04/2026 13:49:58", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 13:59:52:412 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_29042026_120144_851_exec1_rdm705501_RAJ","idChat":"6055057755","dtCriacao":"29/04/2026 12:01:44","dtEnvio":"30/04/2026 13:49:12","dtRetorno":"30/04/2026 13:49:58","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 13:59:52:928 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_29042026_120144_851_exec1_rdm705501_RAJ", "idChat": "1794624500", "dtCriacao": "29/04/2026 12:01:44", "dtEnvio": "30/04/2026 13:49:12", "dtRetorno": "30/04/2026 13:50:20", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 13:59:52:991 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_29042026_120144_851_exec1_rdm705501_RAJ","idChat":"1794624500","dtCriacao":"29/04/2026 12:01:44","dtEnvio":"30/04/2026 13:49:12","dtRetorno":"30/04/2026 13:50:20","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 13:59:53:510 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_29042026_120144_851_exec1_rdm705501_RAJ", "idChat": "5133160556", "dtCriacao": "29/04/2026 12:01:44", "dtEnvio": "30/04/2026 13:49:12", "dtRetorno": "30/04/2026 13:50:22", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 13:59:53:573 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_29042026_120144_851_exec1_rdm705501_RAJ","idChat":"5133160556","dtCriacao":"29/04/2026 12:01:44","dtEnvio":"30/04/2026 13:49:12","dtRetorno":"30/04/2026 13:50:22","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 13:59:54:073 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_29042026_120144_851_exec1_rdm705501_RAJ", "idChat": "5936690517", "dtCriacao": "29/04/2026 12:01:44", "dtEnvio": "30/04/2026 13:49:12", "dtRetorno": "30/04/2026 13:50:45", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 13:59:54:135 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_29042026_120144_851_exec1_rdm705501_RAJ","idChat":"5936690517","dtCriacao":"29/04/2026 12:01:44","dtEnvio":"30/04/2026 13:49:12","dtRetorno":"30/04/2026 13:50:45","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 13:59:54:635 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_29042026_120144_851_exec1_rdm705501_RAJ", "idChat": "5130402135", "dtCriacao": "29/04/2026 12:01:44", "dtEnvio": "30/04/2026 13:49:12", "dtRetorno": "30/04/2026 13:51:07", "logEnvio": "403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'", "status": 9}
+
+30/04 13:59:54:698 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_29042026_120144_851_exec1_rdm705501_RAJ","idChat":"5130402135","dtCriacao":"29/04/2026 12:01:44","dtEnvio":"30/04/2026 13:49:12","dtRetorno":"30/04/2026 13:51:07","logEnvio":"403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'","status":9}
+Resposta: {}
+
+30/04 13:59:55:215 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_29042026_160343_501_exec1_rdm527523_RAJ", "idChat": "5873814699", "dtCriacao": "29/04/2026 16:03:43", "dtEnvio": "30/04/2026 13:51:07", "dtRetorno": "30/04/2026 13:51:29", "logEnvio": "403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'", "status": 9}
+
+30/04 13:59:55:277 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_29042026_160343_501_exec1_rdm527523_RAJ","idChat":"5873814699","dtCriacao":"29/04/2026 16:03:43","dtEnvio":"30/04/2026 13:51:07","dtRetorno":"30/04/2026 13:51:29","logEnvio":"403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'","status":9}
+Resposta: {}
+
+30/04 13:59:55:777 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_29042026_160343_501_exec1_rdm527523_RAJ", "idChat": "6055057755", "dtCriacao": "29/04/2026 16:03:43", "dtEnvio": "30/04/2026 13:51:07", "dtRetorno": "30/04/2026 13:51:53", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 13:59:55:840 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_29042026_160343_501_exec1_rdm527523_RAJ","idChat":"6055057755","dtCriacao":"29/04/2026 16:03:43","dtEnvio":"30/04/2026 13:51:07","dtRetorno":"30/04/2026 13:51:53","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 13:59:56:340 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_29042026_160343_501_exec1_rdm527523_RAJ", "idChat": "1794624500", "dtCriacao": "29/04/2026 16:03:43", "dtEnvio": "30/04/2026 13:51:07", "dtRetorno": "30/04/2026 13:52:16", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 13:59:56:402 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_29042026_160343_501_exec1_rdm527523_RAJ","idChat":"1794624500","dtCriacao":"29/04/2026 16:03:43","dtEnvio":"30/04/2026 13:51:07","dtRetorno":"30/04/2026 13:52:16","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 13:59:56:919 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_29042026_160343_501_exec1_rdm527523_RAJ", "idChat": "5133160556", "dtCriacao": "29/04/2026 16:03:43", "dtEnvio": "30/04/2026 13:51:07", "dtRetorno": "30/04/2026 13:52:38", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 13:59:56:981 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_29042026_160343_501_exec1_rdm527523_RAJ","idChat":"5133160556","dtCriacao":"29/04/2026 16:03:43","dtEnvio":"30/04/2026 13:51:07","dtRetorno":"30/04/2026 13:52:38","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 13:59:57:481 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_29042026_160343_501_exec1_rdm527523_RAJ", "idChat": "5936690517", "dtCriacao": "29/04/2026 16:03:43", "dtEnvio": "30/04/2026 13:51:07", "dtRetorno": "30/04/2026 13:52:40", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 13:59:57:544 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_29042026_160343_501_exec1_rdm527523_RAJ","idChat":"5936690517","dtCriacao":"29/04/2026 16:03:43","dtEnvio":"30/04/2026 13:51:07","dtRetorno":"30/04/2026 13:52:40","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 13:59:58:048 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_29042026_160343_501_exec1_rdm527523_RAJ", "idChat": "5130402135", "dtCriacao": "29/04/2026 16:03:43", "dtEnvio": "30/04/2026 13:51:07", "dtRetorno": "30/04/2026 13:53:02", "logEnvio": "403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'", "status": 9}
+
+30/04 13:59:58:110 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_29042026_160343_501_exec1_rdm527523_RAJ","idChat":"5130402135","dtCriacao":"29/04/2026 16:03:43","dtEnvio":"30/04/2026 13:51:07","dtRetorno":"30/04/2026 13:53:02","logEnvio":"403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'","status":9}
+Resposta: {}
+
+30/04 13:59:58:626 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_30042026_080138_631_exec2_rdm158286_RAJ", "idChat": "6055057755", "dtCriacao": "30/04/2026 08:01:38", "dtEnvio": "30/04/2026 13:53:02", "dtRetorno": "30/04/2026 13:53:25", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 13:59:58:689 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_30042026_080138_631_exec2_rdm158286_RAJ","idChat":"6055057755","dtCriacao":"30/04/2026 08:01:38","dtEnvio":"30/04/2026 13:53:02","dtRetorno":"30/04/2026 13:53:25","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 13:59:59:189 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_30042026_080138_631_exec2_rdm158286_RAJ", "idChat": "1794624500", "dtCriacao": "30/04/2026 08:01:38", "dtEnvio": "30/04/2026 13:53:02", "dtRetorno": "30/04/2026 13:53:28", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 13:59:59:251 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_30042026_080138_631_exec2_rdm158286_RAJ","idChat":"1794624500","dtCriacao":"30/04/2026 08:01:38","dtEnvio":"30/04/2026 13:53:02","dtRetorno":"30/04/2026 13:53:28","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 13:59:59:751 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_30042026_080138_631_exec2_rdm158286_RAJ", "idChat": "5133160556", "dtCriacao": "30/04/2026 08:01:38", "dtEnvio": "30/04/2026 13:53:02", "dtRetorno": "30/04/2026 13:53:50", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 13:59:59:814 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_30042026_080138_631_exec2_rdm158286_RAJ","idChat":"5133160556","dtCriacao":"30/04/2026 08:01:38","dtEnvio":"30/04/2026 13:53:02","dtRetorno":"30/04/2026 13:53:50","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 14:00:00:332 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_30042026_080138_631_exec2_rdm158286_RAJ", "idChat": "5936690517", "dtCriacao": "30/04/2026 08:01:38", "dtEnvio": "30/04/2026 13:53:02", "dtRetorno": "30/04/2026 13:54:12", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 14:00:00:394 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_30042026_080138_631_exec2_rdm158286_RAJ","idChat":"5936690517","dtCriacao":"30/04/2026 08:01:38","dtEnvio":"30/04/2026 13:53:02","dtRetorno":"30/04/2026 13:54:12","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 14:00:00:910 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_30042026_080138_631_exec2_rdm158286_RAJ", "idChat": "5130402135", "dtCriacao": "30/04/2026 08:01:38", "dtEnvio": "30/04/2026 13:53:02", "dtRetorno": "30/04/2026 13:54:15", "logEnvio": "403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'", "status": 9}
+
+30/04 14:00:00:972 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_30042026_080138_631_exec2_rdm158286_RAJ","idChat":"5130402135","dtCriacao":"30/04/2026 08:01:38","dtEnvio":"30/04/2026 13:53:02","dtRetorno":"30/04/2026 13:54:15","logEnvio":"403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'","status":9}
+Resposta: {}
+
+30/04 14:00:01:472 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_30042026_084158_669_exec1_rdm720598_RAJ", "idChat": "5873814699", "dtCriacao": "30/04/2026 08:41:58", "dtEnvio": "30/04/2026 13:54:15", "dtRetorno": "30/04/2026 13:54:37", "logEnvio": "403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'", "status": 9}
+
+30/04 14:00:01:537 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_30042026_084158_669_exec1_rdm720598_RAJ","idChat":"5873814699","dtCriacao":"30/04/2026 08:41:58","dtEnvio":"30/04/2026 13:54:15","dtRetorno":"30/04/2026 13:54:37","logEnvio":"403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'","status":9}
+Resposta: {}
+
+30/04 14:00:02:037 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_30042026_084158_669_exec1_rdm720598_RAJ", "idChat": "6055057755", "dtCriacao": "30/04/2026 08:41:58", "dtEnvio": "30/04/2026 13:54:15", "dtRetorno": "30/04/2026 13:55:00", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 14:00:02:100 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_30042026_084158_669_exec1_rdm720598_RAJ","idChat":"6055057755","dtCriacao":"30/04/2026 08:41:58","dtEnvio":"30/04/2026 13:54:15","dtRetorno":"30/04/2026 13:55:00","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 14:00:02:600 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_30042026_084158_669_exec1_rdm720598_RAJ", "idChat": "1794624500", "dtCriacao": "30/04/2026 08:41:58", "dtEnvio": "30/04/2026 13:54:15", "dtRetorno": "30/04/2026 13:55:23", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 14:00:02:662 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_30042026_084158_669_exec1_rdm720598_RAJ","idChat":"1794624500","dtCriacao":"30/04/2026 08:41:58","dtEnvio":"30/04/2026 13:54:15","dtRetorno":"30/04/2026 13:55:23","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 14:00:03:162 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_30042026_084158_669_exec1_rdm720598_RAJ", "idChat": "5133160556", "dtCriacao": "30/04/2026 08:41:58", "dtEnvio": "30/04/2026 13:54:15", "dtRetorno": "30/04/2026 13:55:24", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 14:00:03:225 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_30042026_084158_669_exec1_rdm720598_RAJ","idChat":"5133160556","dtCriacao":"30/04/2026 08:41:58","dtEnvio":"30/04/2026 13:54:15","dtRetorno":"30/04/2026 13:55:24","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 14:00:03:725 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_30042026_084158_669_exec1_rdm720598_RAJ", "idChat": "5936690517", "dtCriacao": "30/04/2026 08:41:58", "dtEnvio": "30/04/2026 13:54:15", "dtRetorno": "30/04/2026 13:55:46", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 14:00:03:787 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_30042026_084158_669_exec1_rdm720598_RAJ","idChat":"5936690517","dtCriacao":"30/04/2026 08:41:58","dtEnvio":"30/04/2026 13:54:15","dtRetorno":"30/04/2026 13:55:46","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 14:00:04:287 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_30042026_084158_669_exec1_rdm720598_RAJ", "idChat": "5130402135", "dtCriacao": "30/04/2026 08:41:58", "dtEnvio": "30/04/2026 13:54:15", "dtRetorno": "30/04/2026 13:56:10", "logEnvio": "403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'", "status": 9}
+
+30/04 14:00:04:350 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_30042026_084158_669_exec1_rdm720598_RAJ","idChat":"5130402135","dtCriacao":"30/04/2026 08:41:58","dtEnvio":"30/04/2026 13:54:15","dtRetorno":"30/04/2026 13:56:10","logEnvio":"403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'","status":9}
+Resposta: {}
+
+30/04 14:00:04:850 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_30042026_113314_022_exec1_rdm777958_RAJ", "idChat": "5873814699", "dtCriacao": "30/04/2026 11:33:14", "dtEnvio": "30/04/2026 13:56:10", "dtRetorno": "30/04/2026 13:56:32", "logEnvio": "403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'", "status": 9}
+
+30/04 14:00:04:918 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_30042026_113314_022_exec1_rdm777958_RAJ","idChat":"5873814699","dtCriacao":"30/04/2026 11:33:14","dtEnvio":"30/04/2026 13:56:10","dtRetorno":"30/04/2026 13:56:32","logEnvio":"403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'","status":9}
+Resposta: {}
+
+30/04 14:00:05:418 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_30042026_113314_022_exec1_rdm777958_RAJ", "idChat": "6055057755", "dtCriacao": "30/04/2026 11:33:14", "dtEnvio": "30/04/2026 13:56:10", "dtRetorno": "30/04/2026 13:56:54", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 14:00:05:480 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_30042026_113314_022_exec1_rdm777958_RAJ","idChat":"6055057755","dtCriacao":"30/04/2026 11:33:14","dtEnvio":"30/04/2026 13:56:10","dtRetorno":"30/04/2026 13:56:54","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 14:00:05:980 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_30042026_113314_022_exec1_rdm777958_RAJ", "idChat": "1794624500", "dtCriacao": "30/04/2026 11:33:14", "dtEnvio": "30/04/2026 13:56:10", "dtRetorno": "30/04/2026 13:57:18", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 14:00:06:043 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_30042026_113314_022_exec1_rdm777958_RAJ","idChat":"1794624500","dtCriacao":"30/04/2026 11:33:14","dtEnvio":"30/04/2026 13:56:10","dtRetorno":"30/04/2026 13:57:18","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 14:00:06:559 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_30042026_113314_022_exec1_rdm777958_RAJ", "idChat": "5133160556", "dtCriacao": "30/04/2026 11:33:14", "dtEnvio": "30/04/2026 13:56:10", "dtRetorno": "30/04/2026 13:57:41", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 14:00:06:621 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_30042026_113314_022_exec1_rdm777958_RAJ","idChat":"5133160556","dtCriacao":"30/04/2026 11:33:14","dtEnvio":"30/04/2026 13:56:10","dtRetorno":"30/04/2026 13:57:41","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 14:00:07:137 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_30042026_113314_022_exec1_rdm777958_RAJ", "idChat": "5936690517", "dtCriacao": "30/04/2026 11:33:14", "dtEnvio": "30/04/2026 13:56:10", "dtRetorno": "30/04/2026 13:58:03", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 14:00:07:201 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_30042026_113314_022_exec1_rdm777958_RAJ","idChat":"5936690517","dtCriacao":"30/04/2026 11:33:14","dtEnvio":"30/04/2026 13:56:10","dtRetorno":"30/04/2026 13:58:03","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 14:00:07:701 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_30042026_113314_022_exec1_rdm777958_RAJ", "idChat": "5130402135", "dtCriacao": "30/04/2026 11:33:14", "dtEnvio": "30/04/2026 13:56:10", "dtRetorno": "30/04/2026 13:58:26", "logEnvio": "403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'", "status": 9}
+
+30/04 14:00:07:779 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_30042026_113314_022_exec1_rdm777958_RAJ","idChat":"5130402135","dtCriacao":"30/04/2026 11:33:14","dtEnvio":"30/04/2026 13:56:10","dtRetorno":"30/04/2026 13:58:26","logEnvio":"403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'","status":9}
+Resposta: {}
+
+30/04 14:00:08:279 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_30042026_122337_255_exec1_rdm845389_RAJ", "idChat": "5873814699", "dtCriacao": "30/04/2026 12:23:37", "dtEnvio": "30/04/2026 13:58:26", "dtRetorno": "30/04/2026 13:58:50", "logEnvio": "403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'", "status": 9}
+
+30/04 14:00:08:341 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_30042026_122337_255_exec1_rdm845389_RAJ","idChat":"5873814699","dtCriacao":"30/04/2026 12:23:37","dtEnvio":"30/04/2026 13:58:26","dtRetorno":"30/04/2026 13:58:50","logEnvio":"403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'","status":9}
+Resposta: {}
+
+30/04 14:00:08:866 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_30042026_122337_255_exec1_rdm845389_RAJ", "idChat": "6055057755", "dtCriacao": "30/04/2026 12:23:37", "dtEnvio": "30/04/2026 13:58:26", "dtRetorno": "30/04/2026 13:59:12", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 14:00:08:928 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_30042026_122337_255_exec1_rdm845389_RAJ","idChat":"6055057755","dtCriacao":"30/04/2026 12:23:37","dtEnvio":"30/04/2026 13:58:26","dtRetorno":"30/04/2026 13:59:12","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 14:00:09:444 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp7_29042026_080950_347_exec3_rdm448745_RAJ", "idChat": "5511982665109", "dtCriacao": "29/04/2026 08:09:50", "dtEnvio": "30/04/2026 13:59:12", "dtRetorno": "30/04/2026 13:59:15", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 14:00:09:506 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp7_29042026_080950_347_exec3_rdm448745_RAJ","idChat":"5511982665109","dtCriacao":"29/04/2026 08:09:50","dtEnvio":"30/04/2026 13:59:12","dtRetorno":"30/04/2026 13:59:15","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 14:00:10:032 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp7_29042026_080950_347_exec3_rdm448745_RAJ", "idChat": " ", "dtCriacao": "29/04/2026 08:09:50", "dtEnvio": "30/04/2026 13:59:12", "dtRetorno": "30/04/2026 13:59:16", "logEnvio": "400 b'{\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthExceptio ..... sapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"AYR2v-_CicZ85Lf9jqAINpG\"}}", "status": 9}
+
+30/04 14:00:10:110 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp7_29042026_080950_347_exec3_rdm448745_RAJ","idChat":" ","dtCriacao":"29/04/2026 08:09:50","dtEnvio":"30/04/2026 13:59:12","dtRetorno":"30/04/2026 13:59:16","logEnvio":"400 b'{\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"AYR2v-_CicZ85Lf9jqAINpG\"}}' {\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"AYR2v-_CicZ85Lf9jqAINpG\"}}","status":9}
+Resposta: {}
+
+30/04 14:00:10:610 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp7_29042026_080950_347_exec3_rdm448745_RAJ", "idChat": "5511983416284", "dtCriacao": "29/04/2026 08:09:50", "dtEnvio": "30/04/2026 13:59:12", "dtRetorno": "30/04/2026 13:59:17", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 14:00:10:673 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp7_29042026_080950_347_exec3_rdm448745_RAJ","idChat":"5511983416284","dtCriacao":"29/04/2026 08:09:50","dtEnvio":"30/04/2026 13:59:12","dtRetorno":"30/04/2026 13:59:17","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 14:00:11:189 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp7_29042026_091020_013_exec2_rdm390846_RAJ", "idChat": "5511982665109", "dtCriacao": "29/04/2026 09:10:20", "dtEnvio": "30/04/2026 13:59:17", "dtRetorno": "30/04/2026 13:59:18", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 14:00:11:251 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp7_29042026_091020_013_exec2_rdm390846_RAJ","idChat":"5511982665109","dtCriacao":"29/04/2026 09:10:20","dtEnvio":"30/04/2026 13:59:17","dtRetorno":"30/04/2026 13:59:18","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 14:00:11:767 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp7_29042026_091020_013_exec2_rdm390846_RAJ", "idChat": " ", "dtCriacao": "29/04/2026 09:10:20", "dtEnvio": "30/04/2026 13:59:17", "dtRetorno": "30/04/2026 13:59:19", "logEnvio": "400 b'{\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthExceptio ..... sapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"AQ71MuJbQ_-v9q_m7dqe3Gr\"}}", "status": 9}
+
+30/04 14:00:11:829 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp7_29042026_091020_013_exec2_rdm390846_RAJ","idChat":" ","dtCriacao":"29/04/2026 09:10:20","dtEnvio":"30/04/2026 13:59:17","dtRetorno":"30/04/2026 13:59:19","logEnvio":"400 b'{\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"AQ71MuJbQ_-v9q_m7dqe3Gr\"}}' {\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"AQ71MuJbQ_-v9q_m7dqe3Gr\"}}","status":9}
+Resposta: {}
+
+30/04 14:00:12:345 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp7_29042026_091020_013_exec2_rdm390846_RAJ", "idChat": "5511983416284", "dtCriacao": "29/04/2026 09:10:20", "dtEnvio": "30/04/2026 13:59:17", "dtRetorno": "30/04/2026 13:59:21", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 14:00:12:408 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp7_29042026_091020_013_exec2_rdm390846_RAJ","idChat":"5511983416284","dtCriacao":"29/04/2026 09:10:20","dtEnvio":"30/04/2026 13:59:17","dtRetorno":"30/04/2026 13:59:21","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 14:00:12:913 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp7_29042026_101048_623_exec2_rdm114460_RAJ", "idChat": " ", "dtCriacao": "29/04/2026 10:10:48", "dtEnvio": "30/04/2026 13:59:21", "dtRetorno": "30/04/2026 13:59:21", "logEnvio": "400 b'{\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthExceptio ..... sapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"ATflAISg1rrpgLc6h2XOQQr\"}}", "status": 9}
+
+30/04 14:00:12:991 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp7_29042026_101048_623_exec2_rdm114460_RAJ","idChat":" ","dtCriacao":"29/04/2026 10:10:48","dtEnvio":"30/04/2026 13:59:21","dtRetorno":"30/04/2026 13:59:21","logEnvio":"400 b'{\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"ATflAISg1rrpgLc6h2XOQQr\"}}' {\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"ATflAISg1rrpgLc6h2XOQQr\"}}","status":9}
+Resposta: {}
+
+30/04 14:00:13:510 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp7_29042026_101048_623_exec2_rdm114460_RAJ", "idChat": "5511983416284", "dtCriacao": "29/04/2026 10:10:48", "dtEnvio": "30/04/2026 13:59:21", "dtRetorno": "30/04/2026 13:59:23", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 14:00:13:573 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp7_29042026_101048_623_exec2_rdm114460_RAJ","idChat":"5511983416284","dtCriacao":"29/04/2026 10:10:48","dtEnvio":"30/04/2026 13:59:21","dtRetorno":"30/04/2026 13:59:23","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 14:00:14:077 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp7_29042026_113131_086_exec2_rdm815065_RAJ", "idChat": " ", "dtCriacao": "29/04/2026 11:31:31", "dtEnvio": "30/04/2026 13:59:23", "dtRetorno": "30/04/2026 13:59:24", "logEnvio": "400 b'{\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthExceptio ..... sapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"AfgZDGq3y8Zhs3EGY5NhKBh\"}}", "status": 9}
+
+30/04 14:00:14:139 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp7_29042026_113131_086_exec2_rdm815065_RAJ","idChat":" ","dtCriacao":"29/04/2026 11:31:31","dtEnvio":"30/04/2026 13:59:23","dtRetorno":"30/04/2026 13:59:24","logEnvio":"400 b'{\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"AfgZDGq3y8Zhs3EGY5NhKBh\"}}' {\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"AfgZDGq3y8Zhs3EGY5NhKBh\"}}","status":9}
+Resposta: {}
+
+30/04 14:00:14:655 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp7_29042026_113131_086_exec2_rdm815065_RAJ", "idChat": "5511983416284", "dtCriacao": "29/04/2026 11:31:31", "dtEnvio": "30/04/2026 13:59:23", "dtRetorno": "30/04/2026 13:59:25", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 14:00:14:718 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp7_29042026_113131_086_exec2_rdm815065_RAJ","idChat":"5511983416284","dtCriacao":"29/04/2026 11:31:31","dtEnvio":"30/04/2026 13:59:23","dtRetorno":"30/04/2026 13:59:25","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 14:00:15:243 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp7_29042026_120144_991_exec2_rdm894575_RAJ", "idChat": " ", "dtCriacao": "29/04/2026 12:01:44", "dtEnvio": "30/04/2026 13:59:25", "dtRetorno": "30/04/2026 13:59:26", "logEnvio": "400 b'{\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthExceptio ..... sapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"A_L6TEo_GkJm7fxL7Cbj8Ex\"}}", "status": 9}
+
+30/04 14:00:15:322 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp7_29042026_120144_991_exec2_rdm894575_RAJ","idChat":" ","dtCriacao":"29/04/2026 12:01:44","dtEnvio":"30/04/2026 13:59:25","dtRetorno":"30/04/2026 13:59:26","logEnvio":"400 b'{\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"A_L6TEo_GkJm7fxL7Cbj8Ex\"}}' {\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"A_L6TEo_GkJm7fxL7Cbj8Ex\"}}","status":9}
+Resposta: {}
+
+30/04 14:00:15:823 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp7_29042026_120144_991_exec2_rdm894575_RAJ", "idChat": "5511983416284", "dtCriacao": "29/04/2026 12:01:44", "dtEnvio": "30/04/2026 13:59:25", "dtRetorno": "30/04/2026 13:59:27", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 14:00:15:885 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp7_29042026_120144_991_exec2_rdm894575_RAJ","idChat":"5511983416284","dtCriacao":"29/04/2026 12:01:44","dtEnvio":"30/04/2026 13:59:25","dtRetorno":"30/04/2026 13:59:27","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 14:00:16:620 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp7_29042026_160343_611_exec2_rdm663924_RAJ", "idChat": " ", "dtCriacao": "29/04/2026 16:03:43", "dtEnvio": "30/04/2026 13:59:27", "dtRetorno": "30/04/2026 13:59:28", "logEnvio": "400 b'{\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthExceptio ..... sapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"AXdnxrmRmi94E5Zb1TENOqK\"}}", "status": 9}
+
+30/04 14:00:16:682 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp7_29042026_160343_611_exec2_rdm663924_RAJ","idChat":" ","dtCriacao":"29/04/2026 16:03:43","dtEnvio":"30/04/2026 13:59:27","dtRetorno":"30/04/2026 13:59:28","logEnvio":"400 b'{\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"AXdnxrmRmi94E5Zb1TENOqK\"}}' {\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"AXdnxrmRmi94E5Zb1TENOqK\"}}","status":9}
+Resposta: {}
+
+30/04 14:00:17:182 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp7_29042026_160343_611_exec2_rdm663924_RAJ", "idChat": "5511983416284", "dtCriacao": "29/04/2026 16:03:43", "dtEnvio": "30/04/2026 13:59:27", "dtRetorno": "30/04/2026 13:59:29", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 14:00:17:245 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp7_29042026_160343_611_exec2_rdm663924_RAJ","idChat":"5511983416284","dtCriacao":"29/04/2026 16:03:43","dtEnvio":"30/04/2026 13:59:27","dtRetorno":"30/04/2026 13:59:29","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 14:00:17:747 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp7_30042026_075134_465_exec1_rdm199039_RAJ", "idChat": " ", "dtCriacao": "30/04/2026 07:51:34", "dtEnvio": "30/04/2026 13:59:29", "dtRetorno": "30/04/2026 13:59:30", "logEnvio": "400 b'{\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthExceptio ..... sapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"AaVWFeXa3I87kTgwIPlN4d0\"}}", "status": 9}
+
+30/04 14:00:17:816 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp7_30042026_075134_465_exec1_rdm199039_RAJ","idChat":" ","dtCriacao":"30/04/2026 07:51:34","dtEnvio":"30/04/2026 13:59:29","dtRetorno":"30/04/2026 13:59:30","logEnvio":"400 b'{\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"AaVWFeXa3I87kTgwIPlN4d0\"}}' {\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"AaVWFeXa3I87kTgwIPlN4d0\"}}","status":9}
+Resposta: {}
+
+30/04 14:00:18:316 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp7_30042026_075134_465_exec1_rdm199039_RAJ", "idChat": "5511983416284", "dtCriacao": "30/04/2026 07:51:34", "dtEnvio": "30/04/2026 13:59:29", "dtRetorno": "30/04/2026 13:59:32", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 14:00:18:378 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp7_30042026_075134_465_exec1_rdm199039_RAJ","idChat":"5511983416284","dtCriacao":"30/04/2026 07:51:34","dtEnvio":"30/04/2026 13:59:29","dtRetorno":"30/04/2026 13:59:32","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 14:00:18:894 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp7_30042026_080138_756_exec3_rdm991077_RAJ", "idChat": "5511982665109", "dtCriacao": "30/04/2026 08:01:38", "dtEnvio": "30/04/2026 13:59:32", "dtRetorno": "30/04/2026 13:59:33", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 14:00:18:957 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp7_30042026_080138_756_exec3_rdm991077_RAJ","idChat":"5511982665109","dtCriacao":"30/04/2026 08:01:38","dtEnvio":"30/04/2026 13:59:32","dtRetorno":"30/04/2026 13:59:33","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 14:00:19:472 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp7_30042026_080138_756_exec3_rdm991077_RAJ", "idChat": " ", "dtCriacao": "30/04/2026 08:01:38", "dtEnvio": "30/04/2026 13:59:32", "dtRetorno": "30/04/2026 13:59:34", "logEnvio": "400 b'{\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthExceptio ..... sapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"AryvtQWu90knNb_Z7kp5AIn\"}}", "status": 9}
+
+30/04 14:00:19:550 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp7_30042026_080138_756_exec3_rdm991077_RAJ","idChat":" ","dtCriacao":"30/04/2026 08:01:38","dtEnvio":"30/04/2026 13:59:32","dtRetorno":"30/04/2026 13:59:34","logEnvio":"400 b'{\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"AryvtQWu90knNb_Z7kp5AIn\"}}' {\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"AryvtQWu90knNb_Z7kp5AIn\"}}","status":9}
+Resposta: {}
+
+30/04 14:00:20:061 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp7_30042026_080138_756_exec3_rdm991077_RAJ", "idChat": "5511983416284", "dtCriacao": "30/04/2026 08:01:38", "dtEnvio": "30/04/2026 13:59:32", "dtRetorno": "30/04/2026 13:59:35", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 14:00:20:139 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp7_30042026_080138_756_exec3_rdm991077_RAJ","idChat":"5511983416284","dtCriacao":"30/04/2026 08:01:38","dtEnvio":"30/04/2026 13:59:32","dtRetorno":"30/04/2026 13:59:35","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 14:00:20:639 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp7_30042026_084158_872_exec2_rdm622566_RAJ", "idChat": " ", "dtCriacao": "30/04/2026 08:41:58", "dtEnvio": "30/04/2026 13:59:35", "dtRetorno": "30/04/2026 13:59:36", "logEnvio": "400 b'{\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthExceptio ..... sapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"ALGbKYUHjKqKATQW7mlFRFK\"}}", "status": 9}
+
+30/04 14:00:20:701 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp7_30042026_084158_872_exec2_rdm622566_RAJ","idChat":" ","dtCriacao":"30/04/2026 08:41:58","dtEnvio":"30/04/2026 13:59:35","dtRetorno":"30/04/2026 13:59:36","logEnvio":"400 b'{\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"ALGbKYUHjKqKATQW7mlFRFK\"}}' {\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"ALGbKYUHjKqKATQW7mlFRFK\"}}","status":9}
+Resposta: {}
+
+30/04 14:00:21:217 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp7_30042026_084158_872_exec2_rdm622566_RAJ", "idChat": "5511983416284", "dtCriacao": "30/04/2026 08:41:58", "dtEnvio": "30/04/2026 13:59:35", "dtRetorno": "30/04/2026 13:59:37", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 14:00:21:280 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp7_30042026_084158_872_exec2_rdm622566_RAJ","idChat":"5511983416284","dtCriacao":"30/04/2026 08:41:58","dtEnvio":"30/04/2026 13:59:35","dtRetorno":"30/04/2026 13:59:37","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 14:00:21:795 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp7_30042026_113314_210_exec2_rdm811987_RAJ", "idChat": " ", "dtCriacao": "30/04/2026 11:33:14", "dtEnvio": "30/04/2026 13:59:37", "dtRetorno": "30/04/2026 13:59:38", "logEnvio": "400 b'{\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthExceptio ..... sapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"Ajd83JF6utU4Cq--lGNJDwv\"}}", "status": 9}
+
+30/04 14:00:21:858 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp7_30042026_113314_210_exec2_rdm811987_RAJ","idChat":" ","dtCriacao":"30/04/2026 11:33:14","dtEnvio":"30/04/2026 13:59:37","dtRetorno":"30/04/2026 13:59:38","logEnvio":"400 b'{\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"Ajd83JF6utU4Cq--lGNJDwv\"}}' {\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"Ajd83JF6utU4Cq--lGNJDwv\"}}","status":9}
+Resposta: {}
+
+30/04 14:00:22:358 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp7_30042026_113314_210_exec2_rdm811987_RAJ", "idChat": "5511983416284", "dtCriacao": "30/04/2026 11:33:14", "dtEnvio": "30/04/2026 13:59:37", "dtRetorno": "30/04/2026 13:59:39", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 14:00:22:420 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp7_30042026_113314_210_exec2_rdm811987_RAJ","idChat":"5511983416284","dtCriacao":"30/04/2026 11:33:14","dtEnvio":"30/04/2026 13:59:37","dtRetorno":"30/04/2026 13:59:39","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 14:00:22:920 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp7_30042026_122337_442_exec2_rdm673636_RAJ", "idChat": "5511982665109", "dtCriacao": "30/04/2026 12:23:37", "dtEnvio": "30/04/2026 13:59:39", "dtRetorno": "30/04/2026 13:59:40", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 14:00:22:983 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp7_30042026_122337_442_exec2_rdm673636_RAJ","idChat":"5511982665109","dtCriacao":"30/04/2026 12:23:37","dtEnvio":"30/04/2026 13:59:39","dtRetorno":"30/04/2026 13:59:40","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 14:00:23:499 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp7_30042026_122337_442_exec2_rdm673636_RAJ", "idChat": " ", "dtCriacao": "30/04/2026 12:23:37", "dtEnvio": "30/04/2026 13:59:39", "dtRetorno": "30/04/2026 13:59:41", "logEnvio": "400 b'{\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthExceptio ..... sapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"Adb05-NxCA3sXmTBtZ5a9gl\"}}", "status": 9}
+
+30/04 14:00:23:561 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp7_30042026_122337_442_exec2_rdm673636_RAJ","idChat":" ","dtCriacao":"30/04/2026 12:23:37","dtEnvio":"30/04/2026 13:59:39","dtRetorno":"30/04/2026 13:59:41","logEnvio":"400 b'{\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"Adb05-NxCA3sXmTBtZ5a9gl\"}}' {\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"Adb05-NxCA3sXmTBtZ5a9gl\"}}","status":9}
+Resposta: {}
+
+30/04 14:00:24:061 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp7_30042026_122337_442_exec2_rdm673636_RAJ", "idChat": "5511983416284", "dtCriacao": "30/04/2026 12:23:37", "dtEnvio": "30/04/2026 13:59:39", "dtRetorno": "30/04/2026 13:59:43", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 14:00:24:139 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp7_30042026_122337_442_exec2_rdm673636_RAJ","idChat":"5511983416284","dtCriacao":"30/04/2026 12:23:37","dtEnvio":"30/04/2026 13:59:39","dtRetorno":"30/04/2026 13:59:43","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 14:14:03:492 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 189.29.214.38   Request.RemoteIP 189.29.214.38
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 14:14:03:633 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 14:14:04:431 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 189.29.214.38   Request.RemoteIP 189.29.214.38
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"141157147188152139137136136138148198144131132194141124"}}
+
+30/04 14:14:04:572 - webConfig
+Requisição: {"conexao":{"testeA":"141157147188152139137136136138148198144131132194141124"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMwMDE0NjAxMzYwMTMxMDEyMzAxMjEwMTM3MDEyODAxOTAwMTM1MDEzNDAxMjMwMTE3MDE4NTAxMjAwMTI4MDExMjAyMTQwMjE2MDE1NjAxNDcwMTQzMDE2MTAxNTQwMTQxMDEzOTAxMzgwMTM4MDE0MDAxNTAwMjAxMDIwMzAxMzIwMTMyMDEyODAxMjUwMTQzMDE0NjAxNTcwMTU0MDE1MzAxNTUwMTU0MDE4ODAxOTAwMTIzMDEyNTAxMjAwMTI5MDEwNzAxMzMwMTQwMDE0NDAxNzgwMTgwMDEwMzAxMjMwMTExMDExMzAxMTcwMTIzMDEzMjAxMzMwMTM0MDEzMTAxMjkwMTMxMDEyNzAxMjgwMTI1MDEyMDAxNjAwMTYy
+"}
+
+30/04 14:20:47:113 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 189.29.214.38   Request.RemoteIP 189.29.214.38
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 14:20:47:302 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 14:20:56:468 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 189.29.214.38   Request.RemoteIP 189.29.214.38
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"141157147188152139137136136138148198144131132194141124"}}
+
+30/04 14:20:56:581 - webConfig
+Requisição: {"conexao":{"testeA":"141157147188152139137136136138148198144131132194141124"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMwMDE0NjAxMzYwMTMxMDEyMzAxMjEwMTM3MDEyODAxOTAwMTM1MDEzNDAxMjMwMTE3MDE4NTAxMjAwMTI4MDExMjAyMTQwMjE2MDE1NjAxNDcwMTQzMDE2MTAxNTQwMTQxMDEzOTAxMzgwMTM4MDE0MDAxNTAwMjAxMDIwMzAxMzIwMTMyMDEyODAxMjUwMTQzMDE0NjAxNTcwMTU0MDE1MzAxNTUwMTU0MDE4ODAxOTAwMTIzMDEyNTAxMjAwMTI5MDEwNzAxMzMwMTQwMDE0NDAxNzgwMTgwMDEwMzAxMjMwMTExMDExMzAxMTcwMTIzMDEzMjAxMzMwMTM0MDEzMTAxMjkwMTMxMDEyNzAxMjgwMTI1MDEyMDAxNjAwMTYy
+"}
+
+30/04 14:30:03:864 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 189.29.214.38   Request.RemoteIP 189.29.214.38
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 14:30:04:050 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 14:30:04:303 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 189.29.214.38   Request.RemoteIP 189.29.214.38
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"141157147188152139137136136138148198144131132194141124"}}
+
+30/04 14:30:04:434 - webConfig
+Requisição: {"conexao":{"testeA":"141157147188152139137136136138148198144131132194141124"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMwMDE0NjAxMzYwMTMxMDEyMzAxMjEwMTM3MDEyODAxOTAwMTM1MDEzNDAxMjMwMTE3MDE4NTAxMjAwMTI4MDExMjAyMTQwMjE2MDE1NjAxNDcwMTQzMDE2MTAxNTQwMTQxMDEzOTAxMzgwMTM4MDE0MDAxNTAwMjAxMDIwMzAxMzIwMTMyMDEyODAxMjUwMTQzMDE0NjAxNTcwMTU0MDE1MzAxNTUwMTU0MDE4ODAxOTAwMTIzMDEyNTAxMjAwMTI5MDEwNzAxMzMwMTQwMDE0NDAxNzgwMTgwMDEwMzAxMjMwMTExMDExMzAxMTcwMTIzMDEzMjAxMzMwMTM0MDEzMTAxMjkwMTMxMDEyNzAxMjgwMTI1MDEyMDAxNjAwMTYy
+"}
+
+30/04 14:35:03:412 - Request.PathInfo /datasnap/rest/app/consultarRelease
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 179.208.88.83   Request.RemoteIP 179.208.88.83
+
+Request.UserAgent Mozilla/3.0 (compatible; Indy Library)
+Request.Content {"Autenticacao":{"Login":"NITOLI","Senha":"SUP","CodUsuar":0},"ReqPLUG":{"codSistema":"116","resumo":"True"}}
+
+30/04 14:35:03:612 - consultarRelease
+Requisição: {"Autenticacao":{"Login":"NITOLI","Senha":"SUP","CodUsuar":0},"ReqPLUG":{"codSistema":"116","resumo":"True"}}
+Resposta: {"lista":[{"codSistema":"116","sistema":"DW","sigla":"DW","codVersao":"1224","versao":"DW ESTOQUE LOTE F","status":"Em Desenvolvimento","criador":"RAFAEL B","dtCriacao":"25/10/2024 11:52:39","dtLiberacao":"30/12/1899 00:00:00"},{"codSistema":"116","sistema":"DW","sigla":"DW","codVersao":"1223","versao":"DW FORN METAS","status":"Em Desenvolvimento","criador":"RAFAEL B","dtCriacao":"25/10/2024 11:46:12","dtLiberacao":"30/12/1899 00:00:00"},{"codSistema":"116","sistema":"DW","sigla":"DW","codVersao":"1221","versao":"DW_CONSUMO_ITEM_FOR","status":"Em Desenvolvimento","criador":"RAFAEL B","dtCriacao":"10/09/2024 16:42:24","dtLiberacao":"30/12/1899 00:00:00"},{"codSistema":"116","sistema":"DW","sigla":"DW","codVersao":"1220","versao":"DW_CADITENS","status":"Em Desenvolvimento","criador":"RAFAEL B","dtCriacao":"13/08/2024 18:03:17","dtLiberacao":"30/12/1899 00:00:00"},{"codSistema":"116","sistema":"DW","sigla":"DW","codVersao":"1219","versao":"DW_CONSUMO_ITEM_CLI","status":"Em Desenvolvimento
+
+30/04 14:35:04:444 - Request.PathInfo /datasnap/rest/app/consultarRelease
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 179.208.88.83   Request.RemoteIP 179.208.88.83
+
+Request.UserAgent Mozilla/3.0 (compatible; Indy Library)
+Request.Content {"Autenticacao":{"Login":"NITOLI","Senha":"SUP","CodUsuar":0},"ReqPLUG":{"codSistema":"116","resumo":"False"}}
+
+30/04 14:35:04:713 - consultarRelease
+Requisição: {"Autenticacao":{"Login":"NITOLI","Senha":"SUP","CodUsuar":0},"ReqPLUG":{"codSistema":"116","resumo":"False"}}
+Resposta: {"lista":[{"codSistema":"116","sistema":"DW","sigla":"DW","codVersao":"1224","versao":"DW ESTOQUE LOTE F","status":"Em Desenvolvimento","criador":"RAFAEL B","dtCriacao":"25/10/2024 11:52:39","dtLiberacao":"30/12/1899 00:00:00","localiz":"\\SRVRAJ\Desenvolvimento\02_OutrosSistemas\DW\dpcDW_v01_DW_ESTOQUE_LOTE_F.dpc"},{"codSistema":"116","sistema":"DW","sigla":"DW","codVersao":"1223","versao":"DW FORN METAS","status":"Em Desenvolvimento","criador":"RAFAEL B","dtCriacao":"25/10/2024 11:46:12","dtLiberacao":"30/12/1899 00:00:00","localiz":"\\SRVRAJ\Desenvolvimento\02_OutrosSistemas\DW\dpc\DW_v01_DW_CFORNMETAS.dpc"},{"codSistema":"116","sistema":"DW","sigla":"DW","codVersao":"1221","versao":"DW_CONSUMO_ITEM_FOR","status":"Em Desenvolvimento","criador":"RAFAEL B","dtCriacao":"10/09/2024 16:42:24","dtLiberacao":"30/12/1899 00:00:00","localiz":"\\SRVRAJ\Desenvolvimento\02_OutrosSistemas\DW\dpc\DW_v01_DW_CONSUMO_ITEM_FOR.dpc","release":"DW criado com base no relatório Raj Explorer > GCE > Consu
+
+30/04 14:35:21:086 - Request.PathInfo /datasnap/rest/app/consultarRelease
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 179.208.88.83   Request.RemoteIP 179.208.88.83
+
+Request.UserAgent Mozilla/3.0 (compatible; Indy Library)
+Request.Content {"Autenticacao":{"Login":"NITOLI","Senha":"SUP","CodUsuar":0},"ReqPLUG":{"codSistema":"116","resumo":"True"}}
+
+30/04 14:35:21:178 - consultarRelease
+Requisição: {"Autenticacao":{"Login":"NITOLI","Senha":"SUP","CodUsuar":0},"ReqPLUG":{"codSistema":"116","resumo":"True"}}
+Resposta: {"lista":[{"codSistema":"116","sistema":"DW","sigla":"DW","codVersao":"1224","versao":"DW ESTOQUE LOTE F","status":"Em Desenvolvimento","criador":"RAFAEL B","dtCriacao":"25/10/2024 11:52:39","dtLiberacao":"30/12/1899 00:00:00"},{"codSistema":"116","sistema":"DW","sigla":"DW","codVersao":"1223","versao":"DW FORN METAS","status":"Em Desenvolvimento","criador":"RAFAEL B","dtCriacao":"25/10/2024 11:46:12","dtLiberacao":"30/12/1899 00:00:00"},{"codSistema":"116","sistema":"DW","sigla":"DW","codVersao":"1221","versao":"DW_CONSUMO_ITEM_FOR","status":"Em Desenvolvimento","criador":"RAFAEL B","dtCriacao":"10/09/2024 16:42:24","dtLiberacao":"30/12/1899 00:00:00"},{"codSistema":"116","sistema":"DW","sigla":"DW","codVersao":"1220","versao":"DW_CADITENS","status":"Em Desenvolvimento","criador":"RAFAEL B","dtCriacao":"13/08/2024 18:03:17","dtLiberacao":"30/12/1899 00:00:00"},{"codSistema":"116","sistema":"DW","sigla":"DW","codVersao":"1219","versao":"DW_CONSUMO_ITEM_CLI","status":"Em Desenvolvimento
+
+30/04 14:35:23:056 - Request.PathInfo /datasnap/rest/app/consultarRelease
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 179.208.88.83   Request.RemoteIP 179.208.88.83
+
+Request.UserAgent Mozilla/3.0 (compatible; Indy Library)
+Request.Content {"Autenticacao":{"Login":"NITOLI","Senha":"SUP","CodUsuar":0},"ReqPLUG":{"codSistema":"116","resumo":"False"}}
+
+30/04 14:35:23:194 - consultarRelease
+Requisição: {"Autenticacao":{"Login":"NITOLI","Senha":"SUP","CodUsuar":0},"ReqPLUG":{"codSistema":"116","resumo":"False"}}
+Resposta: {"lista":[{"codSistema":"116","sistema":"DW","sigla":"DW","codVersao":"1224","versao":"DW ESTOQUE LOTE F","status":"Em Desenvolvimento","criador":"RAFAEL B","dtCriacao":"25/10/2024 11:52:39","dtLiberacao":"30/12/1899 00:00:00","localiz":"\\SRVRAJ\Desenvolvimento\02_OutrosSistemas\DW\dpcDW_v01_DW_ESTOQUE_LOTE_F.dpc"},{"codSistema":"116","sistema":"DW","sigla":"DW","codVersao":"1223","versao":"DW FORN METAS","status":"Em Desenvolvimento","criador":"RAFAEL B","dtCriacao":"25/10/2024 11:46:12","dtLiberacao":"30/12/1899 00:00:00","localiz":"\\SRVRAJ\Desenvolvimento\02_OutrosSistemas\DW\dpc\DW_v01_DW_CFORNMETAS.dpc"},{"codSistema":"116","sistema":"DW","sigla":"DW","codVersao":"1221","versao":"DW_CONSUMO_ITEM_FOR","status":"Em Desenvolvimento","criador":"RAFAEL B","dtCriacao":"10/09/2024 16:42:24","dtLiberacao":"30/12/1899 00:00:00","localiz":"\\SRVRAJ\Desenvolvimento\02_OutrosSistemas\DW\dpc\DW_v01_DW_CONSUMO_ITEM_FOR.dpc","release":"DW criado com base no relatório Raj Explorer > GCE > Consu
+
+30/04 14:35:59:944 - Request.PathInfo /datasnap/rest/app/baixarDW
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 179.208.88.83   Request.RemoteIP 179.208.88.83
+
+Request.UserAgent Mozilla/3.0 (compatible; Indy Library)
+Request.Content {"Autenticacao":{"Login":"NITOLI","Senha":"SUP","CodUsuar":0},"ReqPLUG":{"codSistema":"116","codVersao":"1190"}}
+
+30/04 14:36:00:176 - baixarDW
+Requisição: {"Autenticacao":{"Login":"NITOLI","Senha":"SUP","CodUsuar":0},"ReqPLUG":{"codSistema":"116","codVersao":"1190"}}
+Resposta: {"codSistema":"116","codVersao":"1190","versao":"DW_EXPFATNFSDET","status":"Finalizado","arquivoDW":"lhngvQEAAAAYAAAABgADAAAAAwAAAKUACENPRFRBUkRXBAABAAAAAAAJQ09EVkVSU0FPBAABAAAA
+AAAEVElQTwQAAQAAAAAAB1RJUE9TVFIBAEkAAAABAAVXSURUSAIAAgBkAAZUQVJFRkEBAEkAAAAB
+AAVXSURUSAIAAgBkAAZPQkpFVE8EAEsAAAABAAdTVUJUWVBFAgBJAAcAQmluYXJ5AAAAAAAAJAAA
+AAEAAAAAAAAABlRBUkVGQRhFWFAgLSBGQVQgTkZzIERldGFsaGFkYXOjPAAAlhngvQEAAAAYAAAA
+MQABAAAAAwAAAF0GCENPRFRBUkRXBAABAAAAAAAJQ09EVkVSU0FPBAABAAAAAAAJVUxUVkVSU0FP
+BAABAAAAAAAGVElUVUxPAQBJAAAAAQAFV0lEVEgCAAIAUAAGT0JTRVJWBABLAAAAAQAHU1VCVFlQ
+RQIASQAFAFRleHQABlNUQVRVUwEASQAAAAIAB1NVQlRZUEUCAEkACgBGaXhlZENoYXIABVdJRFRI
+AgACAAEACVRQRVhFQ1VUQQEASQAAAAIAB1NVQlRZUEUCAEkACgBGaXhlZENoYXIABVdJRFRIAgAC
+AAEAB0VYRUNET00BAEkAAAACAAdTVUJUWVBFAgBJAAoARml4ZWRDaGFyAAVXSURUSAIAAgABAAdF
+WEVDU0VHAQBJAAAAAgAHU1VCVFlQRQIASQAKAEZpeGVkQ2hhcgAFV0lEVEgCAAIAAQAHRVhFQ1RF
+UgEASQAAAAIAB1NVQlRZUEUCAEkACgBGaXhlZENoYXIABVdJRFRIAgACAAEAB0VYRUNRVUEBAEkA
+AAACAAdTVUJUWVBFAgBJAAoARml4ZWRDaGFyAAVXS
+
+30/04 14:52:22:264 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 45.183.190.241   Request.RemoteIP 45.183.190.241
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 14:52:22:449 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 14:57:40:164 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_30042026_145559_277_exec1_rdm313656_RAJ", "idChat": "5873814699", "dtCriacao": "30/04/2026 14:55:59", "dtEnvio": "30/04/2026 14:56:00", "dtRetorno": "30/04/2026 14:56:03", "logEnvio": "403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'", "status": 9}
+
+30/04 14:57:40:302 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_30042026_145559_277_exec1_rdm313656_RAJ","idChat":"5873814699","dtCriacao":"30/04/2026 14:55:59","dtEnvio":"30/04/2026 14:56:00","dtRetorno":"30/04/2026 14:56:03","logEnvio":"403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'","status":9}
+Resposta: {}
+
+30/04 14:57:40:818 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_30042026_145559_277_exec1_rdm313656_RAJ", "idChat": "6055057755", "dtCriacao": "30/04/2026 14:55:59", "dtEnvio": "30/04/2026 14:56:00", "dtRetorno": "30/04/2026 14:56:25", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 14:57:40:887 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_30042026_145559_277_exec1_rdm313656_RAJ","idChat":"6055057755","dtCriacao":"30/04/2026 14:55:59","dtEnvio":"30/04/2026 14:56:00","dtRetorno":"30/04/2026 14:56:25","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 14:57:41:402 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_30042026_145559_277_exec1_rdm313656_RAJ", "idChat": "1794624500", "dtCriacao": "30/04/2026 14:55:59", "dtEnvio": "30/04/2026 14:56:00", "dtRetorno": "30/04/2026 14:56:47", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 14:57:41:481 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_30042026_145559_277_exec1_rdm313656_RAJ","idChat":"1794624500","dtCriacao":"30/04/2026 14:55:59","dtEnvio":"30/04/2026 14:56:00","dtRetorno":"30/04/2026 14:56:47","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 14:57:42:003 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_30042026_145559_277_exec1_rdm313656_RAJ", "idChat": "5133160556", "dtCriacao": "30/04/2026 14:55:59", "dtEnvio": "30/04/2026 14:56:00", "dtRetorno": "30/04/2026 14:56:50", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 14:57:42:065 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_30042026_145559_277_exec1_rdm313656_RAJ","idChat":"5133160556","dtCriacao":"30/04/2026 14:55:59","dtEnvio":"30/04/2026 14:56:00","dtRetorno":"30/04/2026 14:56:50","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 14:57:42:604 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_30042026_145559_277_exec1_rdm313656_RAJ", "idChat": "5936690517", "dtCriacao": "30/04/2026 14:55:59", "dtEnvio": "30/04/2026 14:56:00", "dtRetorno": "30/04/2026 14:57:13", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 14:57:42:666 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_30042026_145559_277_exec1_rdm313656_RAJ","idChat":"5936690517","dtCriacao":"30/04/2026 14:55:59","dtEnvio":"30/04/2026 14:56:00","dtRetorno":"30/04/2026 14:57:13","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 14:57:43:167 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_30042026_145559_277_exec1_rdm313656_RAJ", "idChat": "5130402135", "dtCriacao": "30/04/2026 14:55:59", "dtEnvio": "30/04/2026 14:56:00", "dtRetorno": "30/04/2026 14:57:36", "logEnvio": "403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'", "status": 9}
+
+30/04 14:57:43:236 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_30042026_145559_277_exec1_rdm313656_RAJ","idChat":"5130402135","dtCriacao":"30/04/2026 14:55:59","dtEnvio":"30/04/2026 14:56:00","dtRetorno":"30/04/2026 14:57:36","logEnvio":"403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'","status":9}
+Resposta: {}
+
+30/04 14:57:43:751 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp7_30042026_145559_446_exec2_rdm626510_RAJ", "idChat": " ", "dtCriacao": "30/04/2026 14:55:59", "dtEnvio": "30/04/2026 14:57:36", "dtRetorno": "30/04/2026 14:57:38", "logEnvio": "400 b'{\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthExceptio ..... sapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"AKX0tCy1UaKfp2uJdtpT67-\"}}", "status": 9}
+
+30/04 14:57:43:820 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp7_30042026_145559_446_exec2_rdm626510_RAJ","idChat":" ","dtCriacao":"30/04/2026 14:55:59","dtEnvio":"30/04/2026 14:57:36","dtRetorno":"30/04/2026 14:57:38","logEnvio":"400 b'{\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"AKX0tCy1UaKfp2uJdtpT67-\"}}' {\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"AKX0tCy1UaKfp2uJdtpT67-\"}}","status":9}
+Resposta: {}
+
+30/04 14:57:44:335 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp7_30042026_145559_446_exec2_rdm626510_RAJ", "idChat": "5511983416284", "dtCriacao": "30/04/2026 14:55:59", "dtEnvio": "30/04/2026 14:57:36", "dtRetorno": "30/04/2026 14:57:39", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 14:57:44:404 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp7_30042026_145559_446_exec2_rdm626510_RAJ","idChat":"5511983416284","dtCriacao":"30/04/2026 14:55:59","dtEnvio":"30/04/2026 14:57:36","dtRetorno":"30/04/2026 14:57:39","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 15:08:28:789 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_30042026_150605_806_exec3_rdm499975_RAJ", "idChat": "5873814699", "dtCriacao": "30/04/2026 15:06:05", "dtEnvio": "30/04/2026 15:06:07", "dtRetorno": "30/04/2026 15:06:30", "logEnvio": "403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'", "status": 9}
+
+30/04 15:08:28:889 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_30042026_150605_806_exec3_rdm499975_RAJ","idChat":"5873814699","dtCriacao":"30/04/2026 15:06:05","dtEnvio":"30/04/2026 15:06:07","dtRetorno":"30/04/2026 15:06:30","logEnvio":"403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'","status":9}
+Resposta: {}
+
+30/04 15:08:29:405 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_30042026_150605_806_exec3_rdm499975_RAJ", "idChat": "6055057755", "dtCriacao": "30/04/2026 15:06:05", "dtEnvio": "30/04/2026 15:06:07", "dtRetorno": "30/04/2026 15:06:54", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 15:08:29:470 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_30042026_150605_806_exec3_rdm499975_RAJ","idChat":"6055057755","dtCriacao":"30/04/2026 15:06:05","dtEnvio":"30/04/2026 15:06:07","dtRetorno":"30/04/2026 15:06:54","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 15:08:29:988 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_30042026_150605_806_exec3_rdm499975_RAJ", "idChat": "1794624500", "dtCriacao": "30/04/2026 15:06:05", "dtEnvio": "30/04/2026 15:06:07", "dtRetorno": "30/04/2026 15:07:16", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 15:08:30:088 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_30042026_150605_806_exec3_rdm499975_RAJ","idChat":"1794624500","dtCriacao":"30/04/2026 15:06:05","dtEnvio":"30/04/2026 15:06:07","dtRetorno":"30/04/2026 15:07:16","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 15:08:30:591 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_30042026_150605_806_exec3_rdm499975_RAJ", "idChat": "5133160556", "dtCriacao": "30/04/2026 15:06:05", "dtEnvio": "30/04/2026 15:06:07", "dtRetorno": "30/04/2026 15:07:39", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 15:08:30:785 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_30042026_150605_806_exec3_rdm499975_RAJ","idChat":"5133160556","dtCriacao":"30/04/2026 15:06:05","dtEnvio":"30/04/2026 15:06:07","dtRetorno":"30/04/2026 15:07:39","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 15:08:31:292 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_30042026_150605_806_exec3_rdm499975_RAJ", "idChat": "5936690517", "dtCriacao": "30/04/2026 15:06:05", "dtEnvio": "30/04/2026 15:06:07", "dtRetorno": "30/04/2026 15:08:02", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 15:08:31:355 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_30042026_150605_806_exec3_rdm499975_RAJ","idChat":"5936690517","dtCriacao":"30/04/2026 15:06:05","dtEnvio":"30/04/2026 15:06:07","dtRetorno":"30/04/2026 15:08:02","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 15:08:31:870 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp3_30042026_150605_806_exec3_rdm499975_RAJ", "idChat": "5130402135", "dtCriacao": "30/04/2026 15:06:05", "dtEnvio": "30/04/2026 15:06:07", "dtRetorno": "30/04/2026 15:08:24", "logEnvio": "403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'", "status": 9}
+
+30/04 15:08:31:940 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp3_30042026_150605_806_exec3_rdm499975_RAJ","idChat":"5130402135","dtCriacao":"30/04/2026 15:06:05","dtEnvio":"30/04/2026 15:06:07","dtRetorno":"30/04/2026 15:08:24","logEnvio":"403 b'{\"ok\":false,\"error_code\":403,\"description\":\"Forbidden: user is deactivated\"}'","status":9}
+Resposta: {}
+
+30/04 15:08:32:441 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp7_30042026_150605_928_exec4_rdm45072_RAJ", "idChat": " ", "dtCriacao": "30/04/2026 15:06:05", "dtEnvio": "30/04/2026 15:08:24", "dtRetorno": "30/04/2026 15:08:26", "logEnvio": "400 b'{\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthException ..... sapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"AP4YPSWxrO_k4KCRaHX0IZD\"}}", "status": 9}
+
+30/04 15:08:32:510 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp7_30042026_150605_928_exec4_rdm45072_RAJ","idChat":" ","dtCriacao":"30/04/2026 15:06:05","dtEnvio":"30/04/2026 15:08:24","dtRetorno":"30/04/2026 15:08:26","logEnvio":"400 b'{\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"AP4YPSWxrO_k4KCRaHX0IZD\"}}' {\"error\":{\"message\":\"(#100) Invalid parameter\",\"code\":100,\"type\":\"OAuthException\",\"error_data\":{\"messaging_product\":\"whatsapp\",\"details\":\"Invalid parameter\"},\"fbtrace_id\":\"AP4YPSWxrO_k4KCRaHX0IZD\"}}","status":9}
+Resposta: {}
+
+30/04 15:08:33:010 - Request.PathInfo /datasnap/rest/app/registraEnvioMsg
+Request.Method POST   Request.Host 192.168.0.25   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 192.168.0.25   Request.RemoteIP 192.168.0.25
+   Request.Connection keep-alive
+Request.UserAgent python-requests/2.29.0
+Request.Content {"idMsg": "emp1_usuar25_tp7_30042026_150605_928_exec4_rdm45072_RAJ", "idChat": "5511983416284", "dtCriacao": "30/04/2026 15:06:05", "dtEnvio": "30/04/2026 15:08:24", "dtRetorno": "30/04/2026 15:08:28", "logEnvio": "200 - Sucesso", "status": 5}
+
+30/04 15:08:33:095 - registraEnvioMsg
+Requisição: {"idMsg":"emp1_usuar25_tp7_30042026_150605_928_exec4_rdm45072_RAJ","idChat":"5511983416284","dtCriacao":"30/04/2026 15:06:05","dtEnvio":"30/04/2026 15:08:24","dtRetorno":"30/04/2026 15:08:28","logEnvio":"200 - Sucesso","status":5}
+Resposta: {}
+
+30/04 15:18:03:864 - PlugApp 2026.1a Iniciado / Alias RAJ D:\SYSTEM_RAJ\EXE\
+
+30/04 15:18:03:864 - PlugApp Serviço Iniciado - Porta: 11899 - HTTP Porta: 11900
+
+30/04 15:29:35:605 - Request.PathInfo /datasnap/rest/app/listarWebClientes
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 189.29.214.38   Request.RemoteIP 189.29.214.38
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 15:29:35:824 - listarWebClientes
+Requisição: {}
+Resposta: {"lista":[{"alias":"190181186170186179","em":"190181186170186179","cfg":"205197207203196196203196194189198196195194192195189188"},{"alias":"190174171183168181171164182","em":"189216183220184171171165162170161165161169176","cfg":"205205207199195201203199194194198196195194192195182186"},{"alias":"188175173172172174184","em":"188175173172172174184","cfg":"202201207204195197203192194192198196195194192195191183"},{"alias":"187185170183173164171183157181","em":"177189163187171185182173","cfg":"205199207203194199203193190197198196195194192195184190"},{"alias":"186187174182175181161","em":"186187174182175181161216174168177159160158159","cfg":"202203207203194196203192195189198196195194192195187181"},{"alias":"186171186187175185194","em":"186171186187175185217193","cfg":"203198207199196197203198193198198196195194192195190189"},{"alias":"184176184167168167","em":"184176184167168167217166178166163212176163164","cfg":"207199207199203196203198199198198196195194192195185190"},{"alias":"18417218816618
+
+30/04 15:29:36:339 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 189.29.214.38   Request.RemoteIP 189.29.214.38
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 15:29:36:449 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 15:29:47:727 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 189.29.214.38   Request.RemoteIP 189.29.214.38
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeB":"207202207204195201203198198190198196195194192195184181"}}
+
+30/04 15:29:47:899 - webConfig
+Requisição: {"conexao":{"testeB":"207202207204195201203198198190198196195194192195184181"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMwMDE0NjAxMzYwMTI5MDEyOTAxMjUwMTIyMDE0MDAxMjgwMTg5MDEyNDAxMjIwMTg3MDEyNjAxMTgwMTgzMDExNzAxMTMwMTIzMDIxMjAyMTQwMTU0MDE0NTAxNDEwMTU5MDEzNzAxNTMwMTQzMDIwMzAyMDUwMTM0MDEzNDAxMzAwMTI3MDE0NTAxNDgwMTU5MDE1ODAxNTMwMTUyMDE0OTAxOTAwMTkyMDEyNDAxMzUwMTI2MDExNTAxMTcwMTM1MDE0NjAxNDUwMTQwMDEzOTAxMzQwMTc3MDE3OTAxMTIwMTE0MDEwOTAxMTgwMDk2MDEyMjAxMzMwMTMzMDE2NzAxNjkwMDkyMDExMjAxMDAwMTAyMDEwNjAxMTIwMTIxMDEyMjAxMjMwMTIwMDExODAxMjAwMTE2MDExNzAxMTQwMTA4MDE0OTAxNTE=
+"}
+
+30/04 15:33:20:746 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 179.209.195.54   Request.RemoteIP 179.209.195.54
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 15:33:20:933 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 15:33:21:465 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 179.209.195.54   Request.RemoteIP 179.209.195.54
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"158144153138150153203133150136129133128178131139128126140137128188134121122184131114"}}
+
+30/04 15:33:21:590 - webConfig
+Requisição: {"conexao":{"testeA":"158144153138150153203133150136129133128178131139128126140137128188134121122184131114"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTI5MDE0MjAxMjgwMTIzMDEzOTAxMjUwMTI4MDEzNjAxMjUwMTIzMDEzNzAxMzQwMTI1MDE4NTAxMzAwMTI5MDExODAxMTIwMTgwMDExNTAxMjMwMTA3MDIwOTAyMTEwMTUxMDE0MjAxMzgwMTU2MDEzODAxNDYwMTM1MDExODAxMzIwMTQ2MDE0MzAxMzQwMTk1MDE5NzAxMjYwMTI2MDEyMjAxMTkwMTM3MDE0MDAxNTEwMTUwMDE0NTAxNDQwMTQxMDE4MjAxODQwMTE2MDEyNzAxMTgwMTA3MDEwOTAxMjcwMTM4MDEzNzAxMzIwMTMxMDEyNjAxNjkwMTcxMDEwNDAxMDYwMTAxMDExMDAwODgwMTE0MDEyNTAxMjUwMTU5MDE2MTAwODQwMTA0MDA5MjAwOTQwMDk4MDEwNDAxMTMwMTE0MDExNTAxMTIwMTEwMDExMjAxMDgwMTA5MDEwNjAxMDAwMTQxMDE0Mw==
+"}
+
+30/04 15:52:29:425 - Request.PathInfo /datasnap/rest/app/versaoRajWeb
+Request.Method GET   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 189.29.214.38   Request.RemoteIP 189.29.214.38
+
+Request.UserAgent Embarcadero RESTClient/1.0
+
+30/04 15:52:29:613 - versaoRajWeb
+Requisição: {}
+Resposta: {"versao":"2021.1e","data":"10/08/2021 13:54:04"}
+
+30/04 15:52:31:999 - Request.PathInfo /datasnap/rest/app/webConfig
+Request.Method POST   Request.Host rajportal.no-ip.org   Request.ServerPort 11899   Request.RemoteHost    Request.RemoteAddr 189.29.214.38   Request.RemoteIP 189.29.214.38
+   Request.Connection keep-alive
+Request.UserAgent Embarcadero RESTClient/1.0
+Request.Content {"conexao":{"testeA":"141157147188152139137136136138148198144131132194141124"}}
+
+30/04 15:52:32:124 - webConfig
+Requisição: {"conexao":{"testeA":"141157147188152139137136136138148198144131132194141124"}}
+Resposta: {"msg":"Sucesso","codigo":0,"config":"MDE3MDAxNzIwMTc3MDE5MTAxNDcwMTM0MDEzMzAxMzYwMTg5MDE5OTAxOTgwMTMwMDE0NjAxMzYwMTMxMDEyMzAxMjEwMTM3MDEyODAxOTAwMTM1MDEzNDAxMjMwMTE3MDE4NTAxMjAwMTI4MDExMjAyMTQwMjE2MDE1NjAxNDcwMTQzMDE2MTAxNTQwMTQxMDEzOTAxMzgwMTM4MDE0MDAxNTAwMjAxMDIwMzAxMzIwMTMyMDEyODAxMjUwMTQzMDE0NjAxNTcwMTU0MDE1MzAxNTUwMTU0MDE4ODAxOTAwMTIzMDEyNTAxMjAwMTI5MDEwNzAxMzMwMTQwMDE0NDAxNzgwMTgwMDEwMzAxMjMwMTExMDExMzAxMTcwMTIzMDEzMjAxMzMwMTM0MDEzMTAxMjkwMTMxMDEyNzAxMjgwMTI1MDEyMDAxNjAwMTYy
+"}
+

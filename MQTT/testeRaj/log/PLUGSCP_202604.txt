@@ -1,0 +1,68 @@
+22/abr 11:28:00:108 SARAPUI_SUP.TCM_BaseProcessaScript_SegP - S_RAJ_LOGUIN_ERRADO - SUP -  - scp_1181161_0459581_00000 - 
+Erro: 
+Erro ao processar SCRIPT [S_RAJ_LOGUIN_ERRADO]
+Access violation at address 0000000000A10BD7 in module 'PlugSCP.exe'. Read of address 0000000000000018
+
+22/abr 11:41:36:731 SARAPUI_SUP.TCM_BaseProcessaScript_SegP - S_RAJ_LOGUIN_ERRADO - RODOLFO LIMA -  - scp_0154123_0436205_00000 - 
+Erro: 
+Erro ao processar SCRIPT [S_RAJ_LOGUIN_ERRADO]
+Access violation at address 0000000000A10BD7 in module 'PlugSCP.exe'. Read of address 0000000000000018
+
+Objeto: GNEUSS_SUP.TSVQueryObjProp - Execuções: 1,00 - Inutilizado: S
+127.0.0.1 - Origem: 
+Exception ProcessController.ExecutaProcesso: O QueryObjeto "RAJ_PROP_PEDIDO_CONT" não existe !
+
+
+24/abr 10:46:24:762 Erro de Execução da QueryObjeto [ RAJ_PROP_FT_PED_PREV ] 
+|CarregaDataSet: (1) |FieldCalculado "MAXCONTRATO" QObjeto QRMAXCONT não criado
+RAJ_PROP_PEDIDO_CONT AS QRMAXCONT;
+  FILTROP=CHAVE;
+  FILTROP.CODEMP=DATASET.FIELDS.CODEMP.ASINTEGER;
+  FILTROP.CODPED=DATASET.FIELDS.CODPED.ASINTEGER;
+
+
+Ocorreu um erro no servidor de aplicação:
+Objeto: GNEUSS_SUP.TSVQueryObjProp
+MsgFalha Vazio - Exception: "O QueryObjeto "RAJ_PROP_PEDIDO_CONT" não existe !"
+
+
+Objeto: GNEUSS_SUP.TSVQueryObjProp - Execuções: 1,00 - Inutilizado: S
+127.0.0.1 - Origem: 
+Exception ProcessController.ExecutaProcesso: O QueryObjeto "RAJ_PROP_PEDIDO_CONT" não existe !
+
+
+Objeto: GNEUSS_SUP.TSVQueryObjProp - Execuções: 1,00 - Inutilizado: S
+127.0.0.1 - Origem: 
+Exception ProcessController.ExecutaProcesso: O QueryObjeto "RAJ_PROP_PEDIDO_CONT" não existe !
+
+
+24/abr 11:02:42:137 Erro de Execução da QueryObjeto [ RAJ_PROP_FT_PED_PREV ] 
+|CarregaDataSet: (2) |FieldCalculado "MAXCONTRATO" QObjeto QRMAXCONT não criado
+RAJ_PROP_PEDIDO_CONT AS QRMAXCONT;
+  FILTROP=CHAVE;
+  FILTROP.CODEMP=DATASET.FIELDS.CODEMP.ASINTEGER;
+  FILTROP.CODPED=DATASET.FIELDS.CODPED.ASINTEGER;
+
+
+Ocorreu um erro no servidor de aplicação:
+Objeto: GNEUSS_SUP.TSVQueryObjProp
+MsgFalha Vazio - Exception: "O QueryObjeto "RAJ_PROP_PEDIDO_CONT" não existe !"
+|FieldCalculado "MAXCONTRATO" QObjeto QRMAXCONT não criado
+RAJ_PROP_PEDIDO_CONT AS QRMAXCONT;
+  FILTROP=CHAVE;
+  FILTROP.CODEMP=DATASET.FIELDS.CODEMP.ASINTEGER;
+  FILTROP.CODPED=DATASET.FIELDS.CODPED.ASINTEGER;
+
+
+Ocorreu um erro no servidor de aplicação:
+Objeto: GNEUSS_SUP.TSVQueryObjProp
+MsgFalha Vazio - Exception: "O QueryObjeto "RAJ_PROP_PEDIDO_CONT" não existe !"
+
+
+24/abr 11:25:41:138 SARAPUI_SUP.TCM_BaseProcessaScript_SegP - S_RAJ_LOGUIN_ERRADO - RODOLFO LIMA -  - scp_7070151_0440601_00000 - 
+Erro: 
+Erro ao processar SCRIPT [S_RAJ_LOGUIN_ERRADO]
+Access violation at address 0000000000A10BD7 in module 'PlugSCP.exe'. Read of address 0000000000000018
+
+
+

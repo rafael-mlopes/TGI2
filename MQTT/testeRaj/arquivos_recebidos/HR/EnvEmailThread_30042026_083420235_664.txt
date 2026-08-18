@@ -1,0 +1,2 @@
+Erro no Envio de E-Mail + TLS via Plug+Thread
+Add Attachment: File not Exists.

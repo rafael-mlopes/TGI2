@@ -1,0 +1,242 @@
+02/04/2026 22:01:58 Iniciando Guardião
+
+02/04/2026 22:02:06 Falha no teste de ECHO...
+
+02/04/2026 22:02:07 Reiniciando Plug: Echo não responde
+
+02/04/2026 22:02:17 Falha no teste de ECHO PlugExp...
+
+02/04/2026 22:02:18 Reiniciando Plug: Echo não responde
+
+02/04/2026 22:02:23 Testando Conectividade
+
+02/04/2026 22:02:25 22:02 / Conectividade OK
+
+02/04/2026 22:02:54 22:02 / RajExecutorTarefas Iniciado !
+
+02/04/2026 22:03:24 22:03 / RAT Iniciado !
+
+02/04/2026 22:03:53 22:03 / RAT Iniciado !
+
+02/04/2026 22:04:23 22:04 / RAJMDe Iniciado !
+
+02/04/2026 22:04:52 22:04 / RAJMDe Iniciado !
+
+02/04/2026 22:05:22 22:05 / RAJMDe Iniciado !
+
+02/04/2026 22:05:51 22:05 / RAJMDe Iniciado !
+
+02/04/2026 22:06:21 22:06 / RajExecutorTarefas Iniciado !
+
+02/04/2026 22:06:50 22:06 / RAJMDe Iniciado !
+
+09/04/2026 22:02:00 Iniciando Guardião
+
+09/04/2026 22:02:08 Falha no teste de ECHO...
+
+09/04/2026 22:02:09 Reiniciando Plug: Echo não responde
+
+09/04/2026 22:02:20 Falha no teste de ECHO PlugExp...
+
+09/04/2026 22:02:20 Reiniciando Plug: Echo não responde
+
+09/04/2026 22:02:26 Testando Conectividade
+
+09/04/2026 22:02:26 22:02 / Conectividade OK
+
+09/04/2026 22:02:55 22:02 / RajExecutorTarefas Iniciado !
+
+09/04/2026 22:03:25 22:03 / RAT Iniciado !
+
+09/04/2026 22:03:54 22:03 / RAT Iniciado !
+
+09/04/2026 22:04:24 22:04 / RAJMDe Iniciado !
+
+09/04/2026 22:04:54 22:04 / RAJMDe Iniciado !
+
+09/04/2026 22:05:23 22:05 / RAJMDe Iniciado !
+
+09/04/2026 22:05:53 22:05 / RAJMDe Iniciado !
+
+09/04/2026 22:06:22 22:06 / RajExecutorTarefas Iniciado !
+
+09/04/2026 22:06:52 22:06 / RAJMDe Iniciado !
+
+16/04/2026 22:02:01 Iniciando Guardião
+
+16/04/2026 22:02:09 Falha no teste de ECHO...
+
+16/04/2026 22:02:09 Reiniciando Plug: Echo não responde
+
+16/04/2026 22:02:20 Falha no teste de ECHO PlugExp...
+
+16/04/2026 22:02:21 Reiniciando Plug: Echo não responde
+
+16/04/2026 22:02:26 Testando Conectividade
+
+16/04/2026 22:02:27 22:02 / Conectividade OK
+
+16/04/2026 22:02:56 22:02 / RajExecutorTarefas Iniciado !
+
+16/04/2026 22:03:25 22:03 / RAT Iniciado !
+
+16/04/2026 22:03:55 22:03 / RAT Iniciado !
+
+16/04/2026 22:04:24 22:04 / RAJMDe Iniciado !
+
+16/04/2026 22:04:54 22:04 / RAJMDe Iniciado !
+
+16/04/2026 22:05:23 22:05 / RAJMDe Iniciado !
+
+16/04/2026 22:05:53 22:05 / RAJMDe Iniciado !
+
+16/04/2026 22:06:23 22:06 / RajExecutorTarefas Iniciado !
+
+16/04/2026 22:06:52 22:06 / RAJMDe Iniciado !
+
+20/04/2026 06:01:11 Iniciando Guardião
+
+20/04/2026 06:01:19 Falha no teste de ECHO...
+
+20/04/2026 06:01:20 Reiniciando Plug: Echo não responde
+
+20/04/2026 06:01:31 Falha no teste de ECHO PlugExp...
+
+20/04/2026 06:01:32 Reiniciando Plug: Echo não responde
+
+20/04/2026 06:01:37 Testando Conectividade
+
+20/04/2026 06:01:39 06:01 / Conectividade OK
+
+20/04/2026 06:02:08 06:02 / RajExecutorTarefas Iniciado !
+
+20/04/2026 06:02:37 06:02 / RAT Iniciado !
+
+20/04/2026 06:03:07 06:03 / RAT Iniciado !
+
+20/04/2026 06:03:36 06:03 / RAJMDe Iniciado !
+
+20/04/2026 06:04:06 06:04 / RAJMDe Iniciado !
+
+20/04/2026 06:04:36 06:04 / RAJMDe Iniciado !
+
+20/04/2026 06:05:05 06:05 / RAJMDe Iniciado !
+
+20/04/2026 06:05:35 06:05 / RajExecutorTarefas Iniciado !
+
+20/04/2026 06:06:04 06:06 / RAJMDe Iniciado !
+
+22/04/2026 19:18:10 Iniciando Guardião
+
+22/04/2026 19:18:18 Falha no teste de ECHO...
+
+22/04/2026 19:18:18 Reiniciando Plug: Echo não responde
+
+22/04/2026 19:18:29 Falha no teste de ECHO PlugExp...
+
+22/04/2026 19:18:30 Reiniciando Plug: Echo não responde
+
+22/04/2026 19:18:35 Testando Conectividade
+
+22/04/2026 19:18:37 19:18 / Conectividade OK
+
+22/04/2026 19:19:06 19:19 / RajExecutorTarefas Iniciado !
+
+22/04/2026 19:19:35 19:19 / RAT Iniciado !
+
+22/04/2026 19:20:05 19:20 / RAT Iniciado !
+
+22/04/2026 19:20:34 19:20 / RAJMDe Iniciado !
+
+22/04/2026 19:21:04 19:21 / RAJMDe Iniciado !
+
+22/04/2026 19:21:33 19:21 / RAJMDe Iniciado !
+
+22/04/2026 19:22:03 19:22 / RAJMDe Iniciado !
+
+22/04/2026 19:22:32 19:22 / RajExecutorTarefas Iniciado !
+
+22/04/2026 19:23:02 19:23 / RAJMDe Iniciado !
+
+23/04/2026 22:01:53 Iniciando Guardião
+
+23/04/2026 22:02:01 Falha no teste de ECHO...
+
+23/04/2026 22:02:02 Reiniciando Plug: Echo não responde
+
+23/04/2026 22:02:13 Falha no teste de ECHO PlugExp...
+
+23/04/2026 22:02:13 Reiniciando Plug: Echo não responde
+
+23/04/2026 22:02:19 Testando Conectividade
+
+23/04/2026 22:02:19 22:02 / Conectividade OK
+
+23/04/2026 22:02:48 22:02 / RajExecutorTarefas Iniciado !
+
+23/04/2026 22:03:18 22:03 / RAT Iniciado !
+
+23/04/2026 22:03:48 22:03 / RAT Iniciado !
+
+23/04/2026 22:04:17 22:04 / RAJMDe Iniciado !
+
+23/04/2026 22:04:47 22:04 / RAJMDe Iniciado !
+
+23/04/2026 22:05:16 22:05 / RAJMDe Iniciado !
+
+23/04/2026 22:05:46 22:05 / RAJMDe Iniciado !
+
+23/04/2026 22:06:16 22:06 / RajExecutorTarefas Iniciado !
+
+23/04/2026 22:06:45 22:06 / RAJMDe Iniciado !
+
+30/04/2026 16:40:36 Finalizando Guardião...
+
+30/04/2026 16:40:36 Finalizando Guardião...
+
+30/04/2026 16:40:36 Finalizando Guardião...
+
+30/04/2026 16:40:36 Finalizando Guardião...
+
+30/04/2026 16:40:36 Finalizando Guardião...
+
+30/04/2026 16:40:36 Finalizando Guardião...
+
+30/04/2026 16:40:36 Finalizando Guardião...
+
+30/04/2026 16:40:36 Finalizando Guardião...
+
+30/04/2026 16:40:36 Finalizando Guardião...
+
+30/04/2026 16:40:36 Finalizando Guardião...
+
+30/04/2026 16:40:44 Iniciando Guardião
+
+30/04/2026 16:40:46 Finalizando Guardião...
+
+30/04/2026 16:40:50 Iniciando Guardião
+
+30/04/2026 16:41:15 16:41 / RajExecutorTarefas Iniciado !
+
+30/04/2026 16:41:45 16:41 / RAT Iniciado !
+
+30/04/2026 16:42:15 16:42 / RAT Iniciado !
+
+30/04/2026 16:42:44 16:42 / RAJMDe Iniciado !
+
+30/04/2026 16:43:14 16:43 / RAJMDe Iniciado !
+
+30/04/2026 16:43:43 16:43 / RAJMDe Iniciado !
+
+30/04/2026 16:44:13 16:44 / RAJMDe Iniciado !
+
+30/04/2026 16:44:42 16:44 / RajExecutorTarefas Iniciado !
+
+30/04/2026 16:44:53 Iniciando Guardião
+
+30/04/2026 16:44:58 16:44 / rajPublisher Iniciado !
+
+30/04/2026 16:45:01 Finalizando Guardião...
+
+30/04/2026 16:45:12 16:45 / RAJMDe Iniciado !
+

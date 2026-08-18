@@ -1,0 +1,2058 @@
+[11:41:47.670] Semáforo travado com sucesso!
+[11:41:47.671] ============================================================
+[11:41:47.672] === INICIANDO RajBootCLP - DATA: 09/06/2026 - VERSÃO 2026 1a ===
+[11:41:47.672] ============================================================
+[11:41:47.688] ** Erro SQL ao carregar máquinas ativas: ('Error while preparing SQL statement:\n- SQLCODE: -204\n- Dynamic SQL Error\n- SQL error code = -204\n- Table unknown\n- CLP_CEQP\n- At line 1, column 21', -204, 335544569)
+[11:41:49.742] ** ERRO Falha fatal ao conectar no Broker MQTT: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+[11:41:49.862] Semáforo liberado com sucesso.
+[11:41:49.869] Serviço finalizado com sucesso.
+[11:41:49.869] ============================================================
+[11:41:49.870] === TÉRMINO RajBootCLP - DATA: 09/06/2026 ===
+[11:41:49.871] ============================================================
+[11:45:57.707] Semáforo travado com sucesso!
+[11:45:57.708] ============================================================
+[11:45:57.709] === INICIANDO RajBootCLP - DATA: 09/06/2026 - VERSÃO 2026 1a ===
+[11:45:57.709] ============================================================
+[11:45:57.717] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[11:45:59.753] ** ERRO Falha fatal ao conectar no Broker MQTT: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+[11:45:59.834] Semáforo liberado com sucesso.
+[11:45:59.840] Serviço finalizado com sucesso.
+[11:45:59.841] ============================================================
+[11:45:59.841] === TÉRMINO RajBootCLP - DATA: 09/06/2026 ===
+[11:45:59.842] ============================================================
+[11:47:45.788] Semáforo travado com sucesso!
+[11:47:45.790] ============================================================
+[11:47:45.791] === INICIANDO RajBootCLP - DATA: 09/06/2026 - VERSÃO 2026 1a ===
+[11:47:45.792] ============================================================
+[11:47:45.801] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[11:47:45.847] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[11:47:45.849] 
+ 
+ iniciando Leitor
+[11:47:45.851] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[11:47:45.852] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[11:47:45.853] Inscrito com sucesso no tópico: [Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData]
+[11:47:48.592] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:47:50.866] Ciclo 001 | IN: [Última: 11:47:48 (Ociosa há 2s)] | OUT: [Fila vazia]
+[11:47:51.553] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:47:54.556] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:47:55.872] Ciclo 002 | IN: [Última: 11:47:54 (Ociosa há 1s)] | OUT: [Fila vazia]
+[11:47:57.547] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:48:00.569] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:48:00.886] Ciclo 003 | IN: [Última: 11:48:00 (Ociosa há 0s)] | OUT: [Fila vazia]
+[11:48:03.559] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:48:05.898] Ciclo 004 | IN: [Última: 11:48:03 (Ociosa há 2s)] | OUT: [Fila vazia]
+[11:48:06.561] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:48:09.562] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:48:10.906] Ciclo 005 | IN: [Última: 11:48:09 (Ociosa há 1s)] | OUT: [Fila vazia]
+[11:48:12.554] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:48:15.567] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:48:15.918] Ciclo 006 | IN: [Última: 11:48:15 (Ociosa há 0s)] | OUT: [Fila vazia]
+[11:48:18.565] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:48:20.926] Ciclo 007 | IN: [Última: 11:48:18 (Ociosa há 2s)] | OUT: [Fila vazia]
+[11:48:21.562] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:48:24.565] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:48:24.777] 
+[!] Comando Ctrl+C detectado. Iniciando desligamento seguro...
+[11:48:25.634] Semáforo liberado com sucesso.
+[11:48:25.637] Serviço finalizado com sucesso.
+[11:48:25.638] ============================================================
+[11:48:25.638] === TÉRMINO RajBootCLP - DATA: 09/06/2026 ===
+[11:48:25.639] ============================================================
+[11:52:55.182] Semáforo travado com sucesso!
+[11:52:55.183] ============================================================
+[11:52:55.184] === INICIANDO RajBootCLP - DATA: 09/06/2026 - VERSÃO 2026 1a ===
+[11:52:55.184] ============================================================
+[11:52:55.190] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[11:52:55.227] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[11:52:55.227] 
+ 
+ iniciando Leitor
+[11:52:55.228] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[11:52:55.229] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[11:52:55.233] Inscrito com sucesso no tópico: [Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData]
+[11:52:57.702] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:53:00.243] Ciclo 001 | IN: [Última: 11:52:57 (Ociosa há 2s)] | OUT: [Fila vazia]
+[11:53:00.668] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:53:03.712] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:53:05.248] Ciclo 002 | IN: [Última: 11:53:03 (Ociosa há 1s)] | OUT: [Fila vazia]
+[11:53:06.694] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:53:09.714] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:53:10.263] Ciclo 003 | IN: [Última: 11:53:09 (Ociosa há 0s)] | OUT: [Fila vazia]
+[11:53:12.697] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:53:15.273] Ciclo 004 | IN: [Última: 11:53:12 (Ociosa há 2s)] | OUT: [Fila vazia]
+[11:53:15.705] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:53:18.713] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:53:20.287] Ciclo 005 | IN: [Última: 11:53:18 (Ociosa há 1s)] | OUT: [Fila vazia]
+[11:53:21.731] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:53:24.703] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:53:25.305] Ciclo 006 | IN: [Última: 11:53:24 (Ociosa há 0s)] | OUT: [Fila vazia]
+[11:53:27.714] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:53:30.316] Ciclo 007 | IN: [Última: 11:53:27 (Ociosa há 2s)] | OUT: [Fila vazia]
+[11:53:30.704] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:53:33.696] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:53:35.324] Ciclo 008 | IN: [Última: 11:53:33 (Ociosa há 1s)] | OUT: [Fila vazia]
+[11:53:36.710] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:53:39.705] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:53:40.340] Ciclo 009 | IN: [Última: 11:53:39 (Ociosa há 0s)] | OUT: [Fila vazia]
+[11:53:42.712] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:53:45.348] Ciclo 010 | IN: [Última: 11:53:42 (Ociosa há 2s)] | OUT: [Fila vazia]
+[11:53:45.689] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:53:48.684] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:53:50.355] Ciclo 011 | IN: [Última: 11:53:48 (Ociosa há 1s)] | OUT: [Fila vazia]
+[11:53:51.693] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:53:54.692] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:53:55.365] Ciclo 012 | IN: [Última: 11:53:54 (Ociosa há 0s)] | OUT: [Fila vazia]
+[11:53:57.698] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:54:00.376] Ciclo 013 | IN: [Última: 11:53:57 (Ociosa há 2s)] | OUT: [Fila vazia]
+[11:54:00.693] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:54:03.700] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:54:05.386] Ciclo 014 | IN: [Última: 11:54:03 (Ociosa há 1s)] | OUT: [Fila vazia]
+[11:54:06.720] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:54:09.749] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:54:10.409] Ciclo 015 | IN: [Última: 11:54:09 (Ociosa há 0s)] | OUT: [Fila vazia]
+[11:54:12.736] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:54:15.417] Ciclo 016 | IN: [Última: 11:54:12 (Ociosa há 2s)] | OUT: [Fila vazia]
+[11:54:15.737] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:54:18.740] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:54:20.424] Ciclo 017 | IN: [Última: 11:54:18 (Ociosa há 1s)] | OUT: [Fila vazia]
+[11:54:21.737] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:54:24.739] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:54:25.436] Ciclo 018 | IN: [Última: 11:54:24 (Ociosa há 0s)] | OUT: [Fila vazia]
+[11:54:27.738] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:54:30.444] Ciclo 019 | IN: [Última: 11:54:27 (Ociosa há 2s)] | OUT: [Fila vazia]
+[11:54:30.738] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:54:33.742] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:54:35.452] Ciclo 020 | IN: [Última: 11:54:33 (Ociosa há 1s)] | OUT: [Fila vazia]
+[11:54:36.745] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:54:39.744] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:54:40.458] Ciclo 021 | IN: [Última: 11:54:39 (Ociosa há 0s)] | OUT: [Fila vazia]
+[11:54:42.746] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:54:45.469] Ciclo 022 | IN: [Última: 11:54:42 (Ociosa há 2s)] | OUT: [Fila vazia]
+[11:54:45.756] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:54:48.746] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:54:50.481] Ciclo 023 | IN: [Última: 11:54:48 (Ociosa há 1s)] | OUT: [Fila vazia]
+[11:54:51.753] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:54:54.774] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:54:55.536] Ciclo 024 | IN: [Última: 11:54:54 (Ociosa há 0s)] | OUT: [Fila vazia]
+[11:54:57.769] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:55:00.544] Ciclo 025 | IN: [Última: 11:54:57 (Ociosa há 2s)] | OUT: [Fila vazia]
+[11:55:00.745] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:55:03.750] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:55:05.552] Ciclo 026 | IN: [Última: 11:55:03 (Ociosa há 1s)] | OUT: [Fila vazia]
+[11:55:06.749] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:55:09.757] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:55:10.565] Ciclo 027 | IN: [Última: 11:55:09 (Ociosa há 0s)] | OUT: [Fila vazia]
+[11:55:12.779] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:55:15.576] Ciclo 028 | IN: [Última: 11:55:12 (Ociosa há 2s)] | OUT: [Fila vazia]
+[11:55:15.762] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:55:18.760] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:55:20.587] Ciclo 029 | IN: [Última: 11:55:18 (Ociosa há 1s)] | OUT: [Fila vazia]
+[11:55:21.779] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:55:24.798] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:55:25.599] Ciclo 030 | IN: [Última: 11:55:24 (Ociosa há 0s)] | OUT: [Fila vazia]
+[11:55:27.838] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:55:30.739] Ciclo 031 | IN: [Última: 11:55:27 (Ociosa há 2s)] | OUT: [Fila vazia]
+[11:55:31.128] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:55:33.785] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:55:35.760] Ciclo 032 | IN: [Última: 11:55:33 (Ociosa há 1s)] | OUT: [Fila vazia]
+[11:55:36.778] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:55:39.761] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:55:40.767] Ciclo 033 | IN: [Última: 11:55:39 (Ociosa há 1s)] | OUT: [Fila vazia]
+[11:55:42.766] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:55:45.766] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:55:45.773] Ciclo 034 | IN: [Última: 11:55:45 (Ociosa há 0s)] | OUT: [Fila vazia]
+[11:55:48.768] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:55:50.780] Ciclo 035 | IN: [Última: 11:55:48 (Ociosa há 2s)] | OUT: [Fila vazia]
+[11:55:51.768] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:55:54.772] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:55:55.792] Ciclo 036 | IN: [Última: 11:55:54 (Ociosa há 1s)] | OUT: [Fila vazia]
+[11:55:57.769] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:56:00.775] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:56:00.807] Ciclo 037 | IN: [Última: 11:56:00 (Ociosa há 0s)] | OUT: [Fila vazia]
+[11:56:03.778] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:56:05.822] Ciclo 038 | IN: [Última: 11:56:03 (Ociosa há 2s)] | OUT: [Fila vazia]
+[11:56:06.790] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:56:09.773] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:56:10.830] Ciclo 039 | IN: [Última: 11:56:09 (Ociosa há 1s)] | OUT: [Fila vazia]
+[11:56:12.779] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:56:15.775] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:56:15.838] Ciclo 040 | IN: [Última: 11:56:15 (Ociosa há 0s)] | OUT: [Fila vazia]
+[11:56:18.778] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:56:20.845] Ciclo 041 | IN: [Última: 11:56:18 (Ociosa há 2s)] | OUT: [Fila vazia]
+[11:56:21.786] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:56:24.785] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:56:25.855] Ciclo 042 | IN: [Última: 11:56:24 (Ociosa há 1s)] | OUT: [Fila vazia]
+[11:56:27.788] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:56:30.785] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:56:30.864] Ciclo 043 | IN: [Última: 11:56:30 (Ociosa há 0s)] | OUT: [Fila vazia]
+[11:56:33.787] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:56:35.871] Ciclo 044 | IN: [Última: 11:56:33 (Ociosa há 2s)] | OUT: [Fila vazia]
+[11:56:36.785] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:56:39.790] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:56:40.882] Ciclo 045 | IN: [Última: 11:56:39 (Ociosa há 1s)] | OUT: [Fila vazia]
+[11:56:42.796] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:56:45.819] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:56:45.893] Ciclo 046 | IN: [Última: 11:56:45 (Ociosa há 0s)] | OUT: [Fila vazia]
+[11:56:48.789] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:56:50.900] Ciclo 047 | IN: [Última: 11:56:48 (Ociosa há 2s)] | OUT: [Fila vazia]
+[11:56:51.788] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:56:54.794] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:56:55.910] Ciclo 048 | IN: [Última: 11:56:54 (Ociosa há 1s)] | OUT: [Fila vazia]
+[11:56:57.797] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:57:00.792] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:57:00.918] Ciclo 049 | IN: [Última: 11:57:00 (Ociosa há 0s)] | OUT: [Fila vazia]
+[11:57:03.801] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:57:05.930] Ciclo 050 | IN: [Última: 11:57:03 (Ociosa há 2s)] | OUT: [Fila vazia]
+[11:57:06.813] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:57:09.798] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:57:10.942] Ciclo 051 | IN: [Última: 11:57:09 (Ociosa há 1s)] | OUT: [Fila vazia]
+[11:57:12.806] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:57:15.804] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:57:15.950] Ciclo 052 | IN: [Última: 11:57:15 (Ociosa há 0s)] | OUT: [Fila vazia]
+[11:57:18.805] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:57:20.956] Ciclo 053 | IN: [Última: 11:57:18 (Ociosa há 2s)] | OUT: [Fila vazia]
+[11:57:21.799] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:57:24.810] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:57:25.968] Ciclo 054 | IN: [Última: 11:57:24 (Ociosa há 1s)] | OUT: [Fila vazia]
+[11:57:27.811] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:57:30.815] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:57:30.975] Ciclo 055 | IN: [Última: 11:57:30 (Ociosa há 0s)] | OUT: [Fila vazia]
+[11:57:33.808] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:57:35.986] Ciclo 056 | IN: [Última: 11:57:33 (Ociosa há 2s)] | OUT: [Fila vazia]
+[11:57:36.806] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:57:39.828] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:57:41.002] Ciclo 057 | IN: [Última: 11:57:39 (Ociosa há 1s)] | OUT: [Fila vazia]
+[11:57:42.811] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:57:45.809] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:57:46.008] Ciclo 058 | IN: [Última: 11:57:45 (Ociosa há 0s)] | OUT: [Fila vazia]
+[11:57:48.821] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:57:51.016] Ciclo 059 | IN: [Última: 11:57:48 (Ociosa há 2s)] | OUT: [Fila vazia]
+[11:57:51.814] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:57:54.825] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:57:56.023] Ciclo 060 | IN: [Última: 11:57:54 (Ociosa há 1s)] | OUT: [Fila vazia]
+[11:57:57.797] 
+ Iniciando o Delete
+[11:57:57.820] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:58:01.032] Ciclo 061 | IN: [Última: 11:57:57 (Ociosa há 3s)] | OUT: [Fila vazia]
+[11:58:06.039] Ciclo 062 | IN: [Última: 11:57:57 (Ociosa há 8s)] | OUT: [Fila vazia]
+[11:58:06.452] Delete concluído com sucesso.
+[11:58:06.476] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:58:06.507] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:58:06.823] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:58:09.822] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:58:11.046] Ciclo 063 | IN: [Última: 11:58:09 (Ociosa há 1s)] | OUT: [Fila vazia]
+[11:58:12.823] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:58:15.828] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:58:16.052] Ciclo 064 | IN: [Última: 11:58:15 (Ociosa há 0s)] | OUT: [Fila vazia]
+[11:58:18.828] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:58:21.061] Ciclo 065 | IN: [Última: 11:58:18 (Ociosa há 2s)] | OUT: [Fila vazia]
+[11:58:21.825] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:58:24.835] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:58:26.074] Ciclo 066 | IN: [Última: 11:58:24 (Ociosa há 1s)] | OUT: [Fila vazia]
+[11:58:27.850] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:58:30.833] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:58:31.086] Ciclo 067 | IN: [Última: 11:58:30 (Ociosa há 0s)] | OUT: [Fila vazia]
+[11:58:33.837] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:58:36.094] Ciclo 068 | IN: [Última: 11:58:33 (Ociosa há 2s)] | OUT: [Fila vazia]
+[11:58:36.830] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:58:39.832] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:58:41.102] Ciclo 069 | IN: [Última: 11:58:39 (Ociosa há 1s)] | OUT: [Fila vazia]
+[11:58:42.837] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:58:45.854] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:58:46.115] Ciclo 070 | IN: [Última: 11:58:45 (Ociosa há 0s)] | OUT: [Fila vazia]
+[11:58:48.833] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:58:51.125] Ciclo 071 | IN: [Última: 11:58:48 (Ociosa há 2s)] | OUT: [Fila vazia]
+[11:58:51.853] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:58:54.839] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:58:56.134] Ciclo 072 | IN: [Última: 11:58:54 (Ociosa há 1s)] | OUT: [Fila vazia]
+[11:58:57.839] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:59:00.839] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:59:01.142] Ciclo 073 | IN: [Última: 11:59:00 (Ociosa há 0s)] | OUT: [Fila vazia]
+[11:59:03.843] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:59:06.150] Ciclo 074 | IN: [Última: 11:59:03 (Ociosa há 2s)] | OUT: [Fila vazia]
+[11:59:06.841] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:59:09.842] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:59:11.159] Ciclo 075 | IN: [Última: 11:59:09 (Ociosa há 1s)] | OUT: [Fila vazia]
+[11:59:12.845] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:59:15.844] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:59:16.167] Ciclo 076 | IN: [Última: 11:59:15 (Ociosa há 0s)] | OUT: [Fila vazia]
+[11:59:18.846] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:59:21.176] Ciclo 077 | IN: [Última: 11:59:18 (Ociosa há 2s)] | OUT: [Fila vazia]
+[11:59:21.851] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:59:24.854] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:59:26.182] Ciclo 078 | IN: [Última: 11:59:24 (Ociosa há 1s)] | OUT: [Fila vazia]
+[11:59:27.855] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:59:30.850] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:59:31.190] Ciclo 079 | IN: [Última: 11:59:30 (Ociosa há 0s)] | OUT: [Fila vazia]
+[11:59:33.857] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:59:36.198] Ciclo 080 | IN: [Última: 11:59:33 (Ociosa há 2s)] | OUT: [Fila vazia]
+[11:59:36.854] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:59:39.856] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:59:41.210] Ciclo 081 | IN: [Última: 11:59:39 (Ociosa há 1s)] | OUT: [Fila vazia]
+[11:59:42.854] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:59:45.856] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:59:46.219] Ciclo 082 | IN: [Última: 11:59:45 (Ociosa há 0s)] | OUT: [Fila vazia]
+[11:59:48.885] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:59:51.232] Ciclo 083 | IN: [Última: 11:59:48 (Ociosa há 2s)] | OUT: [Fila vazia]
+[11:59:51.878] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:59:54.858] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[11:59:56.242] Ciclo 084 | IN: [Última: 11:59:54 (Ociosa há 1s)] | OUT: [Fila vazia]
+[11:59:57.858] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:00:00.864] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:00:01.250] Ciclo 085 | IN: [Última: 12:00:00 (Ociosa há 0s)] | OUT: [Fila vazia]
+[12:00:03.866] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:00:06.258] Ciclo 086 | IN: [Última: 12:00:03 (Ociosa há 2s)] | OUT: [Fila vazia]
+[12:00:06.871] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:00:09.895] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:00:11.268] Ciclo 087 | IN: [Última: 12:00:09 (Ociosa há 1s)] | OUT: [Fila vazia]
+[12:00:12.877] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:00:15.868] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:00:16.276] Ciclo 088 | IN: [Última: 12:00:15 (Ociosa há 0s)] | OUT: [Fila vazia]
+[12:00:18.870] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:00:21.285] Ciclo 089 | IN: [Última: 12:00:18 (Ociosa há 2s)] | OUT: [Fila vazia]
+[12:00:21.869] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:00:24.887] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:00:26.295] Ciclo 090 | IN: [Última: 12:00:24 (Ociosa há 1s)] | OUT: [Fila vazia]
+[12:00:27.931] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:00:30.874] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:00:31.303] Ciclo 091 | IN: [Última: 12:00:30 (Ociosa há 0s)] | OUT: [Fila vazia]
+[12:00:33.877] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:00:36.309] Ciclo 092 | IN: [Última: 12:00:33 (Ociosa há 2s)] | OUT: [Fila vazia]
+[12:00:36.890] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:00:39.901] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:00:41.322] Ciclo 093 | IN: [Última: 12:00:39 (Ociosa há 1s)] | OUT: [Fila vazia]
+[12:00:42.882] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:00:45.878] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:00:46.329] Ciclo 094 | IN: [Última: 12:00:45 (Ociosa há 0s)] | OUT: [Fila vazia]
+[12:00:48.884] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:00:51.343] Ciclo 095 | IN: [Última: 12:00:48 (Ociosa há 2s)] | OUT: [Fila vazia]
+[12:00:51.894] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:00:54.899] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:00:56.363] Ciclo 096 | IN: [Última: 12:00:54 (Ociosa há 1s)] | OUT: [Fila vazia]
+[12:00:57.959] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:01:00.935] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:01:01.378] Ciclo 097 | IN: [Última: 12:01:00 (Ociosa há 0s)] | OUT: [Fila vazia]
+[12:01:03.956] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:01:06.394] Ciclo 098 | IN: [Última: 12:01:03 (Ociosa há 2s)] | OUT: [Fila vazia]
+[12:01:06.959] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:01:10.023] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:01:11.421] Ciclo 099 | IN: [Última: 12:01:09 (Ociosa há 1s)] | OUT: [Fila vazia]
+[12:01:12.965] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:01:15.902] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:01:16.427] Ciclo 100 | IN: [Última: 12:01:15 (Ociosa há 0s)] | OUT: [Fila vazia]
+[12:01:18.936] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:01:21.436] Ciclo 101 | IN: [Última: 12:01:18 (Ociosa há 2s)] | OUT: [Fila vazia]
+[12:01:21.897] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:01:24.908] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:01:26.446] Ciclo 102 | IN: [Última: 12:01:24 (Ociosa há 1s)] | OUT: [Fila vazia]
+[12:01:27.900] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:01:30.916] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:01:31.458] Ciclo 103 | IN: [Última: 12:01:30 (Ociosa há 0s)] | OUT: [Fila vazia]
+[12:01:33.919] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:01:36.468] Ciclo 104 | IN: [Última: 12:01:33 (Ociosa há 2s)] | OUT: [Fila vazia]
+[12:01:36.902] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:01:39.917] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:01:41.480] Ciclo 105 | IN: [Última: 12:01:39 (Ociosa há 1s)] | OUT: [Fila vazia]
+[12:01:42.915] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:01:45.902] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:01:46.493] Ciclo 106 | IN: [Última: 12:01:45 (Ociosa há 0s)] | OUT: [Fila vazia]
+[12:01:48.920] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:01:51.502] Ciclo 107 | IN: [Última: 12:01:48 (Ociosa há 2s)] | OUT: [Fila vazia]
+[12:01:51.899] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:01:54.904] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:01:56.514] Ciclo 108 | IN: [Última: 12:01:54 (Ociosa há 1s)] | OUT: [Fila vazia]
+[12:01:57.933] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:02:00.907] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:02:01.522] Ciclo 109 | IN: [Última: 12:02:00 (Ociosa há 0s)] | OUT: [Fila vazia]
+[12:02:03.919] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:02:06.534] Ciclo 110 | IN: [Última: 12:02:03 (Ociosa há 2s)] | OUT: [Fila vazia]
+[12:02:06.932] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:02:09.910] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:02:11.542] Ciclo 111 | IN: [Última: 12:02:09 (Ociosa há 1s)] | OUT: [Fila vazia]
+[12:02:13.001] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:02:15.913] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:02:16.549] Ciclo 112 | IN: [Última: 12:02:15 (Ociosa há 0s)] | OUT: [Fila vazia]
+[12:02:18.918] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:02:21.563] Ciclo 113 | IN: [Última: 12:02:18 (Ociosa há 2s)] | OUT: [Fila vazia]
+[12:02:21.908] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:02:24.997] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:02:26.577] Ciclo 114 | IN: [Última: 12:02:24 (Ociosa há 1s)] | OUT: [Fila vazia]
+[12:02:27.926] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:02:30.931] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:02:31.587] Ciclo 115 | IN: [Última: 12:02:30 (Ociosa há 0s)] | OUT: [Fila vazia]
+[12:02:33.946] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:02:36.600] Ciclo 116 | IN: [Última: 12:02:33 (Ociosa há 2s)] | OUT: [Fila vazia]
+[12:02:36.957] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:02:39.943] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:02:41.607] Ciclo 117 | IN: [Última: 12:02:39 (Ociosa há 1s)] | OUT: [Fila vazia]
+[12:02:42.938] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:02:45.945] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:02:46.630] Ciclo 118 | IN: [Última: 12:02:45 (Ociosa há 0s)] | OUT: [Fila vazia]
+[12:02:48.983] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:02:51.638] Ciclo 119 | IN: [Última: 12:02:48 (Ociosa há 2s)] | OUT: [Fila vazia]
+[12:02:51.940] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:02:54.965] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:02:56.656] Ciclo 120 | IN: [Última: 12:02:54 (Ociosa há 1s)] | OUT: [Fila vazia]
+[12:02:57.932] 
+ Iniciando o Delete
+[12:02:57.992] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:03:01.676] Ciclo 121 | IN: [Última: 12:02:57 (Ociosa há 3s)] | OUT: [Fila vazia]
+[12:58:50.656] Tempo esgotado! Encerrando rotina para liberar o semáforo.
+[12:58:50.865] Delete concluído com sucesso.
+[12:58:51.161] 
+ Iniciando o Delete
+[12:58:51.472] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:58:52.156] Delete concluído com sucesso.
+[12:58:52.514] Semáforo liberado com sucesso.
+[12:58:52.593] Serviço finalizado com sucesso.
+[12:58:52.671] ============================================================
+[12:58:52.738] === TÉRMINO RajBootCLP - DATA: 09/06/2026 ===
+[12:58:52.802] ============================================================
+[12:59:19.399] Semáforo travado com sucesso!
+[12:59:19.400] ============================================================
+[12:59:19.401] === INICIANDO RajBootCLP - DATA: 09/06/2026 - VERSÃO 2026 1a ===
+[12:59:19.401] ============================================================
+[12:59:19.411] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[12:59:19.458] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[12:59:19.459] 
+ 
+ iniciando Leitor
+[12:59:19.461] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[12:59:19.461] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[12:59:19.462] Inscrito com sucesso no tópico: [Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData]
+[12:59:21.045] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:59:23.943] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:59:24.496] Ciclo 001 | IN: [Última: 12:59:23 (Ociosa há 0s)] | OUT: [Fila vazia]
+[12:59:26.955] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:59:29.546] Ciclo 002 | IN: [Última: 12:59:26 (Ociosa há 2s)] | OUT: [Fila vazia]
+[12:59:29.982] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:59:34.296] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:59:35.389] Ciclo 003 | IN: [Última: 12:59:33 (Ociosa há 1s)] | OUT: [Fila vazia]
+[12:59:35.887] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:59:38.861] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:59:40.398] Ciclo 004 | IN: [Última: 12:59:38 (Ociosa há 1s)] | OUT: [Fila vazia]
+[12:59:41.858] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:59:44.860] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:59:45.405] Ciclo 005 | IN: [Última: 12:59:44 (Ociosa há 0s)] | OUT: [Fila vazia]
+[12:59:47.862] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:59:50.420] Ciclo 006 | IN: [Última: 12:59:47 (Ociosa há 2s)] | OUT: [Fila vazia]
+[12:59:50.870] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:59:53.864] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:59:55.429] Ciclo 007 | IN: [Última: 12:59:53 (Ociosa há 1s)] | OUT: [Fila vazia]
+[12:59:56.862] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[12:59:59.865] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:00:00.437] Ciclo 008 | IN: [Última: 12:59:59 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:00:02.865] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:00:05.446] Ciclo 009 | IN: [Última: 13:00:02 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:00:05.867] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:00:08.871] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:00:10.454] Ciclo 010 | IN: [Última: 13:00:08 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:00:11.870] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:00:14.873] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:00:15.461] Ciclo 011 | IN: [Última: 13:00:14 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:00:17.875] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:00:20.478] Ciclo 012 | IN: [Última: 13:00:17 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:00:20.873] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:00:23.891] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:00:25.486] Ciclo 013 | IN: [Última: 13:00:23 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:00:26.879] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:00:29.892] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:00:30.494] Ciclo 014 | IN: [Última: 13:00:29 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:00:32.881] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:00:35.500] Ciclo 015 | IN: [Última: 13:00:32 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:00:35.874] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:00:38.881] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:00:40.507] Ciclo 016 | IN: [Última: 13:00:38 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:00:41.883] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:00:44.893] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:00:45.521] Ciclo 017 | IN: [Última: 13:00:44 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:00:47.892] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:00:50.540] Ciclo 018 | IN: [Última: 13:00:47 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:00:50.886] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:00:53.882] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:00:55.548] Ciclo 019 | IN: [Última: 13:00:53 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:00:56.894] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:00:59.889] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:01:00.557] Ciclo 020 | IN: [Última: 13:00:59 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:01:02.888] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:01:05.565] Ciclo 021 | IN: [Última: 13:01:02 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:01:05.888] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:01:08.893] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:01:10.573] Ciclo 022 | IN: [Última: 13:01:08 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:01:11.893] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:01:14.895] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:01:15.581] Ciclo 023 | IN: [Última: 13:01:14 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:01:17.906] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:01:20.587] Ciclo 024 | IN: [Última: 13:01:17 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:01:20.896] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:01:23.897] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:01:25.594] Ciclo 025 | IN: [Última: 13:01:23 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:01:26.914] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:01:29.895] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:01:30.601] Ciclo 026 | IN: [Última: 13:01:29 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:01:32.901] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:01:35.610] Ciclo 027 | IN: [Última: 13:01:32 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:01:35.910] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:01:38.904] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:01:40.625] Ciclo 028 | IN: [Última: 13:01:38 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:01:41.899] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:01:44.929] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:01:45.652] Ciclo 029 | IN: [Última: 13:01:44 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:01:47.930] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:01:50.661] Ciclo 030 | IN: [Última: 13:01:47 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:01:50.906] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:01:53.910] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:01:55.783] Ciclo 031 | IN: [Última: 13:01:53 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:01:57.054] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:01:59.919] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:02:00.794] Ciclo 032 | IN: [Última: 13:01:59 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:02:02.935] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:02:05.916] Ciclo 033 | IN: [Última: 13:02:02 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:02:05.962] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:02:08.928] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:02:10.929] Ciclo 034 | IN: [Última: 13:02:08 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:02:11.911] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:02:14.930] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:02:15.942] Ciclo 035 | IN: [Última: 13:02:14 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:02:17.919] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:02:20.919] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:02:20.949] Ciclo 036 | IN: [Última: 13:02:20 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:02:23.921] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:02:25.957] Ciclo 037 | IN: [Última: 13:02:23 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:02:26.928] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:02:29.936] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:02:30.969] Ciclo 038 | IN: [Última: 13:02:29 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:02:32.944] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:02:35.926] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:02:35.975] Ciclo 039 | IN: [Última: 13:02:35 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:02:38.932] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:02:40.984] Ciclo 040 | IN: [Última: 13:02:38 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:02:41.928] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:02:44.963] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:02:45.997] Ciclo 041 | IN: [Última: 13:02:44 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:02:47.933] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:02:50.928] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:02:51.005] Ciclo 042 | IN: [Última: 13:02:50 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:02:53.936] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:02:56.013] Ciclo 043 | IN: [Última: 13:02:53 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:02:56.933] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:02:59.940] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:03:01.021] Ciclo 044 | IN: [Última: 13:02:59 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:03:02.961] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:03:05.937] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:03:06.032] Ciclo 045 | IN: [Última: 13:03:05 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:03:08.935] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:03:11.039] Ciclo 046 | IN: [Última: 13:03:08 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:03:11.935] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:03:14.937] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:03:16.050] Ciclo 047 | IN: [Última: 13:03:14 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:03:17.938] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:03:20.950] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:03:21.058] Ciclo 048 | IN: [Última: 13:03:20 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:03:23.969] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:03:26.069] Ciclo 049 | IN: [Última: 13:03:23 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:03:26.941] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:03:29.941] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:03:31.080] Ciclo 050 | IN: [Última: 13:03:29 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:03:32.943] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:03:35.953] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:03:36.090] Ciclo 051 | IN: [Última: 13:03:35 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:03:38.942] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:03:41.097] Ciclo 052 | IN: [Última: 13:03:38 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:03:41.948] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:03:44.972] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:03:46.107] Ciclo 053 | IN: [Última: 13:03:44 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:03:47.981] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:03:50.953] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:03:51.115] Ciclo 054 | IN: [Última: 13:03:50 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:03:53.953] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:03:56.123] Ciclo 055 | IN: [Última: 13:03:53 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:03:56.957] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:03:59.956] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:04:01.132] Ciclo 056 | IN: [Última: 13:03:59 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:04:02.958] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:04:05.967] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:04:06.140] Ciclo 057 | IN: [Última: 13:04:05 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:04:08.955] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:04:11.148] Ciclo 058 | IN: [Última: 13:04:08 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:04:11.962] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:04:14.965] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:04:16.160] Ciclo 059 | IN: [Última: 13:04:14 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:04:17.957] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:04:20.939] 
+ Iniciando o Delete
+[13:04:20.961] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:04:21.167] Ciclo 060 | IN: [Última: 13:04:20 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:04:26.180] Ciclo 061 | IN: [Última: 13:04:20 (Ociosa há 5s)] | OUT: [Fila vazia]
+[13:04:26.900] Delete concluído com sucesso.
+[13:04:26.927] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:04:26.961] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:04:29.969] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:04:31.188] Ciclo 062 | IN: [Última: 13:04:29 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:04:32.967] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:04:35.970] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:04:36.201] Ciclo 063 | IN: [Última: 13:04:35 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:04:38.972] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:04:41.210] Ciclo 064 | IN: [Última: 13:04:38 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:04:41.979] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:04:44.975] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:04:46.220] Ciclo 065 | IN: [Última: 13:04:44 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:04:47.980] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:04:50.976] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:04:51.230] Ciclo 066 | IN: [Última: 13:04:50 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:04:53.978] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:04:56.239] Ciclo 067 | IN: [Última: 13:04:53 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:04:56.976] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:04:59.980] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:05:01.247] Ciclo 068 | IN: [Última: 13:04:59 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:05:02.983] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:05:05.984] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:05:06.257] Ciclo 069 | IN: [Última: 13:05:05 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:05:09.000] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:05:11.276] Ciclo 070 | IN: [Última: 13:05:08 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:05:11.998] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:05:15.012] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:05:16.291] Ciclo 071 | IN: [Última: 13:05:14 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:05:17.992] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:05:20.987] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:05:21.303] Ciclo 072 | IN: [Última: 13:05:20 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:05:23.989] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:05:26.321] Ciclo 073 | IN: [Última: 13:05:23 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:05:27.005] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:05:29.991] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:05:31.329] Ciclo 074 | IN: [Última: 13:05:29 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:05:32.990] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:05:35.997] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:05:36.340] Ciclo 075 | IN: [Última: 13:05:35 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:05:38.987] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:05:41.349] Ciclo 076 | IN: [Última: 13:05:38 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:05:41.998] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:05:44.996] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:05:46.357] Ciclo 077 | IN: [Última: 13:05:44 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:05:48.004] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:05:50.998] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:05:51.365] Ciclo 078 | IN: [Última: 13:05:50 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:05:54.016] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:05:56.374] Ciclo 079 | IN: [Última: 13:05:53 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:05:57.000] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:06:00.016] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:06:01.386] Ciclo 080 | IN: [Última: 13:05:59 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:06:03.000] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:06:06.009] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:06:06.396] Ciclo 081 | IN: [Última: 13:06:05 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:06:09.023] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:06:11.408] Ciclo 082 | IN: [Última: 13:06:08 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:06:12.011] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:06:15.004] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:06:16.420] Ciclo 083 | IN: [Última: 13:06:14 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:06:18.016] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:06:21.008] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:06:21.427] Ciclo 084 | IN: [Última: 13:06:20 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:06:24.012] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:06:26.437] Ciclo 085 | IN: [Última: 13:06:23 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:06:27.009] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:06:30.018] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:06:31.447] Ciclo 086 | IN: [Última: 13:06:29 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:06:33.018] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:06:36.014] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:06:36.462] Ciclo 087 | IN: [Última: 13:06:35 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:06:39.015] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:06:41.469] Ciclo 088 | IN: [Última: 13:06:38 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:06:42.018] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:06:45.025] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:06:46.489] Ciclo 089 | IN: [Última: 13:06:44 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:06:48.025] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:06:51.022] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:06:51.496] Ciclo 090 | IN: [Última: 13:06:51 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:06:54.023] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:06:56.509] Ciclo 091 | IN: [Última: 13:06:53 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:06:57.028] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:07:00.027] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:07:01.519] Ciclo 092 | IN: [Última: 13:07:00 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:07:03.021] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:07:06.025] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:07:06.528] Ciclo 093 | IN: [Última: 13:07:06 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:07:09.039] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:07:11.535] Ciclo 094 | IN: [Última: 13:07:09 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:07:12.028] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:07:15.034] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:07:16.546] Ciclo 095 | IN: [Última: 13:07:15 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:07:18.027] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:07:21.034] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:07:21.556] Ciclo 096 | IN: [Última: 13:07:21 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:07:24.033] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:07:26.570] Ciclo 097 | IN: [Última: 13:07:24 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:07:27.061] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:07:30.038] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:07:31.580] Ciclo 098 | IN: [Última: 13:07:30 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:07:33.032] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:07:36.036] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:07:36.588] Ciclo 099 | IN: [Última: 13:07:36 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:07:39.032] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:07:41.596] Ciclo 100 | IN: [Última: 13:07:39 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:07:42.046] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:07:45.038] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:07:46.608] Ciclo 101 | IN: [Última: 13:07:45 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:07:48.042] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:07:51.042] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:07:51.619] Ciclo 102 | IN: [Última: 13:07:51 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:07:54.066] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:07:56.626] Ciclo 103 | IN: [Última: 13:07:54 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:07:57.043] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:08:00.046] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:08:01.638] Ciclo 104 | IN: [Última: 13:08:00 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:08:03.079] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:08:06.045] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:08:06.646] Ciclo 105 | IN: [Última: 13:08:06 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:08:09.048] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:08:11.653] Ciclo 106 | IN: [Última: 13:08:09 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:08:12.052] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:08:15.046] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:08:16.663] Ciclo 107 | IN: [Última: 13:08:15 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:08:18.054] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:08:21.052] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:08:21.669] Ciclo 108 | IN: [Última: 13:08:21 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:08:24.055] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:08:26.675] Ciclo 109 | IN: [Última: 13:08:24 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:08:27.057] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:08:30.054] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:08:31.682] Ciclo 110 | IN: [Última: 13:08:30 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:08:33.064] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:08:36.057] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:08:36.690] Ciclo 111 | IN: [Última: 13:08:36 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:08:39.059] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:08:41.701] Ciclo 112 | IN: [Última: 13:08:39 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:08:42.082] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:08:45.074] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:08:46.711] Ciclo 113 | IN: [Última: 13:08:45 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:08:48.064] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:08:51.057] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:08:51.717] Ciclo 114 | IN: [Última: 13:08:51 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:08:54.065] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:08:56.728] Ciclo 115 | IN: [Última: 13:08:54 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:08:57.071] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:09:00.067] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:09:01.743] Ciclo 116 | IN: [Última: 13:09:00 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:09:03.069] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:09:06.093] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:09:06.755] Ciclo 117 | IN: [Última: 13:09:06 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:09:09.078] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:09:11.763] Ciclo 118 | IN: [Última: 13:09:09 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:09:12.068] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:09:15.073] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:09:16.770] Ciclo 119 | IN: [Última: 13:09:15 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:09:18.078] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:09:21.055] 
+ Iniciando o Delete
+[13:09:21.078] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:09:21.777] Ciclo 120 | IN: [Última: 13:09:21 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:09:26.786] Ciclo 121 | IN: [Última: 13:09:21 (Ociosa há 5s)] | OUT: [Fila vazia]
+[13:09:26.891] Delete concluído com sucesso.
+[13:09:26.914] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:09:27.078] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:09:30.122] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:09:31.830] Ciclo 122 | IN: [Última: 13:09:30 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:09:33.082] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:09:36.086] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:09:36.839] Ciclo 123 | IN: [Última: 13:09:36 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:09:39.085] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:09:41.847] Ciclo 124 | IN: [Última: 13:09:39 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:09:42.086] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:09:45.093] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:09:46.859] Ciclo 125 | IN: [Última: 13:09:45 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:09:48.099] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:09:51.095] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:09:51.868] Ciclo 126 | IN: [Última: 13:09:51 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:09:54.093] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:09:56.876] Ciclo 127 | IN: [Última: 13:09:54 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:09:57.095] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:10:00.093] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:10:01.885] Ciclo 128 | IN: [Última: 13:10:00 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:10:03.095] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:10:06.096] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:10:06.898] Ciclo 129 | IN: [Última: 13:10:06 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:10:09.109] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:10:11.908] Ciclo 130 | IN: [Última: 13:10:09 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:10:12.100] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:10:15.108] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:10:16.919] Ciclo 131 | IN: [Última: 13:10:15 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:10:18.100] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:10:21.105] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:10:21.928] Ciclo 132 | IN: [Última: 13:10:21 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:10:24.103] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:10:26.938] Ciclo 133 | IN: [Última: 13:10:24 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:10:27.103] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:10:30.107] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:10:31.947] Ciclo 134 | IN: [Última: 13:10:30 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:10:33.108] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:10:36.122] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:10:36.963] Ciclo 135 | IN: [Última: 13:10:36 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:10:39.115] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:10:41.969] Ciclo 136 | IN: [Última: 13:10:39 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:10:42.125] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:10:45.115] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:10:46.978] Ciclo 137 | IN: [Última: 13:10:45 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:10:48.109] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:10:51.116] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:10:51.991] Ciclo 138 | IN: [Última: 13:10:51 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:10:54.111] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:10:57.017] Ciclo 139 | IN: [Última: 13:10:54 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:10:57.121] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:11:00.115] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:11:02.023] Ciclo 140 | IN: [Última: 13:11:00 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:11:03.123] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:11:06.145] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:11:07.037] Ciclo 141 | IN: [Última: 13:11:06 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:11:09.119] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:11:12.044] Ciclo 142 | IN: [Última: 13:11:09 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:11:12.156] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:11:15.152] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:11:17.051] Ciclo 143 | IN: [Última: 13:11:15 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:11:18.158] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:11:21.151] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:11:22.060] Ciclo 144 | IN: [Última: 13:11:21 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:11:24.155] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:11:27.071] Ciclo 145 | IN: [Última: 13:11:24 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:11:27.158] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:11:30.252] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:11:32.081] Ciclo 146 | IN: [Última: 13:11:30 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:11:33.157] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:11:36.176] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:11:37.094] Ciclo 147 | IN: [Última: 13:11:36 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:11:38.741] 
+[!] Comando Ctrl+C detectado. Iniciando desligamento seguro...
+[13:11:39.169] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:11:39.234] Semáforo liberado com sucesso.
+[13:11:39.240] Serviço finalizado com sucesso.
+[13:11:39.241] ============================================================
+[13:11:39.241] === TÉRMINO RajBootCLP - DATA: 09/06/2026 ===
+[13:11:39.242] ============================================================
+[13:18:32.160] Semáforo travado com sucesso!
+[13:18:32.161] ============================================================
+[13:18:32.162] === INICIANDO RajBootCLP - DATA: 09/06/2026 - VERSÃO 2026 1a ===
+[13:18:32.163] ============================================================
+[13:18:32.170] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[13:18:32.190] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[13:18:32.191] 
+ 
+ iniciando Leitor
+[13:18:32.193] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[13:18:32.193] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[13:18:32.193] Inscrito com sucesso no tópico: [Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData]
+[13:18:33.384] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:18:36.342] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:18:37.202] Ciclo 001 | IN: [Última: 13:18:36 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:18:39.333] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:18:42.213] Ciclo 002 | IN: [Última: 13:18:39 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:18:42.361] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:18:45.363] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:18:47.224] Ciclo 003 | IN: [Última: 13:18:45 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:18:48.356] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:18:51.348] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:18:52.231] Ciclo 004 | IN: [Última: 13:18:51 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:18:54.356] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:18:57.241] Ciclo 005 | IN: [Última: 13:18:54 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:18:57.358] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:19:00.363] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:19:02.252] Ciclo 006 | IN: [Última: 13:19:00 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:19:03.360] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:19:06.357] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:19:07.261] Ciclo 007 | IN: [Última: 13:19:06 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:19:09.357] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:19:12.276] Ciclo 008 | IN: [Última: 13:19:09 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:19:12.388] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:19:15.361] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:19:17.284] Ciclo 009 | IN: [Última: 13:19:15 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:19:18.363] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:19:21.363] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:19:22.295] Ciclo 010 | IN: [Última: 13:19:21 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:19:24.368] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:19:27.304] Ciclo 011 | IN: [Última: 13:19:24 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:19:27.367] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:19:28.356] 
+[!] Comando Ctrl+C detectado. Iniciando desligamento seguro...
+[13:19:28.455] Semáforo liberado com sucesso.
+[13:19:28.465] Serviço finalizado com sucesso.
+[13:19:28.466] ============================================================
+[13:19:28.466] === TÉRMINO RajBootCLP - DATA: 09/06/2026 ===
+[13:19:28.466] ============================================================
+[13:29:35.464] Semáforo travado com sucesso!
+[13:29:35.465] ============================================================
+[13:29:35.466] === INICIANDO RajBootCLP - DATA: 09/06/2026 - VERSÃO 2026 1a ===
+[13:29:35.466] ============================================================
+[13:29:35.473] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[13:29:35.502] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[13:29:35.502] 
+ 
+ iniciando Leitor
+[13:29:35.504] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[13:29:35.504] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[13:29:35.505] Inscrito com sucesso no tópico: [Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData]
+[13:29:36.663] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:29:39.620] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:29:40.514] Ciclo 001 | IN: [Última: 13:29:39 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:29:42.622] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:29:45.528] Ciclo 002 | IN: [Última: 13:29:42 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:29:45.647] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:29:48.635] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:29:50.540] Ciclo 003 | IN: [Última: 13:29:48 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:29:51.620] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:29:54.625] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:29:55.547] Ciclo 004 | IN: [Última: 13:29:54 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:29:57.626] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:30:00.554] Ciclo 005 | IN: [Última: 13:29:57 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:30:00.620] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:30:03.629] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:30:05.560] Ciclo 006 | IN: [Última: 13:30:03 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:30:06.647] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:30:09.654] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:30:10.574] Ciclo 007 | IN: [Última: 13:30:09 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:30:12.717] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:30:15.630] Ciclo 008 | IN: [Última: 13:30:15 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:30:15.688] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:30:18.719] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:30:20.647] Ciclo 009 | IN: [Última: 13:30:18 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:30:21.696] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:30:22.940] 
+[!] Comando Ctrl+C detectado. Iniciando desligamento seguro...
+[13:30:23.922] Semáforo liberado com sucesso.
+[13:30:23.930] Serviço finalizado com sucesso.
+[13:30:23.931] ============================================================
+[13:30:23.932] === TÉRMINO RajBootCLP - DATA: 09/06/2026 ===
+[13:30:23.932] ============================================================
+[13:31:50.588] Semáforo travado com sucesso!
+[13:31:50.589] ============================================================
+[13:31:50.590] === INICIANDO RajBootCLP - DATA: 09/06/2026 - VERSÃO 2026 1a ===
+[13:31:50.590] ============================================================
+[13:31:50.602] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[13:31:50.634] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[13:31:50.635] 
+ 
+ iniciando Leitor
+[13:31:50.637] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[13:31:50.637] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[13:31:50.638] Inscrito com sucesso no tópico: [Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData]
+[13:31:51.721] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:31:54.684] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:31:55.651] Ciclo 001 | IN: [Última: 13:31:54 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:31:57.698] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:32:00.657] Ciclo 002 | IN: [Última: 13:32:00 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:32:00.674] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:32:03.695] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:32:05.667] Ciclo 003 | IN: [Última: 13:32:03 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:32:06.687] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:32:09.680] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:32:10.677] Ciclo 004 | IN: [Última: 13:32:09 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:32:12.679] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:32:15.691] Ciclo 005 | IN: [Última: 13:32:15 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:32:15.700] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:32:18.696] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:32:20.702] Ciclo 006 | IN: [Última: 13:32:18 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:32:21.689] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:32:24.704] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:32:25.717] Ciclo 007 | IN: [Última: 13:32:24 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:32:27.698] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:32:30.687] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:32:30.724] Ciclo 008 | IN: [Última: 13:32:30 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:32:33.691] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:32:35.731] Ciclo 009 | IN: [Última: 13:32:33 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:32:36.686] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:32:39.768] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:32:40.738] Ciclo 010 | IN: [Última: 13:32:39 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:32:41.358] 
+[!] Comando Ctrl+C detectado. Iniciando desligamento seguro...
+[13:32:41.871] Semáforo liberado com sucesso.
+[13:32:41.877] Serviço finalizado com sucesso.
+[13:32:41.878] ============================================================
+[13:32:41.878] === TÉRMINO RajBootCLP - DATA: 09/06/2026 ===
+[13:32:41.879] ============================================================
+[13:35:45.999] Semáforo travado com sucesso!
+[13:35:46.000] ============================================================
+[13:35:46.000] === INICIANDO RajBootCLP - DATA: 09/06/2026 - VERSÃO 2026 1a ===
+[13:35:46.000] ============================================================
+[13:35:46.011] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[13:35:46.057] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[13:35:46.058] 
+ 
+ iniciando Leitor
+[13:35:46.059] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[13:35:46.059] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[13:35:46.060] Inscrito com sucesso no tópico: [Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData]
+[13:35:48.842] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:35:51.070] Ciclo 001 | IN: [Última: 13:35:48 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:35:51.788] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:35:54.784] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:35:56.081] Ciclo 002 | IN: [Última: 13:35:54 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:35:57.783] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:36:00.785] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:36:01.091] Ciclo 003 | IN: [Última: 13:36:00 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:36:03.799] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:36:06.100] Ciclo 004 | IN: [Última: 13:36:03 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:36:06.798] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:36:09.807] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:36:11.114] Ciclo 005 | IN: [Última: 13:36:09 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:36:12.788] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:36:15.807] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:36:16.136] ** LIXO NO BANCO: Tópico de envio inválido 'None'. Bloqueando e isolando...
+[13:36:16.161] Ciclo 006 | IN: [Última: 13:36:15 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:36:18.825] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:36:21.173] Ciclo 007 | IN: [Última: 13:36:18 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:36:21.793] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:36:24.794] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:36:26.185] Ciclo 008 | IN: [Última: 13:36:24 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:36:27.820] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:36:30.850] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:36:31.202] Ciclo 009 | IN: [Última: 13:36:30 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:36:33.895] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:36:36.259] Ciclo 010 | IN: [Última: 13:36:33 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:36:36.866] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:36:36.892] 
+[!] Comando Ctrl+C detectado. Iniciando desligamento seguro...
+[13:36:38.879] Semáforo liberado com sucesso.
+[13:36:38.887] Serviço finalizado com sucesso.
+[13:36:38.888] ============================================================
+[13:36:38.888] === TÉRMINO RajBootCLP - DATA: 09/06/2026 ===
+[13:36:38.889] ============================================================
+[13:55:50.433] Semáforo travado com sucesso!
+[13:55:50.434] ============================================================
+[13:55:50.436] === INICIANDO RajBootCLP - DATA: 09/06/2026 - VERSÃO 2026 1a ===
+[13:55:50.437] ============================================================
+[13:55:50.443] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[13:55:50.467] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[13:55:50.468] 
+ 
+ iniciando Leitor
+[13:55:50.469] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[13:55:50.469] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[13:55:50.469] Inscrito com sucesso no tópico: [Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData]
+[13:55:52.317] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:55:55.261] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:55:55.477] Ciclo 001 | IN: [Última: 13:55:55 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:55:58.259] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:56:00.488] Ciclo 002 | IN: [Última: 13:55:58 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:56:01.273] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:56:04.261] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:56:05.497] Ciclo 003 | IN: [Última: 13:56:04 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:56:07.288] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:56:10.263] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:56:10.507] Ciclo 004 | IN: [Última: 13:56:10 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:56:13.268] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:56:15.516] Ciclo 005 | IN: [Última: 13:56:13 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:56:16.264] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:56:19.266] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:56:20.525] Ciclo 006 | IN: [Última: 13:56:19 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:56:22.270] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:56:25.276] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:56:25.544] Ciclo 007 | IN: [Última: 13:56:25 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:56:28.263] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:56:30.554] Ciclo 008 | IN: [Última: 13:56:28 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:56:31.286] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:56:34.301] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:56:35.568] Ciclo 009 | IN: [Última: 13:56:34 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:56:37.273] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:56:40.272] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:56:40.576] Ciclo 010 | IN: [Última: 13:56:40 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:56:41.851] 
+[!] Comando Ctrl+C detectado. Iniciando desligamento seguro...
+[13:56:42.340] Semáforo liberado com sucesso.
+[13:56:42.342] Serviço finalizado com sucesso.
+[13:56:42.343] ============================================================
+[13:56:42.343] === TÉRMINO RajBootCLP - DATA: 09/06/2026 ===
+[13:56:42.344] ============================================================
+[13:57:34.567] Semáforo travado com sucesso!
+[13:57:34.569] ============================================================
+[13:57:34.569] === INICIANDO RajBootCLP - DATA: 09/06/2026 - VERSÃO 2026 1a ===
+[13:57:34.570] ============================================================
+[13:57:34.576] Cache de Máquinas atualizado: 5 carregadas na memória. [IDs: 1, 2, 3, 4, 5]
+[13:57:34.604] Aguardando mensagens e enviando para o Firebird (via FDB)...
+[13:57:34.605] 
+ 
+ iniciando Leitor
+[13:57:34.606] Aviso: Conexão MQTT perdida! O paho está tentando reconectar...
+[13:57:34.606] Conexão MQTT estabelecida (ou restabelecida) com o Broker!
+[13:57:34.607] Inscrito com sucesso no tópico: [Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData]
+[13:57:37.332] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:57:39.615] Ciclo 001 | IN: [Última: 13:57:37 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:57:40.301] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:57:43.297] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:57:44.638] Ciclo 002 | IN: [Última: 13:57:43 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:57:46.375] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:57:49.308] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:57:49.647] Ciclo 003 | IN: [Última: 13:57:49 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:57:52.301] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:57:54.653] Ciclo 004 | IN: [Última: 13:57:52 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:57:55.299] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:57:58.309] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:57:59.659] Ciclo 005 | IN: [Última: 13:57:58 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:58:01.314] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:58:04.301] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:58:04.668] Ciclo 006 | IN: [Última: 13:58:04 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:58:07.327] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:58:09.721] Ciclo 007 | IN: [Última: 13:58:07 (Ociosa há 2s)] | OUT: [Despachou 1 ordens (Total: 1)]
+[13:58:10.321] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:58:13.308] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:58:14.729] Ciclo 008 | IN: [Última: 13:58:13 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:58:16.307] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:58:19.311] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:58:19.740] Ciclo 009 | IN: [Última: 13:58:19 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:58:22.316] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:58:24.748] Ciclo 010 | IN: [Última: 13:58:22 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:58:25.316] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:58:28.324] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:58:29.756] Ciclo 011 | IN: [Última: 13:58:28 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:58:31.317] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:58:34.318] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:58:34.762] Ciclo 012 | IN: [Última: 13:58:34 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:58:37.319] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:58:39.769] Ciclo 013 | IN: [Última: 13:58:37 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:58:40.323] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:58:43.321] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:58:44.782] Ciclo 014 | IN: [Última: 13:58:43 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:58:46.322] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:58:49.336] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:58:49.791] Ciclo 015 | IN: [Última: 13:58:49 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:58:52.322] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:58:54.799] Ciclo 016 | IN: [Última: 13:58:52 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:58:55.323] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:58:58.347] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:58:59.812] Ciclo 017 | IN: [Última: 13:58:58 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:59:01.330] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:59:04.327] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:59:04.867] Ciclo 018 | IN: [Última: 13:59:04 (Ociosa há 0s)] | OUT: [Despachou 1 ordens (Total: 2)]
+[13:59:07.346] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:59:09.878] Ciclo 019 | IN: [Última: 13:59:07 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:59:10.331] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:59:13.333] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:59:14.887] Ciclo 020 | IN: [Última: 13:59:13 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:59:16.334] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:59:19.337] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:59:19.893] Ciclo 021 | IN: [Última: 13:59:19 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:59:22.334] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:59:24.907] Ciclo 022 | IN: [Última: 13:59:22 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:59:25.367] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:59:28.353] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:59:29.922] Ciclo 023 | IN: [Última: 13:59:28 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:59:31.341] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:59:34.342] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:59:34.931] Ciclo 024 | IN: [Última: 13:59:34 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:59:37.339] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:59:39.940] Ciclo 025 | IN: [Última: 13:59:37 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:59:40.349] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:59:43.340] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:59:44.946] Ciclo 026 | IN: [Última: 13:59:43 (Ociosa há 1s)] | OUT: [Fila vazia]
+[13:59:46.362] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:59:49.350] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:59:49.954] Ciclo 027 | IN: [Última: 13:59:49 (Ociosa há 0s)] | OUT: [Fila vazia]
+[13:59:52.350] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:59:54.961] Ciclo 028 | IN: [Última: 13:59:52 (Ociosa há 2s)] | OUT: [Fila vazia]
+[13:59:55.352] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:59:58.350] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[13:59:59.970] Ciclo 029 | IN: [Última: 13:59:58 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:00:01.356] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:00:04.348] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:00:04.981] Ciclo 030 | IN: [Última: 14:00:04 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:00:07.373] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:00:09.989] Ciclo 031 | IN: [Última: 14:00:07 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:00:10.353] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:00:13.354] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:00:14.999] Ciclo 032 | IN: [Última: 14:00:13 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:00:16.369] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:00:19.374] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:00:20.009] Ciclo 033 | IN: [Última: 14:00:19 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:00:22.360] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:00:25.017] Ciclo 034 | IN: [Última: 14:00:22 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:00:25.367] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:00:28.370] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:00:30.029] Ciclo 035 | IN: [Última: 14:00:28 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:00:31.363] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:00:34.363] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:00:35.036] Ciclo 036 | IN: [Última: 14:00:34 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:00:37.361] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:00:40.044] Ciclo 037 | IN: [Última: 14:00:37 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:00:40.367] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:00:43.366] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:00:45.052] Ciclo 038 | IN: [Última: 14:00:43 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:00:46.366] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:00:49.401] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:00:50.063] Ciclo 039 | IN: [Última: 14:00:49 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:00:52.370] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:00:55.070] Ciclo 040 | IN: [Última: 14:00:52 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:00:55.378] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:00:58.390] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:01:00.082] Ciclo 041 | IN: [Última: 14:00:58 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:01:01.392] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:01:04.379] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:01:05.089] Ciclo 042 | IN: [Última: 14:01:04 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:01:07.381] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:01:10.099] Ciclo 043 | IN: [Última: 14:01:07 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:01:10.380] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:01:13.379] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:01:15.108] Ciclo 044 | IN: [Última: 14:01:13 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:01:16.378] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:01:19.381] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:01:20.128] Ciclo 045 | IN: [Última: 14:01:19 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:01:22.390] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:01:25.135] Ciclo 046 | IN: [Última: 14:01:22 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:01:25.387] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:01:28.386] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:01:30.144] Ciclo 047 | IN: [Última: 14:01:28 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:01:31.388] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:01:34.393] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:01:35.151] Ciclo 048 | IN: [Última: 14:01:34 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:01:37.382] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:01:40.161] Ciclo 049 | IN: [Última: 14:01:37 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:01:40.395] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:01:43.393] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:01:45.170] Ciclo 050 | IN: [Última: 14:01:43 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:01:46.406] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:01:49.394] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:01:50.179] Ciclo 051 | IN: [Última: 14:01:49 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:01:52.394] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:01:55.233] Ciclo 052 | IN: [Última: 14:01:52 (Ociosa há 2s)] | OUT: [Despachou 1 ordens (Total: 3)]
+[14:01:55.393] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:01:58.399] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:02:00.243] Ciclo 053 | IN: [Última: 14:01:58 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:02:01.396] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:02:04.419] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:02:05.255] Ciclo 054 | IN: [Última: 14:02:04 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:02:07.408] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:02:10.263] Ciclo 055 | IN: [Última: 14:02:07 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:02:10.402] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:02:13.403] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:02:15.274] Ciclo 056 | IN: [Última: 14:02:13 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:02:16.408] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:02:19.423] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:02:20.285] Ciclo 057 | IN: [Última: 14:02:19 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:02:22.406] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:02:25.291] Ciclo 058 | IN: [Última: 14:02:22 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:02:25.408] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:02:28.407] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:02:30.301] Ciclo 059 | IN: [Última: 14:02:28 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:02:31.423] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:02:34.411] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:02:35.343] Ciclo 060 | IN: [Última: 14:02:34 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:02:37.388] 
+ Iniciando o Delete
+[14:02:37.409] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:02:40.351] Ciclo 061 | IN: [Última: 14:02:37 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:02:45.361] Ciclo 062 | IN: [Última: 14:02:37 (Ociosa há 7s)] | OUT: [Fila vazia]
+[14:02:50.368] Ciclo 063 | IN: [Última: 14:02:37 (Ociosa há 12s)] | OUT: [Fila vazia]
+[14:02:52.092] Delete concluído com sucesso.
+[14:02:52.112] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:02:52.129] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:02:52.150] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:02:52.167] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:02:52.424] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:02:55.377] Ciclo 064 | IN: [Última: 14:02:52 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:02:55.411] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:02:58.420] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:03:00.385] Ciclo 065 | IN: [Última: 14:02:58 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:03:01.421] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:03:04.430] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:03:05.392] Ciclo 066 | IN: [Última: 14:03:04 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:03:07.427] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:03:10.404] Ciclo 067 | IN: [Última: 14:03:07 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:03:10.439] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:03:13.449] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:03:15.412] Ciclo 068 | IN: [Última: 14:03:13 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:03:16.428] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:03:19.429] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:03:20.422] Ciclo 069 | IN: [Última: 14:03:19 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:03:22.430] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:03:25.429] Ciclo 070 | IN: [Última: 14:03:25 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:03:25.431] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:03:28.431] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:03:30.440] Ciclo 071 | IN: [Última: 14:03:28 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:03:31.449] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:03:34.429] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:03:35.448] Ciclo 072 | IN: [Última: 14:03:34 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:03:37.434] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:03:40.443] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:03:40.459] Ciclo 073 | IN: [Última: 14:03:40 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:03:43.436] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:03:45.467] Ciclo 074 | IN: [Última: 14:03:43 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:03:46.445] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:03:49.440] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:03:50.474] Ciclo 075 | IN: [Última: 14:03:49 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:03:52.449] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:03:55.441] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:03:55.487] Ciclo 076 | IN: [Última: 14:03:55 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:03:58.460] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:04:00.496] Ciclo 077 | IN: [Última: 14:03:58 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:04:01.451] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:04:04.445] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:04:05.505] Ciclo 078 | IN: [Última: 14:04:04 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:04:07.486] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:04:10.475] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:04:10.518] Ciclo 079 | IN: [Última: 14:04:10 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:04:13.468] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:04:15.525] Ciclo 080 | IN: [Última: 14:04:13 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:04:16.452] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:04:19.473] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:04:20.538] Ciclo 081 | IN: [Última: 14:04:19 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:04:22.453] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:04:25.460] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:04:25.549] Ciclo 082 | IN: [Última: 14:04:25 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:04:28.463] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:04:30.555] Ciclo 083 | IN: [Última: 14:04:28 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:04:31.483] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:04:34.452] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:04:35.563] Ciclo 084 | IN: [Última: 14:04:34 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:04:37.471] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:04:40.473] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:04:40.571] Ciclo 085 | IN: [Última: 14:04:40 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:04:43.472] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:04:45.590] Ciclo 086 | IN: [Última: 14:04:43 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:04:46.477] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:04:49.469] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:04:50.598] Ciclo 087 | IN: [Última: 14:04:49 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:04:52.459] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:04:55.464] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:04:55.604] Ciclo 088 | IN: [Última: 14:04:55 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:04:58.468] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:05:00.613] Ciclo 089 | IN: [Última: 14:04:58 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:05:01.473] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:05:04.472] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:05:05.619] Ciclo 090 | IN: [Última: 14:05:04 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:05:07.495] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:05:10.484] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:05:10.630] Ciclo 091 | IN: [Última: 14:05:10 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:05:13.472] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:05:15.645] Ciclo 092 | IN: [Última: 14:05:13 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:05:16.487] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:05:19.494] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:05:20.659] Ciclo 093 | IN: [Última: 14:05:19 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:05:22.473] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:05:25.477] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:05:25.669] Ciclo 094 | IN: [Última: 14:05:25 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:05:28.499] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:05:30.676] Ciclo 095 | IN: [Última: 14:05:28 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:05:31.469] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:05:34.487] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:05:35.683] Ciclo 096 | IN: [Última: 14:05:34 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:05:37.490] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:05:40.482] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:05:40.692] Ciclo 097 | IN: [Última: 14:05:40 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:05:43.485] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:05:45.701] Ciclo 098 | IN: [Última: 14:05:43 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:05:46.491] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:05:49.489] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:05:50.707] Ciclo 099 | IN: [Última: 14:05:49 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:05:52.488] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:05:55.510] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:05:55.717] Ciclo 100 | IN: [Última: 14:05:55 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:05:58.484] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:06:00.724] Ciclo 101 | IN: [Última: 14:05:58 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:06:01.503] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:06:04.498] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:06:05.731] Ciclo 102 | IN: [Última: 14:06:04 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:06:07.511] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:06:10.498] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:06:10.740] Ciclo 103 | IN: [Última: 14:06:10 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:06:13.494] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:06:15.748] Ciclo 104 | IN: [Última: 14:06:13 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:06:16.493] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:06:19.499] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:06:20.757] Ciclo 105 | IN: [Última: 14:06:19 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:06:22.501] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:06:25.497] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:06:25.765] Ciclo 106 | IN: [Última: 14:06:25 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:06:28.517] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:06:30.774] Ciclo 107 | IN: [Última: 14:06:28 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:06:31.501] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:06:34.494] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:06:35.783] Ciclo 108 | IN: [Última: 14:06:34 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:06:37.504] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:06:40.504] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:06:40.792] Ciclo 109 | IN: [Última: 14:06:40 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:06:43.505] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:06:45.806] Ciclo 110 | IN: [Última: 14:06:43 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:06:46.510] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:06:49.510] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:06:50.813] Ciclo 111 | IN: [Última: 14:06:49 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:06:52.506] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:06:55.512] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:06:55.822] Ciclo 112 | IN: [Última: 14:06:55 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:06:58.513] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:07:00.831] Ciclo 113 | IN: [Última: 14:06:58 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:07:01.511] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:07:04.532] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:07:05.839] Ciclo 114 | IN: [Última: 14:07:04 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:07:07.529] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:07:10.517] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:07:10.849] Ciclo 115 | IN: [Última: 14:07:10 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:07:13.525] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:07:15.857] Ciclo 116 | IN: [Última: 14:07:13 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:07:16.520] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:07:19.524] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:07:20.866] Ciclo 117 | IN: [Última: 14:07:19 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:07:22.522] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:07:25.525] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:07:25.873] Ciclo 118 | IN: [Última: 14:07:25 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:07:28.564] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:07:30.886] Ciclo 119 | IN: [Última: 14:07:28 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:07:31.545] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:07:34.622] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:07:35.895] Ciclo 120 | IN: [Última: 14:07:34 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:07:37.507] 
+ Iniciando o Delete
+[14:07:37.528] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:07:40.903] Ciclo 121 | IN: [Última: 14:07:37 (Ociosa há 3s)] | OUT: [Fila vazia]
+[14:07:44.147] Delete concluído com sucesso.
+[14:07:44.181] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:07:44.216] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:07:45.911] Ciclo 122 | IN: [Última: 14:07:44 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:07:46.544] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:07:49.541] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:07:50.922] Ciclo 123 | IN: [Última: 14:07:49 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:07:52.553] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:07:55.548] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:07:55.936] Ciclo 124 | IN: [Última: 14:07:55 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:07:58.537] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:08:00.946] Ciclo 125 | IN: [Última: 14:07:58 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:08:01.538] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:08:04.535] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:08:05.958] Ciclo 126 | IN: [Última: 14:08:04 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:08:07.542] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:08:10.538] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:08:10.964] Ciclo 127 | IN: [Última: 14:08:10 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:08:13.555] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:08:15.973] Ciclo 128 | IN: [Última: 14:08:13 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:08:16.547] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:08:19.545] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:08:20.982] Ciclo 129 | IN: [Última: 14:08:19 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:08:22.543] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:08:25.552] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:08:25.987] Ciclo 130 | IN: [Última: 14:08:25 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:08:28.548] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:08:30.994] Ciclo 131 | IN: [Última: 14:08:28 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:08:31.551] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:08:34.550] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:08:36.002] Ciclo 132 | IN: [Última: 14:08:34 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:08:37.550] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:08:40.565] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:08:41.013] Ciclo 133 | IN: [Última: 14:08:40 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:08:43.555] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:08:46.019] Ciclo 134 | IN: [Última: 14:08:43 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:08:46.589] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:08:49.555] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:08:51.028] Ciclo 135 | IN: [Última: 14:08:49 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:08:52.562] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:08:55.556] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:08:56.034] Ciclo 136 | IN: [Última: 14:08:55 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:08:58.558] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:09:01.040] Ciclo 137 | IN: [Última: 14:08:58 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:09:01.561] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:09:04.568] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:09:06.048] Ciclo 138 | IN: [Última: 14:09:04 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:09:07.585] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:09:10.565] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:09:11.057] Ciclo 139 | IN: [Última: 14:09:10 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:09:13.563] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:09:16.064] Ciclo 140 | IN: [Última: 14:09:13 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:09:16.565] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:09:19.573] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:09:21.072] Ciclo 141 | IN: [Última: 14:09:19 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:09:22.568] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:09:25.571] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:09:26.083] Ciclo 142 | IN: [Última: 14:09:25 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:09:28.575] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:09:31.090] Ciclo 143 | IN: [Última: 14:09:28 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:09:31.570] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:09:34.571] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:09:36.096] Ciclo 144 | IN: [Última: 14:09:34 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:09:37.570] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:09:40.576] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:09:41.104] Ciclo 145 | IN: [Última: 14:09:40 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:09:43.581] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:09:46.112] Ciclo 146 | IN: [Última: 14:09:43 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:09:46.589] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:09:49.583] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:09:51.123] Ciclo 147 | IN: [Última: 14:09:49 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:09:52.581] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:09:55.578] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:09:56.133] Ciclo 148 | IN: [Última: 14:09:55 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:09:58.579] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:10:01.139] Ciclo 149 | IN: [Última: 14:09:58 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:10:01.578] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:10:04.598] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:10:06.147] Ciclo 150 | IN: [Última: 14:10:04 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:10:07.587] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:10:10.584] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:10:11.155] Ciclo 151 | IN: [Última: 14:10:10 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:10:13.585] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:10:16.164] Ciclo 152 | IN: [Última: 14:10:13 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:10:16.586] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:10:19.591] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:10:21.171] Ciclo 153 | IN: [Última: 14:10:19 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:10:22.600] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:10:25.598] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:10:26.180] Ciclo 154 | IN: [Última: 14:10:25 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:10:28.610] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:10:31.188] Ciclo 155 | IN: [Última: 14:10:28 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:10:31.591] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:10:34.592] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:10:36.195] Ciclo 156 | IN: [Última: 14:10:34 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:10:37.599] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:10:40.599] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:10:41.202] Ciclo 157 | IN: [Última: 14:10:40 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:10:43.597] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:10:46.213] Ciclo 158 | IN: [Última: 14:10:43 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:10:46.623] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:10:49.602] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:10:51.221] Ciclo 159 | IN: [Última: 14:10:49 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:10:52.600] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:10:55.603] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:10:56.231] Ciclo 160 | IN: [Última: 14:10:55 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:10:58.615] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:11:01.239] Ciclo 161 | IN: [Última: 14:10:58 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:11:01.608] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:11:04.619] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:11:06.248] Ciclo 162 | IN: [Última: 14:11:04 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:11:07.622] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:11:10.626] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:11:11.263] Ciclo 163 | IN: [Última: 14:11:10 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:11:13.616] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:11:16.271] Ciclo 164 | IN: [Última: 14:11:13 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:11:16.611] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:11:19.617] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:11:21.280] Ciclo 165 | IN: [Última: 14:11:19 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:11:22.613] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:11:25.610] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:11:26.289] Ciclo 166 | IN: [Última: 14:11:25 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:11:28.623] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:11:31.304] Ciclo 167 | IN: [Última: 14:11:28 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:11:31.615] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:11:34.619] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:11:36.311] Ciclo 168 | IN: [Última: 14:11:34 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:11:37.619] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:11:40.624] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:11:41.319] Ciclo 169 | IN: [Última: 14:11:40 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:11:43.622] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:11:46.330] Ciclo 170 | IN: [Última: 14:11:43 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:11:46.661] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:11:49.627] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:11:51.337] Ciclo 171 | IN: [Última: 14:11:49 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:11:52.621] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:11:55.639] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:11:56.346] Ciclo 172 | IN: [Última: 14:11:55 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:11:58.620] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:12:01.356] Ciclo 173 | IN: [Última: 14:11:58 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:12:01.628] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:12:04.624] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:12:06.362] Ciclo 174 | IN: [Última: 14:12:04 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:12:07.633] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:12:10.630] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:12:11.374] Ciclo 175 | IN: [Última: 14:12:10 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:12:13.631] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:12:16.387] Ciclo 176 | IN: [Última: 14:12:13 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:12:16.650] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:12:19.642] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:12:21.458] Ciclo 177 | IN: [Última: 14:12:19 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:12:22.668] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:12:25.644] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:12:26.471] Ciclo 178 | IN: [Última: 14:12:25 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:12:28.666] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:12:31.491] Ciclo 179 | IN: [Última: 14:12:28 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:12:31.644] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:12:34.633] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:12:36.499] Ciclo 180 | IN: [Última: 14:12:34 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:12:37.614] 
+ Iniciando o Delete
+[14:12:37.667] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:12:41.505] Ciclo 181 | IN: [Última: 14:12:37 (Ociosa há 3s)] | OUT: [Fila vazia]
+[14:12:43.279] Delete concluído com sucesso.
+[14:12:43.317] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:12:43.635] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:12:46.516] Ciclo 182 | IN: [Última: 14:12:43 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:12:46.663] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:12:49.639] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:12:51.523] Ciclo 183 | IN: [Última: 14:12:49 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:12:52.640] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:12:55.658] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:12:56.534] Ciclo 184 | IN: [Última: 14:12:55 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:12:58.648] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:13:01.542] Ciclo 185 | IN: [Última: 14:12:58 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:13:01.642] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:13:04.667] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:13:06.549] Ciclo 186 | IN: [Última: 14:13:04 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:13:07.676] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:13:10.663] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:13:11.559] Ciclo 187 | IN: [Última: 14:13:10 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:13:13.651] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:13:16.566] Ciclo 188 | IN: [Última: 14:13:13 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:13:16.675] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:13:19.670] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:13:21.576] Ciclo 189 | IN: [Última: 14:13:19 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:13:22.653] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:13:25.661] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:13:26.584] Ciclo 190 | IN: [Última: 14:13:25 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:13:28.678] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:13:31.607] Ciclo 191 | IN: [Última: 14:13:28 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:13:31.707] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:13:34.692] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:13:36.616] Ciclo 192 | IN: [Última: 14:13:34 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:13:37.672] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:13:40.656] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:13:41.628] Ciclo 193 | IN: [Última: 14:13:40 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:13:43.681] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:13:46.649] Ciclo 194 | IN: [Última: 14:13:46 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:13:46.684] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:13:49.677] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:13:51.660] Ciclo 195 | IN: [Última: 14:13:49 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:13:52.860] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:13:55.729] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:13:56.693] Ciclo 196 | IN: [Última: 14:13:55 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:13:58.761] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:14:01.666] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:14:01.703] Ciclo 197 | IN: [Última: 14:14:01 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:14:04.675] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:14:06.712] Ciclo 198 | IN: [Última: 14:14:04 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:14:07.678] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:14:10.688] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:14:11.724] Ciclo 199 | IN: [Última: 14:14:10 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:14:13.702] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:14:16.698] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:14:16.737] Ciclo 200 | IN: [Última: 14:14:16 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:14:19.695] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:14:21.751] Ciclo 201 | IN: [Última: 14:14:19 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:14:22.724] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:14:25.731] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:14:26.762] Ciclo 202 | IN: [Última: 14:14:25 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:14:28.747] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:14:31.747] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:14:31.780] Ciclo 203 | IN: [Última: 14:14:31 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:14:34.757] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:14:36.812] Ciclo 204 | IN: [Última: 14:14:34 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:14:37.825] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:14:40.811] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:14:41.827] Ciclo 205 | IN: [Última: 14:14:40 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:14:43.789] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:14:46.812] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:14:46.837] Ciclo 206 | IN: [Última: 14:14:46 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:14:49.793] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:14:51.842] Ciclo 207 | IN: [Última: 14:14:49 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:14:52.796] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:14:55.785] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:14:56.850] Ciclo 208 | IN: [Última: 14:14:55 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:14:58.785] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:15:01.790] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:15:01.857] Ciclo 209 | IN: [Última: 14:15:01 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:15:04.801] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:15:06.867] Ciclo 210 | IN: [Última: 14:15:04 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:15:07.796] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:15:10.793] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:15:11.880] Ciclo 211 | IN: [Última: 14:15:10 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:15:13.812] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:15:16.798] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:15:16.887] Ciclo 212 | IN: [Última: 14:15:16 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:15:19.793] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:15:21.895] Ciclo 213 | IN: [Última: 14:15:19 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:15:22.801] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:15:25.797] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:15:26.904] Ciclo 214 | IN: [Última: 14:15:25 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:15:28.801] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:15:31.813] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:15:31.913] Ciclo 215 | IN: [Última: 14:15:31 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:15:34.811] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:15:36.925] Ciclo 216 | IN: [Última: 14:15:34 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:15:37.800] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:15:40.806] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:15:41.933] Ciclo 217 | IN: [Última: 14:15:40 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:15:43.804] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:15:46.807] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:15:46.942] Ciclo 218 | IN: [Última: 14:15:46 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:15:49.827] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:15:51.950] Ciclo 219 | IN: [Última: 14:15:49 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:15:52.814] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:15:55.860] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:15:56.962] Ciclo 220 | IN: [Última: 14:15:55 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:15:58.805] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:16:01.861] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:16:02.015] Ciclo 221 | IN: [Última: 14:16:01 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:16:04.811] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:16:07.028] Ciclo 222 | IN: [Última: 14:16:04 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:16:07.831] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:16:10.817] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:16:12.033] Ciclo 223 | IN: [Última: 14:16:10 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:16:13.812] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:16:16.815] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:16:17.040] Ciclo 224 | IN: [Última: 14:16:16 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:16:19.814] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:16:22.053] Ciclo 225 | IN: [Última: 14:16:19 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:16:22.823] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:16:25.814] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:16:27.059] Ciclo 226 | IN: [Última: 14:16:25 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:16:28.843] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:16:31.827] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:16:32.069] Ciclo 227 | IN: [Última: 14:16:31 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:16:34.821] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:16:37.075] Ciclo 228 | IN: [Última: 14:16:34 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:16:37.823] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:16:40.821] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:16:42.082] Ciclo 229 | IN: [Última: 14:16:40 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:16:43.822] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:16:46.834] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:16:47.093] Ciclo 230 | IN: [Última: 14:16:46 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:16:49.851] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:16:52.103] Ciclo 231 | IN: [Última: 14:16:49 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:16:52.822] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:16:55.825] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:16:57.113] Ciclo 232 | IN: [Última: 14:16:55 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:16:58.827] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:17:01.834] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:17:02.119] Ciclo 233 | IN: [Última: 14:17:01 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:17:04.830] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:17:07.126] Ciclo 234 | IN: [Última: 14:17:04 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:17:07.845] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:17:10.860] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:17:12.148] Ciclo 235 | IN: [Última: 14:17:10 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:17:13.834] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:17:16.832] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:17:17.155] Ciclo 236 | IN: [Última: 14:17:16 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:17:19.955] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:17:22.164] Ciclo 237 | IN: [Última: 14:17:19 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:17:22.844] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:17:25.838] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:17:27.170] Ciclo 238 | IN: [Última: 14:17:25 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:17:28.863] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:17:31.833] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:17:32.177] Ciclo 239 | IN: [Última: 14:17:31 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:17:34.838] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:17:37.182] Ciclo 240 | IN: [Última: 14:17:34 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:17:37.821] 
+ Iniciando o Delete
+[14:17:37.857] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:17:42.203] Ciclo 241 | IN: [Última: 14:17:37 (Ociosa há 4s)] | OUT: [Fila vazia]
+[14:17:44.272] Delete concluído com sucesso.
+[14:17:44.355] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:17:44.440] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:17:47.070] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:17:47.216] Ciclo 242 | IN: [Última: 14:17:47 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:17:49.859] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:17:52.225] Ciclo 243 | IN: [Última: 14:17:49 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:17:52.846] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:17:55.847] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:17:57.231] Ciclo 244 | IN: [Última: 14:17:55 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:17:58.849] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:18:01.848] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:18:02.237] Ciclo 245 | IN: [Última: 14:18:01 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:18:04.871] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:18:07.250] Ciclo 246 | IN: [Última: 14:18:04 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:18:07.869] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:18:10.850] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:18:12.256] Ciclo 247 | IN: [Última: 14:18:10 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:18:13.852] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:18:16.855] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:18:17.265] Ciclo 248 | IN: [Última: 14:18:16 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:18:19.857] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:18:22.273] Ciclo 249 | IN: [Última: 14:18:19 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:18:22.852] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:18:25.854] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:18:27.281] Ciclo 250 | IN: [Última: 14:18:25 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:18:28.863] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:18:31.867] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:18:32.292] Ciclo 251 | IN: [Última: 14:18:31 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:18:34.857] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:18:37.297] Ciclo 252 | IN: [Última: 14:18:34 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:18:37.878] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:18:40.862] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:18:42.306] Ciclo 253 | IN: [Última: 14:18:40 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:18:43.861] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:18:46.889] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:18:47.320] Ciclo 254 | IN: [Última: 14:18:46 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:18:49.882] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:18:52.326] Ciclo 255 | IN: [Última: 14:18:49 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:18:52.867] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:18:55.890] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:18:57.333] Ciclo 256 | IN: [Última: 14:18:55 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:18:58.879] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:19:01.874] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:19:02.342] Ciclo 257 | IN: [Última: 14:19:01 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:19:04.871] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:19:07.358] Ciclo 258 | IN: [Última: 14:19:04 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:19:07.897] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:19:10.874] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:19:12.366] Ciclo 259 | IN: [Última: 14:19:10 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:19:13.875] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:19:16.874] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:19:17.374] Ciclo 260 | IN: [Última: 14:19:16 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:19:19.877] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:19:22.383] Ciclo 261 | IN: [Última: 14:19:19 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:19:22.878] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:19:25.879] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:19:27.391] Ciclo 262 | IN: [Última: 14:19:25 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:19:28.880] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:19:31.882] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:19:32.399] Ciclo 263 | IN: [Última: 14:19:31 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:19:34.888] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:19:37.408] Ciclo 264 | IN: [Última: 14:19:34 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:19:37.885] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:19:40.902] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:19:42.416] Ciclo 265 | IN: [Última: 14:19:40 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:19:43.894] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:19:46.910] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:19:47.427] Ciclo 266 | IN: [Última: 14:19:46 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:19:49.911] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:19:52.433] Ciclo 267 | IN: [Última: 14:19:49 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:19:52.890] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:19:55.897] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:19:57.441] Ciclo 268 | IN: [Última: 14:19:55 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:19:58.912] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:20:01.905] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:20:02.453] Ciclo 269 | IN: [Última: 14:20:01 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:20:04.911] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:20:07.463] Ciclo 270 | IN: [Última: 14:20:04 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:20:07.916] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:20:10.896] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:20:12.478] Ciclo 271 | IN: [Última: 14:20:10 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:20:13.909] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:20:16.896] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:20:17.485] Ciclo 272 | IN: [Última: 14:20:16 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:20:19.898] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:20:22.492] Ciclo 273 | IN: [Última: 14:20:19 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:20:22.896] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:20:25.901] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:20:27.499] Ciclo 274 | IN: [Última: 14:20:25 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:20:28.903] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:20:31.901] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:20:32.507] Ciclo 275 | IN: [Última: 14:20:31 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:20:34.905] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:20:37.514] Ciclo 276 | IN: [Última: 14:20:34 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:20:37.906] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:20:40.910] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:20:42.523] Ciclo 277 | IN: [Última: 14:20:40 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:20:43.904] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:20:46.926] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:20:47.535] Ciclo 278 | IN: [Última: 14:20:46 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:20:49.912] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:20:52.545] Ciclo 279 | IN: [Última: 14:20:49 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:20:52.915] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:20:55.914] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:20:57.551] Ciclo 280 | IN: [Última: 14:20:55 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:20:58.921] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:21:01.917] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:21:02.565] Ciclo 281 | IN: [Última: 14:21:01 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:21:04.916] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:21:07.594] Ciclo 282 | IN: [Última: 14:21:04 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:21:07.928] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:21:10.919] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:21:12.612] Ciclo 283 | IN: [Última: 14:21:10 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:21:13.943] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:21:16.942] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:21:17.625] Ciclo 284 | IN: [Última: 14:21:16 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:21:19.943] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:21:22.633] Ciclo 285 | IN: [Última: 14:21:19 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:21:22.929] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:21:25.921] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:21:27.643] Ciclo 286 | IN: [Última: 14:21:25 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:21:28.947] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:21:31.921] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:21:32.650] Ciclo 287 | IN: [Última: 14:21:31 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:21:34.926] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:21:37.657] Ciclo 288 | IN: [Última: 14:21:34 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:21:37.929] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:21:40.927] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:21:42.665] Ciclo 289 | IN: [Última: 14:21:40 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:21:43.935] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:21:46.934] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:21:47.674] Ciclo 290 | IN: [Última: 14:21:46 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:21:49.961] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:21:52.683] Ciclo 291 | IN: [Última: 14:21:49 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:21:52.937] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:21:55.940] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:21:57.691] Ciclo 292 | IN: [Última: 14:21:55 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:21:58.933] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:22:01.958] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:22:02.702] Ciclo 293 | IN: [Última: 14:22:01 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:22:04.945] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:22:07.710] Ciclo 294 | IN: [Última: 14:22:04 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:22:07.945] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:22:10.939] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:22:12.717] Ciclo 295 | IN: [Última: 14:22:10 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:22:13.944] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:22:16.939] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:22:17.724] Ciclo 296 | IN: [Última: 14:22:16 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:22:19.947] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:22:22.728] Ciclo 297 | IN: [Última: 14:22:19 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:22:22.939] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:22:25.947] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:22:27.740] Ciclo 298 | IN: [Última: 14:22:25 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:22:28.946] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:22:31.942] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:22:32.746] Ciclo 299 | IN: [Última: 14:22:31 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:22:34.946] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:22:37.754] Ciclo 300 | IN: [Última: 14:22:34 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:22:37.935] 
+ Iniciando o Delete
+[14:22:37.971] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:22:42.761] Ciclo 301 | IN: [Última: 14:22:37 (Ociosa há 4s)] | OUT: [Fila vazia]
+[14:22:44.088] Delete concluído com sucesso.
+[14:22:44.119] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:22:44.153] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:22:46.947] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:22:47.769] Ciclo 302 | IN: [Última: 14:22:46 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:22:49.961] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:22:52.777] Ciclo 303 | IN: [Última: 14:22:49 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:22:52.958] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:22:55.947] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:22:57.792] Ciclo 304 | IN: [Última: 14:22:55 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:22:58.956] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:23:01.964] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:23:02.804] Ciclo 305 | IN: [Última: 14:23:01 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:23:04.976] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:23:07.814] Ciclo 306 | IN: [Última: 14:23:04 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:23:07.976] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:23:10.966] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:23:12.822] Ciclo 307 | IN: [Última: 14:23:10 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:23:13.959] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:23:16.976] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:23:17.836] Ciclo 308 | IN: [Última: 14:23:16 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:23:19.964] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:23:22.841] Ciclo 309 | IN: [Última: 14:23:19 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:23:22.960] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:23:25.969] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:23:27.848] Ciclo 310 | IN: [Última: 14:23:25 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:23:28.966] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:23:31.975] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:23:32.859] Ciclo 311 | IN: [Última: 14:23:31 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:23:34.967] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:23:37.868] Ciclo 312 | IN: [Última: 14:23:34 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:23:37.970] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:23:40.973] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:23:42.877] Ciclo 313 | IN: [Última: 14:23:40 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:23:43.973] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:23:46.974] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:23:47.887] Ciclo 314 | IN: [Última: 14:23:46 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:23:49.982] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:23:52.894] Ciclo 315 | IN: [Última: 14:23:49 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:23:52.974] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:23:56.001] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:23:57.909] Ciclo 316 | IN: [Última: 14:23:55 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:23:58.976] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:24:01.976] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:24:02.916] Ciclo 317 | IN: [Última: 14:24:01 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:24:04.979] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:24:07.925] Ciclo 318 | IN: [Última: 14:24:04 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:24:07.996] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:24:10.990] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:24:12.939] Ciclo 319 | IN: [Última: 14:24:10 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:24:14.003] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:24:16.985] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:24:17.949] Ciclo 320 | IN: [Última: 14:24:16 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:24:19.980] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:24:22.959] Ciclo 321 | IN: [Última: 14:24:19 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:24:22.984] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:24:25.989] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:24:27.969] Ciclo 322 | IN: [Última: 14:24:25 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:24:29.004] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:24:31.988] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:24:32.976] Ciclo 323 | IN: [Última: 14:24:31 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:24:34.995] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:24:37.982] Ciclo 324 | IN: [Última: 14:24:37 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:24:37.988] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:24:40.992] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:24:42.989] Ciclo 325 | IN: [Última: 14:24:40 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:24:43.990] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:24:46.997] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:24:47.997] Ciclo 326 | IN: [Última: 14:24:46 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:24:49.998] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:24:53.003] Ciclo 327 | IN: [Última: 14:24:52 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:24:53.004] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:24:55.996] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:24:58.010] Ciclo 328 | IN: [Última: 14:24:55 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:24:59.004] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:25:02.001] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:25:03.016] Ciclo 329 | IN: [Última: 14:25:01 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:25:04.998] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:25:08.012] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:25:08.028] Ciclo 330 | IN: [Última: 14:25:07 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:25:11.028] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:25:13.036] Ciclo 331 | IN: [Última: 14:25:10 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:25:14.015] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:25:17.000] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:25:18.045] Ciclo 332 | IN: [Última: 14:25:16 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:25:20.004] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:25:23.004] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:25:23.051] Ciclo 333 | IN: [Última: 14:25:22 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:25:26.006] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:25:28.061] Ciclo 334 | IN: [Última: 14:25:25 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:25:29.026] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:25:32.015] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:25:33.073] Ciclo 335 | IN: [Última: 14:25:31 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:25:35.016] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:25:38.010] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:25:38.080] Ciclo 336 | IN: [Última: 14:25:37 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:25:41.017] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:25:43.087] Ciclo 337 | IN: [Última: 14:25:40 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:25:44.012] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:25:47.025] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:25:48.098] Ciclo 338 | IN: [Última: 14:25:46 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:25:50.169] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:25:53.020] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:25:53.105] Ciclo 339 | IN: [Última: 14:25:52 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:25:56.025] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:25:58.114] Ciclo 340 | IN: [Última: 14:25:55 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:25:59.036] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:26:02.038] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:26:03.125] Ciclo 341 | IN: [Última: 14:26:02 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:26:05.018] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:26:08.039] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:26:08.136] Ciclo 342 | IN: [Última: 14:26:08 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:26:11.056] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:26:13.147] Ciclo 343 | IN: [Última: 14:26:11 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:26:14.046] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:26:17.029] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:26:18.158] Ciclo 344 | IN: [Última: 14:26:17 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:26:20.027] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:26:23.035] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:26:23.167] Ciclo 345 | IN: [Última: 14:26:23 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:26:26.053] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:26:28.178] Ciclo 346 | IN: [Última: 14:26:26 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:26:29.083] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:26:32.050] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:26:33.191] Ciclo 347 | IN: [Última: 14:26:32 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:26:35.107] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:26:38.035] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:26:38.200] Ciclo 348 | IN: [Última: 14:26:38 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:26:41.063] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:26:43.212] Ciclo 349 | IN: [Última: 14:26:41 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:26:44.053] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:26:47.050] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:26:48.224] Ciclo 350 | IN: [Última: 14:26:47 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:26:50.043] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:26:53.038] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:26:53.233] Ciclo 351 | IN: [Última: 14:26:53 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:26:56.046] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:26:58.243] Ciclo 352 | IN: [Última: 14:26:56 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:26:59.042] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:27:02.043] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:27:03.254] Ciclo 353 | IN: [Última: 14:27:02 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:27:05.061] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:27:08.057] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:27:08.264] Ciclo 354 | IN: [Última: 14:27:08 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:27:11.047] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:27:13.270] Ciclo 355 | IN: [Última: 14:27:11 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:27:14.048] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:27:17.045] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:27:18.277] Ciclo 356 | IN: [Última: 14:27:17 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:27:20.058] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:27:23.050] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:27:23.287] Ciclo 357 | IN: [Última: 14:27:23 (Ociosa há 0s)] | OUT: [Fila vazia]
+[14:27:26.058] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:27:28.298] Ciclo 358 | IN: [Última: 14:27:26 (Ociosa há 2s)] | OUT: [Fila vazia]
+[14:27:29.060] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:27:32.052] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:27:33.306] Ciclo 359 | IN: [Última: 14:27:32 (Ociosa há 1s)] | OUT: [Fila vazia]
+[14:27:35.058] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:27:38.036] 
+ Iniciando o Delete
+[14:27:38.057] Sucesso: Tópico 'Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/1/jobRunData' inserido.
+[14:27:38.308] Tempo esgotado! Encerrando rotina para liberar o semáforo.
+[14:27:43.559] Delete concluído com sucesso.
+[14:27:43.607] Semáforo liberado com sucesso.
+[14:27:43.611] Serviço finalizado com sucesso.
+[14:27:43.611] ============================================================
+[14:27:43.612] === TÉRMINO RajBootCLP - DATA: 09/06/2026 ===
+[14:27:43.612] ============================================================

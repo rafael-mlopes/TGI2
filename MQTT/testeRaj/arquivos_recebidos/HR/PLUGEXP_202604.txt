@@ -1,0 +1,140 @@
+02/abr 14:56:23:735 *** DMCompBase.VerificaSeEstaLimpando por "s_Fila.TProcessController.ExecutaProcesso" / ocupado por "fOnObjElimina" - Limite de BLOCK atingido, sistema liberado ***
+
+02/Abr 22:02:18:629 ***** Iniciando Servidor de Aplicação PLUGEXP 2026.1a - "E:\SYSTEM_RAJ\EXE\" *****
+
+02/Abr 22:02:18:630 Preparando SRV TCP: 192.168.0.18:11748:11749:11750
+
+02/Abr 22:02:20:140 Ativando Listening TCPServer
+
+02/Abr 22:02:20:144 Ativando Listening HTTPSrvThread
+
+02/Abr 22:02:20:144 Ativando Listening HTTPSrvStatus
+
+06/abr 07:42:58:783 TCPServerExecute --> Client IP: 192.168.2.246:52435 - Requisição: VAZIA 
+Requisição: ""
+
+06/abr 07:42:58:783 ** TCPServerException 11750//192.168.2.246-52435 --> Socket Error # 10054
+Connection reset by peer.
+
+07/abr 11:00:14:429 *** DMCompBase.VerificaSeEstaLimpando por "s_Fila.TProcessController.ExecutaProcesso" / ocupado por "fOnObjElimina" - Limite de BLOCK atingido, sistema liberado ***
+
+09/Abr 22:02:21:073 ***** Iniciando Servidor de Aplicação PLUGEXP 2026.1a - "E:\SYSTEM_RAJ\EXE\" *****
+
+09/Abr 22:02:21:074 Preparando SRV TCP: 192.168.0.18:11748:11749:11750
+
+09/Abr 22:02:22:583 Ativando Listening TCPServer
+
+09/Abr 22:02:22:586 Ativando Listening HTTPSrvThread
+
+09/Abr 22:02:22:587 Ativando Listening HTTPSrvStatus
+
+10/abr 07:06:51:811 TCPServerExecute --> Client IP: 192.168.2.246:63651 - Requisição: VAZIA 
+Requisição: ""
+
+10/abr 07:06:51:811 ** TCPServerException 11750//192.168.2.246-63651 --> Socket Error # 10054
+Connection reset by peer.
+
+14/abr 09:08:47:629 IdHTTPSrvStatusCommandGet
+AContext Client IP: 192.168.0.18:64676
+Request Usr/Pss:  / 
+Request Session: ufspiJknhRwqZnG / 
+Request Doc: /favicon.ico
+Request Command: GET
+Request RawHTTPCommand: GET /favicon.ico HTTP/1.1
+Request RemoteIP: 192.168.0.18
+Request Version: HTTP/1.1
+
+
+Objeto: HR.TSVQueryObjData - Execuções: 1,00 - Inutilizado: S
+127.0.0.1 - Origem: 
+Exception ProcessController.ExecutaProcesso: Erro no QueryObjeto [ T_DANFE_ITENS ] 
+Access violation at address 0000000000A16851 in module 'PlugEXP.exe'. Read of address FFFFFFFFFFFFFFFF
+Erro de Abertura:
+
+Erro de Execução:
+
+
+
+Objeto: HR.TFT_RotinasJs - Execuções: 2,00 - Inutilizado: N
+Client IP: 192.168.0.105:57930 - Origem: Usuário: ANDREA - Programa: C:\Raj\Fat.exe ( 2026.1b beta ) - Uid: {E2186AFE-FB2A-45F2-99DA-ED6F51ECC612} |Estação IP: 192.168.0.105 - NomeMaquina: HR-1539PC - UsuarioWin: andrea.assis
+Exception ProcessController.ExecutaProcesso: Ocorreu um erro no servidor de aplicação:
+Objeto: HR.TSVQueryObjData
+MsgFalha Vazio - Exception: "Erro no QueryObjeto [ T_DANFE_ITENS ] 
+Access violation at address 0000000000A16851 in module 'PlugEXP.exe'. Read of address FFFFFFFFFFFFFFFF
+Erro de Abertura:
+
+Erro de Execução:
+"
+
+
+
+16/Abr 22:02:21:468 ***** Iniciando Servidor de Aplicação PLUGEXP 2026.1a - "E:\SYSTEM_RAJ\EXE\" *****
+
+16/Abr 22:02:21:469 Preparando SRV TCP: 192.168.0.18:11748:11749:11750
+
+16/Abr 22:02:22:980 Ativando Listening TCPServer
+
+16/Abr 22:02:22:984 Ativando Listening HTTPSrvThread
+
+16/Abr 22:02:22:984 Ativando Listening HTTPSrvStatus
+
+17/abr 12:13:43:043 TCPServerExecute --> Client IP: 192.168.2.246:61250 - Requisição: VAZIA 
+Requisição: ""
+
+17/abr 12:13:43:043 ** TCPServerException 11749//192.168.2.246-61250 --> Socket Error # 10054
+Connection reset by peer.
+
+19/abr 11:42:06:096 TCPServerExecute --> Client IP: 192.168.2.246:51941 - Requisição: VAZIA 
+Requisição: ""
+
+19/abr 11:42:06:096 ** TCPServerException 11750//192.168.2.246-51941 --> Socket Error # 10054
+Connection reset by peer.
+
+20/Abr 06:01:32:454 ***** Iniciando Servidor de Aplicação PLUGEXP 2026.1a - "E:\SYSTEM_RAJ\EXE\" *****
+
+20/Abr 06:01:32:456 Preparando SRV TCP: 192.168.0.18:11748:11749:11750
+
+20/Abr 06:01:33:965 Ativando Listening TCPServer
+
+20/Abr 06:01:33:968 Ativando Listening HTTPSrvThread
+
+20/Abr 06:01:33:969 Ativando Listening HTTPSrvStatus
+
+22/abr 11:13:40:746 TCPServerExecute --> Client IP: 192.168.2.246:60011 - Requisição: VAZIA 
+Requisição: ""
+
+22/abr 11:13:40:746 ** TCPServerException 11749//192.168.2.246-60011 --> Socket Error # 10054
+Connection reset by peer.
+
+22/Abr 19:18:30:560 ***** Iniciando Servidor de Aplicação PLUGEXP 2026.1a - "E:\SYSTEM_RAJ\EXE\" *****
+
+22/Abr 19:18:30:561 Preparando SRV TCP: 192.168.0.18:11748:11749:11750
+
+22/Abr 19:18:32:057 Ativando Listening TCPServer
+
+22/Abr 19:18:32:060 Ativando Listening HTTPSrvThread
+
+22/Abr 19:18:32:061 Ativando Listening HTTPSrvStatus
+
+23/abr 09:37:55:775 TCPServerExecute --> Client IP: 192.168.2.246:62812 - Requisição: VAZIA 
+Requisição: ""
+
+23/abr 09:37:55:775 ** TCPServerException 11748//192.168.2.246-62812 --> Socket Error # 10054
+Connection reset by peer.
+
+23/abr 22:00:31:966 ** TCPServerException 11749//192.168.0.18-56662 --> Socket Error # 10054
+Connection reset by peer.
+
+23/Abr 22:02:14:040 ***** Iniciando Servidor de Aplicação PLUGEXP 2026.1a - "E:\SYSTEM_RAJ\EXE\" *****
+
+23/Abr 22:02:14:041 Preparando SRV TCP: 192.168.0.18:11748:11749:11750
+
+23/Abr 22:02:15:551 Ativando Listening TCPServer
+
+23/Abr 22:02:15:554 Ativando Listening HTTPSrvThread
+
+23/Abr 22:02:15:555 Ativando Listening HTTPSrvStatus
+
+30/abr 16:40:50:547 ** TCPServerException 11748//192.168.0.18-53045 --> Socket Error # 10054
+Connection reset by peer.
+

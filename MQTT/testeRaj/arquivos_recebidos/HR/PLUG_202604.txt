@@ -1,0 +1,611 @@
+01/abr 02:30:10:237 TCPServerExecute --> Client IP: 192.168.0.139:64819 - Requisição: VAZIA 
+Requisição: ""
+
+01/abr 02:30:10:238 ** TCPServerException 11548//192.168.0.139-64819 --> Socket Error # 10054
+Connection reset by peer.
+
+01/abr 09:18:44:944 ** TCPServerException 11548//192.168.0.130-58665 --> Socket Error # 10054
+Connection reset by peer.
+
+01/abr 12:18:33:869 TCPServerExecute --> Client IP: 192.168.0.139:60517 - Requisição: VAZIA 
+Requisição: ""
+
+01/abr 12:18:33:869 ** TCPServerException 11550//192.168.0.139-60517 --> Socket Error # 10054
+Connection reset by peer.
+
+01/abr 12:39:00:455 ** TCPServerException 11551//192.168.0.129-53908 --> Socket Error # 10054
+Connection reset by peer.
+
+01/abr 14:00:03:145 TCPServerExecute --> Client IP: 192.168.2.103:50959 - Requisição: VAZIA 
+Requisição: ""
+
+01/abr 14:00:03:145 ** TCPServerException 11548//192.168.2.103-50959 --> Socket Error # 10054
+Connection reset by peer.
+
+01/abr 16:43:58:328 Client IP: 192.168.0.134:52191 PLUG - HR - TBASECARREGAQUERY
+Socket Error # 10054
+Connection reset by peer.
+oListConnect(HR) não criada !
+Requisição (2882519): "à½
+01/abr 17:02:17:156 ** TCPServerException 11548//192.168.0.134-52419 --> Socket Error # 10054
+Connection reset by peer.
+
+01/abr 19:08:10:460 ** TCPServerException 11548//192.168.2.141-58907 --> Socket Error # 10054
+Connection reset by peer.
+
+01/abr 19:12:19:566 ** TCPServerException 11548//192.168.2.141-58955 --> Socket Error # 10054
+Connection reset by peer.
+
+02/abr 11:19:19:743 QueryObjeto [ HR_FISC_NFS ] lenta ( mais que 1 minuto para concluir a execução ) 
+Filtro Padrão: NFS_PARADAS - {}
+Filtro Adic:  ( FI_MMDNF.AMBIENTE=1 )  And ( ( FI_MMDNF.DTEMISSAO BETWEEN :DTINI AND :DTFIM ) OR ( FI_MMDNF.DTEMISSAO BETWEEN :DTINIH AND :DTFIMH ) )  And ( FI_MMDNF.TIPONFE='1' )  - {"DTINI":"01/07/2020 00:00:00","DTFIM":"02/05/2026 00:00:00","DTINIH":"01/07/2020 00:00:01","DTFIMH":"02/05/2026 23:59:59"}
+Criada: 02/04/2026 11:18:19
+Início Execução: 02/04/2026 11:18:19
+Tempo: 00:01:00:165
+
+02/abr 12:16:49:224 ** TCPServerException 11549//192.168.0.129-64394 --> Socket Error # 10054
+Connection reset by peer.
+
+02/abr 16:30:06:030 ** TCPServerException 11548//192.168.0.194-53168 --> Socket Error # 10054
+Connection reset by peer.
+
+02/abr 16:35:17:504 ** TCPServerException 11551//192.168.0.129-54017 --> Socket Error # 10054
+Connection reset by peer.
+
+Objeto: HR.TOR_GravaOrc - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.137:56571 - Origem: Usuário: SABRINA - Programa: C:\Raj\Orca_OR.exe ( 2026.1b beta ) - Uid: {94B49F86-5EC5-4DAB-BEE9-46881D857FD5} |Estação IP: 192.168.0.137 - NomeMaquina: HR-11179PC - UsuarioWin: sabrina.vieira
+Exception ProcessController.ExecutaProcesso: Erro OR_GravaOrc|i_AcaoOrcamento=N|i_AcaoOp=N 
+TOR_GravaOrc. (Exception,Alias HR - ExecSQL Delete From OR_MMTG
+ WHERE CodOrc = :pCodOrc
+ AND SeqOrcVer = :pSeqOrcVer
+ AND NumCompon = :pNumCompon
+ AND SeqOrcMtg = :pSeqOrcMtg
+ ** [FireDAC][Phys][FB]violation of FOREIGN KEY constraint "AG_MCMPOR_MMTG_OR_CODORCOR_SEQO" on table "AG_MCMP"
+Foreign key references are present for the record
+Problematic key value is ("CODORC" = 84656, "SEQORCVER" = 1, "NUMCOMPON" = 1, "SEQORCMTG" = 1))
+
+
+Objeto: HR.TOR_GravaOrc - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.137:56574 - Origem: Usuário: SABRINA - Programa: C:\Raj\Orca_OR.exe ( 2026.1b beta ) - Uid: {94B49F86-5EC5-4DAB-BEE9-46881D857FD5} |Estação IP: 192.168.0.137 - NomeMaquina: HR-11179PC - UsuarioWin: sabrina.vieira
+Exception ProcessController.ExecutaProcesso: Erro OR_GravaOrc|i_AcaoOrcamento=A|i_AcaoOp=N 
+TOR_GravaOrc. (Exception,Alias HR - ExecSQL Delete From OR_MMTG
+ WHERE CodOrc = :pCodOrc
+ AND SeqOrcVer = :pSeqOrcVer
+ AND NumCompon = :pNumCompon
+ AND SeqOrcMtg = :pSeqOrcMtg
+ ** [FireDAC][Phys][FB]violation of FOREIGN KEY constraint "AG_MCMPOR_MMTG_OR_CODORCOR_SEQO" on table "AG_MCMP"
+Foreign key references are present for the record
+Problematic key value is ("CODORC" = 84656, "SEQORCVER" = 1, "NUMCOMPON" = 1, "SEQORCMTG" = 1))
+
+
+Objeto: HR.TOR_GravaOrc - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.137:56582 - Origem: Usuário: SABRINA - Programa: C:\Raj\Orca_OR.exe ( 2026.1b beta ) - Uid: {94B49F86-5EC5-4DAB-BEE9-46881D857FD5} |Estação IP: 192.168.0.137 - NomeMaquina: HR-11179PC - UsuarioWin: sabrina.vieira
+Exception ProcessController.ExecutaProcesso: Erro OR_GravaOrc|i_AcaoOrcamento=N|i_AcaoOp=N 
+TOR_GravaOrc. (Exception,Alias HR - ExecSQL Delete From OR_MMTG
+ WHERE CodOrc = :pCodOrc
+ AND SeqOrcVer = :pSeqOrcVer
+ AND NumCompon = :pNumCompon
+ AND SeqOrcMtg = :pSeqOrcMtg
+ ** [FireDAC][Phys][FB]violation of FOREIGN KEY constraint "AG_MCMPOR_MMTG_OR_CODORCOR_SEQO" on table "AG_MCMP"
+Foreign key references are present for the record
+Problematic key value is ("CODORC" = 84656, "SEQORCVER" = 1, "NUMCOMPON" = 1, "SEQORCMTG" = 1))
+
+
+02/abr 18:00:14:732 ** TCPServerException 11550//192.168.0.129-55960 --> Socket Error # 10054
+Connection reset by peer.
+
+02/abr 18:40:05:380 ** TCPServerException 11551//192.168.0.103-63508 --> Socket Error # 10054
+Connection reset by peer.
+
+02/abr 21:34:39:831 TCPServerExecute --> Client IP: 192.168.0.139:54585 - Requisição: VAZIA 
+Requisição: ""
+
+02/abr 21:34:39:831 ** TCPServerException 11550//192.168.0.139-54585 --> Socket Error # 10054
+Connection reset by peer.
+
+02/abr 21:52:48:406 TCPServerExecute --> Client IP: 192.168.2.246:59254 - Requisição: VAZIA 
+Requisição: ""
+
+02/abr 21:52:48:406 ** TCPServerException 11551//192.168.2.246-59254 --> Socket Error # 10054
+Connection reset by peer.
+
+02/Abr 22:02:07:955 ***** Iniciando Servidor de Aplicação PLUG 2026.1a - "E:\SYSTEM_RAJ\EXE\" *****
+
+02/Abr 22:02:07:956 Preparando SRV TCP: 192.168.0.18:11548:11549:11550:11551:11552
+
+02/Abr 22:02:07:996 Inicialização OK
+
+02/Abr 22:02:09:494 Ativando Listening TCPServer
+
+02/Abr 22:02:09:498 Ativando Listening HTTPSrvThread
+
+02/Abr 22:02:09:499 Ativando Listening HTTPSrvStatus
+
+03/abr 07:29:55:969 ** TCPServerException 11550//192.168.2.246-62046 --> Socket Error # 10054
+Connection reset by peer.
+
+Objeto: HR.TBaseLogUsuario - Execuções: 3.941,00 - Inutilizado: N
+Client IP: 192.168.0.18:62600 - Origem: 
+Exception ProcessController.ExecutaProcesso: Erro ao testar Conexão !
+Alias: HR
+Classe: TBaseLogUsuario
+********************************************************
+Erro Ocorrido: 
+Erro ao testar conexao. (Access violation at address 0000000000B7093E in module 'Plug.exe'. Read of address 0000000000000000)  
+********************************************************
+
+
+04/abr 10:55:17:020 ** TCPServerException 11550//192.168.0.131-52477 --> Socket Error # 10054
+Connection reset by peer.
+
+06/abr 12:25:01:211 ** TCPServerException 11548//192.168.0.129-57454 --> Socket Error # 10054
+Connection reset by peer.
+
+06/abr 14:30:06:134 ** TCPServerException 11549//192.168.2.109-51336 --> Socket Error # 10054
+Connection reset by peer.
+
+06/abr 14:30:57:596 Client IP: 192.168.2.109:51342 PLUG - HL - TCM_BASEACESSAVARAMB_V2
+Socket Error # 10054
+Connection reset by peer.
+oListConnect(HL) não criada !
+Requisição (549): "à½
+07/abr 09:54:16:317 ** TCPServerException 11549//192.168.2.230-63831 --> Socket Error # 10054
+Connection reset by peer.
+
+07/abr 16:52:01:259 ** TCPServerException 11549//192.168.0.128-57075 --> Socket Error # 10054
+Connection reset by peer.
+
+08/abr 12:29:58:214 ** TCPServerException 11552//192.168.0.129-64136 --> Socket Error # 10054
+Connection reset by peer.
+
+09/abr 03:03:04:937 TCPServerExecute --> Client IP: 192.168.2.246:49355 - Requisição: VAZIA 
+Requisição: ""
+
+09/abr 03:03:04:937 ** TCPServerException 11552//192.168.2.246-49355 --> Socket Error # 10054
+Connection reset by peer.
+
+09/abr 08:06:01:564 TCPServerExecute --> Client IP: 192.168.0.138:53305 - Requisição: VAZIA 
+Requisição: ""
+
+09/abr 08:06:01:564 ** TCPServerException 11552//192.168.0.138-53305 --> Socket Error # 10054
+Connection reset by peer.
+
+09/abr 09:27:24:614 QueryObjeto [ T_OR_MORC_EXPLORA ] lenta ( mais que 1 minuto para concluir a execução ) 
+Filtro Padrão:  - {}
+Filtro Adic:  ( OR_MORC.CODEMP=3 ) And  ( Upper(OR_MORC.TITULO) Like '%64672 _GOFRAGEM%' ) And ( OR_MORC.ESTADO In (0,1,2,3,4,5,7,9 ) ) - {"pDTINI":"08/02/2026 00:00:01","pDTFIM":"09/04/2026 23:59:59"}
+Criada: 09/04/2026 09:24:16
+Início Execução: 09/04/2026 09:24:16
+Tempo: 00:03:08:426
+
+09/abr 09:27:24:863 HL.TBase_CarregarListaQObj [ Objetos: 2 / Qrs T_OR_MORC_EXPLORA ] lenta ( mais que 1 minuto para concluir a execução ) 
+Início Execução: 09/04/2026 09:24:16
+Tempo: 00:03:08:677
+
+09/abr 09:27:24:878 Client IP: 192.168.2.184:59026 PLUG - HL - TBASE_CARREGARLISTAQOBJ
+Socket Error # 10054
+Connection reset by peer.
+oListConnect(HL) não criada !
+Requisição (1629721): "à½
+09/abr 12:07:00:287 HL.TCM_BaseProcessaScript_SegP - S_OR_HISTORICO - PAMELA - HL OSASCO ACABAMENTOS GRÁFICOS LTDA - scp_6653848_0459761_00053 - 
+Erro: 
+Erro ao processar SCRIPT [S_OR_HISTORICO]
+Variável inválida: 'CONSULTA'
+
+09/abr 12:07:02:953 IdHTTPSrv/scp inexistente
+AContext Client IP: 192.168.2.230:55223
+Request Auth Usr/Pss:  / 
+Request Session: iqDGAtzrJk8UDSL / 
+Request Document: /scp/recibo_scp_6653848_0459761_00053176997228017120659
+Request Command: GET
+Request RawHTTPCommand: GET /scp/recibo_scp_6653848_0459761_00053176997228017120659 HTTP/1.1
+Request RemoteIP: 192.168.2.230
+Request Version: HTTP/1.1
+
+
+09/abr 18:02:38:551 TCPServerExecute --> Client IP: 192.168.2.185:63848 - Requisição: VAZIA 
+Requisição: ""
+
+09/abr 18:02:38:551 ** TCPServerException 11551//192.168.2.185-63848 --> Socket Error # 10054
+Connection reset by peer.
+
+09/Abr 22:02:10:401 ***** Iniciando Servidor de Aplicação PLUG 2026.1a - "E:\SYSTEM_RAJ\EXE\" *****
+
+09/Abr 22:02:10:402 Preparando SRV TCP: 192.168.0.18:11548:11549:11550:11551:11552
+
+09/Abr 22:02:10:440 Inicialização OK
+
+09/Abr 22:02:11:947 Ativando Listening TCPServer
+
+09/Abr 22:02:11:951 Ativando Listening HTTPSrvThread
+
+09/Abr 22:02:11:952 Ativando Listening HTTPSrvStatus
+
+***OCUPADO  Client IP: 192.168.2.230:62685 Alias: HL Objeto: TBASECARREGASCRIPT  Início:10/04/2026 09:35:28:584
+Usado por: 
+
+10/abr 09:41:21:204 Client IP: 192.168.2.230:62774 PLUG - HL - TBASE_CARREGARLISTAQOBJ
+Socket Error # 10054
+Connection reset by peer.
+oListConnect(HL) não criada !
+Requisição (401086): "à½
+***OCUPADO  Client IP: 192.168.2.184:52191 Alias: HL Objeto: TCMGRAVALOGSISTEMAS  Início:10/04/2026 11:03:53:232
+Usado por: 
+
+***OCUPADO  Client IP: 192.168.2.184:52191 Alias: HL Objeto: TCMGRAVALOGSISTEMAS  Início:10/04/2026 11:03:53:243
+Usado por: 
+
+10/abr 18:06:02:487 ** TCPServerException 11551//192.168.2.103-59056 --> Socket Error # 10054
+Connection reset by peer.
+
+11/abr 10:58:05:136 ** TCPServerException 11549//192.168.0.131-55142 --> Socket Error # 10054
+Connection reset by peer.
+
+Objeto: HL.TOR_GravaOrc - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.2.184:56095 - Origem: Usuário: INGRID - Programa: C:\RAJ\Orca_OR.exe ( 2026.1b beta ) - Uid: {4FAC00DD-82F5-4C90-BE4D-390722EE32C8} |Estação IP: 192.168.2.184 - NomeMaquina: HL-5419PC - UsuarioWin: ingrid.silva
+Exception ProcessController.ExecutaProcesso: Erro OR_GravaOrc|i_AcaoOrcamento=N|i_AcaoOp=N 
+TOR_GravaOrc. (Exception,Alias HL - ExecSQL Update OR_MORC
+ Set SEQORCVERVAL=:SEQORCVERVAL
+ WHERE CodOrc = :pCodOrc
+ ** [FireDAC][Phys][FB]violation of FOREIGN KEY constraint "OR_MORCOR_MORCV_CODORCSEQORCVER" on table "OR_MORC"
+Foreign key reference target does not exist
+Problematic key value is ("CODORC" = 27163, "SEQORCVERVAL" = 2))
+
+
+13/abr 17:31:05:387 ** TCPServerException 11548//192.168.0.131-50000 --> Socket Error # 10054
+Connection reset by peer.
+
+14/abr 07:50:24:459 ** TCPServerException 11549//192.168.0.129-59502 --> Socket Error # 10054
+Connection reset by peer.
+
+14/abr 07:50:24:477 ** TCPServerException 11549//192.168.0.129-59503 --> Socket Error # 10054
+Connection reset by peer.
+
+14/abr 08:31:17:338 HL.TCM_BaseProcessaScript_SegP - S_OR_HISTORICO - PAMELA - HL OSASCO ACABAMENTOS GRÁFICOS LTDA - scp_0410783_0416819_00053 - 
+Erro: 
+Erro ao processar SCRIPT [S_OR_HISTORICO]
+Variável inválida: 'CONSULTA'
+
+14/abr 08:31:20:042 IdHTTPSrv/scp inexistente
+AContext Client IP: 192.168.2.230:64097
+Request Auth Usr/Pss:  / 
+Request Session: LUY3vCpHFZuKVmO / 
+Request Document: /scp/recibo_scp_0410783_0416819_00053556941521834083116
+Request Command: GET
+Request RawHTTPCommand: GET /scp/recibo_scp_0410783_0416819_00053556941521834083116 HTTP/1.1
+Request RemoteIP: 192.168.2.230
+Request Version: HTTP/1.1
+
+
+Objeto: HL.TCM_BaseConfigUsuar - Execuções: 1.127,00 - Inutilizado: N
+Client IP: 192.168.2.230:51188 - Origem: Usuário: PAMELA - Programa: C:\Raj\Orca_OR.exe ( 2026.1b beta ) - Uid: {F7727292-1228-484F-88CD-E0BEFA62AAE6} |Estação IP: 192.168.2.230 - NomeMaquina: HL-6245PC - UsuarioWin: pamela.lima
+Exception ProcessController.ExecutaProcesso: Erro ao testar Conexão !
+Alias: HL
+Classe: TCM_BaseConfigUsuar
+********************************************************
+Erro Ocorrido: 
+Erro ao testar conexao. (Access violation at address 0000000000B7093E in module 'Plug.exe'. Read of address 0000000000000000)  
+********************************************************
+
+
+14/abr 12:25:31:300 TCPServerExecute --> Client IP: 192.168.0.138:55587 - Requisição: VAZIA 
+Requisição: ""
+
+14/abr 12:25:31:300 ** TCPServerException 11551//192.168.0.138-55587 --> Socket Error # 10054
+Connection reset by peer.
+
+14/abr 17:08:04:694 TCPServerExecute --> Client IP: 192.168.0.198:53835 - Requisição: VAZIA 
+Requisição: ""
+
+14/abr 17:08:04:694 ** TCPServerException 11552//192.168.0.198-53835 --> Socket Error # 10054
+Connection reset by peer.
+
+14/abr 18:14:55:590 ** TCPServerException 11552//192.168.0.139-56495 --> Socket Error # 10054
+Connection reset by peer.
+
+15/abr 03:42:47:240 TCPServerExecute --> Client IP: 192.168.0.198:61753 - Requisição: VAZIA 
+Requisição: ""
+
+15/abr 03:42:47:240 ** TCPServerException 11552//192.168.0.198-61753 --> Socket Error # 10054
+Connection reset by peer.
+
+15/abr 07:35:12:771 TCPServerExecute --> Client IP: 192.168.2.109:53621 - Requisição: VAZIA 
+Requisição: ""
+
+15/abr 07:35:12:771 ** TCPServerException 11548//192.168.2.109-53621 --> Socket Error # 10054
+Connection reset by peer.
+
+15/abr 12:49:01:743 ** TCPServerException 11549//192.168.0.129-60182 --> Socket Error # 10054
+Connection reset by peer.
+
+***OCUPADO  Client IP: 192.168.0.105:61674 Alias: HR Objeto: TBASESEMAFORO  Início:15/04/2026 14:38:26:347
+Usado por: 
+
+15/abr 15:38:59:065 ** TCPServerException 11549//192.168.2.230-64095 --> Socket Error # 10054
+Connection reset by peer.
+
+15/abr 16:05:24:529 ** TCPServerException 11551//192.168.2.246-50479 --> Socket Error # 10054
+Connection reset by peer.
+
+15/abr 17:34:03:903 ** TCPServerException 11549//192.168.0.129-62157 --> Socket Error # 10054
+Connection reset by peer.
+
+15/abr 18:31:07:226 ** TCPServerException 11551//192.168.0.126-49196 --> Socket Error # 10054
+Connection reset by peer.
+
+16/abr 11:55:40:392 TCPServerExecute --> Client IP: 192.168.0.138:55584 - Requisição: VAZIA 
+Requisição: ""
+
+16/abr 11:55:40:392 ** TCPServerException 11549//192.168.0.138-55584 --> Socket Error # 10054
+Connection reset by peer.
+
+16/abr 16:20:35:826 TCPServerExecute --> Client IP: 192.168.2.246:50248 - Requisição: VAZIA 
+Requisição: ""
+
+16/abr 16:20:35:826 ** TCPServerException 11549//192.168.2.246-50248 --> Socket Error # 10054
+Connection reset by peer.
+
+16/abr 17:34:22:755 ** TCPServerException 11549//192.168.2.103-57252 --> Socket Error # 10054
+Connection reset by peer.
+
+16/abr 18:41:21:731 ** TCPServerException 11551//192.168.0.143-57030 --> Invalid pointer operation
+
+16/abr 20:08:25:881 TCPServerExecute --> Client IP: 192.168.0.139:64787 - Requisição: VAZIA 
+Requisição: ""
+
+16/abr 20:08:25:881 ** TCPServerException 11551//192.168.0.139-64787 --> Socket Error # 10054
+Connection reset by peer.
+
+16/Abr 22:02:10:738 ***** Iniciando Servidor de Aplicação PLUG 2026.1a - "E:\SYSTEM_RAJ\EXE\" *****
+
+16/Abr 22:02:10:739 Preparando SRV TCP: 192.168.0.18:11548:11549:11550:11551:11552
+
+16/Abr 22:02:10:778 Inicialização OK
+
+16/Abr 22:02:12:281 Ativando Listening TCPServer
+
+16/Abr 22:02:12:285 Ativando Listening HTTPSrvThread
+
+16/Abr 22:02:12:286 Ativando Listening HTTPSrvStatus
+
+17/abr 06:11:19:957 ** TCPServerException 11548//192.168.2.246-60489 --> Socket Error # 10054
+Connection reset by peer.
+
+17/abr 08:30:41:653 ** TCPServerException 11550//192.168.2.230-58726 --> Socket Error # 10054
+Connection reset by peer.
+
+17/abr 11:56:38:408 TCPServerExecute --> Client IP: 192.168.2.230:62644 - Requisição: VAZIA 
+Requisição: ""
+
+17/abr 11:56:38:408 ** TCPServerException 11552//192.168.2.230-62644 --> Socket Error # 10054
+Connection reset by peer.
+
+17/abr 14:41:30:717 ** TCPServerException 11549//192.168.2.230-49234 --> Socket Error # 10054
+Connection reset by peer.
+
+17/abr 15:13:50:648 TCPServerExecute --> Client IP: 192.168.2.109:58361 - Requisição: VAZIA 
+Requisição: ""
+
+17/abr 15:13:50:648 ** TCPServerException 11550//192.168.2.109-58361 --> Socket Error # 10054
+Connection reset by peer.
+
+17/abr 15:20:48:530 ** TCPServerException 11552//192.168.0.146-58418 --> Socket Error # 10054
+Connection reset by peer.
+
+17/abr 16:09:44:370 ** TCPServerException 11550//192.168.0.129-50544 --> Socket Error # 10054
+Connection reset by peer.
+
+17/abr 17:00:31:724 ** TCPServerException 11550//192.168.0.134-53357 --> Socket Error # 10054
+Connection reset by peer.
+
+20/Abr 06:01:21:381 ***** Iniciando Servidor de Aplicação PLUG 2026.1a - "E:\SYSTEM_RAJ\EXE\" *****
+
+20/Abr 06:01:21:382 Preparando SRV TCP: 192.168.0.18:11548:11549:11550:11551:11552
+
+20/Abr 06:01:21:420 Inicialização OK
+
+20/Abr 06:01:22:921 Ativando Listening TCPServer
+
+20/Abr 06:01:22:926 Ativando Listening HTTPSrvThread
+
+20/Abr 06:01:22:927 Ativando Listening HTTPSrvStatus
+
+20/Abr 07:32:00:238 ** TCPServerException 11549//192.168.0.129-62190 --> Socket Error # 10054
+Connection reset by peer.
+
+20/abr 12:25:05:070 ** TCPServerException 11551//192.168.0.129-61311 --> Socket Error # 10054
+Connection reset by peer.
+
+20/abr 13:23:22:736 HL.TCM_GravaLogSistemasJs 
+Erro no TCM_GravaLogSistemasJs (Thread InsertDB - Posição 0)
+{"codEmp":3,"sistema":"FT","tipoLog":"Exec.Processo","uid":"","tabela":"FT_MPED","processo":"Autoriza Emissão","descricao":"Alteração no Status do Pedido para Autorizado","observ":"Alteração no Status do Pedido para Autorizado\r\nAutorização de Faturamento do Pedido\r\nItem=01\r\nEntrega=01\r\nQtde=20490\r\n\r\nUsuário: ANDREA - Programa: C:\\Raj\\Fat.exe ( 2026.1b beta ) - Uid: {D2C97DA9-A5D6-4D1E-84A1-1FD977187C60} \r\nEstação IP: 192.168.0.105 - NomeMaquina: HR-1539PC - UsuarioWin: andrea.assis","codInt1":16946,"codInt2":0,"codInt3":0,"codInt4":0,"codInt5":0,"codLog":490700}
+Alias HL - ExecWithSQLFD Insert Into FT_MLOG
+( CODEMP, CODLOG, TIPOLOG, TABELA, PROCESSO, DESCRICAO, CODUID, CODINT_1, CODINT_2, CODINT_3, CODINT_4, CODINT_5, DTI, USUI, OBSLOG) Values 
+(:CODEMP,:CODLOG,:TIPOLOG,:TABELA,:PROCESSO,:DESCRICAO,:CODUID,:CODINT_1,:CODINT_2,:CODINT_3,:CODINT_4,:CODINT_5,:DTI,:USUI,:OBSLOG) ** Access violation at address 0000000000B7093E in module 'Plug.exe'. Read of address 0000000000000000
+
+20/abr 16:00:09:427 ** TCPServerException 11550//192.168.2.103-53787 --> Socket Error # 10054
+Connection reset by peer.
+
+20/abr 16:55:40:173 ** TCPServerException 11548//192.168.0.129-55163 --> Socket Error # 10054
+Connection reset by peer.
+
+Objeto: HR.TOR_PosCalc - Execuções: 1,00 - Inutilizado: N
+127.0.0.1 - Origem: 
+Exception ProcessController.ExecutaProcesso: Variável inválida: 'OR_MPROC.FIRST'
+ Script ORC_NEG_VL_TAB_CONV não processado
+
+
+22/abr 08:06:56:304 HR.TCM_BaseProcessaScript_SegP - S_OR_POS_CALCULO - AMANDA - HR ACABAMENTOS GRAFICOS LTDA - scp_3406117_0455598_00045 - 
+Erro: 
+Erro ao processar SCRIPT [S_OR_POS_CALCULO]
+Objeto FOBJCALC não criado 
+TOR_POSCALC AS FOBJCALC ON PLUG;                 I_CODORC=VCODORC;   
+
+Ocorreu um erro no servidor de aplicação:
+Objeto: HR.TOR_PosCalc
+MsgFalha Vazio - Exception: "Variável inválida: 'OR_MPROC.FIRST'
+ Script ORC_NEG_VL_TAB_CONV não processado"
+
+
+22/abr 08:06:58:934 IdHTTPSrv/scp inexistente
+AContext Client IP: 192.168.0.134:56703
+Request Auth Usr/Pss:  / 
+Request Session: f9zn6Q5RdQswNIZ / 
+Request Document: /scp/recibo_scp_3406117_0455598_00045554485484771080655
+Request Command: GET
+Request RawHTTPCommand: GET /scp/recibo_scp_3406117_0455598_00045554485484771080655 HTTP/1.1
+Request RemoteIP: 192.168.0.134
+Request Version: HTTP/1.1
+
+
+22/abr 08:56:57:405 ** TCPServerException 11551//192.168.0.113-64522 --> Socket Error # 10054
+Connection reset by peer.
+
+22/abr 13:54:56:202 ** TCPServerException 11551//192.168.2.230-59279 --> Socket Error # 10054
+Connection reset by peer.
+
+22/abr 16:53:07:382 ** TCPServerException 11548//192.168.2.103-52999 --> Socket Error # 10054
+Connection reset by peer.
+
+22/abr 17:12:21:553 ** TCPServerException 11550//192.168.0.140-50758 --> Socket Error # 10054
+Connection reset by peer.
+
+22/Abr 19:18:19:838 ***** Iniciando Servidor de Aplicação PLUG 2026.1a - "E:\SYSTEM_RAJ\EXE\" *****
+
+22/Abr 19:18:19:840 Preparando SRV TCP: 192.168.0.18:11548:11549:11550:11551:11552
+
+22/Abr 19:18:19:874 Inicialização OK
+
+22/Abr 19:18:21:379 Ativando Listening TCPServer
+
+22/Abr 19:18:21:383 Ativando Listening HTTPSrvThread
+
+22/Abr 19:18:21:384 Ativando Listening HTTPSrvStatus
+
+23/abr 01:31:54:186 TCPServerExecute --> Client IP: 192.168.0.139:58479 - Requisição: VAZIA 
+Requisição: ""
+
+23/abr 01:31:54:186 ** TCPServerException 11550//192.168.0.139-58479 --> Socket Error # 10054
+Connection reset by peer.
+
+23/abr 11:26:27:416 ** TCPServerException 11548//192.168.2.109-61506 --> Socket Error # 10054
+Connection reset by peer.
+
+23/abr 16:29:36:896 ** TCPServerException 11550//192.168.0.143-53937 --> 0.0.0.0:0 Stat Disconnected.
+
+
+23/Abr 22:02:03:304 ***** Iniciando Servidor de Aplicação PLUG 2026.1a - "E:\SYSTEM_RAJ\EXE\" *****
+
+23/Abr 22:02:03:306 Preparando SRV TCP: 192.168.0.18:11548:11549:11550:11551:11552
+
+23/Abr 22:02:03:349 Inicialização OK
+
+23/Abr 22:02:04:848 Ativando Listening TCPServer
+
+23/Abr 22:02:04:849 Ativando Listening HTTPSrvThread
+
+23/Abr 22:02:04:853 Ativando Listening HTTPSrvStatus
+
+Objeto: HL.TOR_GravaOrc - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.2.230:63179 - Origem: Usuário: PAMELA - Programa: C:\Raj\Orca_OR.exe ( 2026.1b beta ) - Uid: {AF8DDC72-E8C3-4AE6-9796-BDC41E1C7076} |Estação IP: 192.168.2.230 - NomeMaquina: HL-6245PC - UsuarioWin: pamela.lima
+Exception ProcessController.ExecutaProcesso: Erro OR_GravaOrc|i_AcaoOrcamento=C|i_AcaoOp=N 
+TOR_GravaOrc. (EAppServer,O orçamento não pode ser cancelado.
+Para que este orçamento possa ser cancelado todas OPs relacionadas devem estar canceladas. 
+TOR_GravaOrc)
+
+
+24/abr 15:54:35:272 ** TCPServerException 11550//192.168.0.131-51643 --> Socket Error # 10054
+Connection reset by peer.
+
+24/abr 16:54:12:017 ** TCPServerException 11549//192.168.0.143-65325 --> 0.0.0.0:0 Stat Disconnected.
+
+
+27/abr 11:54:54:667 ** TCPServerException 11549//192.168.2.103-50674 --> Socket Error # 10054
+Connection reset by peer.
+
+27/abr 12:31:31:234 ** TCPServerException 11549//192.168.0.129-58991 --> Socket Error # 10054
+Connection reset by peer.
+
+27/abr 17:22:26:563 ** TCPServerException 11550//192.168.0.129-52247 --> Socket Error # 10054
+Connection reset by peer.
+
+27/abr 18:49:03:335 ** TCPServerException 11551//192.168.2.103-58940 --> Socket Error # 10054
+Connection reset by peer.
+
+28/abr 11:17:47:018 ** TCPServerException 11550//192.168.0.138-50374 --> Socket Error # 10054
+Connection reset by peer.
+
+28/abr 11:17:47:693 ** TCPServerException 11551//192.168.0.138-50377 --> Socket Error # 10054
+Connection reset by peer.
+
+28/abr 12:38:30:372 ** TCPServerException 11551//192.168.0.129-58992 --> Socket Error # 10054
+Connection reset by peer.
+
+28/abr 14:15:18:925 ** TCPServerException 11550//192.168.0.146-62134 --> Socket Error # 10054
+Connection reset by peer.
+
+Erro no HR.TBaseExecutaSQL - Emp: 1 - Usuar: 20
+Alias HR - ExecSQL Update CX_MMOV
+ Set CLASSIF=:CLASSIF, DTA=:DTA, USUA=:USUA
+ Where CODMOV=:p_CODMOV And SEQMOV=:p_SEQMOV
+ ** [FireDAC][Phys][FB]violation of FOREIGN KEY constraint "CX_MMOVCM_CTABM_CLASSIF" on table "CX_MMOV"
+Foreign key reference target does not exist
+Problematic key value is ("CLASSIF" = 0)
+
+Update CX_MMOV
+ Set CLASSIF=:CLASSIF, DTA=:DTA, USUA=:USUA
+ Where CODMOV=:p_CODMOV And SEQMOV=:p_SEQMOV
+{"CLASSIF":0,"DTA":"28/04/2026 15:13:36","USUA":20,"p_CODMOV":88658,"p_SEQMOV":4}
+Usuário: DARCIO - Programa: C:\Raj\Caixa.exe ( 2025.2b ) - Uid: {50469A17-966D-4DF2-8EE0-F49416D78620} |Estação IP: 192.168.0.112 - NomeMaquina: DARCIO_DELL_I7 - UsuarioWin: darci
+
+28/abr 15:11:31:820 QueryObjeto [ T_OR_MORC_EXPLORA ] lenta ( mais que 1 minuto para concluir a execução ) 
+Filtro Padrão:  - {}
+Filtro Adic:  ( OR_MORC.CODEMP=3 )  And ( OR_MORC.DTI BetWeen :pDTINI And :pDTFIM )  And ( OR_MORC.ESTADO In (1, 2))  - {"pDTINI":"26/10/2025 00:00:01","pDTFIM":"28/04/2026 23:59:59"}
+Criada: 28/04/2026 15:10:06
+Início Execução: 28/04/2026 15:10:06
+Tempo: 00:01:25:736
+
+28/abr 15:11:32:452 HL.TBase_CarregarListaQObj [ Objetos: 2 / Qrs T_OR_MORC_EXPLORA ] lenta ( mais que 1 minuto para concluir a execução ) 
+Início Execução: 28/04/2026 15:10:06
+Tempo: 00:01:26:370
+
+28/abr 15:11:32:471 Client IP: 192.168.2.230:63785 PLUG - HL - TBASE_CARREGARLISTAQOBJ
+Socket Error # 10054
+Connection reset by peer.
+oListConnect(HL) não criada !
+Requisição (1255203): "à½
+28/abr 15:14:10:457 QueryObjeto [ T_OR_MORC_EXPLORA ] lenta ( mais que 1 minuto para concluir a execução ) 
+Filtro Padrão:  - {}
+Filtro Adic:  ( OR_MORC.CODEMP=3 )  And ( OR_MORC.DTI BetWeen :pDTINI And :pDTFIM )  And ( OR_MORC.ESTADO In (1, 2))  - {"pDTINI":"26/10/2025 00:00:01","pDTFIM":"28/04/2026 23:59:59"}
+Criada: 28/04/2026 15:12:49
+Início Execução: 28/04/2026 15:12:49
+Tempo: 00:01:21:169
+
+28/abr 15:14:11:040 HL.TBase_CarregarListaQObj [ Objetos: 2 / Qrs T_OR_MORC_EXPLORA ] lenta ( mais que 1 minuto para concluir a execução ) 
+Início Execução: 28/04/2026 15:12:49
+Tempo: 00:01:21:754
+
+29/abr 04:16:38:586 TCPServerExecute --> Client IP: 192.168.0.139:58178 - Requisição: VAZIA 
+Requisição: ""
+
+29/abr 04:16:38:586 ** TCPServerException 11549//192.168.0.139-58178 --> Socket Error # 10054
+Connection reset by peer.
+
+29/abr 17:08:03:453 ** TCPServerException 11552//192.168.0.134-50958 --> Socket Error # 10054
+Connection reset by peer.
+
+30/abr 09:44:35:772 ** TCPServerException 11552//192.168.0.129-50649 --> Socket Error # 10054
+Connection reset by peer.
+
+30/abr 09:58:11:874 Client IP: 192.168.0.105:56750 PLUGSCP - HR - TSVQUERYOBJDATA
+Socket Error # 10054
+Connection reset by peer.
+oListConnect(HR) não criada !
+Requisição (7600875): "à½
+30/abr 12:31:51:712 Client IP: 192.168.0.129:53495 PLUG - Alias: "" - Obj_Classe: "TBASECARREGAQUERY" não executado devido ao Alias ou Obj_Classe não informados !
+Requisição: "à½
+30/abr 15:45:07:201 ** TCPServerException 11548//192.168.0.146-56314 --> Socket Error # 10054
+Connection reset by peer.
+
+30/abr 16:31:10:468 ** TCPServerException 11548//192.168.2.103-56122 --> Socket Error # 10054
+Connection reset by peer.
+

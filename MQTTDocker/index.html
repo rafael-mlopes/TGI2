@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentação: API de Telemetria Industrial RAJ</title>
+    <style>
+        /* --- ESTILOS PADRÃO DA EMPRESA (NÃO ALTERAR) --- */
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        
+        body { background-color: #f4f6f9; color: #333; display: flex; min-height: 100vh; }
+
+        .sidebar { width: 280px; background-color: #2c3e50; color: white; position: fixed; height: 100%; overflow-y: auto; padding: 20px; }
+        .sidebar h2 { font-size: 1.2rem; margin-bottom: 20px; border-bottom: 1px solid #4b647c; padding-bottom: 10px; }
+        .sidebar ul { list-style: none; }
+        .sidebar li { margin-bottom: 10px; }
+        .sidebar a { color: #bdc3c7; text-decoration: none; display: block; padding: 8px; border-radius: 4px; transition: 0.3s; }
+        .sidebar a:hover { background-color: #34495e; color: white; padding-left: 15px; }
+
+        .content { margin-left: 280px; padding: 40px; width: 100%; max-width: 1000px; }
+
+        section { background: white; padding: 30px; margin-bottom: 30px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); scroll-margin-top: 20px; }
+        
+        h1 { color: #2c3e50; margin-bottom: 10px; }
+        section h2 { color: #0070BA; margin-top: 20px; margin-bottom: 10px; border-left: 4px solid #0070BA; padding-left: 10px; }
+        h3 { color: #444; margin-bottom: 10px; font-weight: normal; margin-top: 20px; }
+        h4 { color: #2c3e50; margin-bottom: 10px; margin-top: 15px; }
+        p { line-height: 1.6; margin-bottom: 15px; }
+        
+        pre { background-color: #1e1e1e; color: #dcdcdc; padding: 15px; border-radius: 5px; overflow-x: auto; font-family: 'Consolas', 'Courier New', monospace; margin-bottom: 15px; border-left: 5px solid #0070BA; padding-top: 30px; }
+        code { background-color: #eee; padding: 2px 5px; border-radius: 3px; font-family: monospace; color: #d63031; }
+
+        /* Caixas de destaque */
+        .alerta { background-color: #fff3cd; border-left: 5px solid #ffc107; padding: 15px; margin-bottom: 15px; color: #856404; }
+        .info { background-color: #e3f2fd; border-left: 5px solid #2196f3; padding: 15px; margin-bottom: 15px; color: #0d47a1; }        
+
+        /* Elementos interativos */
+        .codigo-container { position: relative; margin-bottom: 20px; }
+        .btn-copy { position: absolute; top: 5px; right: 5px; background-color: #0070BA; color: white; border: none; padding: 5px 10px; border-radius: 4px; cursor: pointer; font-size: 12px; opacity: 0.8; }
+        .btn-copy:hover { opacity: 1; background-color: #005a9e; }
+        
+        ul { list-style-position: inside; margin-bottom: 15px; line-height: 1.6; }
+        
+        table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        th { background-color: #f8f9fa; color: #2c3e50; }
+
+        /* Imagens e Logo */
+        .logo { width: 100%; height: 100%; position: fixed; z-index: -1; display: flex; justify-content: right; align-items: center; }
+        .logo img { height: 500px; opacity: 0.3; margin-right: 20px; }
+        .screenshot { max-width: 100%; border: 1px solid #ddd; border-radius: 4px; margin: 15px 0; padding: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }        
+
+        @media (max-width: 768px) {
+            body { flex-direction: column; }
+            .sidebar { width: 100%; height: auto; position: relative; }
+            .content { margin-left: 0; padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <img src="https://www.rajweb.com.br/logo/logotipo_raj.png" alt="Logo RAJ">
+    </div>
+    
+    <nav class="sidebar">
+        <h2>Menu de Navegação</h2>
+        <ul>
+            <li><a href="#sessao1">1. Visão Geral</a></li>
+            <li><a href="#sessao2">2. Arquitetura e Módulos</a></li>
+            <li><a href="#sessao3">3. Configuração (GRP.cfg)</a></li>
+            <li><a href="#sessao4">4. Dicionário de Dados</a></li>
+        </ul>
+    </nav>
+    
+    <main class="content">
+        
+        <section id="sessao1">
+            <h1>Integração Telemetria MQTT x ERP</h1>
+            <h2>1. Visão Geral</h2>
+            <p>Este projeto é o motor de integração bidirecional responsável por conectar as máquinas do chão de fábrica (via protocolo MQTT) ao sistema ERP (banco Firebird). Ele atua recebendo dados de telemetria (velocidade, OEE, produção) em tempo real e enviando ocorrências e ordens geradas no ERP para as máquinas.</p>
+            
+            <h3>Pré-requisitos Técnicos:</h3>
+            <ul>
+                <li><strong>Ambiente:</strong> Python 3.x (compilado via PyInstaller ou execução direta).</li>
+                <li><strong>Bibliotecas:</strong> <code>paho-mqtt</code>, <code>fdb</code> (Firebird), <code>flask</code>, <code>waitress</code>, <code>flasgger</code>.</li>
+                <li><strong>Bancos de Dados:</strong> Dois bancos Firebird distintos (Client/ERP e Banco Dedicado MQTT).</li>
+                <li><strong>Arquivo de Configuração:</strong> O sistema exige a presença do arquivo <code>GRP.cfg</code> no diretório raiz contendo o alias <code>[MENDES_ZERADO]</code> para montar as connection strings de forma segura.</li>
+            </ul>
+        </section>
+
+        <section id="sessao2">
+            <h2>2. Arquitetura e Módulos</h2>
+            <p>A arquitetura foi desenhada de forma modular, dividindo as responsabilidades de rede (MQTT), processamento de regras de negócio e camada de visualização em 4 scripts principais:</p>
+            
+            <h3>2.1. Motor de Rede: RajBootCLP.py (Transceiver)</h3>
+            <p>Responsável exclusivo por gerenciar os sockets MQTT. Ele assina o tópico principal, escuta o payload das máquinas e realiza inserções brutas na fila do banco de dados (<code>CLP_MMSGREC</code>). Também possui um loop ativo que consome a fila de envio (<code>CLP_MMSGENV</code>) e despacha ordens para o broker MQTT.</p>
+
+            <h3>2.2. Motor de Negócio: RajBootInter.py (Interpretador)</h3>
+            <p>Atua como a ponte de dados. Realiza o <i>parsing</i> dos arquivos JSON brutos e atualiza o estado atual da máquina (<code>CLP_MACOMP</code>) e o histórico de produção. Paralelamente, rastreia novas falhas/ocorrências lendo a tabela <code>AG_MOCOR</code> no ERP e as formata para entrar na fila de envio do Transceiver.</p>
+
+            <h3>2.3. Camada de Dados: LibDB.py (Gerenciador)</h3>
+            <p>Biblioteca de abstração do Firebird. Concentra todas as queries, pool de conexões (limite lógico de 1000 usos), rotinas de log do sistema e o controle rigoroso de concorrência (<b>Semáforo</b>) para evitar processos zumbis ou deadlocks na base.</p>
+
+            <h3>2.4. API Web: LibFlask.py</h3>
+            <p>Servidor REST embutido utilizando Waitress. Expõe os dados de telemetria já consolidados para consumo em dashboards ou interfaces externas. Prioriza a leitura da Memória RAM (Cache do Interpretador) para garantir resposta ultrarrápida, consultando o banco de dados via <i>fallback</i> apenas quando necessário.</p>
+        </section>
+
+        <section id="sessao3">
+            <h2>3. Configuração de Variáveis (GRP.cfg)</h2>
+            <p>Abaixo está um exemplo da estrutura JSON esperada dentro do arquivo de configuração GRP.cfg para que a comunicação inicie corretamente.</p>
+            
+            <div class="codigo-container">
+                <button class="btn-copy" onclick="copiarCodigo('cod1')">Copiar Código</button>                
+                <pre id="cod1"><code>[MENDES_ZERADO]
+CLPJS={"dbClient": {"hDB": "localhost", "db": "C:/Bancos/ERP.FDB", "uDB": "SYSDBA", "pDB": "masterkey"}, "dbMqtt": {"hDB": "localhost", "db": "C:/Bancos/MQTT.FDB", "uDB": "SYSDBA", "pDB": "masterkey"}, "Mqtt": {"user": "admin", "pass": "senha123", "broker": "192.168.0.100", "port": 1883, "topic": "Raj/BR_SP/Planta1/#"}, "LogDetalhado": true}</code></pre>
+            </div>
+            
+            <div class="alerta">
+                <strong>⚠️ Atenção:</strong> O parser JSON implementado nativamente converte aspas simples em duplas e escapa barras. Certifique-se de manter o <code>CLPJS=</code> em linha única no ambiente de produção.
+            </div>
+        </section>
+
+        <section id="sessao4">
+            <h2>4. Dicionário de Dados e Tabelas</h2>
+            
+            <div class="info">
+                <strong>💡 Controle de Concorrência:</strong> A tabela <code>CLP_MSEMAF</code> é o coração do controle do sistema. Se o sistema cair bruscamente, o mecanismo interno detectará o processo zumbi (após 30 minutos) e o "enterrará" automaticamente, garantindo que as filas voltem a fluir sem intervenção manual.
+            </div>
+
+            <h3>4.1. Banco de Dados Client (ERP)</h3>
+            <p>Este banco opera em modo <b>Somente Leitura</b> pelo integrador.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tabela</th>
+                        <th>Operação</th>
+                        <th>Responsabilidade no Fluxo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>AG_MOCOR</code></td>
+                        <td>SELECT</td>
+                        <td>Registro bruto de ocorrências e paradas da fábrica. É rastreada em busca de eventos novos.</td>
+                    </tr>
+                    <tr>
+                        <td><code>AG_MTARC</code> / <code>AG_MTAR</code></td>
+                        <td>LEFT JOIN</td>
+                        <td>Tabelas relacionais lidas para montar o identificador único do Job (Empresa, Pedido, Item, Máquina).</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3>4.2. Banco de Dados MQTT (Motor Central)</h3>
+            <p>Base dedicada à integração. Processa filas brutas e o estado calculado da telemetria.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tabela</th>
+                        <th>Operação</th>
+                        <th>Responsabilidade no Fluxo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>CLP_MMSGREC</code> / <code>RECT</code></td>
+                        <td>INSERT / DELETE</td>
+                        <td><b>Fila de Entrada:</b> Recebe metadados e o JSON bruto da máquina. Sofre <i>purge</i> (deleção) ao ser lida.</td>
+                    </tr>
+                    <tr>
+                        <td><code>CLP_MMSGRECL</code></td>
+                        <td>INSERT</td>
+                        <td><b>Sinalização:</b> Histórico de leitura concluída pelo Interpretador. Libera exclusão na fila de entrada.</td>
+                    </tr>
+                    <tr>
+                        <td><code>CLP_MACOMP</code></td>
+                        <td>UPDATE OR INSERT</td>
+                        <td><b>Estado Real-Time:</b> Mantém apenas a foto atualizada do OEE, ciclos e velocidades por Job/Máquina.</td>
+                    </tr>
+                    <tr>
+                        <td><code>CLP_MACOMPH</code></td>
+                        <td>INSERT</td>
+                        <td><b>Histórico:</b> Acumula todos os pacotes de telemetria decodificados ao longo do tempo.</td>
+                    </tr>
+                    <tr>
+                        <td><code>CLP_MMSGENV</code> / <code>ENVT</code></td>
+                        <td>INSERT / UPDATE</td>
+                        <td><b>Fila de Saída:</b> Recebe ordens do Interpretador e é despachada para o Broker pelo Transceiver.</td>
+                    </tr>
+                    <tr>
+                        <td><code>CLP_CEQP</code></td>
+                        <td>SELECT</td>
+                        <td><b>Cadastro:</b> Carrega os IDs em RAM das máquinas ativas na planta para filtro de tópicos.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+    </main>
+
+    <script>
+        function copiarCodigo(idElemento) {
+            var elemento = document.getElementById(idElemento);
+            var codigo = elemento.innerText || elemento.textContent;
+
+            var tempInput = document.createElement("textarea");
+            tempInput.value = codigo;
+            document.body.appendChild(tempInput);
+
+            tempInput.select();
+            document.execCommand("copy");
+
+            document.body.removeChild(tempInput);
+
+            alert("Código copiado para a área de transferência!");
+        }
+    </script>
+</body>
+</html>

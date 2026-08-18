@@ -1,0 +1,1582 @@
+01/abr 05:49:42:205 HTTP - Cliente "RAFAEL B|177.195.2.175" Liberado, último acesso: 01/04/2026 05:49:30
+
+01/abr 12:34:54:499 HTTP - Cliente "RAFAEL B|177.195.2.175" Liberado, último acesso: 01/04/2026 12:34:49
+
+01/abr 14:21:36:653 ** TCPServerException 11553//192.168.0.10-62694 --> Socket Error # 10054
+Connection reset by peer.
+
+01/abr 15:12:07:949 HTTP - Cliente "TERMINAL|200.53.221.186" Liberado, último acesso: 01/04/2026 15:12:06
+
+01/abr 15:12:37:986 HTTP - Cliente "CYRO|200.53.221.186" Liberado, último acesso: 01/04/2026 15:12:29
+
+01/abr 15:39:16:802 ConversaoPDF C:\Program Files (x86)\wkhtmltopdf\wkhtmltopdf.exe -q -B 4 -L 4 -T 4 -R 4  --title 004536-1 --header-spacing 2 --footer-spacing 2 --margin-top 28mm --margin-left 8mm --margin-right 8mm --margin-bottom 16mm --enable-local-file-access --header-html d:/comercial/baserajorcam/bef_prop_header.html --footer-html d:/comercial/baserajorcam/raj_prop_footer.html D:\SYSTEM_RAJ\EXE\TempWKPDF\004536-1_EMBAGRAF_EMBALA_Banco_de_Horas_VII.htm D:\SYSTEM_RAJ\EXE\TempWKPDF\004536-1_EMBAGRAF_EMBALA_Banco_de_Horas_VII.pdf
+
+01/abr 15:43:09:540 HTTP - Cliente "CYRO|200.53.221.186" Liberado, último acesso: 01/04/2026 15:43:07
+
+01/abr 15:52:54:861 HTTP - Cliente "CYRO|200.53.221.186" Liberado, último acesso: 01/04/2026 15:52:41
+
+01/abr 15:59:17:493 IdHTTPSrvCommandGet
+Client IP: 187.59.60.32:62823
+Plug Requisição Alias:  - Classe: 
+Plug Requisição Carregada: 
+Request Usr/Pss: M0BAUjVAMzFBZmIwNmUwSjYxQDQ0 / TERMINAL
+Request Doc: /rajportal.no-ip.org
+Request Command: POST
+Request RawHTTPCommand: POST /rajportal.no-ip.org HTTP/1.1
+Request RemoteIP: 187.59.60.32
+Request Version: HTTP/1.1
+Response ContentText:  <html>  <head>  <meta http-equiv="Content-Language" content="pt-br" />  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />  <title>RAJ Tecnologia</title>  </head>  <body>  <p><font face="Tahoma" size="2" color="Blue"> <b>NOT FOUND SESSION 101 </b>
+
+01/abr 16:00:49:639 IdHTTPSrvCommandGet
+Client IP: 187.59.60.32:53166
+Plug Requisição Alias:  - Classe: 
+Plug Requisição Carregada: 
+Request Usr/Pss: ZTBAYjZASjMwQDU4QDZBNDQ2ZlI2 / TERMINAL
+Request Doc: /rajportal.no-ip.org
+Request Command: POST
+Request RawHTTPCommand: POST /rajportal.no-ip.org HTTP/1.1
+Request RemoteIP: 187.59.60.32
+Request Version: HTTP/1.1
+Response ContentText:  <html>  <head>  <meta http-equiv="Content-Language" content="pt-br" />  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />  <title>RAJ Tecnologia</title>  </head>  <body>  <p><font face="Tahoma" size="2" color="Blue"> <b>NOT FOUND SESSION 101 </b>
+
+01/abr 16:05:55:291 HTTP - Cliente "TERMINAL|187.59.60.32" Liberado, último acesso: 01/04/2026 16:05:52
+
+01/abr 18:04:13:446 HTTP - Cliente "RAFAEL B|177.195.2.175" Liberado, último acesso: 01/04/2026 18:04:05
+
+01/abr 19:47:58:310 HTTP - Cliente "RAFAEL B|177.195.2.175" Liberado, último acesso: 01/04/2026 19:47:49
+
+02/abr 14:03:34:497 QueryObjeto [ S_ATENDE ] lenta ( mais que 1 minuto para concluir a execução ) 
+Filtro Padrão:  - {}
+Filtro Adic:  ( AT_MATEN.CODEMP=1 ) 
+ And ( AT_MATEN.DTATENDE BetWeen :pDTINI And :pDTFIM )  And ( AT_MATEN.STATUS In ( 'P','A','G','X','Z','C','R' ) ) - {"pDTINI":"01/04/2026 00:00:01","pDTFIM":"02/04/2026 23:59:59"}
+Criada: 02/04/2026 14:01:36
+Início Execução: 02/04/2026 14:01:36
+Tempo: 00:01:58:216
+
+02/abr 14:08:27:288 Client IP: 192.168.0.10:57006 PLUGSCP - RAJ - TSVQUERYOBJDATA
+Socket Error # 10054
+Connection reset by peer.
+oListConnect(RAJ) não criada !
+Requisição (6908832): "à½
+02/abr 15:46:52:309 QueryObjeto [ S_ATENDE ] lenta ( mais que 1 minuto para concluir a execução ) 
+Filtro Padrão:  - {}
+Filtro Adic:  ( AT_MATEN.CODEMP=1 )  And ( AT_MATEN.STATUS In ( 'P','A','G','X','Z','C','R' ) ) - {"pDTINI":"02/04/2026 00:00:01","pDTFIM":"02/04/2026 23:59:59"}
+Criada: 02/04/2026 15:45:37
+Início Execução: 02/04/2026 15:45:37
+Tempo: 00:01:15:002
+
+02/abr 15:51:50:359 Client IP: 192.168.0.171:58008 PLUGSCP - RAJ - TSVQUERYOBJDATA
+Socket Error # 10054
+Connection reset by peer.
+oListConnect(RAJ) não criada !
+Requisição (6911156): "à½
+02/abr 15:54:54:663 QueryObjeto [ S_ATENDE ] lenta ( mais que 1 minuto para concluir a execução ) 
+Filtro Padrão:  - {"DTINI":"2026/04/01 00:00:00","DTFIM":"2026/04/02 23:59:59"}
+Filtro Adic: ( AT_MATEN.STATUS='R' ) AND ( AT_MATEN.DTFIM BETWEEN :DTINI AND :DTFIM ) AND ( AT_MATEN.CODUSUFIM=:CODUSUAR ) - {"CODUSUAR":95}
+Criada: 02/04/2026 15:53:36
+Início Execução: 02/04/2026 15:53:36
+Tempo: 00:01:18:320
+
+02/abr 15:59:44:538 Client IP: 192.168.0.171:58184 PLUGSCP - RAJ - TSVQUERYOBJDATA
+Socket Error # 10054
+Connection reset by peer.
+oListConnect(RAJ) não criada !
+Requisição (6911504): "à½
+02/abr 16:46:10:021 HTTP - Cliente "LUIZTORRES|189.1.175.14" Liberado, último acesso: 02/04/2026 16:46:04
+
+02/abr 17:12:44:646 ** TCPServerException 11552//192.168.0.142-54282 --> Socket Error # 10054
+Connection reset by peer.
+
+02/Abr 23:03:09:211 ***** Iniciando Servidor de Aplicação PLUG 2026.1a - "D:\SYSTEM_RAJ\EXE\" *****
+
+02/Abr 23:03:09:211 Preparando SRV HTTP Web: 192.168.0.25:11557:11558:11559
+
+02/Abr 23:03:09:211 Preparando SRV TCP: 192.168.0.25:11548:11549:11550:11551:11552:11553:11554:11555
+
+02/Abr 23:03:09:305 Inicialização OK
+
+02/Abr 23:03:10:805 Ativando Listening TCPServer
+
+02/Abr 23:03:10:805 Ativando Listening HTTPSrvThread
+
+02/Abr 23:03:10:805 Ativando Listening HTTPSrvStatus
+
+02/Abr 23:03:10:837 Ativando Listening HTTP Web
+
+02/Abr 23:03:11:852 Ativando Listening HTTP Web Thread
+
+05/Abr 16:11:06:323 IdHTTPSrvStatusException
+Client IP: 79.124.59.130:55450
+AException Message: Connection Closed Gracefully.
+
+06/Abr 08:35:28:130 HTTP - Cliente "TERMINAL|177.138.152.79" Liberado, último acesso: 06/04/2026 08:35:23
+
+06/Abr 09:45:58:402 HTTP - Cliente "CYRO|177.138.152.79" Liberado, último acesso: 06/04/2026 09:45:57
+
+06/Abr 10:11:43:534 HTTP - Cliente "CYRO|177.138.152.79" Liberado, último acesso: 06/04/2026 10:11:40
+
+06/Abr 10:46:13:657 HTTP - Cliente "FELIPE.CIRQ|189.8.6.82" Liberado, último acesso: 06/04/2026 10:45:59
+
+06/Abr 11:06:43:792 HTTP - Cliente "CYRO|179.190.27.189" Liberado, último acesso: 06/04/2026 11:06:41
+
+06/Abr 11:46:44:200 HTTP - Cliente "CYRO|177.138.152.79" Liberado, último acesso: 06/04/2026 11:46:41
+
+06/Abr 11:47:14:194 HTTP - Cliente "RAFAEL B|177.195.2.175" Liberado, último acesso: 06/04/2026 11:47:07
+
+06/Abr 12:38:44:590 HTTP - Cliente "CYRO|177.138.152.79" Liberado, último acesso: 06/04/2026 12:38:34
+
+06/abr 13:23:14:630 HTTP - Cliente "CYRO|177.138.152.79" Liberado, último acesso: 06/04/2026 13:23:13
+
+06/abr 14:23:44:907 HTTP - Cliente "CYRO|177.138.152.79" Liberado, último acesso: 06/04/2026 14:23:33
+
+06/abr 15:03:45:259 HTTP - Cliente "CYRO|179.190.27.189" Liberado, último acesso: 06/04/2026 15:03:34
+
+06/abr 15:13:45:307 HTTP - Cliente "CYRO|200.53.221.186" Liberado, último acesso: 06/04/2026 15:13:34
+
+06/abr 15:23:45:365 HTTP - Cliente "CYRO|177.138.152.79" Liberado, último acesso: 06/04/2026 15:23:34
+
+06/abr 15:28:45:438 HTTP - Cliente "CYRO|179.190.27.189" Liberado, último acesso: 06/04/2026 15:28:34
+
+06/abr 16:38:45:770 HTTP - Cliente "CYRO|177.138.152.79" Liberado, último acesso: 06/04/2026 16:38:35
+
+06/abr 16:54:27:885 HTTP - Cliente "CYRO|177.138.152.79" Liberado, último acesso: 06/04/2026 16:54:17
+
+06/abr 16:59:27:928 HTTP - Cliente "CYRO|187.101.207.171" Liberado, último acesso: 06/04/2026 16:59:14
+
+06/abr 18:07:45:507 HTTP - Cliente "RAFAEL B|177.195.2.175" Liberado, último acesso: 06/04/2026 18:07:42
+
+06/abr 18:29:01:783 HTTP - Cliente "RAFAEL B|177.195.2.175" Liberado, último acesso: 06/04/2026 18:29:00
+
+06/abr 19:43:17:847 HTTP - Cliente "RAFAEL B|177.195.2.175" Liberado, último acesso: 06/04/2026 19:43:05
+
+07/abr 08:32:49:436 HTTP - Cliente "TERMINAL|189.29.214.38" Liberado, último acesso: 07/04/2026 08:32:44
+
+07/abr 08:58:19:439 HTTP - Cliente "SUPERVISOR|189.29.214.38" Liberado, último acesso: 07/04/2026 08:58:11
+
+07/abr 09:09:19:444 HTTP - Cliente "SUPERVISOR|189.29.214.38" Liberado, último acesso: 07/04/2026 09:09:12
+
+07/abr 09:13:34:449 HTTP - Cliente "SUPERVISOR|179.190.27.189" Liberado, último acesso: 07/04/2026 09:13:20
+
+Objeto: RAJ.TSVQueryObjData - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.147:58761 - Origem: Usuário: ROSANA - Programa: C:\RAJ\RAJ_ATENDE.exe ( 2026.1a ) - Uid: {3DD166D3-FADB-450C-8CF5-FDB1EB7F856B} |Estação IP: 192.168.0.147 - NomeMaquina: NOTE-ROSANA - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no QueryObjeto [ SOLUT_TECNICOS_AGEN ] 
+Access violation at address 0000000000A16851 in module 'Plug.exe'. Read of address FFFFFFFFFFFFFFFF
+Erro de Abertura:
+
+Erro de Execução:
+
+
+
+07/abr 13:48:06:065 HTTP - Cliente "TERMINAL|179.190.27.189" Liberado, último acesso: 07/04/2026 13:47:58
+
+07/abr 13:48:21:070 HTTP - Cliente "CYRO|179.190.27.189" Liberado, último acesso: 07/04/2026 13:48:21
+
+07/abr 13:53:36:077 HTTP - Cliente "CYRO|179.190.27.189" Liberado, último acesso: 07/04/2026 13:53:25
+
+07/abr 13:57:21:082 HTTP - Cliente "CYRO|189.29.214.38" Liberado, último acesso: 07/04/2026 13:57:12
+
+07/abr 15:40:10:107 HTTP - Cliente "RAFAEL B|177.195.2.175" Liberado, último acesso: 07/04/2026 15:40:01
+
+07/abr 15:45:10:162 HTTP - Cliente "RAFAEL B|177.190.196.93" Liberado, último acesso: 07/04/2026 15:45:02
+
+07/abr 18:01:45:005 HTTP - Cliente "RAFAEL B|177.195.2.175" Liberado, último acesso: 07/04/2026 18:01:41
+
+08/abr 07:17:08:921 HTTP - Cliente "TERMINAL|177.138.152.79" Liberado, último acesso: 08/04/2026 07:17:01
+
+08/abr 07:22:38:918 HTTP - Cliente "CYRO|177.138.152.79" Liberado, último acesso: 08/04/2026 07:22:34
+
+08/abr 08:15:37:048 ConversaoPDF C:\Program Files (x86)\wkhtmltopdf\wkhtmltopdf.exe -q -B 4 -L 4 -T 4 -R 4  --title 004536-1 --header-spacing 2 --footer-spacing 2 --margin-top 28mm --margin-left 8mm --margin-right 8mm --margin-bottom 16mm --enable-local-file-access --header-html d:/comercial/baserajorcam/bef_prop_header.html --footer-html d:/comercial/baserajorcam/raj_prop_footer.html D:\SYSTEM_RAJ\EXE\TempWKPDF\004536-1_EMBAGRAF_EMBALA_Banco_de_Horas_VII.htm D:\SYSTEM_RAJ\EXE\TempWKPDF\004536-1_EMBAGRAF_EMBALA_Banco_de_Horas_VII.pdf
+
+08/abr 08:19:42:932 HTTP - Cliente "TERMINAL|189.29.214.38" Liberado, último acesso: 08/04/2026 08:19:31
+
+08/abr 08:21:12:935 HTTP - Cliente "CYRO|189.29.214.38" Liberado, último acesso: 08/04/2026 08:21:00
+
+08/abr 09:54:43:235 HTTP - Cliente "LUIZTORRES|189.1.175.14" Liberado, último acesso: 08/04/2026 09:54:34
+
+08/abr 09:59:43:232 HTTP - Cliente "LUIZTORRES|179.190.27.189" Liberado, último acesso: 08/04/2026 09:59:35
+
+08/abr 10:15:58:373 HTTP - Cliente "LUIZTORRES|189.1.175.14" Liberado, último acesso: 08/04/2026 10:15:48
+
+08/abr 10:28:28:377 HTTP - Cliente "LUIZTORRES|189.1.175.14" Liberado, último acesso: 08/04/2026 10:28:24
+
+08/abr 15:24:14:505 HTTP - Cliente "TERMINAL|189.29.214.38" Liberado, último acesso: 08/04/2026 15:24:02
+
+08/abr 15:31:29:631 HTTP - Cliente "FELIPE.CIRQ|152.249.226.101" Liberado, último acesso: 08/04/2026 15:31:29
+
+08/abr 15:49:59:765 HTTP - Cliente "CYRO|189.29.214.38" Liberado, último acesso: 08/04/2026 15:49:56
+
+08/abr 15:55:29:766 HTTP - Cliente "CYRO|189.29.214.38" Liberado, último acesso: 08/04/2026 15:55:15
+
+08/abr 16:01:29:783 HTTP - Cliente "CYRO|200.53.221.186" Liberado, último acesso: 08/04/2026 16:01:17
+
+08/abr 16:37:59:919 HTTP - Cliente "LUIZTORRES|189.1.175.14" Liberado, último acesso: 08/04/2026 16:37:47
+
+08/abr 19:12:45:231 HTTP - Cliente "TERMINAL|177.138.152.79" Liberado, último acesso: 08/04/2026 19:12:32
+
+08/abr 19:18:15:239 HTTP - Cliente "YRO|177.138.152.79" Liberado, último acesso: 08/04/2026 19:18:10
+
+09/abr 14:24:20:348 HTTP - Cliente "TERMINAL|187.101.207.171" Liberado, último acesso: 09/04/2026 14:24:14
+
+09/abr 14:24:35:343 HTTP - Cliente "CYRO|187.101.207.171" Liberado, último acesso: 09/04/2026 14:24:33
+
+09/abr 16:05:50:980 HTTP - Cliente "CYRO|187.101.207.171" Liberado, último acesso: 09/04/2026 16:05:37
+
+09/abr 16:35:06:057 HTTP - Cliente "CYRO|187.101.207.171" Liberado, último acesso: 09/04/2026 16:34:57
+
+09/abr 16:50:21:077 HTTP - Cliente "CYRO|187.101.207.171" Liberado, último acesso: 09/04/2026 16:50:10
+
+09/abr 17:15:36:171 HTTP - Cliente "CYRO|187.101.207.171" Liberado, último acesso: 09/04/2026 17:15:25
+
+09/abr 17:30:51:215 HTTP - Cliente "CYRO|187.101.207.171" Liberado, último acesso: 09/04/2026 17:30:46
+
+09/abr 17:41:06:223 HTTP - Cliente "CYRO|187.101.207.171" Liberado, último acesso: 09/04/2026 17:41:06
+
+09/abr 17:51:06:387 HTTP - Cliente "CYRO|187.101.207.171" Liberado, último acesso: 09/04/2026 17:51:06
+
+09/abr 21:25:07:056 HTTP - Cliente "LUIZTORRES|187.107.68.244" Liberado, último acesso: 09/04/2026 21:25:03
+
+09/Abr 23:02:52:910 ***** Iniciando Servidor de Aplicação PLUG 2026.1a - "D:\SYSTEM_RAJ\EXE\" *****
+
+09/Abr 23:02:52:910 Preparando SRV HTTP Web: 192.168.0.25:11557:11558:11559
+
+09/Abr 23:02:52:910 Preparando SRV TCP: 192.168.0.25:11548:11549:11550:11551:11552:11553:11554:11555
+
+09/Abr 23:02:52:988 Inicialização OK
+
+09/Abr 23:02:54:492 Ativando Listening TCPServer
+
+09/Abr 23:02:54:492 Ativando Listening HTTPSrvThread
+
+09/Abr 23:02:54:492 Ativando Listening HTTPSrvStatus
+
+09/Abr 23:02:54:524 Ativando Listening HTTP Web
+
+09/Abr 23:02:55:539 Ativando Listening HTTP Web Thread
+
+10/Abr 07:52:44:352 HTTP - Cliente "CYRO|187.101.207.171" Liberado, último acesso: 10/04/2026 07:52:44
+
+10/Abr 07:57:44:345 HTTP - Cliente "CYRO|187.101.207.171" Liberado, último acesso: 10/04/2026 07:57:44
+
+10/Abr 08:02:44:356 HTTP - Cliente "CYRO|187.101.207.171" Liberado, último acesso: 10/04/2026 08:02:44
+
+10/Abr 08:07:44:351 HTTP - Cliente "CYRO|177.138.152.79" Liberado, último acesso: 10/04/2026 08:07:44
+
+10/Abr 09:18:59:738 HTTP - Cliente "CYRO|179.190.27.189" Liberado, último acesso: 10/04/2026 09:18:49
+
+10/Abr 09:22:14:868 HTTP - Cliente "CYRO|200.53.221.186" Liberado, último acesso: 10/04/2026 09:22:00
+
+10/Abr 09:35:30:009 HTTP - Cliente "RAFAEL B|177.195.2.175" Liberado, último acesso: 10/04/2026 09:35:21
+
+10/Abr 11:00:15:457 HTTP - Cliente "RAFAEL B|177.190.196.93" Liberado, último acesso: 10/04/2026 11:00:13
+
+10/Abr 11:02:15:531 HTTP - Cliente "RAFAEL B|177.195.2.175" Liberado, último acesso: 10/04/2026 11:02:12
+
+10/Abr 13:52:46:223 HTTP - Cliente "FELIPE.CIRQ|201.26.86.66" Liberado, último acesso: 10/04/2026 13:52:34
+
+10/Abr 14:09:46:146 TCPServerExecute --> Porta SRV: 11555 Client IP: 192.168.0.168:60232 - Requisição: VAZIA 
+Requisição: "" Host: "" Destination: "" Version: "10.6.0.5040" RecvBufferSize: "32768"
+AllData:  - utf  - 7bit 
+
+10/Abr 19:15:02:599 HTTP - Cliente "CARLA|189.79.247.39" Liberado, último acesso: 10/04/2026 19:15:01
+
+12/Abr 19:50:01:327 IdHTTPSrvException
+Client IP: 109.205.211.101:64512
+AException Message: Decompression error
+
+12/Abr 21:15:10:148 IdHTTPSrvException
+Client IP: 109.205.211.101:64333
+AException Message: Decompression error
+
+12/Abr 21:33:12:526 IdHTTPSrvException
+Client IP: 109.205.211.101:64550
+AException Message: Decompression error
+
+13/Abr 08:43:54:373 HTTP - Cliente "TERMINAL|177.138.152.79" Liberado, último acesso: 13/04/2026 08:43:46
+
+13/Abr 08:44:09:381 HTTP - Cliente "CYRO|177.138.152.79" Liberado, último acesso: 13/04/2026 08:44:02
+
+13/Abr 08:49:43:222 ConversaoPDF C:\Program Files (x86)\wkhtmltopdf\wkhtmltopdf.exe -q -B 4 -L 4 -T 4 -R 4  --title 004537-1 --header-spacing 2 --footer-spacing 2 --margin-top 28mm --margin-left 8mm --margin-right 8mm --margin-bottom 16mm --enable-local-file-access --header-html d:/comercial/baserajorcam/bef_prop_header.html --footer-html d:/comercial/baserajorcam/raj_prop_footer.html D:\SYSTEM_RAJ\EXE\TempWKPDF\004537-1_PRO4_ADM_-_Orcamento_-_PC.htm D:\SYSTEM_RAJ\EXE\TempWKPDF\004537-1_PRO4_ADM_-_Orcamento_-_PC.pdf
+
+13/Abr 08:50:10:616 ConversaoPDF C:\Program Files (x86)\wkhtmltopdf\wkhtmltopdf.exe -q -B 4 -L 4 -T 4 -R 4  --title 004538-1 --header-spacing 2 --footer-spacing 2 --margin-top 28mm --margin-left 8mm --margin-right 8mm --margin-bottom 16mm --enable-local-file-access --header-html d:/comercial/baserajorcam/bef_prop_header.html --footer-html d:/comercial/baserajorcam/raj_prop_footer.html D:\SYSTEM_RAJ\EXE\TempWKPDF\004538-1_PRO4_Banco_de_Horas.htm D:\SYSTEM_RAJ\EXE\TempWKPDF\004538-1_PRO4_Banco_de_Horas.pdf
+
+13/Abr 08:54:08:297 ConversaoPDF C:\Program Files (x86)\wkhtmltopdf\wkhtmltopdf.exe -q -B 4 -L 4 -T 4 -R 4  --title 004538-1 --header-spacing 2 --footer-spacing 2 --margin-top 28mm --margin-left 8mm --margin-right 8mm --margin-bottom 16mm --enable-local-file-access --header-html d:/comercial/baserajorcam/bef_prop_header.html --footer-html d:/comercial/baserajorcam/raj_prop_footer.html D:\SYSTEM_RAJ\EXE\TempWKPDF\004538-1_PRO4_Banco_de_Horas.htm D:\SYSTEM_RAJ\EXE\TempWKPDF\004538-1_PRO4_Banco_de_Horas.pdf
+
+13/Abr 08:58:11:403 ConversaoPDF C:\Program Files (x86)\wkhtmltopdf\wkhtmltopdf.exe -q -B 4 -L 4 -T 4 -R 4  --title 004537-1 --header-spacing 2 --footer-spacing 2 --margin-top 28mm --margin-left 8mm --margin-right 8mm --margin-bottom 16mm --enable-local-file-access --header-html d:/comercial/baserajorcam/bef_prop_header.html --footer-html d:/comercial/baserajorcam/raj_prop_footer.html D:\SYSTEM_RAJ\EXE\TempWKPDF\004537-1_PRO4_ADM_-_Orcamento_-_PC.htm D:\SYSTEM_RAJ\EXE\TempWKPDF\004537-1_PRO4_ADM_-_Orcamento_-_PC.pdf
+
+13/Abr 09:37:11:647 HTTP - Cliente "CYRO|177.138.152.79" Liberado, último acesso: 13/04/2026 09:37:02
+
+13/Abr 09:45:11:699 HTTP - Cliente "CYRO|177.138.152.79" Liberado, último acesso: 13/04/2026 09:45:02
+
+13/Abr 10:02:03:491 ** TCPServerException 11554//192.168.0.168-55589 --> Socket Error # 10054
+Connection reset by peer.
+
+13/Abr 10:50:28:044 HTTP - Cliente "CYRO|177.138.152.79" Liberado, último acesso: 13/04/2026 10:50:27
+
+13/Abr 11:10:43:187 HTTP - Cliente "CYRO|177.138.152.79" Liberado, último acesso: 13/04/2026 11:10:29
+
+13/Abr 11:16:28:194 HTTP - Cliente "CYRO|177.138.152.79" Liberado, último acesso: 13/04/2026 11:16:24
+
+13/Abr 11:35:43:198 HTTP - Cliente "CYRO|200.53.221.186" Liberado, último acesso: 13/04/2026 11:35:31
+
+13/Abr 13:11:43:605 HTTP - Cliente "CYRO|200.53.221.186" Liberado, último acesso: 13/04/2026 13:11:33
+
+14/Abr 14:23:24:898 Client IP: 192.168.0.171:56275 PLUGSCP - RAJ - TSVQUERYOBJDATA
+Socket Error # 10054
+Connection reset by peer.
+oListConnect(RAJ) não criada !
+Requisição (6927426): "à½
+14/Abr 16:58:08:899 HTTP - Cliente "TERMINAL|189.29.214.38" Liberado, último acesso: 14/04/2026 16:57:57
+
+14/Abr 16:58:38:890 HTTP - Cliente "CYRO|189.29.214.38" Liberado, último acesso: 14/04/2026 16:58:36
+
+15/Abr 08:39:18:558 ** TCPServerException 11549//192.168.0.7-59485 --> Socket Error # 10054
+Connection reset by peer.
+
+15/Abr 09:06:29:751 HTTP - Cliente "CYRO|200.53.221.186" Liberado, último acesso: 15/04/2026 09:06:25
+
+15/Abr 09:24:29:781 HTTP - Cliente "TERMINAL|200.53.221.186" Liberado, último acesso: 15/04/2026 09:24:16
+
+15/Abr 10:14:44:912 HTTP - Cliente "CYRO|200.53.221.186" Liberado, último acesso: 15/04/2026 10:14:36
+
+15/Abr 11:00:00:285 HTTP - Cliente "CYRO|200.53.221.186" Liberado, último acesso: 15/04/2026 10:59:57
+
+15/Abr 11:12:15:447 HTTP - Cliente "CYRO|200.53.221.186" Liberado, último acesso: 15/04/2026 11:12:05
+
+16/abr 16:53:02:753 HTTP - Cliente "TERMINAL|189.29.214.38" Liberado, último acesso: 16/04/2026 16:52:56
+
+16/abr 16:53:17:757 HTTP - Cliente "CYRO|189.29.214.38" Liberado, último acesso: 16/04/2026 16:53:14
+
+16/abr 16:58:47:762 HTTP - Cliente "CYRO|189.29.214.38" Liberado, último acesso: 16/04/2026 16:58:45
+
+16/abr 18:09:04:165 HTTP - Cliente "CYRO|177.9.167.69" Liberado, último acesso: 16/04/2026 18:09:04
+
+16/abr 18:24:34:283 HTTP - Cliente "CYRO|177.9.167.69" Liberado, último acesso: 16/04/2026 18:24:24
+
+16/abr 20:55:50:502 HTTP - Cliente "CYRO|177.9.167.69" Liberado, último acesso: 16/04/2026 20:55:44
+
+16/Abr 23:02:48:018 ***** Iniciando Servidor de Aplicação PLUG 2026.1a - "D:\SYSTEM_RAJ\EXE\" *****
+
+16/Abr 23:02:48:018 Preparando SRV HTTP Web: 192.168.0.25:11557:11558:11559
+
+16/Abr 23:02:48:018 Preparando SRV TCP: 192.168.0.25:11548:11549:11550:11551:11552:11553:11554:11555
+
+16/Abr 23:02:48:096 Inicialização OK
+
+16/Abr 23:02:49:612 Ativando Listening TCPServer
+
+16/Abr 23:02:49:612 Ativando Listening HTTPSrvThread
+
+16/Abr 23:02:49:612 Ativando Listening HTTPSrvStatus
+
+16/Abr 23:02:49:643 Ativando Listening HTTP Web
+
+16/Abr 23:02:50:659 Ativando Listening HTTP Web Thread
+
+17/Abr 07:17:09:695 HTTP - Cliente "CYRO|177.9.167.69" Liberado, último acesso: 17/04/2026 07:16:58
+
+17/Abr 08:03:19:809 ***** Iniciando Servidor de Aplicação PLUG 2026.1a - "D:\SYSTEM_RAJ\EXE\" *****
+
+17/Abr 08:03:19:825 Preparando SRV HTTP Web: 192.168.0.25:11557:11558:11559
+
+17/Abr 08:03:19:825 Preparando SRV TCP: 192.168.0.25:11548:11549:11550:11551:11552:11553:11554:11555
+
+17/Abr 08:03:19:887 Inicialização OK
+
+17/Abr 08:03:21:399 Ativando Listening TCPServer
+
+17/Abr 08:03:21:399 Ativando Listening HTTPSrvThread
+
+17/Abr 08:03:21:399 Ativando Listening HTTPSrvStatus
+
+17/Abr 08:03:21:431 Ativando Listening HTTP Web
+
+17/Abr 08:03:22:448 Ativando Listening HTTP Web Thread
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.169:61876 - Origem: Usuário: CYRO - Programa: C:\RAJ\GRP_Tools.exe ( 2026.1a ) - Uid: {2554E4A1-E25C-44E3-A125-57F719B47143} |Estação IP: 54.232.189.113 - NomeMaquina: NOTERAJ_10 - UsuarioWin: Cyro
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]Dynamic SQL Error
+SQL error code = -303
+conversion error from string ""
+SQL: SELECT OC_MORC.CODEMP,         OC_MORC.CODORC, OC_MORC.CODVERSAO, OC_MORC.ESTADO, OC_MORC.TITULO, OC_MORC.TITULOADIC, OC_MORC.DTENTRADA, OC_MORC.DTENTRSOLI, OC_MORC.HRENTRSOLI, OC_MORC.DTENTRPREV, OC_MORC.DTAPROVA,         OC_MORC.TOTALCALC, OC_MORC.TOTALPROP, OC_MORC.CODFAV, OC_MORC.SEQFAV, OC_MORC.CONTATO, OC_MORC.CONTTELEF, OC_MORC.CODTABPREC, OC_MORC.CODPPAG, OC_MORC.CONDPAG, OC_MORC.CODVEN1, OC_MORC.VENCOM1,         OC_MORC.CODVEN2, OC_MORC.VENCOM2, OC_MORC.CODVEN3, OC_MORC.VENCOM3, OC_MORC.CODCLI1, OC_MORC.CODCLI2, OC_MORC.CODCLI3, OC_MORC.CODCLI4, OC_MORC.CODCLI5, OC_MORC.OBSORC, OC_MORC.OBSOS,         OC_MORC.OBSPROP, OC_MORC.OBSSTATUS, OC_MORC.CODEMPORIG, OC_MORC.CODORCORIG, OC_MORC.CODVERORIG, OC_MORC.NOVOPROD, OC_MORC.PERICMS, OC_MORC.PERIPI, OC_MORC.PERISS, OC_MORC.PEROUTROS,         OC_MORC.PERENCAR, OC_MORC.VALIDADE, OC_MORC.PRAZODESENV, OC_MORC.TEMPOMIN, OC_MORC.DTI, OC_MORC.TIPOORCAM, OC_MORC.RAJOBSPROP, OC_MORC.EMPDEST,         FV_END.RAZAO, FV_END.APELIDO, FV_END.APELIDO CLI_APEL, FV_END.ENDERECO, FV_END.NUMERO, FV_END.COMPLEMENTO, FV_END.BAIRRO, FV_END.CIDADE, FV_END.ESTADO UFCLIENTE, FV_END.CGCCPF, FV_END.IERG, FVCLIE.NOME CLIENTE,         VEND1.NOME VEND1NOME, VEND2.NOME VEND2NOME, VEND3.NOME VEND3NOME, CM_CUSU.NOME NOMEUSUI, CM_CNPG.DESCR NOMEPG      FROM OC_MORC        LEFT OUTER JOIN FV_END ON ((OC_MORC.CODFAV = FV_END.CODFAVOREC) AND (OC_MORC.SEQFAV = FV_END.SEQ))        LEFT OUTER JOIN FV_FAVOR FVCLIE ON (OC_MORC.CODFAV = FVCLIE.CODFAVOREC)        LEFT OUTER JOIN FV_FAVOR VEND1 ON (OC_MORC.CODVEN1 = VEND1.CODFAVOREC)        LEFT OUTER JOIN FV_FAVOR VEND2 ON (OC_MORC.CODVEN2 = VEND2.CODFAVOREC)        LEFT OUTER JOIN FV_FAVOR VEND3 ON (OC_MORC.CODVEN3 = VEND3.CODFAVOREC)        LEFT OUTER JOIN CM_CUSU ON (OC_MORC.USUI = CM_CUSU.CODINT)        LEFT OUTER JOIN CM_CNPG ON ( OC_MORC.CODPPAG=CM_CNPG.CODPPAG )        WHERE ( OC_MORC.CODEMP = :CODEMP ) AND ( OC_MORC.CODORC = :CODORC ) AND ( OC_MORC.CODVERSAO = :CODVERSAO )
+Params: {"CODEMP":""} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]Dynamic SQL Error
+SQL error code = -303
+conversion error from string "")
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:61240 - Origem: Usuário: BIANCA - Programa: C:\Raj\Caixa.exe ( 2026.1b beta ) - Uid: {3DA3D817-4372-444A-A42D-BB69C0E34F35} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]Error reading data from the connection.
+SQL: Select DIATRA From CM_CEMP Where (CODEMP=1)
+Params: {} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]Error reading data from the connection.)
+
+
+Objeto: RAJ.TSVQueryObjData - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.169:58994 - Origem: Usuário: CYRO - Programa: C:\RAJ\GRP_Tools.exe ( 2026.1a ) - Uid: {2554E4A1-E25C-44E3-A125-57F719B47143} |Estação IP: 54.232.189.113 - NomeMaquina: NOTERAJ_10 - UsuarioWin: Cyro
+Exception ProcessController.ExecutaProcesso: Erro no QueryObjeto [ RAJ_ORCA_BASE_ITENS ] 
+Alias RAJ - LgDataSet.Open
+[FireDAC][Phys][FB]Error reading data from the connection.
+SELECT OC_MPROD.CODEMP,OC_MPROD.CODORC,OC_MPROD.CODVERSAO,OC_MPROD.SEQPROD,OC_MPROD.ORDEMPROD,OC_MPROD.CODMAT,OC_MPROD.CODTPEST,OC_MPROD.DESCRMAT,OC_MPROD.TPESTOQUE,OC_MPROD.DESENVINT,OC_MPROD.QTDE,OC_MPROD.QTDECALC,OC_MPROD.VLUNIT,OC_MPROD.VLUNITCALC,OC_MPROD.TOTALPROD,OC_MPROD.TOTALCALC,OC_MPROD.TOLERANCIA,OC_MPROD.OBSPROD,GM_CMAT.TIPO,GM_CMAT.ICMS ICMSPROD,GM_CTPES.CODBARRA,FT_CCFIS.PERIPI,FV_END.ESTADO,CM_CEST.ICMS ICMSUF,GM_CMAT.MARCA,GM_CMAT.MATCAMPO1,GM_CMAT.OBS FROM 
+OC_MPROD
+INNER JOIN OC_MORC ON ((OC_MPROD.CODEMP = OC_MORC.CODEMP) AND (OC_MPROD.CODORC = OC_MORC.CODORC) AND (OC_MPROD.CODVERSAO=OC_MORC.CODVERSAO))
+
+LEFT OUTER JOIN FV_END ON ((OC_MORC.CODFAV = FV_END.CODFAVOREC) AND (OC_MORC.SEQFAV = FV_END.SEQ))
+
+LEFT OUTER JOIN CM_CEST ON ((FV_END.PAIS = CM_CEST.CODPAIS) AND (FV_END.ESTADO = CM_CEST.EST))
+
+INNER JOIN GM_CMAT ON (OC_MPROD.CODMAT = GM_CMAT.CODMAT)
+
+INNER JOIN GM_CTPES ON ((OC_MPROD.CODMAT = GM_CTPES.CODMAT) AND (OC_MPROD.CODTPEST = GM_CTPES.CODTPESTOQUE))
+
+LEFT OUTER JOIN FT_CCFIS ON (GM_CMAT.CODCFIS = FT_CCFIS.CODCFIS)
+
+
+
+ WHERE ((( OC_MPROD.CODEMP=:CODEMP ) And
+
+ ( OC_MPROD.CODORC=:CODORC ) And
+
+ ( OC_MPROD.CODVERSAO=:CODVERSAO ))
+
+
+
+)
+ AND (OC_MPROD.CODMAT<>2569) ORDER BY OC_MPROD.ORDEMPROD
+
+
+Erro de Abertura:
+
+Erro de Execução:
+
+
+
+17/Abr 15:45:57:365 ***** Iniciando Servidor de Aplicação PLUG 2026.1a - "D:\SYSTEM_RAJ\EXE\" *****
+
+17/Abr 15:45:57:369 Preparando SRV HTTP Web: 192.168.0.25:11557:11558:11559
+
+17/Abr 15:45:57:369 Preparando SRV TCP: 192.168.0.25:11548:11549:11550:11551:11552:11553:11554:11555
+
+17/Abr 15:45:57:437 Inicialização OK
+
+17/Abr 15:45:58:939 Ativando Listening TCPServer
+
+17/Abr 15:45:58:942 Ativando Listening HTTPSrvThread
+
+17/Abr 15:45:58:942 Ativando Listening HTTPSrvStatus
+
+17/Abr 15:45:58:975 Ativando Listening HTTP Web
+
+17/Abr 15:45:59:977 Ativando Listening HTTP Web Thread
+
+17/abr 19:49:45:815 HTTP - Cliente "TERMINAL|177.9.167.69" Liberado, último acesso: 17/04/2026 19:49:45
+
+17/abr 19:50:15:811 HTTP - Cliente "CYRO|177.9.167.69" Liberado, último acesso: 17/04/2026 19:50:03
+
+17/abr 20:15:45:957 HTTP - Cliente "CYRO|177.9.167.69" Liberado, último acesso: 17/04/2026 20:15:32
+
+18/abr 10:34:49:254 HTTP - Cliente "CYRO|177.9.167.69" Liberado, último acesso: 18/04/2026 10:34:48
+
+18/abr 11:06:04:393 HTTP - Cliente "CYRO|177.9.167.69" Liberado, último acesso: 18/04/2026 11:06:01
+
+18/abr 11:14:04:394 HTTP - Cliente "CYRO|177.9.167.69" Liberado, último acesso: 18/04/2026 11:13:59
+
+18/abr 11:19:04:386 HTTP - Cliente "CYRO|200.53.221.186" Liberado, último acesso: 18/04/2026 11:18:56
+
+18/abr 11:32:49:398 HTTP - Cliente "TERMINAL|177.9.167.69" Liberado, último acesso: 18/04/2026 11:32:49
+
+18/abr 11:33:19:394 HTTP - Cliente "CYRO|177.9.167.69" Liberado, último acesso: 18/04/2026 11:33:09
+
+18/abr 11:38:49:527 HTTP - Cliente "CYRO|200.53.221.186" Liberado, último acesso: 18/04/2026 11:38:46
+
+18/abr 11:59:04:539 HTTP - Cliente "CYRO|200.53.221.186" Liberado, último acesso: 18/04/2026 11:59:04
+
+20/abr 08:24:59:714 IdHTTPSrvCommandGet
+Client IP: 177.118.183.223:51369
+Plug Requisição Alias:  - Classe: 
+Plug Requisição Carregada: 
+Request Usr/Pss: OEBmNEo5QTZAMDdlNTRiQDI5QFI0 / TERMINAL
+Request Doc: /rajportal.no-ip.org
+Request Command: POST
+Request RawHTTPCommand: POST /rajportal.no-ip.org HTTP/1.1
+Request RemoteIP: 177.118.183.223
+Request Version: HTTP/1.1
+Response ContentText:  <html>  <head>  <meta http-equiv="Content-Language" content="pt-br" />  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />  <title>RAJ Tecnologia</title>  </head>  <body>  <p><font face="Tahoma" size="2" color="Blue"> <b>NOT FOUND SESSION 101 </b>
+
+20/abr 08:25:45:769 IdHTTPSrvCommandGet
+Client IP: 177.118.183.223:51386
+Plug Requisição Alias:  - Classe: 
+Plug Requisição Carregada: 
+Request Usr/Pss: YjRAMUFAOGU0Uko5NWZAMzBA / TERMINAL
+Request Doc: /rajportal.no-ip.org
+Request Command: POST
+Request RawHTTPCommand: POST /rajportal.no-ip.org HTTP/1.1
+Request RemoteIP: 177.118.183.223
+Request Version: HTTP/1.1
+Response ContentText:  <html>  <head>  <meta http-equiv="Content-Language" content="pt-br" />  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />  <title>RAJ Tecnologia</title>  </head>  <body>  <p><font face="Tahoma" size="2" color="Blue"> <b>NOT FOUND SESSION 101 </b>
+
+20/abr 08:28:18:911 IdHTTPSrvCommandGet
+Client IP: 177.118.183.223:51427
+Plug Requisição Alias:  - Classe: 
+Plug Requisição Carregada: 
+Request Usr/Pss: ZTFANDQ4OTc1QFJmMmIySkA5QTBA / TERMINAL
+Request Doc: /rajportal.no-ip.org
+Request Command: POST
+Request RawHTTPCommand: POST /rajportal.no-ip.org HTTP/1.1
+Request RemoteIP: 177.118.183.223
+Request Version: HTTP/1.1
+Response ContentText:  <html>  <head>  <meta http-equiv="Content-Language" content="pt-br" />  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />  <title>RAJ Tecnologia</title>  </head>  <body>  <p><font face="Tahoma" size="2" color="Blue"> <b>NOT FOUND SESSION 101 </b>
+
+20/abr 08:29:06:057 IdHTTPSrvCommandGet
+Client IP: 177.118.183.223:55011
+Plug Requisição Alias:  - Classe: 
+Plug Requisição Carregada: 
+Request Usr/Pss: UkBmMTliMEEySjlAZTQ= / TERMINAL
+Request Doc: /rajportal.no-ip.org
+Request Command: POST
+Request RawHTTPCommand: POST /rajportal.no-ip.org HTTP/1.1
+Request RemoteIP: 177.118.183.223
+Request Version: HTTP/1.1
+Response ContentText:  <html>  <head>  <meta http-equiv="Content-Language" content="pt-br" />  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />  <title>RAJ Tecnologia</title>  </head>  <body>  <p><font face="Tahoma" size="2" color="Blue"> <b>NOT FOUND SESSION 101 </b>
+
+20/abr 08:35:00:104 HTTP - Cliente "TERMINAL|177.118.183.223" Liberado, último acesso: 20/04/2026 08:34:50
+
+20/abr 08:58:00:358 HTTP - Cliente "CYRO|177.9.167.69" Liberado, último acesso: 20/04/2026 08:57:56
+
+20/abr 09:03:30:377 HTTP - Cliente "CYRO|177.9.167.69" Liberado, último acesso: 20/04/2026 09:03:16
+
+20/abr 09:33:36:631 HTTP - Cliente "CYRO|177.9.167.69" Liberado, último acesso: 20/04/2026 09:33:36
+
+20/abr 09:38:36:623 HTTP - Cliente "CYRO|177.9.167.69" Liberado, último acesso: 20/04/2026 09:38:36
+
+20/abr 09:54:06:649 HTTP - Cliente "CYRO|177.9.167.69" Liberado, último acesso: 20/04/2026 09:53:56
+
+20/abr 10:49:22:027 HTTP - Cliente "CYRO|177.9.167.69" Liberado, último acesso: 20/04/2026 10:49:17
+
+20/abr 10:55:07:023 HTTP - Cliente "CYRO|177.9.167.69" Liberado, último acesso: 20/04/2026 10:54:59
+
+20/abr 11:20:23:551 HTTP - Cliente "CYRO|177.9.167.69" Liberado, último acesso: 20/04/2026 11:20:19
+
+20/abr 11:30:53:546 HTTP - Cliente "SUP|177.118.183.223" Liberado, último acesso: 20/04/2026 11:30:45
+
+20/abr 11:36:38:545 HTTP - Cliente "TERMINAL|177.118.183.223" Liberado, último acesso: 20/04/2026 11:36:31
+
+20/abr 11:39:53:549 HTTP - Cliente "MARCOS MIRAN|177.118.183.223" Liberado, último acesso: 20/04/2026 11:39:50
+
+20/abr 11:50:53:549 HTTP - Cliente "CYRO|177.9.167.69" Liberado, último acesso: 20/04/2026 11:50:39
+
+20/abr 12:01:08:689 HTTP - Cliente "CYRO|177.9.167.69" Liberado, último acesso: 20/04/2026 12:00:59
+
+20/abr 12:08:08:688 HTTP - Cliente "CYRO|177.9.167.69" Liberado, último acesso: 20/04/2026 12:08:02
+
+20/abr 12:40:09:071 HTTP - Cliente "CYRO|177.9.167.69" Liberado, último acesso: 20/04/2026 12:40:09
+
+20/abr 12:45:09:072 HTTP - Cliente "CYRO|177.9.167.69" Liberado, último acesso: 20/04/2026 12:45:09
+
+20/abr 13:10:39:092 HTTP - Cliente "CYRO|177.9.167.69" Liberado, último acesso: 20/04/2026 13:10:29
+
+20/abr 13:30:54:209 HTTP - Cliente "CYRO|177.9.167.69" Liberado, último acesso: 20/04/2026 13:30:49
+
+20/abr 13:36:09:223 HTTP - Cliente "CYRO|177.9.167.69" Liberado, último acesso: 20/04/2026 13:36:09
+
+20/abr 13:41:09:225 HTTP - Cliente "CYRO|177.9.167.69" Liberado, último acesso: 20/04/2026 13:41:09
+
+20/abr 13:46:09:217 HTTP - Cliente "CYRO|177.9.167.69" Liberado, último acesso: 20/04/2026 13:46:09
+
+20/abr 13:51:39:222 HTTP - Cliente "CYRO|177.9.167.69" Liberado, último acesso: 20/04/2026 13:51:29
+
+20/abr 14:06:00:873 IdHTTPSrvCommandGet
+Client IP: 177.118.183.223:59053
+Plug Requisição Alias:  - Classe: 
+Plug Requisição Carregada: 
+Request Usr/Pss: UjBAYjgwQTlAZTA4QDFKZkAxNA== / TERMINAL
+Request Doc: /rajportal.no-ip.org
+Request Command: POST
+Request RawHTTPCommand: POST /rajportal.no-ip.org HTTP/1.1
+Request RemoteIP: 177.118.183.223
+Request Version: HTTP/1.1
+Response ContentText:  <html>  <head>  <meta http-equiv="Content-Language" content="pt-br" />  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />  <title>RAJ Tecnologia</title>  </head>  <body>  <p><font face="Tahoma" size="2" color="Blue"> <b>NOT FOUND SESSION 101 </b>
+
+20/abr 14:06:54:361 HTTP - Cliente "CYRO|177.9.167.69" Liberado, último acesso: 20/04/2026 14:06:50
+
+20/abr 14:12:39:351 HTTP - Cliente "TERMINAL|177.118.183.223" Liberado, último acesso: 20/04/2026 14:12:32
+
+20/abr 14:19:09:352 HTTP - Cliente "SUP|177.118.183.223" Liberado, último acesso: 20/04/2026 14:19:05
+
+20/abr 14:37:24:363 HTTP - Cliente "CYRO|177.9.167.69" Liberado, último acesso: 20/04/2026 14:37:10
+
+20/abr 15:00:09:361 HTTP - Cliente "SUP|177.118.183.223" Liberado, último acesso: 20/04/2026 15:00:09
+
+20/abr 15:05:09:370 HTTP - Cliente "SUP|177.118.183.223" Liberado, último acesso: 20/04/2026 15:05:09
+
+20/abr 15:10:09:374 HTTP - Cliente "SUP|177.118.183.223" Liberado, último acesso: 20/04/2026 15:10:09
+
+20/abr 15:20:09:386 HTTP - Cliente "SUP|177.118.183.223" Liberado, último acesso: 20/04/2026 15:20:09
+
+20/abr 15:28:54:382 HTTP - Cliente "CYRO|177.9.167.69" Liberado, último acesso: 20/04/2026 15:28:44
+
+20/abr 15:30:09:385 HTTP - Cliente "SUP|177.118.183.223" Liberado, último acesso: 20/04/2026 15:30:09
+
+20/abr 15:44:09:383 HTTP - Cliente "CYRO|177.9.167.69" Liberado, último acesso: 20/04/2026 15:44:04
+
+20/abr 16:01:24:406 HTTP - Cliente "CYRO|200.53.221.186" Liberado, último acesso: 20/04/2026 16:01:13
+
+20/abr 16:11:39:406 HTTP - Cliente "CYRO|200.53.221.186" Liberado, último acesso: 20/04/2026 16:11:33
+
+20/abr 16:30:24:525 HTTP - Cliente "SUP|177.118.183.223" Liberado, último acesso: 20/04/2026 16:30:11
+
+20/abr 16:41:54:536 HTTP - Cliente "CYRO|200.53.221.186" Liberado, último acesso: 20/04/2026 16:41:53
+
+20/abr 16:47:09:524 HTTP - Cliente "CYRO|200.53.221.186" Liberado, último acesso: 20/04/2026 16:47:01
+
+20/abr 17:10:24:675 HTTP - Cliente "LUIZTORRES|187.107.68.244" Liberado, último acesso: 20/04/2026 17:10:18
+
+21/abr 23:58:46:671 IdHTTPSrvStatusCommandGet
+AContext Client IP: 66.132.186.202:32220
+Request Usr/Pss:  / 
+Request Session: CAD4BB1s1izVpbF / 
+Request Doc: /
+Request Command: GET
+Request RawHTTPCommand: GET / HTTP/1.1
+Request RemoteIP: 66.132.186.202
+Request Version: HTTP/1.1
+
+
+21/abr 23:59:04:994 IdHTTPSrvStatusCommandGet
+AContext Client IP: 66.132.186.202:56680
+Request Usr/Pss:  / 
+Request Session: ppv5IUgt9616cI7 / 
+Request Doc: /
+Request Command: GET
+Request RawHTTPCommand: GET / HTTP/1.1
+Request RemoteIP: 66.132.186.202
+Request Version: HTTP/1.1
+
+
+21/abr 23:59:05:307 IdHTTPSrvStatusException
+Client IP: 66.132.186.202:56686
+AException Message: Header has already been written.
+
+21/abr 23:59:12:712 IdHTTPSrvStatusException
+Client IP: 66.132.186.202:32244
+AException Message: Connection Closed Gracefully.
+
+21/abr 23:59:23:637 IdHTTPSrvStatusCommandGet
+AContext Client IP: 66.132.186.202:16718
+Request Usr/Pss:  / 
+Request Session: xWWXqUaCzjn5iup / 
+Request Doc: /.well-known/security.txt
+Request Command: GET
+Request RawHTTPCommand: GET /.well-known/security.txt HTTP/1.1
+Request RemoteIP: 66.132.186.202
+Request Version: HTTP/1.1
+
+
+21/abr 23:59:30:331 IdHTTPSrvStatusException
+Client IP: 66.132.186.202:56696
+AException Message: Connection Closed Gracefully.
+
+22/abr 10:40:05:026 HTTP - Cliente "TERMINAL|200.53.221.186" Liberado, último acesso: 22/04/2026 10:40:03
+
+22/abr 10:46:05:031 HTTP - Cliente "CYRO|189.29.214.38" Liberado, último acesso: 22/04/2026 10:46:02
+
+23/abr 00:48:56:784 IdHTTPSrvStatusCommandGet
+AContext Client IP: 66.132.195.109:11092
+Request Usr/Pss:  / 
+Request Session: 1uOfGFOUGbqbylz / 
+Request Doc: /
+Request Command: GET
+Request RawHTTPCommand: GET / HTTP/1.1
+Request RemoteIP: 66.132.195.109
+Request Version: HTTP/1.1
+
+
+23/abr 00:48:58:016 IdHTTPSrvStatusException
+Client IP: 66.132.195.109:11098
+AException Message: Header has already been written.
+
+23/abr 00:49:04:376 IdHTTPSrvStatusException
+Client IP: 66.132.195.109:42898
+AException Message: Connection Closed Gracefully.
+
+23/abr 00:49:18:725 IdHTTPSrvStatusCommandGet
+AContext Client IP: 66.132.195.109:49514
+Request Usr/Pss:  / 
+Request Session: a9iPmkzsJJz6WwW / 
+Request Doc: /robots.txt
+Request Command: GET
+Request RawHTTPCommand: GET /robots.txt HTTP/1.1
+Request RemoteIP: 66.132.195.109
+Request Version: HTTP/1.1
+
+
+23/abr 00:49:24:126 IdHTTPSrvStatusException
+Client IP: 66.132.195.109:54288
+AException Message: Connection Closed Gracefully.
+
+23/abr 09:48:58:090 IdHTTPSrvCommandGet
+Client IP: 177.9.96.185:51627
+Plug Requisição Alias:  - Classe: 
+Plug Requisição Carregada: 
+Request Usr/Pss: QWIzMEBASlI4NGY5MzEzNjBlNUBA / TERMINAL
+Request Doc: /rajportal.no-ip.org
+Request Command: POST
+Request RawHTTPCommand: POST /rajportal.no-ip.org HTTP/1.1
+Request RemoteIP: 177.9.96.185
+Request Version: HTTP/1.1
+Response ContentText:  <html>  <head>  <meta http-equiv="Content-Language" content="pt-br" />  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />  <title>RAJ Tecnologia</title>  </head>  <body>  <p><font face="Tahoma" size="2" color="Blue"> <b>NOT FOUND SESSION 101 </b>
+
+23/abr 09:49:09:069 IdHTTPSrvCommandGet
+Client IP: 177.9.96.185:51631
+Plug Requisição Alias:  - Classe: 
+Plug Requisição Carregada: 
+Request Usr/Pss: MUE5SlJAQEAwNTUwYkBlZjQ1NTI= / TERMINAL
+Request Doc: /rajportal.no-ip.org
+Request Command: POST
+Request RawHTTPCommand: POST /rajportal.no-ip.org HTTP/1.1
+Request RemoteIP: 177.9.96.185
+Request Version: HTTP/1.1
+Response ContentText:  <html>  <head>  <meta http-equiv="Content-Language" content="pt-br" />  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />  <title>RAJ Tecnologia</title>  </head>  <body>  <p><font face="Tahoma" size="2" color="Blue"> <b>NOT FOUND SESSION 101 </b>
+
+23/abr 09:49:13:540 IdHTTPSrvCommandGet
+Client IP: 177.9.96.185:51633
+Plug Requisição Alias:  - Classe: 
+Plug Requisição Carregada: 
+Request Usr/Pss: ZUpiMDczM0BmOUE5QFI0NEA5QDAw / TERMINAL
+Request Doc: /rajportal.no-ip.org
+Request Command: POST
+Request RawHTTPCommand: POST /rajportal.no-ip.org HTTP/1.1
+Request RemoteIP: 177.9.96.185
+Request Version: HTTP/1.1
+Response ContentText:  <html>  <head>  <meta http-equiv="Content-Language" content="pt-br" />  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />  <title>RAJ Tecnologia</title>  </head>  <body>  <p><font face="Tahoma" size="2" color="Blue"> <b>NOT FOUND SESSION 101 </b>
+
+23/abr 09:49:17:427 IdHTTPSrvCommandGet
+Client IP: 177.9.96.185:51635
+Plug Requisição Alias:  - Classe: 
+Plug Requisição Carregada: 
+Request Usr/Pss: ZTE0NDAzUmIxM0AzNUA5QUpAZkAy / TERMINAL
+Request Doc: /rajportal.no-ip.org
+Request Command: POST
+Request RawHTTPCommand: POST /rajportal.no-ip.org HTTP/1.1
+Request RemoteIP: 177.9.96.185
+Request Version: HTTP/1.1
+Response ContentText:  <html>  <head>  <meta http-equiv="Content-Language" content="pt-br" />  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />  <title>RAJ Tecnologia</title>  </head>  <body>  <p><font face="Tahoma" size="2" color="Blue"> <b>NOT FOUND SESSION 101 </b>
+
+23/abr 09:49:34:639 IdHTTPSrvCommandGet
+Client IP: 177.9.96.185:51644
+Plug Requisição Alias:  - Classe: 
+Plug Requisição Carregada: 
+Request Usr/Pss: UjlAZkBASmIzMjBBODRlQDI5 / TERMINAL
+Request Doc: /rajportal.no-ip.org
+Request Command: POST
+Request RawHTTPCommand: POST /rajportal.no-ip.org HTTP/1.1
+Request RemoteIP: 177.9.96.185
+Request Version: HTTP/1.1
+Response ContentText:  <html>  <head>  <meta http-equiv="Content-Language" content="pt-br" />  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />  <title>RAJ Tecnologia</title>  </head>  <body>  <p><font face="Tahoma" size="2" color="Blue"> <b>NOT FOUND SESSION 101 </b>
+
+23/abr 09:54:41:774 HTTP - Cliente "TERMINAL|177.9.96.185" Liberado, último acesso: 23/04/2026 09:54:41
+
+23/abr 10:00:11:018 IdHTTPSrvStatusException
+Client IP: 199.45.155.68:49948
+AException Message: Error in parsing command.
+
+23/abr 10:00:14:829 IdHTTPSrvStatusCommandGet
+AContext Client IP: 199.45.155.68:38950
+Request Usr/Pss:  / 
+Request Session: ryJXlCOujgLjhrt / 
+Request Doc: /
+Request Command: GET
+Request RawHTTPCommand: GET / HTTP/1.1
+Request RemoteIP: 199.45.155.68
+Request Version: HTTP/1.1
+
+
+23/abr 10:00:34:058 IdHTTPSrvStatusCommandGet
+AContext Client IP: 199.45.155.68:45998
+Request Usr/Pss:  / 
+Request Session: CLV2E3qYxjTbZiK / 
+Request Doc: /
+Request Command: GET
+Request RawHTTPCommand: GET / HTTP/1.1
+Request RemoteIP: 199.45.155.68
+Request Version: HTTP/1.1
+
+
+23/abr 10:00:34:735 IdHTTPSrvStatusException
+Client IP: 199.45.155.68:46010
+AException Message: Header has already been written.
+
+23/abr 10:00:42:414 IdHTTPSrvStatusException
+Client IP: 199.45.155.68:38992
+AException Message: Connection Closed Gracefully.
+
+23/abr 10:00:56:409 IdHTTPSrvStatusCommandGet
+AContext Client IP: 199.45.155.68:47462
+Request Usr/Pss:  / 
+Request Session: wZhuNyDJTa5k5KC / 
+Request Doc: /security.txt
+Request Command: GET
+Request RawHTTPCommand: GET /security.txt HTTP/1.1
+Request RemoteIP: 199.45.155.68
+Request Version: HTTP/1.1
+
+
+23/abr 10:01:07:839 IdHTTPSrvStatusException
+Client IP: 199.45.155.68:46020
+AException Message: Connection Closed Gracefully.
+
+23/abr 10:05:11:807 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 23/04/2026 10:05:00
+
+23/abr 10:17:41:897 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 23/04/2026 10:17:34
+
+23/abr 10:38:57:152 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 23/04/2026 10:38:47
+
+23/abr 11:07:27:170 HTTP - Cliente "CYRO|189.47.30.51" Liberado, último acesso: 23/04/2026 11:07:20
+
+23/abr 12:07:42:437 HTTP - Cliente "CYRO|189.47.30.51" Liberado, último acesso: 23/04/2026 12:07:40
+
+23/abr 12:18:12:559 HTTP - Cliente "CYRO|189.47.30.51" Liberado, último acesso: 23/04/2026 12:18:01
+
+23/abr 12:23:27:570 HTTP - Cliente "CYRO|189.47.30.51" Liberado, último acesso: 23/04/2026 12:23:20
+
+23/abr 12:53:27:583 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 23/04/2026 12:53:26
+
+23/abr 16:16:13:026 HTTP - Cliente "LUIZTORRES|152.249.226.101" Liberado, último acesso: 23/04/2026 16:16:02
+
+23/abr 16:33:28:026 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 23/04/2026 16:33:24
+
+23/abr 16:38:43:029 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 23/04/2026 16:38:38
+
+23/abr 17:03:43:033 HTTP - Cliente "CYRO|200.53.221.186" Liberado, último acesso: 23/04/2026 17:03:39
+
+23/abr 17:20:13:134 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 23/04/2026 17:20:02
+
+23/abr 17:35:13:302 HTTP - Cliente "CYRO|200.53.221.186" Liberado, último acesso: 23/04/2026 17:35:03
+
+23/abr 19:59:58:595 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 23/04/2026 19:59:49
+
+23/abr 20:37:58:738 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 23/04/2026 20:37:56
+
+23/abr 21:00:43:738 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 23/04/2026 21:00:43
+
+23/abr 21:05:43:742 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 23/04/2026 21:05:43
+
+23/abr 21:16:13:740 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 23/04/2026 21:16:03
+
+23/abr 22:04:14:503 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 23/04/2026 22:04:06
+
+23/Abr 23:02:48:502 ***** Iniciando Servidor de Aplicação PLUG 2026.1a - "D:\SYSTEM_RAJ\EXE\" *****
+
+23/Abr 23:02:48:502 Preparando SRV HTTP Web: 192.168.0.25:11557:11558:11559
+
+23/Abr 23:02:48:502 Preparando SRV TCP: 192.168.0.25:11548:11549:11550:11551:11552:11553:11554:11555
+
+23/Abr 23:02:48:580 Inicialização OK
+
+23/Abr 23:02:50:080 Ativando Listening TCPServer
+
+23/Abr 23:02:50:080 Ativando Listening HTTPSrvThread
+
+23/Abr 23:02:50:080 Ativando Listening HTTPSrvStatus
+
+23/Abr 23:02:50:111 Ativando Listening HTTP Web
+
+23/Abr 23:02:51:127 Ativando Listening HTTP Web Thread
+
+24/Abr 06:16:46:843 IdHTTPSrvStatusCommandGet
+AContext Client IP: 66.132.172.181:55472
+Request Usr/Pss:  / 
+Request Session: l13b2wbluPFozRB / 
+Request Doc: /
+Request Command: GET
+Request RawHTTPCommand: GET / HTTP/1.1
+Request RemoteIP: 66.132.172.181
+Request Version: HTTP/1.1
+
+
+24/Abr 06:17:06:049 IdHTTPSrvStatusCommandGet
+AContext Client IP: 66.132.172.181:16990
+Request Usr/Pss:  / 
+Request Session: zJAzDsp6mvsuWhH / 
+Request Doc: /
+Request Command: GET
+Request RawHTTPCommand: GET / HTTP/1.1
+Request RemoteIP: 66.132.172.181
+Request Version: HTTP/1.1
+
+
+24/Abr 06:17:06:509 IdHTTPSrvStatusException
+Client IP: 66.132.172.181:17002
+AException Message: Header has already been written.
+
+24/Abr 06:17:14:951 IdHTTPSrvStatusException
+Client IP: 66.132.172.181:61108
+AException Message: Connection Closed Gracefully.
+
+24/Abr 06:17:27:153 IdHTTPSrvStatusCommandGet
+AContext Client IP: 66.132.172.181:18534
+Request Usr/Pss:  / 
+Request Session: v8UPSWuoCaJwrPP / 
+Request Doc: /wiki
+Request Command: GET
+Request RawHTTPCommand: GET /wiki HTTP/1.1
+Request RemoteIP: 66.132.172.181
+Request Version: HTTP/1.1
+
+
+24/Abr 06:17:31:947 IdHTTPSrvStatusException
+Client IP: 66.132.172.181:47968
+AException Message: Connection Closed Gracefully.
+
+24/Abr 09:07:54:749 HTTP - Cliente "TERMINAL|177.9.96.185" Liberado, último acesso: 24/04/2026 09:07:42
+
+24/Abr 09:11:39:752 HTTP - Cliente "SUPERVISOR|177.9.96.185" Liberado, último acesso: 24/04/2026 09:11:39
+
+24/abr 09:46:54:285 HTTP - Cliente "SUPERVISOR|177.9.96.185" Liberado, último acesso: 24/04/2026 09:46:40
+
+Objeto: RAJ.TCM_BaseAcessosUsuario_v2 - Execuções: 151,00 - Inutilizado: N
+Client IP: 192.168.0.123:61096 - Origem: 
+Exception ProcessController.ExecutaProcesso: VarType 73 is not supported
+
+
+Objeto: RAJ.TCM_BaseAcessosUsuario_v2 - Execuções: 0,00 - Inutilizado: S
+Client IP: 192.168.0.123:58049 - Origem: 
+Exception ProcessController.ExecutaProcesso: VarType 73 is not supported
+
+
+Objeto: RAJ.TCM_BaseAcessosUsuario_v2 - Execuções: 0,00 - Inutilizado: S
+Client IP: 192.168.0.123:58071 - Origem: 
+Exception ProcessController.ExecutaProcesso: VarType 73 is not supported
+
+
+24/abr 10:10:40:237 HTTP - Cliente "SUPERVISOR|177.9.96.185" Liberado, último acesso: 24/04/2026 10:10:32
+
+24/abr 10:53:56:559 HTTP - Cliente "SUPERVISOR|177.9.96.185" Liberado, último acesso: 24/04/2026 10:53:49
+
+24/abr 11:55:12:637 HTTP - Cliente "TERMINAL|177.9.96.185" Liberado, último acesso: 24/04/2026 11:55:09
+
+24/abr 12:07:42:822 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 24/04/2026 12:07:32
+
+24/abr 12:27:58:299 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 24/04/2026 12:27:52
+
+24/abr 12:40:13:615 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 24/04/2026 12:40:01
+
+24/abr 13:13:59:057 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 24/04/2026 13:13:59
+
+24/abr 13:18:59:177 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 24/04/2026 13:18:59
+
+24/abr 13:23:59:226 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 24/04/2026 13:23:59
+
+24/abr 13:28:59:357 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 24/04/2026 13:28:59
+
+24/abr 13:33:59:468 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 24/04/2026 13:33:59
+
+24/abr 14:34:30:683 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 24/04/2026 14:34:19
+
+24/abr 15:00:46:250 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 24/04/2026 15:00:43
+
+24/abr 15:06:16:307 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 24/04/2026 15:06:03
+
+24/abr 15:23:31:762 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 24/04/2026 15:23:24
+
+24/abr 15:38:46:968 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 24/04/2026 15:38:44
+
+24/abr 15:44:17:008 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 24/04/2026 15:44:04
+
+24/abr 16:14:32:835 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 24/04/2026 16:14:24
+
+24/abr 16:19:47:964 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 24/04/2026 16:19:44
+
+24/abr 16:32:03:236 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 24/04/2026 16:32:03
+
+24/abr 16:52:03:519 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 24/04/2026 16:52:03
+
+24/abr 17:12:18:909 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 24/04/2026 17:12:09
+
+24/abr 19:52:22:539 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 24/04/2026 19:52:17
+
+25/abr 07:00:43:235 IdHTTPSrvStatusCommandGet
+AContext Client IP: 66.132.172.187:16164
+Request Usr/Pss:  / 
+Request Session: p6Kf3vDunPzNGBa / 
+Request Doc: /
+Request Command: GET
+Request RawHTTPCommand: GET / HTTP/1.1
+Request RemoteIP: 66.132.172.187
+Request Version: HTTP/1.1
+
+
+25/abr 07:00:44:601 IdHTTPSrvStatusException
+Client IP: 66.132.172.187:16172
+AException Message: Header has already been written.
+
+25/abr 07:00:51:709 IdHTTPSrvStatusException
+Client IP: 66.132.172.187:5258
+AException Message: Connection Closed Gracefully.
+
+25/abr 07:03:35:172 IdHTTPSrvStatusCommandGet
+AContext Client IP: 66.132.172.187:6820
+Request Usr/Pss:  / 
+Request Session: 51gBrvjLDJIjcMN / 
+Request Doc: /robots.txt
+Request Command: GET
+Request RawHTTPCommand: GET /robots.txt HTTP/1.1
+Request RemoteIP: 66.132.172.187
+Request Version: HTTP/1.1
+
+
+25/abr 07:03:58:617 IdHTTPSrvStatusException
+Client IP: 66.132.172.187:47116
+AException Message: Connection Closed Gracefully.
+
+25/abr 08:16:15:020 IdHTTPSrvStatusException
+Client IP: 52.202.215.126:51891
+AException Message: Connection Closed Gracefully.
+
+25/abr 15:50:25:099 IdHTTPSrvStatusCommandGet
+AContext Client IP: 199.45.155.82:34728
+Request Usr/Pss:  / 
+Request Session: siTXid327kqSuME / 
+Request Doc: /
+Request Command: GET
+Request RawHTTPCommand: GET / HTTP/1.1
+Request RemoteIP: 199.45.155.82
+Request Version: HTTP/1.1
+
+
+25/abr 15:50:44:215 IdHTTPSrvStatusCommandGet
+AContext Client IP: 199.45.155.82:11478
+Request Usr/Pss:  / 
+Request Session: DypVAouNBpNeCf4 / 
+Request Doc: /
+Request Command: GET
+Request RawHTTPCommand: GET / HTTP/1.1
+Request RemoteIP: 199.45.155.82
+Request Version: HTTP/1.1
+
+
+25/abr 15:50:45:097 IdHTTPSrvStatusException
+Client IP: 199.45.155.82:11486
+AException Message: Header has already been written.
+
+25/abr 15:50:47:735 IdHTTPSrvStatusException
+Client IP: 199.45.155.82:44610
+AException Message: Connection Closed Gracefully.
+
+25/abr 15:51:04:743 IdHTTPSrvStatusCommandGet
+AContext Client IP: 199.45.155.82:6938
+Request Usr/Pss:  / 
+Request Session: QqeUrMycYIUWjXc / 
+Request Doc: /.well-known/security.txt
+Request Command: GET
+Request RawHTTPCommand: GET /.well-known/security.txt HTTP/1.1
+Request RemoteIP: 199.45.155.82
+Request Version: HTTP/1.1
+
+
+25/abr 15:51:10:996 IdHTTPSrvStatusException
+Client IP: 199.45.155.82:11532
+AException Message: Connection Closed Gracefully.
+
+26/abr 09:10:26:046 IdHTTPSrvStatusCommandGet
+AContext Client IP: 66.132.195.49:16408
+Request Usr/Pss:  / 
+Request Session: QI1IcZ5g6tlGBva / 
+Request Doc: /
+Request Command: GET
+Request RawHTTPCommand: GET / HTTP/1.1
+Request RemoteIP: 66.132.195.49
+Request Version: HTTP/1.1
+
+
+26/abr 09:10:44:906 IdHTTPSrvStatusCommandGet
+AContext Client IP: 66.132.195.49:44022
+Request Usr/Pss:  / 
+Request Session: ieZqhQk3LGfsOk8 / 
+Request Doc: /
+Request Command: GET
+Request RawHTTPCommand: GET / HTTP/1.1
+Request RemoteIP: 66.132.195.49
+Request Version: HTTP/1.1
+
+
+26/abr 09:10:45:281 IdHTTPSrvStatusException
+Client IP: 66.132.195.49:44028
+AException Message: Header has already been written.
+
+26/abr 09:10:48:198 IdHTTPSrvStatusException
+Client IP: 66.132.195.49:1434
+AException Message: Connection Closed Gracefully.
+
+26/abr 09:11:05:163 IdHTTPSrvStatusCommandGet
+AContext Client IP: 66.132.195.49:13724
+Request Usr/Pss:  / 
+Request Session: rloG2eilc4ARhVM / 
+Request Doc: /.well-known/security.txt
+Request Command: GET
+Request RawHTTPCommand: GET /.well-known/security.txt HTTP/1.1
+Request RemoteIP: 66.132.195.49
+Request Version: HTTP/1.1
+
+
+26/abr 09:11:11:486 IdHTTPSrvStatusException
+Client IP: 66.132.195.49:30996
+AException Message: Connection Closed Gracefully.
+
+27/abr 04:59:30:221 IdHTTPSrvStatusException
+Client IP: 66.132.186.201:52074
+AException Message: Error in parsing command.
+
+27/abr 04:59:33:829 IdHTTPSrvStatusCommandGet
+AContext Client IP: 66.132.186.201:52096
+Request Usr/Pss:  / 
+Request Session: EYieYpDiNAlOcqs / 
+Request Doc: /
+Request Command: GET
+Request RawHTTPCommand: GET / HTTP/1.1
+Request RemoteIP: 66.132.186.201
+Request Version: HTTP/1.1
+
+
+27/abr 04:59:53:784 IdHTTPSrvStatusCommandGet
+AContext Client IP: 66.132.186.201:36190
+Request Usr/Pss:  / 
+Request Session: 7sbNlkmY3i9tSen / 
+Request Doc: /
+Request Command: GET
+Request RawHTTPCommand: GET / HTTP/1.1
+Request RemoteIP: 66.132.186.201
+Request Version: HTTP/1.1
+
+
+27/abr 04:59:54:346 IdHTTPSrvStatusException
+Client IP: 66.132.186.201:36222
+AException Message: Header has already been written.
+
+27/abr 05:00:04:835 IdHTTPSrvStatusException
+Client IP: 66.132.186.201:52142
+AException Message: Connection Closed Gracefully.
+
+27/abr 05:00:12:827 IdHTTPSrvStatusCommandGet
+AContext Client IP: 66.132.186.201:23238
+Request Usr/Pss:  / 
+Request Session: uHIhcmeKltk3tUR / 
+Request Doc: /.well-known/security.txt
+Request Command: GET
+Request RawHTTPCommand: GET /.well-known/security.txt HTTP/1.1
+Request RemoteIP: 66.132.186.201
+Request Version: HTTP/1.1
+
+
+27/abr 05:00:22:617 IdHTTPSrvStatusException
+Client IP: 66.132.186.201:36236
+AException Message: Connection Closed Gracefully.
+
+27/abr 05:15:20:704 IdHTTPSrvStatusCommandGet
+AContext Client IP: 66.132.195.38:17934
+Request Usr/Pss:  / 
+Request Session: fSQoB3vaDk6imJY / 
+Request Doc: /
+Request Command: GET
+Request RawHTTPCommand: GET / HTTP/1.1
+Request RemoteIP: 66.132.195.38
+Request Version: HTTP/1.1
+
+
+27/abr 05:15:39:562 IdHTTPSrvStatusCommandGet
+AContext Client IP: 66.132.195.38:51576
+Request Usr/Pss:  / 
+Request Session: hti8xpzAQeSnajc / 
+Request Doc: /
+Request Command: GET
+Request RawHTTPCommand: GET / HTTP/1.1
+Request RemoteIP: 66.132.195.38
+Request Version: HTTP/1.1
+
+
+27/abr 05:15:39:921 IdHTTPSrvStatusException
+Client IP: 66.132.195.38:51588
+AException Message: Header has already been written.
+
+27/abr 05:15:44:855 IdHTTPSrvStatusException
+Client IP: 66.132.195.38:51632
+AException Message: Error in parsing command.
+
+27/abr 05:15:45:683 IdHTTPSrvStatusCommandGet
+AContext Client IP: 66.132.195.38:51638
+Request Usr/Pss:  / 
+Request Session: EbP6Zm6XqIF9dxT / 
+Request Doc: /.well-known/security.txt
+Request Command: GET
+Request RawHTTPCommand: GET /.well-known/security.txt HTTP/1.1
+Request RemoteIP: 66.132.195.38
+Request Version: HTTP/1.1
+
+
+27/abr 05:15:46:941 IdHTTPSrvStatusException
+Client IP: 66.132.195.38:7470
+AException Message: Connection Closed Gracefully.
+
+27/abr 07:28:12:356 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 27/04/2026 07:28:10
+
+27/abr 09:17:40:271 HTTP - Cliente "CYRO|177.174.126.227" Liberado, último acesso: 27/04/2026 09:17:32
+
+27/abr 10:44:13:498 HTTP - Cliente "RAFAEL B|177.35.231.4" Liberado, último acesso: 27/04/2026 10:44:09
+
+27/abr 10:50:58:611 HTTP - Cliente "RAFAEL B|177.35.231.4" Liberado, último acesso: 27/04/2026 10:50:55
+
+27/abr 14:07:44:101 HTTP - Cliente "TERMINAL|177.174.126.227" Liberado, último acesso: 27/04/2026 14:07:40
+
+27/abr 14:52:59:160 HTTP - Cliente "CYRO|177.174.126.227" Liberado, último acesso: 27/04/2026 14:52:56
+
+27/abr 16:08:29:146 HTTP - Cliente "CYRO|177.174.126.227" Liberado, último acesso: 27/04/2026 16:08:16
+
+27/abr 16:48:44:282 HTTP - Cliente "CYRO|177.174.126.227" Liberado, último acesso: 27/04/2026 16:48:37
+
+27/abr 16:53:44:394 HTTP - Cliente "CYRO|200.53.221.186" Liberado, último acesso: 27/04/2026 16:53:44
+
+27/abr 16:58:44:509 HTTP - Cliente "CYRO|200.53.221.186" Liberado, último acesso: 27/04/2026 16:58:44
+
+27/abr 17:03:59:611 HTTP - Cliente "CYRO|177.174.126.227" Liberado, último acesso: 27/04/2026 17:03:45
+
+27/abr 18:55:18:871 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 27/04/2026 18:55:12
+
+27/abr 21:12:04:637 HTTP - Cliente "CYRO|177.9.96.185" Liberado, último acesso: 27/04/2026 21:11:54
+
+28/abr 05:50:09:283 IdHTTPSrvStatusException
+Client IP: 66.132.195.100:5142
+AException Message: Error in parsing command.
+
+28/abr 05:50:28:209 IdHTTPSrvStatusCommandGet
+AContext Client IP: 66.132.195.100:45888
+Request Usr/Pss:  / 
+Request Session: SwRITRwLc94WapA / 
+Request Doc: /
+Request Command: GET
+Request RawHTTPCommand: GET / HTTP/1.1
+Request RemoteIP: 66.132.195.100
+Request Version: HTTP/1.1
+
+
+28/abr 05:50:29:771 IdHTTPSrvStatusException
+Client IP: 66.132.195.100:45900
+AException Message: Header has already been written.
+
+28/abr 05:50:31:631 IdHTTPSrvStatusException
+Client IP: 66.132.195.100:5178
+AException Message: Connection Closed Gracefully.
+
+28/abr 05:51:04:303 IdHTTPSrvStatusCommandGet
+AContext Client IP: 66.132.195.100:9408
+Request Usr/Pss:  / 
+Request Session: 1yJ1tPP56K95Qmh / 
+Request Doc: /sitemap.xml
+Request Command: GET
+Request RawHTTPCommand: GET /sitemap.xml HTTP/1.1
+Request RemoteIP: 66.132.195.100
+Request Version: HTTP/1.1
+
+
+28/abr 05:51:10:792 IdHTTPSrvStatusException
+Client IP: 66.132.195.100:50162
+AException Message: Connection Closed Gracefully.
+
+28/abr 06:40:45:441 IdHTTPSrvStatusCommandGet
+AContext Client IP: 66.132.172.96:8034
+Request Usr/Pss:  / 
+Request Session: YvJBUP7RNX6dTBk / 
+Request Doc: /
+Request Command: GET
+Request RawHTTPCommand: GET / HTTP/1.1
+Request RemoteIP: 66.132.172.96
+Request Version: HTTP/1.1
+
+
+28/abr 06:41:05:788 IdHTTPSrvStatusCommandGet
+AContext Client IP: 66.132.172.96:47114
+Request Usr/Pss:  / 
+Request Session: i2fbwvVO8ovAo5E / 
+Request Doc: /
+Request Command: GET
+Request RawHTTPCommand: GET / HTTP/1.1
+Request RemoteIP: 66.132.172.96
+Request Version: HTTP/1.1
+
+
+28/abr 06:41:06:304 IdHTTPSrvStatusException
+Client IP: 66.132.172.96:47126
+AException Message: Header has already been written.
+
+28/abr 06:41:15:462 IdHTTPSrvStatusException
+Client IP: 66.132.172.96:8086
+AException Message: Connection Closed Gracefully.
+
+28/abr 06:41:25:831 IdHTTPSrvStatusCommandGet
+AContext Client IP: 66.132.172.96:46184
+Request Usr/Pss:  / 
+Request Session: fthfwnVFfxcA3f7 / 
+Request Doc: /.well-known/security.txt
+Request Command: GET
+Request RawHTTPCommand: GET /.well-known/security.txt HTTP/1.1
+Request RemoteIP: 66.132.172.96
+Request Version: HTTP/1.1
+
+
+28/abr 06:41:30:822 IdHTTPSrvStatusException
+Client IP: 66.132.172.96:47178
+AException Message: Connection Closed Gracefully.
+
+28/abr 08:43:37:680 HTTP - Cliente "CYRO|189.29.214.38" Liberado, último acesso: 28/04/2026 08:43:33
+
+28/abr 10:27:27:522 HTTP - Cliente "RAFAEL B|201.63.214.218" Liberado, último acesso: 28/04/2026 10:27:20
+
+28/abr 15:06:29:394 ** TCPServerException 11549//192.168.0.10-51714 --> Socket Error # 10054
+Connection reset by peer.
+
+28/abr 16:18:13:006 HTTP - Cliente "RAFAEL B|201.63.214.218" Liberado, último acesso: 28/04/2026 16:18:04
+
+28/abr 17:10:14:702 HTTP - Cliente "RAFAEL B|201.63.214.218" Liberado, último acesso: 28/04/2026 17:10:12
+
+28/abr 18:03:19:415 HTTP - Cliente "RAFAEL B|201.63.214.218" Liberado, último acesso: 28/04/2026 18:03:17
+
+29/Abr 06:16:30:409 ***** Iniciando Servidor de Aplicação PLUG 2026.1a - "D:\SYSTEM_RAJ\EXE\" *****
+
+29/Abr 06:16:30:409 Preparando SRV HTTP Web: 192.168.0.25:11557:11558:11559
+
+29/Abr 06:16:30:409 Preparando SRV TCP: 192.168.0.25:11548:11549:11550:11551:11552:11553:11554:11555
+
+29/Abr 06:16:30:487 Inicialização OK
+
+29/Abr 06:16:32:000 Ativando Listening TCPServer
+
+29/Abr 06:16:32:000 Ativando Listening HTTPSrvThread
+
+29/Abr 06:16:32:000 Ativando Listening HTTPSrvStatus
+
+29/Abr 06:16:32:032 Ativando Listening HTTP Web
+
+29/Abr 06:16:33:039 Ativando Listening HTTP Web Thread
+
+29/Abr 06:52:48:262 IdHTTPSrvStatusCommandGet
+AContext Client IP: 66.132.186.177:1670
+Request Usr/Pss:  / 
+Request Session: yY1LBSxE8KARLxz / 
+Request Doc: /
+Request Command: GET
+Request RawHTTPCommand: GET / HTTP/1.1
+Request RemoteIP: 66.132.186.177
+Request Version: HTTP/1.1
+
+
+29/Abr 06:52:49:513 IdHTTPSrvStatusException
+Client IP: 66.132.186.177:1672
+AException Message: Header has already been written.
+
+29/Abr 06:53:02:287 IdHTTPSrvStatusException
+Client IP: 66.132.186.177:24576
+AException Message: Connection Closed Gracefully.
+
+29/Abr 06:53:44:661 IdHTTPSrvStatusCommandGet
+AContext Client IP: 66.132.186.177:59236
+Request Usr/Pss:  / 
+Request Session: rPgU3cDCRORjVHR / 
+Request Doc: /wiki
+Request Command: GET
+Request RawHTTPCommand: GET /wiki HTTP/1.1
+Request RemoteIP: 66.132.186.177
+Request Version: HTTP/1.1
+
+
+29/Abr 06:53:50:668 IdHTTPSrvStatusException
+Client IP: 66.132.186.177:18832
+AException Message: Connection Closed Gracefully.
+
+29/Abr 08:58:18:898 HTTP - Cliente "LUIZTORRES|189.1.175.14" Liberado, último acesso: 29/04/2026 08:58:09
+
+29/Abr 09:09:33:913 HTTP - Cliente "LUIZTORRES|189.1.175.14" Liberado, último acesso: 29/04/2026 09:09:22
+
+Objeto: RAJ.TSVQueryObjData - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.168:57444 - Origem: Usuário: ALAN - Programa: C:\RAJ\RAJ_ATENDE.exe ( 2026.1a ) - Uid: {1840FDAA-CFD5-46C3-86DA-B83E799C79A8} |Estação IP: 192.168.0.168 - NomeMaquina: NOTERAJ_11 - UsuarioWin: RAJ
+Exception ProcessController.ExecutaProcesso: Erro no QueryObjeto [ S_ATENDIMENTO ] 
+Access violation at address 0000000000A16851 in module 'Plug.exe'. Read of address FFFFFFFFFFFFFFFF
+Erro de Abertura:
+
+Erro de Execução:
+
+
+
+29/Abr 11:03:19:706 HTTP - Cliente "TERMINAL|200.53.221.186" Liberado, último acesso: 29/04/2026 11:03:11
+
+29/Abr 11:19:04:858 HTTP - Cliente "CYRO|200.53.221.186" Liberado, último acesso: 29/04/2026 11:18:58
+
+29/Abr 11:49:39:089 HTTP - Cliente "LUIZTORRES|201.63.7.26" Liberado, último acesso: 29/04/2026 11:49:36
+
+29/Abr 11:57:09:126 HTTP - Cliente "LUIZTORRES|201.63.7.26" Liberado, último acesso: 29/04/2026 11:57:07
+
+29/Abr 12:04:24:209 HTTP - Cliente "CYRO|200.53.221.186" Liberado, último acesso: 29/04/2026 12:04:18
+
+29/Abr 12:14:39:261 HTTP - Cliente "CYRO|200.53.221.186" Liberado, último acesso: 29/04/2026 12:14:38
+
+29/Abr 13:07:09:528 HTTP - Cliente "CYRO|200.53.221.186" Liberado, último acesso: 29/04/2026 13:06:59
+
+29/Abr 13:29:09:687 HTTP - Cliente "CYRO|200.53.221.186" Liberado, último acesso: 29/04/2026 13:28:55
+
+29/Abr 13:34:09:798 HTTP - Cliente "CYRO|179.190.27.189" Liberado, último acesso: 29/04/2026 13:33:55
+
+29/Abr 13:49:54:941 HTTP - Cliente "CYRO|200.53.221.186" Liberado, último acesso: 29/04/2026 13:49:48
+
+29/Abr 14:16:55:065 HTTP - Cliente "CYRO|200.53.221.186" Liberado, último acesso: 29/04/2026 14:16:48
+
+29/Abr 15:57:31:069 Client IP: 192.168.0.171:59928 PLUGSCP - RAJ - TSVQUERYOBJDATA
+Socket Error # 10054
+Connection reset by peer.
+oListConnect(RAJ) não criada !
+Requisição (6932530): "à½
+29/Abr 16:05:19:182 Client IP: 192.168.0.171:60096 PLUGSCP - RAJ - TSVQUERYOBJDATA
+Socket Error # 10054
+Connection reset by peer.
+oListConnect(RAJ) não criada !
+Requisição (6933000): "à½
+29/Abr 16:47:26:640 HTTP - Cliente "LUIZTORRES|189.1.175.14" Liberado, último acesso: 29/04/2026 16:47:16
+
+30/Abr 08:18:42:425 IdHTTPSrvStatusCommandGet
+AContext Client IP: 66.132.224.87:19840
+Request Usr/Pss:  / 
+Request Session: DYs412A2DMB7oqq / 
+Request Doc: /
+Request Command: GET
+Request RawHTTPCommand: GET / HTTP/1.1
+Request RemoteIP: 66.132.224.87
+Request Version: HTTP/1.1
+
+
+30/Abr 08:18:45:028 IdHTTPSrvStatusException
+Client IP: 66.132.224.87:19850
+AException Message: Header has already been written.
+
+30/Abr 08:18:50:815 IdHTTPSrvStatusException
+Client IP: 66.132.224.87:39654
+AException Message: Connection Closed Gracefully.
+
+30/Abr 08:19:25:289 IdHTTPSrvStatusCommandGet
+AContext Client IP: 66.132.224.87:50428
+Request Usr/Pss:  / 
+Request Session: PvkpTYVWfbhtqwa / 
+Request Doc: /security.txt
+Request Command: GET
+Request RawHTTPCommand: GET /security.txt HTTP/1.1
+Request RemoteIP: 66.132.224.87
+Request Version: HTTP/1.1
+
+
+30/Abr 08:19:32:757 IdHTTPSrvStatusException
+Client IP: 66.132.224.87:1338
+AException Message: Connection Closed Gracefully.
+
+30/Abr 08:40:23:373 Client IP: 192.168.0.171:54149 PLUGSCP - RAJ - TSVQUERYOBJDATA
+Socket Error # 10054
+Connection reset by peer.
+oListConnect(RAJ) não criada !
+Requisição (6915525): "à½
+30/Abr 11:31:00:475 IdHTTPSrvStatusCommandGet
+AContext Client IP: 66.132.195.82:19180
+Request Usr/Pss:  / 
+Request Session: zElPWxgFTYFMUi5 / 
+Request Doc: /
+Request Command: GET
+Request RawHTTPCommand: GET / HTTP/1.1
+Request RemoteIP: 66.132.195.82
+Request Version: HTTP/1.1
+
+
+30/Abr 11:31:24:140 IdHTTPSrvStatusCommandGet
+AContext Client IP: 66.132.195.82:60966
+Request Usr/Pss:  / 
+Request Session: f9sO3s38lWWnGTH / 
+Request Doc: /
+Request Command: GET
+Request RawHTTPCommand: GET / HTTP/1.1
+Request RemoteIP: 66.132.195.82
+Request Version: HTTP/1.1
+
+
+30/Abr 11:31:25:140 IdHTTPSrvStatusException
+Client IP: 66.132.195.82:60992
+AException Message: Header has already been written.
+
+30/Abr 11:31:34:917 IdHTTPSrvStatusException
+Client IP: 66.132.195.82:10368
+AException Message: Connection Closed Gracefully.
+
+30/Abr 11:31:47:298 IdHTTPSrvStatusCommandGet
+AContext Client IP: 66.132.195.82:28558
+Request Usr/Pss:  / 
+Request Session: 7PcNDnmQbvmXILX / 
+Request Doc: /.well-known/security.txt
+Request Command: GET
+Request RawHTTPCommand: GET /.well-known/security.txt HTTP/1.1
+Request RemoteIP: 66.132.195.82
+Request Version: HTTP/1.1
+
+
+30/Abr 11:32:00:854 IdHTTPSrvStatusException
+Client IP: 66.132.195.82:60652
+AException Message: Connection Closed Gracefully.
+
+30/Abr 12:26:40:064 HTTP - Cliente "FELIPE.CIRQ|177.190.194.103" Liberado, último acesso: 30/04/2026 12:26:37
+
+30/Abr 12:42:55:309 HTTP - Cliente "FELIPE.CIRQ|177.190.194.103" Liberado, último acesso: 30/04/2026 12:42:52
+
+30/Abr 12:51:10:406 HTTP - Cliente "LUIZTORRES|152.249.226.101" Liberado, último acesso: 30/04/2026 12:51:04
+
+30/Abr 13:42:59:757 ***** Iniciando Servidor de Aplicação PLUG 2026.1a - "D:\SYSTEM_RAJ\EXE\" *****
+
+30/Abr 13:42:59:757 Preparando SRV HTTP Web: 192.168.0.25:11557:11558:11559
+
+30/Abr 13:42:59:757 Preparando SRV TCP: 192.168.0.25:11548:11549:11550:11551:11552:11553:11554:11555
+
+30/Abr 13:42:59:835 Inicialização OK
+
+30/Abr 13:43:01:335 Ativando Listening TCPServer
+
+30/Abr 13:43:01:335 Ativando Listening HTTPSrvThread
+
+30/Abr 13:43:01:335 Ativando Listening HTTPSrvStatus
+
+30/Abr 13:43:01:366 Ativando Listening HTTP Web
+
+30/Abr 13:43:02:383 Ativando Listening HTTP Web Thread
+
+30/abr 14:33:08:413 ** TCPServerException 11550//192.168.0.147-59640 --> Socket Error # 10054
+Connection reset by peer.
+
+30/Abr 15:16:14:695 ***** Iniciando Servidor de Aplicação PLUG 2026.1a - "D:\SYSTEM_RAJ\EXE\" *****
+
+30/Abr 15:16:14:695 Preparando SRV HTTP Web: 192.168.0.25:11557:11558:11559
+
+30/Abr 15:16:14:695 Preparando SRV TCP: 192.168.0.25:11548:11549:11550:11551:11552:11553:11554:11555
+
+30/Abr 15:16:14:773 Inicialização OK
+
+30/Abr 15:16:16:274 Ativando Listening TCPServer
+
+30/Abr 15:16:16:274 Ativando Listening HTTPSrvThread
+
+30/Abr 15:16:16:274 Ativando Listening HTTPSrvStatus
+
+30/Abr 15:16:16:305 Ativando Listening HTTP Web
+
+30/Abr 15:16:17:321 Ativando Listening HTTP Web Thread
+
+30/abr 15:35:02:272 HTTP - Cliente "TERMINAL|189.29.214.38" Liberado, último acesso: 30/04/2026 15:34:51
+
+30/abr 15:35:32:275 HTTP - Cliente "CYRO|189.29.214.38" Liberado, último acesso: 30/04/2026 15:35:21
+
+30/abr 15:37:16:143 TCPServerExecute --> Client IP: 192.168.0.171:61447 - Requisição: VAZIA 
+Requisição: ""
+
+30/abr 15:37:16:143 ** TCPServerException 11552//192.168.0.171-61447 --> Socket Error # 10054
+Connection reset by peer.
+

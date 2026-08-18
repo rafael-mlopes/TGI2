@@ -1,0 +1,3 @@
+14:08:20 - Configuração do CLPJS lida com sucesso direto do arquivo!
+14:14:18 - Configuração do CLPJS lida com sucesso direto do arquivo!
+15:15:54 - Configuração do CLPJS lida com sucesso direto do arquivo!

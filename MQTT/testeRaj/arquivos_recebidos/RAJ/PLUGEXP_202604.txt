@@ -1,0 +1,1577 @@
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.147:64560 - Origem: Usuário: ROSANA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {E7A2D86D-6469-454E-AE63-87F5FC950C70} |Estação IP: 192.168.0.147 - NomeMaquina: NOTE-ROSANA - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+string right truncation
+expected length 32000, actual 36047
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":56,"pDATA":"01/04/2026 07:49:34"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+string right truncation
+expected length 32000, actual 36047)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:51727 - Origem: Usuário: BIANCA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {31D51A19-96AE-4853-9722-DB0077F82953} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"01/04/2026 08:38:38"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.147:57241 - Origem: Usuário: ROSANA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {6DC62DDB-6055-4B63-9F81-0EF85D665A1C} |Estação IP: 192.168.0.147 - NomeMaquina: NOTE-ROSANA - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+string right truncation
+expected length 32000, actual 36047
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":56,"pDATA":"02/04/2026 07:34:32"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+string right truncation
+expected length 32000, actual 36047)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:64695 - Origem: Usuário: BIANCA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {9FAAE657-A3BE-414D-9593-20A00FCD8FB6} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"02/04/2026 09:02:42"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:65088 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {7608D7E6-03B2-4670-BFEC-D272B5578854} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"02/04/2026 09:27:58"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:65096 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {7608D7E6-03B2-4670-BFEC-D272B5578854} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"02/04/2026 09:28:16"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:65101 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {7608D7E6-03B2-4670-BFEC-D272B5578854} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"02/04/2026 09:28:27"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:65107 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {7608D7E6-03B2-4670-BFEC-D272B5578854} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"02/04/2026 09:28:41"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:65123 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {7608D7E6-03B2-4670-BFEC-D272B5578854} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"02/04/2026 09:30:10"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:65131 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {7608D7E6-03B2-4670-BFEC-D272B5578854} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"02/04/2026 09:30:43"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:65137 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {7608D7E6-03B2-4670-BFEC-D272B5578854} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"02/04/2026 09:30:58"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:65143 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {7608D7E6-03B2-4670-BFEC-D272B5578854} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"02/04/2026 09:31:10"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:65149 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {7608D7E6-03B2-4670-BFEC-D272B5578854} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"02/04/2026 09:31:23"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:65155 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {7608D7E6-03B2-4670-BFEC-D272B5578854} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"02/04/2026 09:31:34"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:65166 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {7608D7E6-03B2-4670-BFEC-D272B5578854} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"02/04/2026 09:31:53"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:65173 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {7608D7E6-03B2-4670-BFEC-D272B5578854} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"02/04/2026 09:32:09"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:65180 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {7608D7E6-03B2-4670-BFEC-D272B5578854} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"02/04/2026 09:32:25"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:49834 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {DA2ADA6D-51BE-42BE-A13C-E3AEFF309DD4} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"02/04/2026 10:11:38"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:51041 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {F70B9C4F-4A00-402A-9A69-4BEBB59765BB} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"02/04/2026 11:14:14"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:51073 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {F70B9C4F-4A00-402A-9A69-4BEBB59765BB} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"02/04/2026 11:15:50"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+02/Abr 23:03:20:792 ***** Iniciando Servidor de Aplicação PLUGEXP 2026.1a - "D:\SYSTEM_RAJ\EXE\" *****
+
+02/Abr 23:03:20:792 Preparando SRV TCP: 192.168.0.25:11563
+
+02/Abr 23:03:22:324 Ativando Listening TCPServer
+
+02/Abr 23:03:22:324 Ativando Listening HTTPSrvThread
+
+02/Abr 23:03:22:324 Ativando Listening HTTPSrvStatus
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.147:52854 - Origem: Usuário: ROSANA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {86ADCC5C-52BC-45D2-86AD-3DAD0E7C487C} |Estação IP: 192.168.0.147 - NomeMaquina: NOTE-ROSANA - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+string right truncation
+expected length 32000, actual 36047
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":56,"pDATA":"06/04/2026 07:44:10"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+string right truncation
+expected length 32000, actual 36047)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:57068 - Origem: Usuário: BIANCA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {F9B81745-F4A5-413C-94D0-80665A3A5F56} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"06/04/2026 08:41:17"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.147:56723 - Origem: Usuário: ROSANA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {C283E365-896B-4BBA-905C-A63AD59E3AEA} |Estação IP: 192.168.0.147 - NomeMaquina: NOTE-ROSANA - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+string right truncation
+expected length 32000, actual 36047
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":56,"pDATA":"07/04/2026 07:41:01"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+string right truncation
+expected length 32000, actual 36047)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:52143 - Origem: Usuário: BIANCA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {1B7F1889-9309-4044-8843-CF7CD4CAE1C1} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"07/04/2026 09:11:49"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.147:49684 - Origem: Usuário: ROSANA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {8F8B6F3C-E30A-4648-A880-34072B95857F} |Estação IP: 192.168.0.147 - NomeMaquina: NOTE-ROSANA - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+string right truncation
+expected length 32000, actual 36047
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":56,"pDATA":"08/04/2026 07:45:08"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+string right truncation
+expected length 32000, actual 36047)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:61183 - Origem: Usuário: BIANCA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {D6AC2EDF-A793-4F96-9196-09E947EB91BE} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"08/04/2026 09:30:52"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:52120 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {4B519C31-5F64-420B-A4DB-276A3D694F46} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"08/04/2026 16:34:24"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:52128 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {4B519C31-5F64-420B-A4DB-276A3D694F46} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"08/04/2026 16:34:39"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:52134 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {4B519C31-5F64-420B-A4DB-276A3D694F46} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"08/04/2026 16:34:59"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:52140 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {4B519C31-5F64-420B-A4DB-276A3D694F46} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"08/04/2026 16:35:12"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:52146 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {4B519C31-5F64-420B-A4DB-276A3D694F46} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"08/04/2026 16:35:23"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:52858 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {6A6776C7-23D3-48B3-9D74-2C0AE5A05B94} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"08/04/2026 16:56:59"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:52896 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {6A6776C7-23D3-48B3-9D74-2C0AE5A05B94} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"08/04/2026 16:59:21"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:52904 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {6A6776C7-23D3-48B3-9D74-2C0AE5A05B94} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"08/04/2026 16:59:35"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:52915 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {6A6776C7-23D3-48B3-9D74-2C0AE5A05B94} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"08/04/2026 17:00:03"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:52922 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {6A6776C7-23D3-48B3-9D74-2C0AE5A05B94} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"08/04/2026 17:00:28"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:52929 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {6A6776C7-23D3-48B3-9D74-2C0AE5A05B94} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"08/04/2026 17:00:45"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:52935 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {6A6776C7-23D3-48B3-9D74-2C0AE5A05B94} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"08/04/2026 17:00:57"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.147:58888 - Origem: Usuário: ROSANA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {A5B34949-BD47-4437-81E8-2F1E36AEF5CC} |Estação IP: 192.168.0.147 - NomeMaquina: NOTE-ROSANA - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+string right truncation
+expected length 32000, actual 36047
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":56,"pDATA":"09/04/2026 07:34:05"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+string right truncation
+expected length 32000, actual 36047)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:54493 - Origem: Usuário: BIANCA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {67D06468-87A9-42BA-B22D-5CE0717A98A2} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"09/04/2026 09:31:49"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:55744 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {6D535680-A2AD-4758-AA09-D5EFE390131D} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"09/04/2026 10:48:59"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:55752 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {6D535680-A2AD-4758-AA09-D5EFE390131D} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"09/04/2026 10:49:23"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:60068 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {B5693B99-8265-42D3-A5DD-B8ECBDF9E188} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"09/04/2026 14:39:06"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:60098 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {B5693B99-8265-42D3-A5DD-B8ECBDF9E188} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"09/04/2026 14:43:04"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:60103 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {B5693B99-8265-42D3-A5DD-B8ECBDF9E188} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"09/04/2026 14:43:16"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:60108 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {B5693B99-8265-42D3-A5DD-B8ECBDF9E188} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"09/04/2026 14:43:31"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+09/Abr 23:03:04:428 ***** Iniciando Servidor de Aplicação PLUGEXP 2026.1a - "D:\SYSTEM_RAJ\EXE\" *****
+
+09/Abr 23:03:04:428 Preparando SRV TCP: 192.168.0.25:11563
+
+09/Abr 23:03:05:984 Ativando Listening TCPServer
+
+09/Abr 23:03:05:984 Ativando Listening HTTPSrvThread
+
+09/Abr 23:03:05:984 Ativando Listening HTTPSrvStatus
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:63469 - Origem: Usuário: BIANCA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {513584AB-5BA1-48A8-9C5F-4677C454BB06} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"10/04/2026 10:05:10"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.147:62388 - Origem: Usuário: BIANCA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {A40BA73C-F9A0-47C2-B223-37D5935AD833} |Estação IP: 192.168.0.147 - NomeMaquina: NOTE-ROSANA - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"10/04/2026 10:05:12"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+10/Abr 12:49:25:675 ConversaoPDF C:\Program Files (x86)\wkhtmltopdf\wkhtmltopdf.exe -q -B 4 -L 4 -T 4 -R 4  --title 004537-1 --header-spacing 2 --footer-spacing 2 --margin-top 28mm --margin-left 8mm --margin-right 8mm --margin-bottom 16mm --enable-local-file-access --header-html d:/comercial/baserajorcam/bef_prop_header.html --footer-html d:/comercial/baserajorcam/raj_prop_footer.html D:\SYSTEM_RAJ\EXE\TempWKPDF\004537-1_EXPOPRINT_ADM_-_Orcamento_-_PC.htm D:\SYSTEM_RAJ\EXE\TempWKPDF\004537-1_EXPOPRINT_ADM_-_Orcamento_-_PC.pdf
+
+10/Abr 12:50:29:664 ConversaoPDF C:\Program Files (x86)\wkhtmltopdf\wkhtmltopdf.exe -q -B 4 -L 4 -T 4 -R 4  --title 004538-1 --header-spacing 2 --footer-spacing 2 --margin-top 28mm --margin-left 8mm --margin-right 8mm --margin-bottom 16mm --enable-local-file-access --header-html d:/comercial/baserajorcam/bef_prop_header.html --footer-html d:/comercial/baserajorcam/raj_prop_footer.html D:\SYSTEM_RAJ\EXE\TempWKPDF\004538-1_EXPOPRINT_Banco_de_Horas.htm D:\SYSTEM_RAJ\EXE\TempWKPDF\004538-1_EXPOPRINT_Banco_de_Horas.pdf
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:51818 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {1FBF872E-1DC6-4B58-9EC4-7E3E9A4C7250} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"10/04/2026 15:11:42"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:52570 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {1FBF872E-1DC6-4B58-9EC4-7E3E9A4C7250} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"10/04/2026 15:46:57"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:52577 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {1FBF872E-1DC6-4B58-9EC4-7E3E9A4C7250} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"10/04/2026 15:47:13"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:52587 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {1FBF872E-1DC6-4B58-9EC4-7E3E9A4C7250} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"10/04/2026 15:47:22"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:56161 - Origem: Usuário: BIANCA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {EBA12552-C17A-4A01-A71D-F795D3A369D0} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"13/04/2026 08:10:50"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:56191 - Origem: Usuário: BIANCA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {EBA12552-C17A-4A01-A71D-F795D3A369D0} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"13/04/2026 08:14:17"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:56197 - Origem: Usuário: BIANCA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {EBA12552-C17A-4A01-A71D-F795D3A369D0} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"13/04/2026 08:14:32"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:56202 - Origem: Usuário: BIANCA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {EBA12552-C17A-4A01-A71D-F795D3A369D0} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"13/04/2026 08:14:42"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:56207 - Origem: Usuário: BIANCA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {EBA12552-C17A-4A01-A71D-F795D3A369D0} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"13/04/2026 08:14:55"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:56212 - Origem: Usuário: BIANCA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {EBA12552-C17A-4A01-A71D-F795D3A369D0} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"13/04/2026 08:15:05"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:56218 - Origem: Usuário: BIANCA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {EBA12552-C17A-4A01-A71D-F795D3A369D0} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"13/04/2026 08:15:17"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+13/Abr 10:16:06:176 ConversaoPDF C:\Program Files (x86)\wkhtmltopdf\wkhtmltopdf.exe -q -B 4 -L 4 -T 4 -R 4  --title 004539-1 --header-spacing 2 --footer-spacing 2 --margin-top 28mm --margin-left 8mm --margin-right 8mm --margin-bottom 16mm --enable-local-file-access --header-html d:/comercial/baserajorcam/bef_prop_header.html --footer-html d:/comercial/baserajorcam/raj_prop_footer.html D:\SYSTEM_RAJ\EXE\TempWKPDF\004539-1_POLYPLASTIC_Banco_de_Horas.htm D:\SYSTEM_RAJ\EXE\TempWKPDF\004539-1_POLYPLASTIC_Banco_de_Horas.pdf
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:64758 - Origem: Usuário: BIANCA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {856ED6D1-D525-42E0-B65A-F9CAB3E57897} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"14/04/2026 08:16:20"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.147:62901 - Origem: Usuário: BIANCA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {6F5883F6-F0F5-43A3-A58C-FEED5C861367} |Estação IP: 192.168.0.147 - NomeMaquina: NOTE-ROSANA - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"14/04/2026 08:16:29"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:64966 - Origem: Usuário: BIANCA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {856ED6D1-D525-42E0-B65A-F9CAB3E57897} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"14/04/2026 08:38:41"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:65260 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {C29338F0-5CC8-4003-BF32-6A67637EDE44} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"14/04/2026 08:58:48"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:65273 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {C29338F0-5CC8-4003-BF32-6A67637EDE44} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"14/04/2026 08:59:36"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.147:64188 - Origem: Usuário: ROSANA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {E4CF15C1-27CA-47C8-A800-2DF26A661551} |Estação IP: 192.168.0.147 - NomeMaquina: NOTE-ROSANA - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+string right truncation
+expected length 32000, actual 36257
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":56,"pDATA":"14/04/2026 11:00:48"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+string right truncation
+expected length 32000, actual 36257)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:52134 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {E0703D37-1489-40ED-85A1-F676D9B25CBC} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"14/04/2026 11:58:45"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.147:52693 - Origem: Usuário: ROSANA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {5E0873A1-CF6C-47B9-A4CD-6DAF493A2D5E} |Estação IP: 192.168.0.147 - NomeMaquina: NOTE-ROSANA - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+string right truncation
+expected length 32000, actual 36257
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":56,"pDATA":"15/04/2026 07:51:15"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+string right truncation
+expected length 32000, actual 36257)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:59568 - Origem: Usuário: BIANCA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {02F7AD82-2469-4105-8337-09ABE9450080} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"15/04/2026 08:45:03"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:61775 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {72EF6810-F8D8-4811-9F61-31BA49DAAD2F} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"15/04/2026 10:48:24"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:61795 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {72EF6810-F8D8-4811-9F61-31BA49DAAD2F} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"15/04/2026 10:49:03"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:51358 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {4F8BFEC9-0063-48A5-AB0C-401B56D47271} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"15/04/2026 14:44:30"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:51432 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {4F8BFEC9-0063-48A5-AB0C-401B56D47271} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"15/04/2026 14:47:00"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.147:65094 - Origem: Usuário: ROSANA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {63652104-1C26-4EE0-B94A-90E77FB499DD} |Estação IP: 192.168.0.147 - NomeMaquina: NOTE-ROSANA - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+string right truncation
+expected length 32000, actual 36257
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":56,"pDATA":"16/04/2026 07:36:51"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+string right truncation
+expected length 32000, actual 36257)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:54993 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {41488CA0-FDC3-4C63-8C29-0811326F272C} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"16/04/2026 08:35:54"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:55002 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {41488CA0-FDC3-4C63-8C29-0811326F272C} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"16/04/2026 08:36:13"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:55008 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {41488CA0-FDC3-4C63-8C29-0811326F272C} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"16/04/2026 08:36:36"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:55016 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {41488CA0-FDC3-4C63-8C29-0811326F272C} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"16/04/2026 08:37:05"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:55583 - Origem: Usuário: BIANCA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {F2C3F4E2-8AE2-4638-AD2F-D58F15988911} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"16/04/2026 08:58:47"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+16/Abr 23:02:59:575 ***** Iniciando Servidor de Aplicação PLUGEXP 2026.1a - "D:\SYSTEM_RAJ\EXE\" *****
+
+16/Abr 23:02:59:575 Preparando SRV TCP: 192.168.0.25:11563
+
+16/Abr 23:03:01:107 Ativando Listening TCPServer
+
+16/Abr 23:03:01:107 Ativando Listening HTTPSrvThread
+
+16/Abr 23:03:01:107 Ativando Listening HTTPSrvStatus
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.147:57138 - Origem: Usuário: ROSANA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {2E0BF5C4-21AB-460D-8139-318D22362762} |Estação IP: 192.168.0.147 - NomeMaquina: NOTE-ROSANA - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+string right truncation
+expected length 32000, actual 36257
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":56,"pDATA":"17/04/2026 07:40:42"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+string right truncation
+expected length 32000, actual 36257)
+
+
+17/Abr 08:03:31:372 ***** Iniciando Servidor de Aplicação PLUGEXP 2026.1a - "D:\SYSTEM_RAJ\EXE\" *****
+
+17/Abr 08:03:31:372 Preparando SRV TCP: 192.168.0.25:11563
+
+17/Abr 08:03:32:903 Ativando Listening TCPServer
+
+17/Abr 08:03:32:903 Ativando Listening HTTPSrvThread
+
+17/Abr 08:03:32:903 Ativando Listening HTTPSrvStatus
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:54774 - Origem: Usuário: BIANCA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {66AE632D-7555-4F55-B027-701D8830086B} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"17/04/2026 09:04:45"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:58950 - Origem: Usuário: BIANCA - Programa: C:\Raj\GRPEventos.exe ( 2026.1a ) - Uid: {58B1356B-BAB2-436E-8850-175A7E94947D} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"17/04/2026 13:07:01"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TCX_RotinasJs - Execuções: 59,00 - Inutilizado: N
+Client IP: 192.168.0.7:61238 - Origem: Usuário: BIANCA - Programa: C:\Raj\Caixa.exe ( 2026.1b beta ) - Uid: {3DA3D817-4372-444A-A42D-BB69C0E34F35} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Alias RAJ - LgDataSet.Open
+[FireDAC][Phys][FB]Error reading data from the connection.
+Select CODEMP, DIATRA From CM_CEMP Where CODEMP=1
+
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:61239 - Origem: Usuário: BIANCA - Programa: C:\Raj\Caixa.exe ( 2026.1b beta ) - Uid: {3DA3D817-4372-444A-A42D-BB69C0E34F35} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]Error reading data from the connection.
+SQL: Select DIATRA From CM_CEMP Where (CODEMP=1)
+Params: {} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]Error reading data from the connection.)
+
+
+17/Abr 15:46:08:484 ***** Iniciando Servidor de Aplicação PLUGEXP 2026.1a - "D:\SYSTEM_RAJ\EXE\" *****
+
+17/Abr 15:46:08:484 Preparando SRV TCP: 192.168.0.25:11563
+
+17/Abr 15:46:10:000 Ativando Listening TCPServer
+
+17/Abr 15:46:10:000 Ativando Listening HTTPSrvThread
+
+17/Abr 15:46:10:000 Ativando Listening HTTPSrvStatus
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.147:49761 - Origem: Usuário: BIANCA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {CB206BB4-AE57-4783-B514-F18F7831BD2B} |Estação IP: 192.168.0.147 - NomeMaquina: NOTE-ROSANA - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"20/04/2026 09:20:58"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.147:49783 - Origem: Usuário: BIANCA - Programa: C:\RAJ\GRPEventos.exe ( 2026.1a ) - Uid: {19D43CB5-F74A-4869-87C2-36A573747D6A} |Estação IP: 192.168.0.147 - NomeMaquina: NOTE-ROSANA - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"20/04/2026 09:36:28"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.147:55733 - Origem: Usuário: ROSANA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {730E41EF-460E-47F7-AD30-55095B6A898D} |Estação IP: 192.168.0.147 - NomeMaquina: NOTE-ROSANA - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+string right truncation
+expected length 32000, actual 36257
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":56,"pDATA":"22/04/2026 07:38:52"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+string right truncation
+expected length 32000, actual 36257)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.147:53292 - Origem: Usuário: ROSANA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {23350113-A0F1-4C0E-A23E-9350641D4446} |Estação IP: 192.168.0.147 - NomeMaquina: NOTE-ROSANA - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+string right truncation
+expected length 32000, actual 36257
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":56,"pDATA":"23/04/2026 07:29:54"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+string right truncation
+expected length 32000, actual 36257)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:64026 - Origem: Usuário: BIANCA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {142D4F72-22EB-4676-9F05-C181BDD25285} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"23/04/2026 08:54:36"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.7:64028 - Origem: Usuário: BIANCA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {142D4F72-22EB-4676-9F05-C181BDD25285} |Estação IP: 192.168.0.7 - NomeMaquina: DESKTOP-SV98OEV - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":37,"pDATA":"23/04/2026 08:54:39"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+blob truncation when converting to a string: length limit exceeded)
+
+
+23/Abr 23:03:00:050 ***** Iniciando Servidor de Aplicação PLUGEXP 2026.1a - "D:\SYSTEM_RAJ\EXE\" *****
+
+23/Abr 23:03:00:050 Preparando SRV TCP: 192.168.0.25:11563
+
+23/Abr 23:03:01:582 Ativando Listening TCPServer
+
+23/Abr 23:03:01:582 Ativando Listening HTTPSrvThread
+
+23/Abr 23:03:01:582 Ativando Listening HTTPSrvStatus
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.147:60686 - Origem: Usuário: ROSANA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {02DFEE32-83BF-446A-A6E4-8BAFC47BE0AA} |Estação IP: 192.168.0.147 - NomeMaquina: NOTE-ROSANA - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+string right truncation
+expected length 32000, actual 36257
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":56,"pDATA":"24/04/2026 07:21:16"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+string right truncation
+expected length 32000, actual 36257)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.147:56841 - Origem: Usuário: ROSANA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {4487F20A-E3D7-4D4F-871D-252FA29E30CB} |Estação IP: 192.168.0.147 - NomeMaquina: NOTE-ROSANA - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+string right truncation
+expected length 32000, actual 36257
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":56,"pDATA":"27/04/2026 07:35:10"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+string right truncation
+expected length 32000, actual 36257)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.147:50260 - Origem: Usuário: ROSANA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {4487F20A-E3D7-4D4F-871D-252FA29E30CB} |Estação IP: 192.168.0.147 - NomeMaquina: NOTE-ROSANA - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+string right truncation
+expected length 32000, actual 36257
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":56,"pDATA":"27/04/2026 07:45:10"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+string right truncation
+expected length 32000, actual 36257)
+
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.147:63481 - Origem: Usuário: ROSANA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {C78C3838-BCB7-4D82-9D5B-19D6F79BC2D4} |Estação IP: 192.168.0.147 - NomeMaquina: NOTE-ROSANA - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+string right truncation
+expected length 32000, actual 36257
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":56,"pDATA":"28/04/2026 07:27:37"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+string right truncation
+expected length 32000, actual 36257)
+
+
+29/Abr 06:16:41:950 ***** Iniciando Servidor de Aplicação PLUGEXP 2026.1a - "D:\SYSTEM_RAJ\EXE\" *****
+
+29/Abr 06:16:41:950 Preparando SRV TCP: 192.168.0.25:11563
+
+29/Abr 06:16:43:501 Ativando Listening TCPServer
+
+29/Abr 06:16:43:501 Ativando Listening HTTPSrvThread
+
+29/Abr 06:16:43:501 Ativando Listening HTTPSrvStatus
+
+Objeto: RAJ.TBaseCarregaQuery - Execuções: 1,00 - Inutilizado: S
+Client IP: 192.168.0.147:56882 - Origem: Usuário: ROSANA - Programa: C:\Raj\RajToolbar.exe ( 2026.1a ) - Uid: {B0F97BBB-88D2-4AD3-87C6-92F91AA2EB86} |Estação IP: 192.168.0.147 - NomeMaquina: NOTE-ROSANA - UsuarioWin: rosan
+Exception ProcessController.ExecutaProcesso: Erro no TBaseCarregaQuery
+[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+string right truncation
+expected length 32000, actual 36257
+SQL: Select CM_MPENU.CODPEND, Cast( CM_MPEND.DESCRICAO As VarChar(32000)) DESCRICAO, Cast( CM_MPEND.HISTORICO As VarChar(32000)) HISTORICO From CM_MPENU 
+ Left Outer Join CM_MPEND  On  ( CM_MPENU.CODPEND = CM_MPEND.CODPEND ) 
+ Where ( CM_MPENU.CODUSUAR=:CODUSUAR ) 
+ And (( CM_MPENU.STATUS='F' AND CM_MPENU.DTPROXLEMBRA Is Not Null) OR CM_MPENU.STATUS <> 'F')
+ And ( CM_MPENU.DTPROXLEMBRA < :pDATA ) And ( CM_MPENU.DTPROXLEMBRA Is Not Null ) 
+ Order By CM_MPENU.CODPEND 
+Params: {"CODUSUAR":56,"pDATA":"30/04/2026 11:25:21"} 
+TBaseCarregaQuery. (EIBNativeException,[FireDAC][Phys][FB]arithmetic exception, numeric overflow, or string truncation
+string right truncation
+expected length 32000, actual 36257)
+
+
+30/abr 13:40:27:834 ** TCPServerException 11563//192.168.0.25-52614 --> Socket Error # 10054
+Connection reset by peer.
+
+30/Abr 13:43:11:375 ***** Iniciando Servidor de Aplicação PLUGEXP 2026.1a - "D:\SYSTEM_RAJ\EXE\" *****
+
+30/Abr 13:43:11:375 Preparando SRV TCP: 192.168.0.25:11563
+
+30/Abr 13:43:12:906 Ativando Listening TCPServer
+
+30/Abr 13:43:12:906 Ativando Listening HTTPSrvThread
+
+30/Abr 13:43:12:906 Ativando Listening HTTPSrvStatus
+
+30/abr 14:23:16:395 TCPServerExecute --> Client IP: 192.168.0.147:49944 - Requisição: VAZIA 
+Requisição: ""
+
+30/abr 14:23:16:395 ** TCPServerException 11563//192.168.0.147-49944 --> Socket Error # 10054
+Connection reset by peer.
+
+30/Abr 15:16:26:322 ***** Iniciando Servidor de Aplicação PLUGEXP 2026.1a - "D:\SYSTEM_RAJ\EXE\" *****
+
+30/Abr 15:16:26:322 Preparando SRV TCP: 192.168.0.25:11563
+
+30/Abr 15:16:27:843 Ativando Listening TCPServer
+
+30/Abr 15:16:27:843 Ativando Listening HTTPSrvThread
+
+30/Abr 15:16:27:843 Ativando Listening HTTPSrvStatus
+

@@ -1,0 +1,16 @@
+services:
+  # Container 1: O Interpretador e a API Web
+  rajboot-inter:
+    build: .
+    container_name: rajboot-inter
+    command: python -u RajBootInter.py
+    restart: always
+    ports:
+      - "5000:5000"
+
+  # Container 2: O Leitor de MQTT
+  rajboot-clp:
+    build: .
+    container_name: rajboot-clp
+    command: python -u RajBootCLP.py
+    restart: always
