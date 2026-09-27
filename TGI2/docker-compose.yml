@@ -1,0 +1,76 @@
+version: '3.8'
+
+services:
+  # 1. Banco de Dados MySQL
+  mysql-db:
+    image: mysql:8.0
+    container_name: tgi_mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: tgi_database
+      MYSQL_USER: tgi_user
+      MYSQL_PASSWORD: tgi_password
+      TZ: America/Sao_Paulo
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+      - mysql_data:/var/lib/mysql
+    restart: unless-stopped
+
+  # 2. Broker MQTT (Mosquitto)
+  mqtt-broker:
+    image: eclipse-mosquitto:latest
+    container_name: tgi_mosquitto
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    volumes:
+      - ./mosquitto.conf:/mosquitto/config/mosquitto.conf
+    restart: unless-stopped
+
+  # 3. Interpretador e API (Serviço Web + Camada de Lógica)
+  tgi-inter:
+    build: .
+    container_name: tgi_inter
+    command: python TgiBootInter.py
+    environment:
+      - TZ=America/Sao_Paulo
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./logs:/app/logs
+      - ./config.ini:/app/config.ini
+    depends_on:
+      - mysql-db
+      - mqtt-broker
+    restart: unless-stopped
+
+  # 4. Transceiver (Comunicação com Chão de Fábrica)
+  tgi-clp:
+    build: .
+    container_name: tgi_clp
+    command: python TgiBootCLP.py
+    environment:
+      - TZ=America/Sao_Paulo
+    volumes:
+      - ./logs:/app/logs
+      - ./config.ini:/app/config.ini
+    depends_on:
+      - mysql-db
+      - mqtt-broker
+    restart: unless-stopped
+
+  # 5. Simulador da Máquina (Impressora Roland)
+  tgi-simulador:
+    build: .
+    container_name: tgi_simulador
+    command: python simuladorRoland700.py
+    environment:
+      - TZ=America/Sao_Paulo
+    depends_on:
+      - mqtt-broker
+    restart: unless-stopped    
+
+volumes:
+  mysql_data:

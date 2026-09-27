@@ -1,0 +1,12 @@
+# Ignorar arquivos de log gerados dinamicamente
+logs/
+*.log
+*.txt
+
+# Ignorar caches do Python
+__pycache__/
+*.pyc
+
+# Ignorar arquivos de ambiente ou sistema operacionais do Mac/Windows
+.DS_Store
+Thumbs.db
