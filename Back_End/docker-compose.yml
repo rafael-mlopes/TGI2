@@ -63,14 +63,15 @@ services:
 
   # 5. Simulador da Máquina (Impressora Roland)
   tgi-simulador:
-    build: .
-    container_name: tgi_simulador
-    command: python simuladorRoland700.py
-    environment:
-      - TZ=America/Sao_Paulo
-    depends_on:
-      - mqtt-broker
-    restart: unless-stopped    
+      build: .
+      container_name: tgi_simulador
+      command: python simuladorRoland700.py
+      environment:
+        - TZ=America/Sao_Paulo
+        - QTD_MAQUINAS=3   # <-- Altere aqui para 3, 10, 50 ou quantas quiser testar!
+      depends_on:
+        - mqtt-broker
+      restart: unless-stopped    
 
 volumes:
   mysql_data:

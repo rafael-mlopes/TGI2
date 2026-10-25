@@ -1,0 +1,382 @@
+/* Header */
+.header {
+  background-color: var(--bg-header);
+  border-bottom: 1px solid var(--border-color);
+  padding: 16px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: var(--shadow);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.header-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: var(--text-primary);
+}
+
+.header-brand h1 {
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+.header-subtitle {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.theme-btn {
+  background-color: var(--bg-metric);
+  color: var(--text-primary);
+  border: 1px solid var(--border-color);
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+}
+
+.theme-btn:hover {
+  border-color: var(--accent-color);
+}
+
+/* Container Principal */
+.main-container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 28px 32px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.section-header h2 {
+  font-size: 1.25rem;
+}
+
+.live-badge {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Grid de 4 Cards por Linha */
+.machines-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 1300px) {
+  .machines-grid { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 960px) {
+  .machines-grid { grid-template-columns: repeat(2, 1fr); }
+}
+@media (max-width: 640px) {
+  .machines-grid { grid-template-columns: 1fr; }
+}
+
+/* Card da Máquina (Link Clicável) */
+.machine-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 20px;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.machine-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent-color);
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 12px;
+}
+
+.card-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.status-badge {
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.status-ok {
+  background-color: var(--status-ok-bg);
+  color: var(--status-ok-text);
+}
+
+.status-stop {
+  background-color: var(--status-stop-bg);
+  color: var(--status-stop-text);
+}
+
+.card-metrics {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 0.92rem;
+}
+
+.metric-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.metric-label {
+  color: var(--text-secondary);
+}
+
+.metric-value {
+  font-weight: 600;
+}
+
+.oee-box {
+  background-color: var(--bg-metric);
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+}
+
+.oee-bar-bg {
+  width: 100%;
+  height: 8px;
+  background-color: var(--border-color);
+  border-radius: 4px;
+  overflow: hidden;
+  margin-top: 6px;
+}
+
+.oee-bar-fill {
+  height: 100%;
+  background-color: var(--accent-color);
+  transition: width 0.3s ease;
+}
+
+.card-footer {
+  margin-top: auto;
+  padding-top: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent-color);
+  text-align: right;
+}
+
+/* Página de Detalhes */
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: var(--accent-color);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.details-header-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: var(--shadow);
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 900px) {
+  .details-grid { grid-template-columns: 1fr; }
+}
+
+.details-panel {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: var(--shadow);
+}
+
+.details-panel h3 {
+  font-size: 1.05rem;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.kpi-item {
+  background-color: var(--bg-metric);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.kpi-item span {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  margin-bottom: 4px;
+}
+
+.kpi-item strong {
+  font-size: 1.2rem;
+}
+
+.alert-box {
+  background-color: var(--status-stop-bg);
+  color: var(--status-stop-text);
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Indicador de Conexão com o Banco no Header */
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.db-badge {
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.db-online {
+  background-color: var(--status-ok-bg);
+  color: var(--status-ok-text);
+}
+
+.db-offline {
+  background-color: var(--status-stop-bg);
+  color: var(--status-stop-text);
+}
+
+/* Terminal de Apontamento (AG_MOCOR) */
+.apontamento-panel {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin-bottom: 24px;
+  box-shadow: var(--shadow);
+}
+
+.apontamento-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.apontamento-buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .apontamento-buttons { grid-template-columns: 1fr; }
+}
+
+.apont-btn {
+  padding: 14px 18px;
+  border-radius: 10px;
+  border: 2px solid var(--border-color);
+  background-color: var(--bg-metric);
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  transition: all 0.2s ease;
+}
+
+.apont-btn span {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--text-secondary);
+}
+
+.apont-btn:hover:not(:disabled) {
+  border-color: var(--accent-color);
+  transform: translateY(-2px);
+}
+
+.apont-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.apont-btn.ativo-setup {
+  border-color: #f59e0b;
+  background-color: rgba(245, 158, 11, 0.12);
+}
+
+.apont-btn.ativo-producao {
+  border-color: #10b981;
+  background-color: rgba(16, 185, 129, 0.12);
+}
+
+.apont-btn.ativo-suspensao {
+  border-color: #ef4444;
+  background-color: rgba(239, 68, 68, 0.12);
+}
+
+.feedback-msg {
+  margin-top: 12px;
+  font-size: 0.88rem;
+  color: var(--accent-color);
+  font-weight: 600;
+}
