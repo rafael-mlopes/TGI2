@@ -43,7 +43,7 @@ function DetalhesMaquina({ bancoConectado, setBancoConectado }) {
 
   const enviarApontamento = async (codTpOcor) => {
     setEnviandoApontamento(true)
-    setMensagemFeedback('Gravando ocorrência na AG_MOCOR e enviando via MQTT...')
+    setMensagemFeedback('Gravando ocorrência...')
     try {
       const resposta = await fetch('http://localhost:5000/api/apontamento', {
         method: 'POST',
@@ -58,7 +58,7 @@ function DetalhesMaquina({ bancoConectado, setBancoConectado }) {
       setBancoConectado(Boolean(json.bancoConectado))
 
       if (resposta.ok && json.status === 'sucesso') {
-        setMensagemFeedback(`✅ ${json.mensagem} (Aguarde ~5s para o CLP publicar no MQTT)`)
+        setMensagemFeedback(`✅ ${json.mensagem} (Aguarde ~5s)`)
         buscarDetalhesJob()
       } else {
         setMensagemFeedback(`⚠️ ${json.mensagem}`)
@@ -86,6 +86,18 @@ function DetalhesMaquina({ bancoConectado, setBancoConectado }) {
 
   const ativa = dados.MAQATIVA === 'S'
   const modoAtual = dados.APONTAMENTO_ATUAL || 2
+  const emSetup = ativa && (modoAtual === 1 || dados.BTNCONTAGEM === 'N')
+
+  let classeStatus = 'status-stop'
+  let textoStatus = '● Máquina Parada'
+
+  if (emSetup) {
+    classeStatus = 'status-setup'
+    textoStatus = '● Setup'
+  } else if (ativa) {
+    classeStatus = 'status-ok'
+    textoStatus = '● Operando (Ativa)'
+  }
 
   return (
     <main className="main-container">
@@ -98,8 +110,8 @@ function DetalhesMaquina({ bancoConectado, setBancoConectado }) {
             Ordem de Produção: <strong>{dados.IDJOB}</strong> | Seq. Tarefa: <strong>{dados.SEQ_TAREFA}</strong> | Leitura via: <strong>{origem.toUpperCase()}</strong>
           </p>
         </div>
-        <span className={`status-badge ${ativa ? 'status-ok' : 'status-stop'}`}>
-          {ativa ? '● Operando (Ativa)' : '● Máquina Parada'}
+        <span className={`status-badge ${classeStatus}`}>
+          {textoStatus}
         </span>
       </div>
 
@@ -145,7 +157,7 @@ function DetalhesMaquina({ bancoConectado, setBancoConectado }) {
 
       <div className="details-grid">
         <div className="details-panel">
-          <h3>📊 Eficiência Global do Equipamento (OEE)</h3>
+          <h3>Eficiência Global do Equipamento (OEE)</h3>
           <div className="kpi-grid">
             <div className="kpi-item">
               <span>OEE Total</span>
@@ -167,7 +179,7 @@ function DetalhesMaquina({ bancoConectado, setBancoConectado }) {
         </div>
 
         <div className="details-panel">
-          <h3>📦 Contadores de Produção</h3>
+          <h3>Contadores de Produção</h3>
           <div className="kpi-grid">
             <div className="kpi-item">
               <span>Quantidade Líquida (Boas)</span>
@@ -189,7 +201,7 @@ function DetalhesMaquina({ bancoConectado, setBancoConectado }) {
         </div>
 
         <div className="details-panel">
-          <h3>⚡ Velocidades e Ciclos</h3>
+          <h3>Velocidades e Ciclos</h3>
           <div className="kpi-grid">
             <div className="kpi-item">
               <span>Velocidade Atual</span>
@@ -211,7 +223,7 @@ function DetalhesMaquina({ bancoConectado, setBancoConectado }) {
         </div>
 
         <div className="details-panel">
-          <h3>⏱️ Tempos de Operação (Segundos)</h3>
+          <h3>Tempos de Operação (Segundos)</h3>
           <div className="kpi-grid">
             <div className="kpi-item">
               <span>Tempo Total Decorrido</span>

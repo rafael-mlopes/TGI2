@@ -248,6 +248,7 @@ class GerenciadorBanco:
         cListaMensagens = []
         try:
             cConexao = self.obterConexao()
+            cConexao.commit()
             cCursor = cConexao.cursor()
             cAgora = datetime.now()
             

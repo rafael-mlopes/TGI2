@@ -142,6 +142,11 @@
   color: var(--status-stop-text);
 }
 
+.status-setup {
+  background-color: var(--status-setup-bg);
+  color: var(--status-setup-text);
+}
+
 .card-metrics {
   display: flex;
   flex-direction: column;

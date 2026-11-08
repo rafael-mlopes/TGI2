@@ -2,14 +2,27 @@ import { Link } from 'react-router-dom'
 
 function MaquinaCard({ maq }) {
   const ativa = maq.MAQATIVA === 'S'
+  const emSetup = ativa && (maq.APONTAMENTO_ATUAL === 1 || maq.BTNCONTAGEM === 'N')
+
+  let classeStatus = 'status-stop'
+  let textoStatus = '● Parada'
+
+  if (emSetup) {
+    classeStatus = 'status-setup'
+    textoStatus = '● Setup'
+  } else if (ativa) {
+    classeStatus = 'status-ok'
+    textoStatus = '● Operando'
+  }
+
   const urlDetalhes = `/maquina/${maq.SEQ_TAREFA}/${maq.MAQUINA}/${maq.IDJOB}`
 
   return (
     <Link to={urlDetalhes} className="machine-card">
       <div className="card-top">
         <span className="card-title">Máquina #{maq.MAQUINA}</span>
-        <span className={`status-badge ${ativa ? 'status-ok' : 'status-stop'}`}>
-          {ativa ? '● Operando' : '● Parada'}
+        <span className={`status-badge ${classeStatus}`}>
+          {textoStatus}
         </span>
       </div>
 

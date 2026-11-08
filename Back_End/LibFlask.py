@@ -19,7 +19,6 @@ fSwagger = Swagger(app, template={
 
 fDbMqtt = None
 fCacheMemoria = None
-# Guarda em memória o último apontamento de cada máquina (1=Setup, 2=Produção, 3=Suspensão)
 fApontamentoAtual = {}
 
 app.json.sort_keys = False
@@ -215,7 +214,7 @@ def registrar_apontamento():
             "bancoConectado": True,
             "seqOcorre": cProxSeqOcorre,
             "apontamentoAtual": int(cCodTpOcor),
-            "mensagem": f"Apontamento de {nomes_modo[int(cCodTpOcor)]} registrado na AG_MOCOR com sucesso!"
+            "mensagem": f"Apontamento de {nomes_modo[int(cCodTpOcor)]} registrado com sucesso!"
         }), 201
 
     except Exception as e:

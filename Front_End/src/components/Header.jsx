@@ -5,7 +5,7 @@ function Header({ temaEscuro, alternarTema, bancoConectado }) {
     <header className="header">
       <Link to="/" className="header-brand">
         <div>
-          <h1>🏭 Dashboard de Telemetria - TGI</h1>
+          <h1>Dashboard de Telemetria - TGI</h1>
           <span className="header-subtitle">Monitoramento e Apontamento Industrial End-to-End</span>
         </div>
       </Link>

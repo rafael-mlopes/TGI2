@@ -95,15 +95,20 @@ cColunasAcomp = [
     "MAQATIVA", "BTNCONTAGEM", "OEEDISP", "OEEDESEMP", "OEEQUALID", "OEETOTAL"
 ]
 
+# Variável global para não perder nenhuma ocorrência por arredondamento de segundos do DATETIME
+cOcorrenciasJaProcessadas = set()
+
 def processarOcorrencias(cUltimaVerificacao):
     cConexaoClient = None
     cCursorClient = None
     cConexaoMqtt = None
     cCursorMqtt = None    
-    cNovaUltimaVerificacao = cUltimaVerificacao
+    cNovaUltimaVerificacao = cUltimaVerificacao.replace(microsecond=0)
     
     try:
         cConexaoClient = dbClient.obterConexao()
+        # Importante no MySQL InnoDB: atualiza o snapshot da transação para enxergar os INSERTs da API Flask
+        cConexaoClient.commit()
         cCursorClient = cConexaoClient.cursor()
         
         cSqlBusca = """
@@ -113,14 +118,19 @@ def processarOcorrencias(cUltimaVerificacao):
             FROM AG_MOCOR M
             LEFT JOIN AG_MTARC C ON M.SEQ_TAREFA = C.SEQ_TAREFA
             LEFT JOIN AG_MTAR T ON M.SEQ_TAREFA = T.SEQ_TAREFA
-            WHERE M.INICIO > %s
-            ORDER BY M.INICIO ASC        
+            WHERE M.INICIO >= %s
+            ORDER BY M.INICIO ASC, M.SEQ_OCORRE ASC        
         """
-        cCursorClient.execute(cSqlBusca, (cUltimaVerificacao,))
+        cCursorClient.execute(cSqlBusca, (cNovaUltimaVerificacao,))
         cOcorrencias = cCursorClient.fetchall()
         
-        if not cOcorrencias:
-            cConexaoClient.commit()
+        # Filtra apenas as ocorrências (SEQ_TAREFA, SEQ_OCORRE) que ainda não foram enviadas
+        cNovasOcorrencias = [
+            ocor for ocor in cOcorrencias 
+            if (ocor[3], ocor[0]) not in cOcorrenciasJaProcessadas
+        ]
+
+        if not cNovasOcorrencias:
             return cNovaUltimaVerificacao
         
         cAgora = datetime.now()
@@ -133,18 +143,19 @@ def processarOcorrencias(cUltimaVerificacao):
         
         cMsgSucesso = 0
         
-        for ocor in cOcorrencias:
+        for ocor in cNovasOcorrencias:
             cSeqOcorrencia = ocor[0]
             cDataOcorrencia = ocor[1]
-            cTipoOcorrencia = ocor[2] if ocor[2] else "INDEFINIDO"
+            cTipoOcorrencia = ocor[2] if ocor[2] else 2
             cSeqTarefa = ocor[3] if ocor[3] else 0
-            cNumOs = f"{ocor[4]}{ocor[5]}{ocor[6]}{ocor[7]}"
-            cNumeroOs = cNumOs if cNumOs else "SEM_OS"
+            cNumOs = f"{ocor[4] or ''}{ocor[5] or ''}{ocor[6] or ''}{ocor[7] or ''}"
+            cNumeroOs = cNumOs if cNumOs else f"JOB-{10000 + int(cSeqTarefa)}"
             
+            # Se T.MAQUINA vier vazio no JOIN, usa o próprio SEQ_TAREFA como ID da máquina
             try:
-                cMaquina = int(ocor[8]) if ocor[8] else 0
+                cMaquina = int(ocor[8]) if ocor[8] else int(cSeqTarefa)
             except ValueError:
-                cMaquina = 0
+                cMaquina = int(cSeqTarefa)
             
             cCodstr = cAgora.strftime("%Y%m%d%H%M%S") + str(random.randint(100000, 999999))    
             cIdMqtt = str(uuid.uuid4())
@@ -154,7 +165,7 @@ def processarOcorrencias(cUltimaVerificacao):
                 "id_ocorrencia": cSeqOcorrencia,
                 "maquina": cMaquina,
                 "job_id": cNumeroOs,
-                "descricao": cTipoOcorrencia,
+                "descricao": int(cTipoOcorrencia),
                 "data_hora_falha": cDataOcorrencia.strftime("%Y-%m-%d %H:%M:%S"),
                 "tipo_mensagem": "ocorrencia_nova"
             }
@@ -164,15 +175,14 @@ def processarOcorrencias(cUltimaVerificacao):
             cCursorMqtt.execute(cSqlInsertEnv, (cCodstr, cSeqTarefa, cMaquina, cNumeroOs, cAgora, cTopico))
             cCursorMqtt.execute(cSqlInsertEnvT, (cCodstr, cIdMqtt, cJson))
             
+            cOcorrenciasJaProcessadas.add((cSeqTarefa, cSeqOcorrencia))
             if cDataOcorrencia > cNovaUltimaVerificacao:
                 cNovaUltimaVerificacao = cDataOcorrencia
                 
             cMsgSucesso += 1
         
         cConexaoMqtt.commit()
-    
-        if cLogDetalhado:
-            dbMqtt.printLog(f"> Sucesso: {cMsgSucesso} novas ocorrências repassadas para a fila de envio.")
+        dbMqtt.printLog(f"> Sucesso: {cMsgSucesso} nova(s) ocorrência(s) enviada(s) para a fila CLP_MMSGENV!")
     
     except Exception as e:
         dbMqtt.printLog(f"** Erro ao processar AG_MOCOR: {e}")
@@ -185,8 +195,8 @@ def processarOcorrencias(cUltimaVerificacao):
         if cCursorMqtt:
             try: cCursorMqtt.close()
             except: pass            
-    return cNovaUltimaVerificacao        
-
+    return cNovaUltimaVerificacao
+    
 def processarMensagem():
     cConexaoMqtt = None
     cCursorMqtt = None

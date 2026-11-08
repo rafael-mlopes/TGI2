@@ -33,13 +33,19 @@ NOMES_MODO = {
 }
 
 def ao_conectar(client, userdata, flags, reason_code, properties):
-    topico_ocorrencias = "Tgi/BR_SP/Planta1/Ocorrencia/+"
-    client.subscribe(topico_ocorrencias, qos=1)
-    print(f"📡 Escutando comandos de apontamento em: [{topico_ocorrencias}]")
+    if reason_code == 0:
+        topico_ocorrencias = "Tgi/BR_SP/Planta1/Ocorrencia/#"
+        client.subscribe(topico_ocorrencias, qos=1)
+        print(f"📡 Conectado ao Broker! Escutando apontamentos em: [{topico_ocorrencias}]")
+    else:
+        print(f"** Falha ao conectar o Simulador no Broker MQTT. Código: {reason_code}")
 
 def ao_receber_ocorrencia(client, userdata, msg):
     try:
-        payload = json.loads(msg.payload.decode("utf-8", errors="ignore"))
+        texto_json = msg.payload.decode("utf-8", errors="ignore")
+        print(f"\n📥 [MQTT RAW RECEBIDO NO TÓPICO {msg.topic}]: {texto_json}")
+        
+        payload = json.loads(texto_json)
         id_maq = int(payload.get("maquina", 0))
         cod_ocor = int(payload.get("descricao", 2))
 
@@ -50,8 +56,10 @@ def ao_receber_ocorrencia(client, userdata, msg):
             
             maq["modo_operacao"] = cod_ocor
             print("=" * 80)
-            print(f"🔔 [COMANDO MQTT RECEBIDO] Máquina #{id_maq} alterada para modo: {NOMES_MODO[cod_ocor]}")
-            print("=" * 80)
+            print(f"🔔 [STATUS ALTERADO] Máquina #{id_maq} agora está em: {NOMES_MODO[cod_ocor]}")
+            print("=" * 80 + "\n")
+        else:
+            print(f"⚠️ Máquina #{id_maq} não encontrada na memória do simulador ou código inválido ({cod_ocor}).")
     except Exception as e:
         print(f"** Erro ao processar comando MQTT no simulador: {e}")
 
@@ -169,6 +177,22 @@ def simular_planta(client, maquinas_config):
 
 if __name__ == "__main__":
     cliente_mqtt = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2)
+    
+    try:
+        caminho_cfg = os.path.join(os.path.dirname(os.path.abspath(__file__)), "config.ini")
+        if os.path.exists(caminho_cfg):
+            with open(caminho_cfg, "r", encoding="utf-8", errors="ignore") as f:
+                for linha in f:
+                    if linha.strip().upper().startswith("CLPJS="):
+                        str_json = linha.split("=", 1)[1].strip().replace("'", '"')
+                        dados_cfg = json.loads(str_json)
+                        mqtt_cfg = dados_cfg.get("Mqtt", {})
+                        if mqtt_cfg.get("user"):
+                            cliente_mqtt.username_pw_set(mqtt_cfg.get("user"), mqtt_cfg.get("pass"))
+                        break
+    except Exception as e:
+        print(f"Aviso ao ler credenciais MQTT do config.ini: {e}")
+
     cliente_mqtt.on_connect = ao_conectar
     cliente_mqtt.on_message = ao_receber_ocorrencia
     

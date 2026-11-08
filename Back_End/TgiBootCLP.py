@@ -55,12 +55,14 @@ class TransceiverMqttPlanta:
     def on_message(self, client, userdata, msg):
         try:
             cTopicoRecebido = msg.topic
-            cTopicoFinal = cTopicoRecebido.split("/")[-1]
+            partesTopico = cTopicoRecebido.split("/")
             
-            # ----------- Simulando SEQTAREFA E MAQUINA
-            # Ex: Tgi/BR_SP/Planta1/Rotativa/Manroland_700_EVO_01/1/jobRunData
-            # O índice 5 captura exatamente o "1" (SEQ_TAREFA)
-            cSeqTarefa = cTopicoRecebido.split("/")[5]
+            # Ignora mensagens de comando/ocorrência (que não são pacotes jobRunData das máquinas)
+            if len(partesTopico) < 7 or partesTopico[-1] != "jobRunData":
+                return
+
+            cTopicoFinal = partesTopico[-1]
+            cSeqTarefa = partesTopico[5]
             
             if str(cSeqTarefa) not in self.fMaquinasAtivas:
                 return            

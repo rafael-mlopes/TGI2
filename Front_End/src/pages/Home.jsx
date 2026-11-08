@@ -40,7 +40,7 @@ function Home({ setBancoConectado }) {
     <main className="main-container">
       <div className="section-header">
         <h2>Visão Geral do Chão de Fábrica ({maquinas.length} máquinas)</h2>
-        <span className="live-badge">🔄 Atualização automática (3s)</span>
+        <span className="live-badge">Atualização automática (3s)</span>
       </div>
 
       {carregando && <p>Carregando telemetria...</p>}
