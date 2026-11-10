@@ -85,4 +85,4 @@ A API Flask expõe os dados cacheados em memória RAM para consumo imediato do F
 ## 🛑 Comandos Úteis
 * **Desligar sem perder dados:** `docker compose stop`
 * **Ligar novamente:** `docker compose start`
-* **Destruir tudo (Reset completo do Banco de Dados):** `docker compose down -v`
+* **Destruir tudo (Reset completo do Banco de Dados):** `docker compose down -v` 
