@@ -1,0 +1,6 @@
+; Modelo do GRP.cfg usado pelos scripts LEGADOS (RajBootCLP.py / RajBootInter.py - Firebird).
+; Copie para "GRP.cfg" (arquivo ignorado pelo Git) e preencha com os dados reais.
+; NUNCA versione o GRP.cfg com senhas.
+
+[MENDES_ZERADO]
+CLPJS={"LogDetalhado": true, "Mqtt":{"user":"<usuario_mqtt>", "pass":"<senha_mqtt>", "broker":"<host_broker>", "port":1883, "topic":"Raj/BR_SP/Planta1/Rotativa/Impressora_Offset_01/+/jobRunData"},"dbClp":{"db":"<caminho_banco_clp.FDB>", "uDB":"<usuario>", "pDB":"<senha>", "hDB":"<host_banco>"},"dbAcomp":{"db":"<caminho_banco_acomp.FDB>", "uDB":"<usuario>", "pDB":"<senha>", "hDB":"<host_banco>"}}

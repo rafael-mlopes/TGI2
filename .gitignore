@@ -3,9 +3,16 @@ logs/
 *.log
 *.txt
 
+# Exceção: arquivos de dependências do Python PRECISAM ser versionados
+!requirements.txt
+
 # Ignorar caches do Python
 __pycache__/
 *.pyc
+
+# Segredos e configurações locais (nunca versionar)
+.env
+GRP.cfg
 
 # Ignorar arquivos de ambiente ou sistema operacionais do Mac/Windows
 .DS_Store

@@ -1,3 +1,4 @@
+import os
 import paho.mqtt.client as mqtt
 import sys
 import time
@@ -12,8 +13,9 @@ if len(sys.argv) >= 3:
     cSeqTarefa = int(sys.argv[1])
     cMaquina = int(sys.argv[2])
 
-BROKER = "192.168.0.25"
-PORT = 15896
+# Credenciais/endereço via variáveis de ambiente (não versionar segredos)
+BROKER = os.getenv("RAJ_MQTT_BROKER", "localhost")
+PORT = int(os.getenv("RAJ_MQTT_PORT", "1883"))
 
 def publicar_status(client, topico, payload_dict):
     """Transforma o dicionário em JSON e publica no MQTT."""
@@ -100,7 +102,7 @@ if __name__ == "__main__":
 
     cliente_mqtt = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2)
     
-    cliente_mqtt.username_pw_set("sensor_maquinas", "raj_maq2026")    
+    cliente_mqtt.username_pw_set(os.getenv("RAJ_MQTT_USER", ""), os.getenv("RAJ_MQTT_PASSWORD", ""))    
     
     print(f"\nConectando ao broker {BROKER} na porta segura {PORT}...")
     cliente_mqtt.connect(BROKER, PORT)

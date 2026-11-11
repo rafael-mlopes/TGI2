@@ -5,9 +5,10 @@ import time
 import json
 import random
 from datetime import datetime
+from LibConfig import carregarCredenciaisMqtt
 
-BROKER = os.getenv("MQTT_BROKER", "mqtt-broker")
-PORT = 1883
+BROKER = os.getenv("MQTT_BROKER") or os.getenv("TGI_MQTT_BROKER") or "mqtt-broker"
+PORT = int(os.getenv("TGI_MQTT_PORT") or 1883)
 
 # =====================================================================
 # DEFINIÇÃO FLEXÍVEL DE MÁQUINAS VIA LINHA DE COMANDO OU DOCKER
@@ -178,20 +179,9 @@ def simular_planta(client, maquinas_config):
 if __name__ == "__main__":
     cliente_mqtt = mqtt.Client(mqtt.CallbackAPIVersion.VERSION2)
     
-    try:
-        caminho_cfg = os.path.join(os.path.dirname(os.path.abspath(__file__)), "config.ini")
-        if os.path.exists(caminho_cfg):
-            with open(caminho_cfg, "r", encoding="utf-8", errors="ignore") as f:
-                for linha in f:
-                    if linha.strip().upper().startswith("CLPJS="):
-                        str_json = linha.split("=", 1)[1].strip().replace("'", '"')
-                        dados_cfg = json.loads(str_json)
-                        mqtt_cfg = dados_cfg.get("Mqtt", {})
-                        if mqtt_cfg.get("user"):
-                            cliente_mqtt.username_pw_set(mqtt_cfg.get("user"), mqtt_cfg.get("pass"))
-                        break
-    except Exception as e:
-        print(f"Aviso ao ler credenciais MQTT do config.ini: {e}")
+    usuario_mqtt, senha_mqtt = carregarCredenciaisMqtt()
+    if usuario_mqtt:
+        cliente_mqtt.username_pw_set(usuario_mqtt, senha_mqtt)
 
     cliente_mqtt.on_connect = ao_conectar
     cliente_mqtt.on_message = ao_receber_ocorrencia

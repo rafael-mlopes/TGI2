@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import MaquinaCard from '../components/MaquinaCard'
+import { API_URL } from '../config'
 
 function Home({ setBancoConectado }) {
   const [maquinas, setMaquinas] = useState([])
@@ -8,7 +9,7 @@ function Home({ setBancoConectado }) {
 
   const buscarEstadoMaquinas = async () => {
     try {
-      const resposta = await fetch('http://localhost:5000/api/estado-maquinas')
+      const resposta = await fetch(`${API_URL}/api/estado-maquinas`)
       if (!resposta.ok) {
         throw new Error(`Erro HTTP: ${resposta.status}`)
       }

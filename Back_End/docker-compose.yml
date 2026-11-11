@@ -1,4 +1,12 @@
-version: '3.8'
+# Credenciais: defina-as em um arquivo .env (veja .env.example). Os valores após ":-" são
+# apenas padrões de DESENVOLVIMENTO local e não devem ser usados em produção.
+
+x-tgi-env: &tgi-env
+  TZ: America/Sao_Paulo
+  TGI_DB_PASSWORD: ${TGI_DB_PASSWORD:-tgi_password}
+  TGI_MQTT_USER: ${TGI_MQTT_USER:-tgi_mqtt}
+  TGI_MQTT_PASSWORD: ${TGI_MQTT_PASSWORD:-tgi_mqtt_password}
+  TGI_RETENCAO_DIAS: ${TGI_RETENCAO_DIAS:-30}
 
 services:
   # 1. Banco de Dados MySQL
@@ -6,72 +14,103 @@ services:
     image: mysql:8.0
     container_name: tgi_mysql
     environment:
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-root}
       MYSQL_DATABASE: tgi_database
       MYSQL_USER: tgi_user
-      MYSQL_PASSWORD: tgi_password
+      MYSQL_PASSWORD: ${TGI_DB_PASSWORD:-tgi_password}
       TZ: America/Sao_Paulo
     ports:
-      - "3306:3306"
+      - "127.0.0.1:3306:3306"   # acessível apenas a partir da própria máquina (VS Code / cliente SQL local)
     volumes:
       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
       - mysql_data:/var/lib/mysql
+    healthcheck:
+      # -h 127.0.0.1 força TCP: só responde quando o servidor definitivo (pós-init) estiver no ar
+      test: ["CMD-SHELL", "mysqladmin ping -h 127.0.0.1 -u root -p\"$$MYSQL_ROOT_PASSWORD\" --silent"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+      start_period: 30s
     restart: unless-stopped
 
-  # 2. Broker MQTT (Mosquitto)
+  # 2. Broker MQTT (Mosquitto) com autenticação obrigatória
   mqtt-broker:
-    image: eclipse-mosquitto:latest
+    image: eclipse-mosquitto:2.0.20
     container_name: tgi_mosquitto
+    environment:
+      TGI_MQTT_USER: ${TGI_MQTT_USER:-tgi_mqtt}
+      TGI_MQTT_PASSWORD: ${TGI_MQTT_PASSWORD:-tgi_mqtt_password}
+    command: >
+      sh -c 'mosquitto_passwd -c -b /mosquitto/data/passwd "$$TGI_MQTT_USER" "$$TGI_MQTT_PASSWORD"
+      && chown mosquitto:mosquitto /mosquitto/data/passwd
+      && chmod 0700 /mosquitto/data/passwd
+      && exec /usr/sbin/mosquitto -c /mosquitto/config/mosquitto.conf'
     ports:
       - "1883:1883"
-      - "9001:9001"
     volumes:
-      - ./mosquitto.conf:/mosquitto/config/mosquitto.conf
+      - ./mosquitto.conf:/mosquitto/config/mosquitto.conf:ro
     restart: unless-stopped
 
   # 3. Interpretador e API (Serviço Web + Camada de Lógica)
   tgi-inter:
     build: .
     container_name: tgi_inter
-    command: python TgiBootInter.py
+    command: python -u TgiBootInter.py
     environment:
-      - TZ=America/Sao_Paulo
+      <<: *tgi-env
     ports:
       - "5000:5000"
     volumes:
       - ./logs:/app/logs
       - ./config.ini:/app/config.ini
     depends_on:
-      - mysql-db
-      - mqtt-broker
+      mysql-db:
+        condition: service_healthy
+      mqtt-broker:
+        condition: service_started
     restart: unless-stopped
 
   # 4. Transceiver (Comunicação com Chão de Fábrica)
   tgi-clp:
     build: .
     container_name: tgi_clp
-    command: python TgiBootCLP.py
+    command: python -u TgiBootCLP.py
     environment:
-      - TZ=America/Sao_Paulo
+      <<: *tgi-env
     volumes:
       - ./logs:/app/logs
       - ./config.ini:/app/config.ini
     depends_on:
-      - mysql-db
-      - mqtt-broker
+      mysql-db:
+        condition: service_healthy
+      mqtt-broker:
+        condition: service_started
     restart: unless-stopped
 
   # 5. Simulador da Máquina (Impressora Roland)
   tgi-simulador:
-      build: .
-      container_name: tgi_simulador
-      command: python simuladorRoland700.py
-      environment:
-        - TZ=America/Sao_Paulo
-        - QTD_MAQUINAS=3   # <-- Altere aqui para 3, 10, 50 ou quantas quiser testar!
-      depends_on:
-        - mqtt-broker
-      restart: unless-stopped    
+    build: .
+    container_name: tgi_simulador
+    command: python -u simuladorRoland700.py
+    environment:
+      <<: *tgi-env
+      QTD_MAQUINAS: 3   # <-- Altere aqui para 3, 10, 50 ou quantas quiser testar!
+    depends_on:
+      - mqtt-broker
+    restart: unless-stopped
+
+  # 6. Front-end (React) servido pelo Nginx em http://localhost:8080
+  tgi-front:
+    build:
+      context: ../Front_End
+      args:
+        VITE_API_URL: ${VITE_API_URL:-http://localhost:5000}
+    container_name: tgi_front
+    ports:
+      - "8080:80"
+    depends_on:
+      - tgi-inter
+    restart: unless-stopped
 
 volumes:
   mysql_data:

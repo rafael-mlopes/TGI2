@@ -97,21 +97,36 @@ def consultarJob():
       - name: job
         in: query
         type: string
-        required: true
+        required: false
+        description: IDJOB (ex. JOB-10001). Se omitido, retorna o job atual da tarefa/máquina.
     """    
     cSeqTarefa = request.args.get('seqTarefa')
     cMaquina = request.args.get('maquina')
-    cJob = request.args.get('job', 0)
+    cJob = request.args.get('job')
     
     if not cSeqTarefa or not cMaquina:
         return jsonify({"status": "erro", "mensagem": "Parâmetros obrigatórios ausentes."}), 400
     
-    cBancoOk = verificarBancoAtivo()
-    cTmpJOB = f"{cSeqTarefa}|{cMaquina}|{cJob}"
+    try:
+        cMaquinaInt = int(cMaquina)
+    except ValueError:
+        return jsonify({"status": "erro", "mensagem": "Parâmetro 'maquina' deve ser numérico."}), 400
     
-    if cTmpJOB in fCacheMemoria:
+    cBancoOk = verificarBancoAtivo()
+    cTmpJOB = None
+    
+    if cJob:
+        cTmpJOB = f"{cSeqTarefa}|{cMaquina}|{cJob}"
+    else:
+        # Sem job informado: usa o cache somente se houver um único job para a tarefa/máquina
+        cPrefixo = f"{cSeqTarefa}|{cMaquina}|"
+        cCandidatos = [k for k in list(fCacheMemoria.keys()) if k.startswith(cPrefixo)]
+        if len(cCandidatos) == 1:
+            cTmpJOB = cCandidatos[0]
+    
+    if cTmpJOB and cTmpJOB in fCacheMemoria:
         dadosMaq = dict(fCacheMemoria[cTmpJOB])
-        dadosMaq["APONTAMENTO_ATUAL"] = fApontamentoAtual.get(int(cMaquina), 2)
+        dadosMaq["APONTAMENTO_ATUAL"] = fApontamentoAtual.get(cMaquinaInt, 2)
         return jsonify({
             "origem": "cache",
             "status": "sucesso",
@@ -125,14 +140,19 @@ def consultarJob():
         cConexao = fDbMqtt.obterConexao()
         cCursor = cConexao.cursor()
         
-        cSql = "SELECT * FROM CLP_MACOMP WHERE SEQ_TAREFA = %s AND MAQUINA = %s AND IDJOB = %s"
-        cCursor.execute(cSql, (cSeqTarefa, cMaquina, cJob))        
+        if cJob:
+            cSql = "SELECT * FROM CLP_MACOMP WHERE SEQ_TAREFA = %s AND MAQUINA = %s AND IDJOB = %s"
+            cCursor.execute(cSql, (cSeqTarefa, cMaquina, cJob))        
+        else:
+            cSql = "SELECT * FROM CLP_MACOMP WHERE SEQ_TAREFA = %s AND MAQUINA = %s"
+            cCursor.execute(cSql, (cSeqTarefa, cMaquina))
         cResultado = cCursor.fetchone()
+        cColunas = [desc[0] for desc in cCursor.description]
+        cConexao.commit()  # encerra o snapshot de leitura (próximas consultas enxergam dados novos)
         
         if cResultado:
-            cColunas = [desc[0] for desc in cCursor.description]
             cLinha = dict(zip(cColunas, cResultado))
-            cLinha["APONTAMENTO_ATUAL"] = fApontamentoAtual.get(int(cMaquina), 2)
+            cLinha["APONTAMENTO_ATUAL"] = fApontamentoAtual.get(cMaquinaInt, 2)
             return jsonify({
                 "origem": "banco",
                 "status": "sucesso",
@@ -232,6 +252,35 @@ def registrar_apontamento():
             try: cCursor.close()
             except: pass
 
+def carregarApontamentosAbertos():
+    """
+    Restaura fApontamentoAtual a partir das ocorrências em aberto (FIM IS NULL) na AG_MOCOR,
+    para que o modo exibido (Setup/Produção/Suspensão) sobreviva a um reinício do serviço.
+    """
+    cCursor = None
+    try:
+        cConexao = fDbMqtt.obterConexao()
+        cCursor = cConexao.cursor()
+        cCursor.execute("""
+            SELECT T.MAQUINA, M.CODTPOCOR
+            FROM AG_MOCOR M
+            JOIN AG_MTAR T ON T.SEQ_TAREFA = M.SEQ_TAREFA
+            WHERE M.FIM IS NULL AND M.CODTPOCOR IN (1, 2, 3) AND T.MAQUINA IS NOT NULL
+            ORDER BY M.INICIO ASC, M.SEQ_OCORRE ASC
+        """)
+        for cMaquina, cCodTpOcor in cCursor.fetchall():
+            fApontamentoAtual[int(cMaquina)] = int(cCodTpOcor)  # a mais recente prevalece
+        cConexao.commit()
+        if fApontamentoAtual:
+            fDbMqtt.printLog(f"Apontamentos em aberto restaurados da AG_MOCOR: {fApontamentoAtual}")
+    except Exception as e:
+        fDbMqtt.printLog(f"** Aviso: não foi possível restaurar os apontamentos em aberto: {e}")
+        fDbMqtt.fecharConexao()
+    finally:
+        if cCursor:
+            try: cCursor.close()
+            except: pass
+
 def rodarWaitress():
     serve(app, host='0.0.0.0', port=5000, threads=6)
     
@@ -240,6 +289,7 @@ def ligarServidorWeb(nBancoInstancia, nDicionarioMemoria):
     
     fDbMqtt = nBancoInstancia
     fCacheMemoria = nDicionarioMemoria
+    carregarApontamentosAbertos()
     fDbMqtt.printLog("Iniciando API com waitress na porta 5000...")
     
     cThreadWeb = threading.Thread(target=rodarWaitress, daemon=True)

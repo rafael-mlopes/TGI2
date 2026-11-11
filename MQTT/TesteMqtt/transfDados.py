@@ -1,3 +1,4 @@
+import os
 import fdb
 import time
 
@@ -7,19 +8,19 @@ import time
 
 # Banco de Origem (Onde estão os 70 mil registros com os JSONs)
 con_origem = fdb.connect(
-    host='192.168.0.28', 
-    database=r'D:\BANCOS_DESENV\NAZA_DW.FDB',
-    user='SYSDBA',
-    password='masterkey'
+    host=os.getenv('RAJ_FDB_HOST', 'localhost'), 
+    database=os.getenv('RAJ_FDB_ORIGEM', r'D:\BANCOS_DESENV\NAZA_DW.FDB'),
+    user=os.getenv('RAJ_FDB_USER', 'SYSDBA'),
+    password=os.getenv('RAJ_FDB_PASSWORD', '')
 )
 cur_origem = con_origem.cursor()
 
 # Banco de Destino (O banco vazio que o seu chefe liberou)
 con_destino = fdb.connect(
-    host='192.168.0.28', 
-    database=r'D:\BANCOS_DESENV\DW_ZERADO.FDB',
-    user='SYSDBA',
-    password='masterkey'
+    host=os.getenv('RAJ_FDB_HOST', 'localhost'), 
+    database=os.getenv('RAJ_FDB_DESTINO', r'D:\BANCOS_DESENV\DW_ZERADO.FDB'),
+    user=os.getenv('RAJ_FDB_USER', 'SYSDBA'),
+    password=os.getenv('RAJ_FDB_PASSWORD', '')
 )
 cur_destino = con_destino.cursor()
 

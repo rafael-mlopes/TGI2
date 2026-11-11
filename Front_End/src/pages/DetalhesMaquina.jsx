@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
+import { API_URL } from '../config'
 
 function DetalhesMaquina({ bancoConectado, setBancoConectado }) {
   const { seqTarefa, maquina, job } = useParams()
@@ -12,7 +13,7 @@ function DetalhesMaquina({ bancoConectado, setBancoConectado }) {
 
   const buscarDetalhesJob = async () => {
     try {
-      const url = `http://localhost:5000/api/consultaJob?seqTarefa=${seqTarefa}&maquina=${maquina}&job=${job}`
+      const url = `${API_URL}/api/consultaJob?seqTarefa=${encodeURIComponent(seqTarefa)}&maquina=${encodeURIComponent(maquina)}&job=${encodeURIComponent(job)}`
       const resposta = await fetch(url)
       const json = await resposta.json()
 
@@ -45,7 +46,7 @@ function DetalhesMaquina({ bancoConectado, setBancoConectado }) {
     setEnviandoApontamento(true)
     setMensagemFeedback('Gravando ocorrência...')
     try {
-      const resposta = await fetch('http://localhost:5000/api/apontamento', {
+      const resposta = await fetch(`${API_URL}/api/apontamento`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

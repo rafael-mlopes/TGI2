@@ -1,9 +1,10 @@
+import os
 import paho.mqtt.client as mqtt
 import time
 from datetime import datetime
 
-BROKER = "192.168.0.4"
-PORT = 1883
+BROKER = os.getenv("RAJ_MQTT_BROKER", "localhost")
+PORT = int(os.getenv("RAJ_MQTT_PORT", "1883"))
 TOPIC = "Raj/PCP/#"
 
 CLIENT_ID = "Leitor_Log_Sistema_RAJ_01" 

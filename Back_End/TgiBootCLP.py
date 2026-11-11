@@ -6,21 +6,27 @@ import time
 import random
 from datetime import datetime, timedelta
 from LibDB import GerenciadorBanco
+from LibConfig import carregarConfig, ErroConfiguracao
 
 class TransceiverMqttPlanta:
-    def __init__(self, nHostBanco: str, nNomeBanco: str, nUsuarioBanco: str, nSenhaBanco: str, nUsuarioMqtt: str, nSenhaMqtt: str, nBroker: str, nPort: int, nTopicFilter: str, nLogDetalhado: bool):
+    def __init__(self, nHostBanco: str, nNomeBanco: str, nUsuarioBanco: str, nSenhaBanco: str, nUsuarioMqtt: str, nSenhaMqtt: str, nBroker: str, nPort: int, nTopicFilter: str, nLogDetalhado: bool, nRetencaoDias: int = 30):
         self.fUsuarioMqtt: str = nUsuarioMqtt
         self.fSenhaMqtt: str = nSenhaMqtt
         self.fBroker: str = nBroker
         self.fPort: int = nPort
         self.fTopicFilter: str = str(nTopicFilter).strip()
         self.fLogDetalhado: bool = nLogDetalhado
+        self.fRetencaoDias: int = nRetencaoDias
+        self.fIntervaloRecargaTarefas: int = 60      # segundos entre recargas do cadastro de máquinas/tarefas
+        self.fIntervaloLimpeza: int = 3600           # segundos entre limpezas de histórico
         
         self.fTempoSemaforo: int = 30
         self.fChaveInt: int = random.randint(1, 999999) 
         self.fDirProjeto: str = os.path.dirname(os.path.abspath(__file__))   
         self.fUltimaMsgTempo = None
         self.fUltimoDelete = datetime.now()  
+        # Sufixo sequencial do CODSTR: garante chave única mesmo com várias mensagens no mesmo milissegundo
+        self.fSeqCodstr: int = 0
         cNomeSistema = os.path.splitext(os.path.basename(__file__))[0].capitalize()      
         
         self.db = GerenciadorBanco(
@@ -33,7 +39,8 @@ class TransceiverMqttPlanta:
             nSistemaLog=cNomeSistema
         )
         
-        self.fMaquinasAtivas = set()
+        # {SEQ_TAREFA (str): MAQUINA (int)} - recarregado periodicamente (ver atualizarTarefasAtivas)
+        self.fTarefasAtivas = {}
         
         cIdUnico = f"TgiReceptor_{random.randint(10000,99999)}"
             
@@ -64,12 +71,15 @@ class TransceiverMqttPlanta:
             cTopicoFinal = partesTopico[-1]
             cSeqTarefa = partesTopico[5]
             
-            if str(cSeqTarefa) not in self.fMaquinasAtivas:
+            # A máquina é resolvida pela tarefa (AG_MTAR); tarefa não liberada = telemetria ignorada
+            cMaquina = self.fTarefasAtivas.get(str(cSeqTarefa))
+            if cMaquina is None:
                 return            
             
             cDti = datetime.now()
             self.fUltimaMsgTempo = cDti
-            cCodstr = cDti.strftime("%Y%m%d%H%M%S") + cDti.strftime("%f")[:3]
+            cCodstr = cDti.strftime("%Y%m%d%H%M%S") + cDti.strftime("%f")[:3] + f"{self.fSeqCodstr:03d}"
+            self.fSeqCodstr = (self.fSeqCodstr + 1) % 1000
             cJsonRecebido = msg.payload.decode()                        
             cIdMsg = msg.mid
             cAgora = datetime.now()                        
@@ -80,7 +90,7 @@ class TransceiverMqttPlanta:
                 self.fUltimoDelete = cAgora
                 self.db.printLog("\n Iniciando o Delete de limpeza")        
             
-            self.db.insertTblRec(cCodstr, cTopicoFinal, cTopicoRecebido, cJsonRecebido, cIdMsg, cDti, cSeqTarefa, cDeletar, self.fLogDetalhado)            
+            self.db.insertTblRec(cCodstr, cTopicoFinal, cTopicoRecebido, cJsonRecebido, cIdMsg, cDti, cSeqTarefa, cDeletar, self.fLogDetalhado, nMaquina=cMaquina)            
 
         except Exception as e:
             self.db.printLog(f"** ERRO GRAVE no on_message: {e}")   
@@ -93,6 +103,20 @@ class TransceiverMqttPlanta:
             self.db.printLog(f"\n {cErroMsg}. O Paho tentará reconectar sozinho...")
             self.db.registraLog(cCodstrQueda, "** ERRO REDE", cErroMsg, 9, cDtiQueda)  
             
+    def atualizarTarefasAtivas(self) -> None:
+        cNovoMapa = self.db.carregarTarefasAtivas()
+        if cNovoMapa is None:
+            return  # erro de banco: mantém o mapa anterior para não descartar telemetria
+        
+        if cNovoMapa != self.fTarefasAtivas:
+            if cNovoMapa:
+                cLista = ", ".join(f"T{seq}->M{maq}" for seq, maq in sorted(cNovoMapa.items(), key=lambda x: int(x[0]) if x[0].isdigit() else 0))
+                self.db.printLog(f"Cache de Tarefas/Máquinas atualizado: {len(cNovoMapa)} liberada(s). [{cLista}]")
+            else:
+                self.db.printLog("AVISO: Cache atualizado, mas NENHUMA tarefa rodando em máquina ativa foi encontrada no banco!")
+        
+        self.fTarefasAtivas = cNovoMapa  # troca atômica da referência (lida pela thread do paho)
+    
     def processarMensagensPendentes(self) -> int:
         cQtdEnviada = 0 
         cRetornoBusca = self.db.buscarMensagensPendentes()
@@ -134,7 +158,10 @@ class TransceiverMqttPlanta:
         self.db.printLog(f"=== INICIANDO TgiBootCLP - DATA: {datetime.now().strftime('%d/%m/%Y')} - VERSÃO MYSQL ===")
         self.db.printLog("=" * 60)
         
-        self.fMaquinasAtivas = self.db.verificaMaquinasAtivas()
+        self.atualizarTarefasAtivas()
+        cUltimaRecarga = datetime.now()
+        # Primeira limpeza no 1º ciclo (com o MQTT já recebendo), para não atrasar a inscrição no broker
+        cUltimaLimpeza = datetime.now() - timedelta(seconds=self.fIntervaloLimpeza)
               
         try:    
             self.fClient.connect(self.fBroker, self.fPort)
@@ -156,6 +183,14 @@ class TransceiverMqttPlanta:
                   
             while datetime.now() < cHoraParada:
                 cAgora = datetime.now()
+                
+                if (cAgora - cUltimaRecarga).total_seconds() >= self.fIntervaloRecargaTarefas:
+                    self.atualizarTarefasAtivas()
+                    cUltimaRecarga = cAgora
+                
+                if (cAgora - cUltimaLimpeza).total_seconds() >= self.fIntervaloLimpeza:
+                    self.db.limparHistorico(self.fRetencaoDias)
+                    cUltimaLimpeza = cAgora
                 
                 if not self.fClient.is_connected():
                     self.db.printLog("Aviso: Conexão MQTT perdida! O paho está tentando reconectar...")
@@ -244,71 +279,31 @@ def logStartup(nMensagem):
     except:
         pass            
 
-fAlias = "TELEMETRIA_E2E"
-fStringJsonClp = ""
-
-if getattr(sys, 'frozen', False):
-    fDiretorioAtual = os.path.dirname(sys.executable)    
-else:
-    fDiretorioAtual = os.path.dirname(os.path.abspath(__file__))
-
-fArquivoCfg = os.path.join(fDiretorioAtual, "config.ini")
-
-if (fAlias != "") and (os.path.exists(fArquivoCfg)):
-    fAliasAlvo = f"[{fAlias}]"
-    fDentroAlias = False
-    
-    try:
-        with open(fArquivoCfg, "r", encoding="utf-8", errors="ignore") as f:
-            for linha in f:
-                linha = linha.strip()
-                
-                if not linha:
-                    continue
-                
-                if linha.startswith("[") and linha.endswith("]"):
-                    if linha == fAliasAlvo:
-                        fDentroAlias = True
-                    else:
-                        fDentroAlias = False
-                    continue
-                
-                if fDentroAlias and linha.upper().startswith("CLPJS="):
-                    fStringJsonClp = linha.split("=", 1)[1].strip()
-                    logStartup("Configuração do CLPJS lida com sucesso direto do arquivo!")
-                    break
-                    
-    except Exception as e:
-        logStartup(f"** Erro inesperado ao tentar ler o arquivo config.ini: {e}")
-else:
-    logStartup("** ERRO Arquivo config.ini não encontrado ou Alias vazio *")
-
-if fStringJsonClp != "":
-    try:
-        cStringCorrigida = fStringJsonClp.replace("'", '"').replace("\\", "\\\\")      
-        cDados = json.loads(cStringCorrigida)        
-        cDadosMqttDB = cDados.get("dbMqtt", {})
-        cDadosMqttParam = cDados.get("Mqtt", {})
-        cLogDetalhado = cDados.get("LogDetalhado", False)
-                
-        cTransceiver = TransceiverMqttPlanta(
-            nHostBanco=cDadosMqttDB['hDB'],
-            nNomeBanco=cDadosMqttDB['db'],
-            nUsuarioBanco=cDadosMqttDB['uDB'],
-            nSenhaBanco=cDadosMqttDB['pDB'],
-            nUsuarioMqtt=cDadosMqttParam['user'],
-            nSenhaMqtt=cDadosMqttParam['pass'],
-            nBroker=cDadosMqttParam['broker'],
-            nPort=cDadosMqttParam['port'],
-            nTopicFilter=cDadosMqttParam['topic'],
-            nLogDetalhado=cLogDetalhado
-            )
-        
-        cTransceiver.iniciarTransceiver()
-        
-    except json.JSONDecodeError as e:
-        logStartup(f"** Erro ao decodificar o JSON do arquivo CFG: {e}")
-        sys.exit()
-else:
-    logStartup("** ERRO Script interrompido: Configurações do CFG não foram carregadas corretamente.")
+try:
+    cDados = carregarConfig()
+    logStartup("Configuração do CLPJS lida com sucesso (config.ini + variáveis de ambiente)!")
+except ErroConfiguracao as e:
+    logStartup(f"** ERRO Script interrompido: {e}")
     sys.exit()
+except Exception as e:
+    logStartup(f"** Erro inesperado ao tentar ler a configuração: {e}")
+    sys.exit()
+
+cDadosMqttDB = cDados["dbMqtt"]
+cDadosMqttParam = cDados["Mqtt"]
+
+cTransceiver = TransceiverMqttPlanta(
+    nHostBanco=cDadosMqttDB['hDB'],
+    nNomeBanco=cDadosMqttDB['db'],
+    nUsuarioBanco=cDadosMqttDB['uDB'],
+    nSenhaBanco=cDadosMqttDB['pDB'],
+    nUsuarioMqtt=cDadosMqttParam['user'],
+    nSenhaMqtt=cDadosMqttParam['pass'],
+    nBroker=cDadosMqttParam['broker'],
+    nPort=cDadosMqttParam['port'],
+    nTopicFilter=cDadosMqttParam['topic'],
+    nLogDetalhado=cDados["LogDetalhado"],
+    nRetencaoDias=cDados["RetencaoDias"]
+)
+
+cTransceiver.iniciarTransceiver()

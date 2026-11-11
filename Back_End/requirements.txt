@@ -1,0 +1,8 @@
+# Dependências dos serviços Python do Back_End (tgi-inter, tgi-clp e tgi-simulador).
+# Versões fixadas e validadas em conjunto.
+mysql-connector-python==9.4.0
+paho-mqtt==2.1.0
+Flask==3.0.3
+waitress==3.0.0
+flasgger==0.9.7.1
+Flask-Cors==4.0.0

@@ -7,10 +7,11 @@ from waitress import serve
 from datetime import datetime
 
 # --- CONFIGURAÇÕES MQTT ---
-BROKER = "192.168.0.25"
-PORT = 15896
-USR = "sensor_maquinas"
-PSW = "raj_maq2026"
+# Credenciais/endereço via variáveis de ambiente (não versionar segredos)
+BROKER = os.getenv("RAJ_MQTT_BROKER", "localhost")
+PORT = int(os.getenv("RAJ_MQTT_PORT", "1883"))
+USR = os.getenv("RAJ_MQTT_USER", "")
+PSW = os.getenv("RAJ_MQTT_PASSWORD", "")
 TOPICO_ALVO = "Raj/BR_SP/log/+/+"
 
 # --- CONFIGURAÇÕES DE ARQUIVOS ---

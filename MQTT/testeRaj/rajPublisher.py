@@ -1,3 +1,4 @@
+import os
 import glob
 
 import paho.mqtt.client as mqtt   #pip install paho-mqtt
@@ -14,11 +15,11 @@ if len(sys.argv) >= 3:
     cSeqTarefa = int(sys.argv[1])
     cMaquina = int(sys.argv[2])
 
-BROKER = "192.168.0.25"
-BROKER = "rajportal.no-ip.org"
-PORT = 15896
-USR = "sensor_maquinas"
-PSW = "raj_maq2026"
+# Credenciais/endereço via variáveis de ambiente (não versionar segredos)
+BROKER = os.getenv("RAJ_MQTT_BROKER", "localhost")
+PORT = int(os.getenv("RAJ_MQTT_PORT", "1883"))
+USR = os.getenv("RAJ_MQTT_USER", "")
+PSW = os.getenv("RAJ_MQTT_PASSWORD", "")
 
 def publicar_status(client, topico, payload_dict):
     """Transforma o dicionário em JSON e publica no MQTT."""
