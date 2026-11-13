@@ -159,7 +159,7 @@ def registrar_apontamento():
     dados = request.get_json(silent=True) or {}
     cSeqTarefa = dados.get("seqTarefa")
     cMaquina = dados.get("maquina")
-    cCodTpOcor = dados.get("codTpOcor") # 1 = Setup, 2 = Produção, 3 = Suspensão
+    cCodTpOcor = dados.get("codTpOcor")
 
     if not cSeqTarefa or not cMaquina or cCodTpOcor not in [1, 2, 3]:
         return jsonify({
