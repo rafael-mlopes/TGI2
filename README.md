@@ -1,6 +1,6 @@
 # 🏭 TGI 2 - Telemetria Industrial End-to-End
 
-**Universidade Cruzeiro do Sul - Ciência da Computação (7º Semestre - 2026)**  
+**Universidade Cruzeiro do Sul - Ciência da Computação (8º Semestre - 2026)**  
 **Projeto:** Modernização de Arquitetura de Telemetria Industrial (Migração Firebird para MySQL/Docker)  
 **Orientador:** Prof. Alexandre Miccheleti Lucena  
 **Equipe:** 
